@@ -1,0 +1,35 @@
+‘ Frequent Sets
+) ab .
+; ac be ad bd cd
+AT T
+o gt
+\% o |
+abed
+Border Sets .
+| 2" Part: '
+‘ An itemset is a border set if it is not a frequent set, but all its proper subsets are frequent
+sets.
+One can-see that if X is an infrequent itemset, then it must have a subset (not necessarily
+' a proper subset) that is a border set. It is easy to derive a proof for this. Since X is not
+‘ frequent, it is possible that it is a border set. In that case, the proof is done. Let us assume
+. that X is not a border set too. Hence, there exists at least one proper subset of cardinality
+|X| - 1that is not frequent, say X'.If X"is a border set, then the proof is complete. Let '
+us, hence, assume that X' is not a border set. We recursively construct X, X", X",..., and
+‘ s0 on, having the common property that neither of these is a frequent set nor a border set
+and this construction process terminates when we get a set which is a border. This
+construction process must terminates in a finite number of steps as we are decreasing the
+size of the sets by 1 in every step. In most peculiar case, we may land up in a singleton
+itemset (the empty itemset is always considered to be a frequent set).
+' Note that if we know the set of all maximal frequent sets of a given T with respect to a o,
+then we can find the set of all frequent sets without any extra scan of the database. Thus,
+1 the set of all maximal frequent sets can act as a compact representation of the set of all
+' frequent sets. However, if we require the frequent sets together with their respective ‘
+support values in T, then we have to make one more database pass to derive the support ‘
+values when the set of all maximal frequent sets is known. It is thus easy to characterize
+_ Lhee class of frequent sets and the class of infrequent sets in terms of the boundary sets
+; tween these two classes. Note that some maximal frequent sets are proper subsets of : {
+c‘;":_: border sets. Similarly, it is possible that a proper subset of a border. set, of ‘
+*dinality one less than the border set, is not necessarily always maximal.
+) . |
+: DWM-55
+“» L:_I‘ 1..‘_';‘,["."“ 'l.."u",‘ \' Ti__ _ T SR I O it v J ]

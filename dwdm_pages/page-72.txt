@@ -1,0 +1,37 @@
+POPULAR PUBLICATIONS A!
+RECENT TRENDS IN DISTRIBUTED
+Multiple Choice 1yp€ Questions g
+) istributed database is which of the following? 5
+1. A heterogeneous distribu [MODEL QUESTlo"] :
+a) The same DBMS is used at each location and data are not distributeq ,» |
+across all nodes . A ' o
+b) The same DBMS is used at each location and data are distributed across aj
+nodes : o ‘
+c) The different DBMS is used at each location and data are not distributed
+across all nodes - =
+d) The different DBMS is used at each location and data are distributed across
+all nodes %
+Answer: (d) k)
+2. An autonomous homogeneous environment is which of the following?
+[MODEL QUESTION]
+a) The same DBMS is at each node and each DBMS works independently
+b) The same DBMS is at each node and a central DBMS coordinates database
+access i
+c) The different DBMS is at each node and each DBMS works independently 3
+d) The different DBMS is at each node and a central DBMS coordinates
+database access :
+Answer: (a) e
+Short Answer Type Questions o
+1. Explain class imbalance problem. [MODEL QUESTION]
+Answer: p .
+!t is the problem in machine learning where the total number of a class of data (positive)
+is far less than the'total number of another class of data (negative). This problem is i
+‘ Zthe"}ely common in praf:tice and can be observed in various disciplines including fraud
+efgectlon, anomaly detection, medical diagnosis, oil spillage detection, facial recognition, h
+Ans‘::::does Reclal Netuork Analysle (SNK) tengit [MODEL QUESTION]
+Social network analysi 3 i
+Se S a?iiy :’T:Z (ST?hA) s a process of quantitative analysis of a social network. |
+knowledge i maps the flow of relationships and relationship changes betwee
+animal i -possessing entities. Simple and complex entities include websites, computer ok
+als, humans, groups, organizations and nations. ) |
+DWM-72 i

@@ -1,0 +1,38 @@
+Method: call FP—growth(FP'tfe{e’ null). e
+FP-growth(Tree, a) i
+(Por]o)ciefd';jrreee contgains a s(ingle prefix path then // Mining single prefix-path FP-tree { sfh
+(02) let P be the single preﬁx-pat}} part of Tree; : , R i
+(03) let Q be the multipath part with the top branchmg_node replaced by a null rg ot;
+(04) for each combination (denoted as B) of .th'e nodes in the path P do. ! v- i
+(05) generate pattern 3 ? a with support = minimum support of nodes in B; o
+(06) let freq pattern set(P) be the set of patterns so generated;
+(}07) else let Q be Tree; _ | S
+(08) for each item ai in Q do { // Mining multipath FP-tree B
+(09) generate pattern 8 = ai ? a with support = ai .support; i
+(10) construct B’s conditional pattern-base and then s conditional FP-tree Tree g
+(11) if Tree B = O then :
+(12) call FP-growth(Tree 3, B); 4
+(13) let freq pattern set(Q) be the set of patterns so generated; y -
+214) return(freq pattern set(P) ? freq pattern set(Q) ? (freq pattern set(P) x freq pattem
+set(Q))) : ‘ : ng
+' 4. What is time series data mining? [MODEL QUESTION]
+_ Answer: :
+A time series is a sequence of data points recorded at specific time points - most often in
+regular time intervals (seconds, hours, days, months etc.). Every organization generates a
+high volume of data every single day — be it sales figure, revenue, traffic, or operating
+cost. Time series data mining can generate valuable information for long-term business
+decisions, yet they are underutilized in most organizations. Below is a list of few possiblé
+' ways to take advantage of time series datasets: ! H“'
+Trend analysis: Just plotting data against time can generate very powerful insights. One.
+very basic use of time-series data is just understanding temporal pattern/trend in what is
+being measured. In businesses it can even give an early indication on the overall direction
+of a typical business cycle. ol
+Outlier/anomaly detection: An outlier in a temporal dataset represents an anomaly
+Whether desired (e.g. profit margin) or not (e.g. cost), outliers detected in a dataset can
+help prevent unintended consequences.
+Examining - shocks/unexpected variation: Time-series data can identify variation:
+(expec.teq or unexpected) and abnormalities, detect signals in the noise. 3
+| Association analysis: By plotting bivariate/multivariate temporal data it is easy (%
+wsua!ly? to identify associa.tions between any two features (e.g., profit vs sales).
+association may or may not imply causation, but this is a good starting point in selet
+input features that impact output variables in more advanced statistical analysis. ”.n-" i

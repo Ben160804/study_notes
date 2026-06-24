@@ -1,0 +1,41 @@
+. DATA WAREHOUSING AND DATA MINING
+Financial Data Analysis ,
+The ﬁnanc'ial datz.l_m banking anfi financial industry is generally reliable and of high
+qualit)’ which facilitates systematic data analysis and data mining. Some of the typical
+cases are as follows =
+o Design anc! cfonstruction of data warehouses for multidimensional data analysis '
+and data mining. L
+« Loan payment prediction and customer credit policy analysis.
+o Classification and clustering of customers for targeted marketing. ‘ ‘
+« Detection of money laundering and other financial crimes.
+. Retail Industry . :
+‘ Data Mining has its great application in Retail Industry because it collects large amount
+of data from on sales, customer purchasing history, goods transportation, consumption
+and services. It is natural that the quantity of data collected will continue to expand
+. rapidly because of the increasing ease, availability and popularity of the web.
+‘ Data mining in retail industry helps in identifying customer buying patterns and trends
+that lead to improved quality of customer service and good customer retention and
+. satisfaction. Here is the list of examples of data mining in the retail industry — '
+o Design and Construction of data warehouses based on the benefits of data
+| mining. '
+« Multidimensional analysis of sales, customers, products, time and region.
+o Analysis of effectiveness of sales campaigns.
+o Customer Retention.
+e Product recommendation and cross-referencing of items. '
+Telecommunication Industry
+- - Today the telecommunication industry is one of the most emerging industries providing
+| various services such as fax, pager, cellular phone, internet messenger, images, e-mail, '
+. web data transmission, etc. Due to the development of new computer and communication
+: technologies, the telecommunication industry is rapidly expanding. This is the reason '
+why data mining is become very important to help and understand the business.
+' Data mining in telecommunication industry helps in identifying the telecommunication
+patterns, catch fraudulent activities, make better use of resource, and improve quality of
+serv@ce. Here is the list of examples for which data mining improves telecommunication
+services — :
+* Multidimensional Analysis of Telecommunication data.
+* Fraudulent pattern analysis. '
+* Identification of unusual patterns.
+* Multidimensional association and sequential patterns analysis.
+* Mobile Telecommunication services.
+*  Use of visualization tools in telecommunication data analysis.
+DWM-45

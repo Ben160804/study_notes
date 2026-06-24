@@ -1,0 +1,37 @@
+DATABASE MANAGEMENT SYSTEMS
+et US consider the relation structure and sample records:
+08 epiNum | CourseNum | StNum | Grade | StaGpa
+ok [ oSt i | A | wos |
+CSE
+CsE 662771
+[ csE | EE1GL ) el
+Relation: STUDENT
+P 1 el O Y
+HAE ydiagam
+The relation STUDENT keeps the information about the student enrolled in the courses,
+the grade assigned for t‘he course, and the student’s overall grade point average. The
+functional dependency diagram above shows relations among the attributes:
+Update Anomaly: What if the student’s stuGpa changes? We then need to change
+stuGpa in several records. We call this type of difficulty as an update anomaly — the
+simple change of a student’s stuGpa affects, not just one record, but potentially several
+records in the database. The update operation is more complex than necessary, and this :
+means it is more expensive to do, resulting in slower performance.
+Delete Anomaly: Let us assume that the above relation STUDENT is the only
+information about stuGpa of a student and for stuNum equals to ‘662771’, the stuGpa is
+required to be deleted. What happens to the student’s stuGpa? The delete operation has to
+be executed two times and both the course information EC222 and CS101 will be deleted
+' from the relation. We refer the case as deletion anomaly. -
+Insertion Anomaly: Suppose we need to add a new student and assume a new student’s
+GPA is 0. How do we add this information? Before we could add a row to this relation,
+we need to enrol the student into a particular course. i.e. course number is a must. This
+type of inefficient database design is referred to as Insertion Anomaly.
+| e‘g'a
+-l 75561818 | CSE | PI_|_ O |
+2592-05840 | 10 & P2 1 B N
+2556-1818, | Ca- o BeE
+I Y O T P 1l A
+25561818 0 GOl BECH- BEes
+73575684 | Eng | P9 | E |
+N : Relation: STUDENT
+, Ormalization is a process by which such anomalies can be removed.
+DBMSCS-65

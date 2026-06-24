@@ -1,0 +1,30 @@
+POPULAR PUBLICATIONS , |
+5/10 o
+4/10 o
+
+Pass3 Lo
+
+Pass3 \ ! .
+Therefore frequent itemsets are {A,B,C} and {A,C,E} with min_support 0.3.
+¢) Association Rules: R 8
+{A,B} =C, confidence(c) = o(A,B,C}/o(A,B) = 3/4=0.75 i
+{B,C}>A, confidence(c) =c(A,B,C)/o(B,C)=3/5=0.6 "8 3
+{A,C}>B, confidence(c) =0(A,B,C)/o(A,C)=3/5=0.6 ' ‘ Sy
+{A,C}E, confidence(c) =o(A,C,E)/o(A,C)=3/5=0.6 e
+{A,E}>C, confidence(c) =o(A,C,E)/c(A,E)=3/3=1 . $
+{C,E}>A, confidence(c) =o(A,C,E)/o(C,E)=3/4=0.75 -
+4i \II)Vrite‘short notes on the following: aliny 1 4 ,)
+a) Dimensional Modelin ‘ BUT 2018]
+b) Generalized Assqciat?on Rule : %3; 2010]
+c) PAM Clustering Technique , [wBUT 2010
+d) CLARANS clustering algorithm vis-a-vis PAM and CLARA [WBUT 20°
+e) K-Medoid Algorithm : [WBUT 2017]
+Answer: ' g
+a) Dimensional Modeling: | L ACE
+A dimensional model is a data structure technique optimized for Data warehousing toc 7';;?: g
+
+' The concept of Dimensional Modelling was developed by Ralph Kimball and is
+comprised of "fact” and "dimension" tables. e
+A Dlmensmnal’ model is designed to read, summarize, analyze numeric
+
+- values, balances, counts, weights, etc. in a data warehouse. In contrast, relation models

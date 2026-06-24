@@ -1,0 +1,43 @@
+DATA WAREHOUSING AND DATA MINING
+o Uf;ing dimensionality reduction or transformation methods to reduce the
+G r}umber of variables under consideration or to find invariant
+representations for the data. nvarar
+_ 5. Choosing the data mining task. ~
+o Deciding whether the goal of the KDD ks : - ]
+clusterimt oe t process is classnﬁcgtlon, regression, :
+6. Choosing the data mining algorithm(s). i 3
+o _Se_lectmg method(s) to be used for searching for patterns in the data.
+| o De01d1.ng which models and parameters may be appropriate.
+, o Matching a particular data mining method with the overall criteria of the
+. KDD process. A .
+7. Data mining.
+; o Searching for patterns of interest in a particular representational form or a set
+; of such representations as classification rules or trees, regression, clustering, ‘
+; and so forth. » :
+| 8. Interpreting mined patterns.
+9. Consolidating discovered knowledge. »
+¢) Roll-up
+‘ Roll-up performs aggregation on a data cube in any of the following ways:
+‘ ¢ By climbing up a concept hierarchy for a dimension '
+1 o By dimension reduction ‘
+‘ The following diagram illustrates how roll-up works.
+I ‘ oo" d,\
+: 3 S & )
+:_ E ua Jo 7 S S
+- \® Canada "'g‘ '
+o] [ ,’
+1 | TR
+» 3l i it '
+R
+‘ Mobile Modem Phone Security .
+‘., [ roll-up onlocation kem{types)
+k (from citiesto
+.- countries)
+| < i
+': P& Chiog S S 7 S /S
+i P g (1 g
+: Vancouve ’ :
+, cafsTel Tt T
+. J2L T TS gt
+4 o e s |
+' Mobile Modem Phone Security it TN T, , k.

@@ -1,0 +1,46 @@
+) See Topic: TRANSAC PROCESSING, Short Answer Type Question No. 2. PIIII
+a) File indexing "figt?’i}:l?ﬁ
+
+¢) Advantages of DBMS 209834
+
+d) Database models A\};A 22
+
+e) Inner join and Outer join *«:‘:ii\f
+q) See Topic: STORAGE STRATEGIES, Long Answer Type Question No. 7(b). :ﬁ\i\‘b
+p) See Topic: ST .()R.\(.I‘ :\ I R,’\ IEGIES, Long Answer Type Question No. 7(¢). ;Af/j’\'_;t)\:;\,:}:"r
+¢) See Topic: DA ABASE SYSTEM ARCHITECTURE, Long Answer Type Question No. 1. ZH)A.:\A
+d) See Topic: RELATIONAL MODEL, Long Answer Type Question No. 3(b). ;\/::‘:::;
+ see Topie: RELATIONAL MODEL, Long Answer Type Question No. 3(c). AN
+
+2 A AAAAA
+' . 2222994
+‘- (Multiple Choice Type Quéstions) x“‘:\::\
+1_Choose the correct alternatives for the following: :T";?;‘i\‘i? 2232
+) The information about data in a database is called QR
+v'a) Metadata b) Teradata ¢) Hyperdata d) None of these AQAQLLEG
+AAAAANS
+
+ii) What is the highest normat form for the relational schema Bank? S\‘xﬁ\
+a) First b) Second ¢) Third v¥'d) Boyce code *l«:\l*\\
+
+' e
+v) Serializability of concurrent transactions are ensured by x:\}\i\
+v'a) Locking b) Drop c) both of these d) none of these | St&
+
+E vi) Which index is specified on the non-ordering fields of a file? \\Qb\ v
+o v d) none of these RS
+
+i a) Primary b) Clustering c) Secondary ) \}\«\\*
+
+Vi) One of the shortcomings of the file system IS ?\
+
+a) Data availability b) Fixed records | NIII
+
+¢) Sequential records v'd) Lack of security - j\
+
+‘ ) Inthe E-R diagram the term ‘Cardinality is synonymous © e PENIY,
+
+: iti esian AAAR
+2) Attribute v'b) Degree c) Entities ) AR
+| . PBMSCS-151
+)

@@ -1,0 +1,40 @@
+POPULAR PUBLICATIONS ,
+DDL compiler or the data-storage and data-definition-language compiler to generate
+modifications to the appropriate internal system tables (for example, the data dictionary).
+(4) Granting of authorization for data access: The granting of different types of
+authorization allows the database administrator to regulate which parts of the database
+various users eon access. The authorization information is kept in special system
+structure that is consulted by the database system whenever access to the data is
+attempted in the system.
+(5) Integrity-constraint specification: The data values stored in the database must satisfy
+' certain consistency constraints. Such a constraint must be specified explicitly by the
+database administrator. The integrity constraints are kept in a special system structure
+that is consulted by the database system whenever an update takes place in the system.
+(6) Designing security and integrity constraint specification: The data values stored in
+the database must satisfy certain consistency constraints. Such a constraint must be
+specified explicitly by the database administrator. The integrity constraints are kept in a
+special system structure that is consulted by the database system whenever an update .
+takes place in the system.
+(7) Routine Maintenance: Periodically backing up the data either onto some movgble
+devices and/or to remote servers to prevent and protect data from loss due to various
+reasons. Also ensures free disk space for regular operations. Monitoring jobs running on
+: the database and ensuring that performance is not degraded by the method loosely called
+performance tuning.
+3. Write the difference between procedural and non-procedural DML. [WBUT 2006]
+OR,
+What is the difference between procedural and non-procedural DML?
+[WBUT 2013, 2017]
+Answer: _
+DML language enable user to access or manipulate data as organized by appropriate data
+model.
+> Procedural DML or Low level: DML requires a user to specify what data are
+needed and how to get those data.
+» - Non-Procedural DML or High level: DML requires a user to specify what data
+are needed without specifying how to get those data.
+4. What is the difference between a database and a table? [(WBUT 2009, 2011]
+Answer:
+El);tat?ase is a Pool of data. Tables are the containers .of holding the data. As per relational
+o retlicail;:ti (r)rrlla;?dg/emenifslysmr?, tables Iare organized following the rules of total
+or partial participation. Implementation is done wi i
+| Key and foreign key relations hip, th the help of primary
+DBMSCS-4

@@ -1,0 +1,43 @@
+r B U T T—
+‘ DATABASE MANAGEMENT SYSTEMS
+_ 12. @) :\!)hat is deadlock? What are necessary and sufficient condition for
+ock’
+g)e\af\('jl:at are the necessary measurements for deadlock avoidance?
+) Let T,, T, and T; be transactions that operate on the same data items A, B and C.
+Let r(4) mean that Ti read 4, W (4) means that T, writes A and so on for T, and
+T,. Consider the following schedule: .
+S, ;r:(C).r:(B)-W:(B)-"_x(B)J‘g(C)J‘,(A)W, :WJ(B)'WJ(C)’rz(A)s’](B)awl(B)a”G(A) is the
+schedule serializable? [WBUT 2018]
+Answer: '
+a) 1* Part: Refer to Question No. 9 of Short Answer T ype Questions.
+|
+2 Part:
+| Four Necessary and Sufficient Conditions for Deadlock
+1. Mutual exclusion
+The resources involved must be unshareable: otherwise, the processes would not be
+prevented from using the resource when necessary. '
+2. Hold and wait or partial allocation
+The processes must hold the resources they have already been allocated while waiting for
+other (requested) resources. If the process had to release its resources when a new
+resource or resources were requested, deadlock could not occur because the process
+would not prevent others from using resources that it controlled.
+3. No pre-emption .
+The processes must not have resources taken away while that resource is being used. ‘
+Otherwise, deadlock could not occur since the operating system could simply take ‘
+enough resources from running processes to enable any process to finish. ' j
+4. Resource waiting or circular wait ‘
+A circular chain of processes, with each process holding resources which are currently ‘
+being requested by the next process in the chain, cannot exist. If it does, the cycle 5
+theorem (which states that "a cycle in the resource graph is necessary for deadlock to
+;‘ occur”) indicated that deadlock could occur. f
+[ i
+i b) Deadlock Avoidance i
+* ltrequires that each process declare the maximum number of resources of each type J
+that it will need.
+* The deadlock-avoidance algorithm dynamically checks the resource-allocation state
+\ 10 ensure the system can never be in a circular-wait condition.
+‘ When 4 process requests a resource, the system must make sure that the allocation
+TVOUld leave the system in a safe state.
+- [A state is safe if the system can allocate all resources requested by all processes ‘
+(up to their stated maximums ) without entering a deadlock state. ‘
+DBMSCS-123 '

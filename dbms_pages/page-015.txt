@@ -1,0 +1,34 @@
+DATABASE MANAGEMENT SYSTEMS
+12. What is Weak entity set? Explain with suitable example. [WBUT 2016]
+Answer:
+An entity set is called a weak entity set if its existence depends on other entities (called
+strong entities). Thus a weak entity set does not have sufficient attributes to form a
+primary key.
+As shown in -ﬁg.. the entity set Departures which has the only attribute date is a weak
+entity set. _Thls is because of the fact that although each departure entity is distinct,
+different flights may have departure on the same day. As a result different flights may
+shar‘e the same date value. A weak entity set is indicates in E-R diagrams by a doubly
+outlined rectangle.
+T -
+Fig: E-R diagram for a weak entity set which is dependent on a strong entity set "
+13. Describe different types of attribute. [WBUT 2017]
+Answer:
+Types of Attribute are: '
+Single valued Attributes: An attribute, that has a single value for a particular entity. For
+example, age of a employee entity. -
+Multi valued Attributes: An attributes that may have multipie values for the same entity.
+For example colors of a car entity. A
+Compound /Composite Attribute: Attribute can be subdivided into two or more other
+Attribute. For Example, Name can be divided into First name, Middle name and Last N
+name.
+Stored Attribute: An attribute, which cannot be derived from other attribute, is known as
+stored attribute. For example, BirthDate of employee. ,
+Derived Attribute: Attributes derived from other stored attribute. For example age from
+Date of Birth and Today’s date.
+Key Attribute: represents primary key. (main characteristics of an entity). It is an _
+attribute, that has distinct value for each entity/element in an entity set. For example, Roll |
+number in a Student Entity Type.
+14, “Pri true.” — explain.
+Primary keys are candidate keys but reverse is not p [WBUT 2018]
+DBMSCS-15
+| |

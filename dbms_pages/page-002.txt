@@ -1,0 +1,37 @@
+POPULAR PUBLICATIONS
+DATABASE SYSTEM ARCHITECTURE
+Multiple Choice Type Questions
+1. Which defining a numeric number field that can hold 3 digits' before the decimal
+oint and 3 digits after the decimal points, the width would be given as
+g ' [WBUT 2011]
+a)6 b) 7 c)8 d) 3
+"~ Answer: (a)
+2. The data dictionary tells the DBMS - [WBUT 2012]
+a) what files are in the database
+b) what attributes are possessed by the data
+c) what these files contain
+d) all of these .
+Answer: (d)
+3. The employee salary should not be greater than Rs 20,000. This is '
+[WBUT 2014, 2017]
+a) integrity constraint b) referential constraint
+c) over-defined constraint d) feasible constraint
+Answer: (a)
+4. The information about data in a database is called [WBUT 2017]
+a) Metadata b) Teradata
+~ ¢) Hyperdata d) None of these
+. Answer: (a)
+5. Tree structures are used to store data in [WBUT 2018]
+a) network model b) relational model
+c) hierarchical model d) file based system
+Answer: (b) :
+1. Describe the three-schema i
+archltectu(r)elgz [WBUT 2006]
+Expiain in brief 3-schema architecture of DBMS. | [WBUT 2013]
+a o)
+Describe three layer architecture of DBMsR' . |
+_ Oli [WBUT 2013]
+Describe Three-Schem ; :
+. a architectu
+4
+DBMSCS-2

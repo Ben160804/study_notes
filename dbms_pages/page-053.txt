@@ -1,0 +1,44 @@
+DATABASE MANAGEMENT SYSTEMS
+Answt‘ri ‘
+a)selecthe_emp;oyee—name, c.city
+from employee €, works w, company c
+;here e.emp10¥ee;naTe = w.employee-name and e.city = c.city
+and w . company-name = c.company-name and w. company_name='UBI’;
+b)seiec:-e.e:ployee—pame, e.street, c.city,
+fFrom employee e, WOrks w, company c
+Jnere e.employee-name = w.employee-name and e.city = c.city
+and w.company-name = C.cCompany-name and w. company_name=’'UBI‘’ and
+W.salary>50,000;
+¢) select employee-name
+from works where company-name <> ‘UBIL’
+d) select max (salary) from(select. salary from works where salary
+not in(select max (salary) from works)) where works.company-name <>
+' UBI’
+e) select company-name
+from works
+group by company-name
+having count(*) >= all (select count(*)
+from works group by company-name) ;
+8. Answer the following queries in SQL using given database schema: CH4
+EMP (E no, E name, E add, B date, super-no)
+DEPT (D no, D name, mgrno)
+PROJECT (P no, P name, D no, P location)
+Work-on (E no, D no, Hours)
+a) List E no, E name, E add, mgrno of all employee who work in “Research”
+department.
+b) For all project in “Kolkata” list p-no, controlling department name, manager
+name, address and birth date.
+c) List all project number, project name, manager name which belongs to
+“Product” department.
+d) List all employee name who works more than 40 hours in “Research”
+department. [WBUT 2018]
+Answer:
+a) SELECT EMP.(E no], EMP.[E name], EMP. [E add], dept.mgrno
+FROM EMP INNER JOIN dept ON EMP.([E no] = dept.mgrno
+WHERE (((dept.[D name])z"research"));
+b) SELECT PROJECT. (P location], dept.(D namel. EMP. [E name],
+?ég&[g b kol 2o OJECT ON dept.[D nol =
+PROJECMP INNER JOIN (dept INNER JOIN PR pt.
+T.(D no]) ON EMP.[E no] = dept.mgrno
+i DBMSCS-53
+B

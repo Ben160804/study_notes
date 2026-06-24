@@ -1,0 +1,41 @@
+DATA WAREHOUSING AND DATA MINING
+ffice, but if
+7. If we know exactly what information we need then...............would suU UT 2012]
+) we vaguely know the possible patterns then..............are useful. ws
+a) Data Warehouse, Data Mining techniques
+b) DBMS Query, Data Mining techniques
+' ¢) DBMS Query, Data Warehouse applications
+d) Data Warehouse applications, Data Mining techniques :
+| Answer: (b) i
+4. Association analysis is used for (WBUT 2014]
+a) transaction data analysis b) olap c) molap d) none of thesg
+Answer: (a) ,
+9. Which one is not a data mining task? [WBUT 2014, 2015]
+a) indexing b) classification c) clustering d) regression |
+‘ Answer: (a)
+10. An example of hierarchical clustering algorithm is [WBUT 2014, 2018]
+, a) clarans b) C4.5 c) average linkage d) rock ‘
+- Answer: (d)
+11. Which frequent pattern mining technique mines without candidate generation?
+a) Partitioning b) Apriori [WBUT 2018]
+¢) FP-growth d) Dynamic intensive counting
+- Answer: (¢) .
+1. What are the different methods of computing the best split? What are entropy
+gain and gain ratio? [WBUT 2012]
+Answer: :
+A Various measures are available to determine which test condition provides the best split.
+These are: -
+— Gini Index
+, — Entropy / Information Gain
+— Classification Error
+A measure used from Information Theory in the ID3 algorithm and many others used in
+decision tree construction is that of Entropy. Informally, the entropy of a dataset can be
+| f:onsidered to be how disordered it is. It has been shown that entropy is related to
+. Information, in the sense that the higher the entropy, or uncertainty, of some data, then
+the more information is required in order to completely describe that data. In building a
+R deC}SlOn tree, we aim to decrease the entropy of the dataset until we reach leaf nodes at
+, ?:’:‘:Ch point the subset that we are left with is pure, or has zero entropy and represents
+Wsearr:;es all of one class (all instances have t}le same value for the t.arget a.ttribt.lte).
+‘ o a;Sl_Jre the entropy of a 'dataset, 8, .w1th respect to one attribute, in this case the
+ribute, with the following calculation:
+. | DWM-49 ; . :

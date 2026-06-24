@@ -1,0 +1,38 @@
+jain with the help of pr
+:lﬂfﬁ:lbmty- P — graph the conflict and non-conflict
+Asre hedule. We construct a d .
+§ be a schedule. ruct a dire
+' %ﬁs graph consists qt’ a pair G = (V,E), C\;;irgr?}:; Zalslcctdo? 5;?dencc graph from S.
+edges. The set of.vcmc‘cs consists of all the transactions participati e, tT’lnd E is a set of
+set of edges consists ot all edges Ti <> Tj for which one ofthepfoll;:,%vl-n - schaden. The
+i | ing three conditions
+| Tiexecutes write (Q) before Tj executes read Q)
+7. Tiexecutes read (Q) before Tj executes write (Q)i
+3. Ti c.\'ccut-i; \;;rilt‘ (Q) before Tj executes write (Qj
+fan edge Ti J exists in the precedence % : ,
+. ,l:quivalcnt to S, Ti must appear lr))cfore Tj. oy o
+To determine if a schedule is serializable, make a directed graph:
+« Add anode for each committed transaction. .
+| o Addan arc from T to S if any equivalent serial schedule must
+order T before S. T must commit before S iff the schedule
+orders some operation of T before some operation of S. The o °
+| schedule only defines such an order for conflicting
+| operations so this means that a pair of accesses from T and S
+i conflict over some item x, and the schedule says T “wins” ine race to x.
+} The schedule is conflict-serializable if the graph has no cycles (winner take all).
+| The Graph Test Example:
+| Consider two transactions T and S:
+' T: transfer Rs.100 from A to C: R(A) W(A) R(C) W(C)
+S: compute total balance for A and C: R(A) R(C)
+T: - R(A) W(A) R(C) W(C) T: R(A) W) RC) W) ;
+, S: R(A) R(C) S R(A) R(C)
+; 9. a) Consider the following transactions and find how many different schedules of
+| the two transactions are possible? How many of these are serializable?
+| Transaction 1
+E Read (X) Read (X
+X=X—N___ | X:=XsM
+| " Write(X) | Write(X) |
+* S ===
+‘ YaYeN | ——
+W) | — N
+DBMSCS-119

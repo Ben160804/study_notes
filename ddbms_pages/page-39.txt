@@ -1,0 +1,47 @@
+mﬂuﬂy_&lﬂm
+Contdingier Participant
+Coordinator Patespant
+| h ) Coolinar Pt Coonlnor  Pascpant. Comlnet Participant
+O prepare l ; Py Py Py P P Py
+phase |
+0 - vl YES |
+log : [ r:
+oy ot ' i 0 : SNy 1on¢
+~ % 1
+sl |
+flas 0 ‘nl_*.
+pos '
+n h@ b 0] g L ©
+0 Qs (5
+- Ombacclor g z.)whmdmnuummluomzwmmmd.wmtm
+1f the coordinator the outcomes of these failures? [MODEL QUESTION]
+has detected a participant’s failure, it must decide abort ici Answer:
+uwumwa&:m»wm?ﬁxﬂ FuilllrslldthdrouteomesiIZ-phaseeommitpmoe?l- .
+bmﬂk.bymﬂigltdup-ﬁdmlfiﬂshgmmitm Whmthecoordinnororapanicipmtmtsmmfulm.:tmunlogmordsto
+protocol 10 elect  new coondinator. _ demminethemtcofmemnsaaion,m\dtoactaecordindy.Forimtanoe. ifit finds itself
+inphasel,itmfsmemmaaion;ifitﬁndsitsdfinphasczilscndsthelogged
+7 Part secision o the participats;if th las log record i the end ofthe transacton,there s
+When the coordinator or 2 participant restarts after 2 failure, it uses the records nothing to do.
+mumﬁhmmwnmm.hizmi?gﬁmi& NoledmpanicipamﬂlatvmedYESmtcrsm'mmmiMym‘unﬁlitlmmeivcda
+hﬁnl.imumgnmwhmz“m“'w decisionfrommeooordinalor.ormtillimeout.‘lhisisbeauscanod\crpanicipammny
+mnﬁwﬁmﬁhmmmemmammmmg Iuvealmdymadecitha'aoommitoranabondecisim(nmeisexcludedforlhelim
+nothing to 4o. bcing)Thismyludloablockingsoemﬁo:s\mposep.lmvotedYESmdisinlhc
+mﬂlMﬂvﬂdYﬁSMnW * until it has recei umaimyme;supposelhald\e coordinator made a decision, sent it to some
+decision from the coondimator, or until timeout. Thi & e ml;mamﬁ; pricpans,and then fie: suppsc, addiion, that these later paricipants als il
+mmﬂ*eﬁmmhammm(mswwmmm nma.dectslonhnsgauallybemmade.butp.lldmghbeingcomahasnomcamo
+being). This may kad 0 & ” o o has voted YES and s inthe hnwn.alasumulaﬁud\eoootdimlml'nsbmmpaired(ifthccootdimtorhas
+. s Mb'wﬁ ”’“l."’ awm ek ik T e logged the decision on stable storage before faling, the decision can be retieved and
+saricipanes, and then o suppuse,in addidon htthese e paric also faled. resent o the paricpants).
+Then 8 deciing 8 By been made, bt p, aboush being mﬁmnomto i m;mtocolmmncsmaldutlssmblcslmgntud\mdewid\amuh' ead log, thal
+know it, &t least untl sfter the coordinator has bem.rqnimd (f the coordinator has l nonodecnsh(sfatvcr.tlmd\cdminmewrimlmdIogismverloslorcawptedina
+logzed the decision on sable 02 beiutfziling,ﬂtdedsionanbu&iﬂedmd c:ash.andd\ft'anytwonodescancommmcae' with each other. The last assumption is
+resent 10 the participants). not 1o mw,umm Qmmmhﬁmantypiallyberaouted.mﬁm wo
+Tk;mﬁxdmhd'urismgmgeaad\mdcwid\animwbg,m f“‘"?““““‘mmhm'“mdﬁis'“{"ymﬂmwwmlmtm
+mm&aﬂbfam.ﬂuﬂrduhd’twmc-dudlogismmawmptedim mlh\"rlgﬁguttshowSTwo-phmoommnonntmmim
+:nimithlmpmomdsmmmﬂiﬂuithad\ahu.mhstmmpdmis
+uwmzsmmm@mmqpidhbcmcdmﬁmm
+mqﬁuxsnm:hmmga:if:mdcisuﬂbdcsuu)edmmanbclastm
+foliowing ﬁgnstmsTuo—ph&oumhmfailmdacﬁim
+DDMS-76 DDMS-77
+i
+I

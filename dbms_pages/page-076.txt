@@ -1,0 +1,46 @@
+ONS ]
+The five INF decompositions are presented above in the ‘Result” column.
+e
+s and dependency preserving decomposition?
+b) What do you mean by 1058168 [WBUT 2011)
+Answer: i :
+mposition: .
+eserving decom position: . : : , !
+gepen:::ccy :::escrvaﬁon is a desirable issue in database design. While updating the
+d;gﬁ';se ity is necessary to check that spurious tuples should not generate. To test the
+de ende;]cy preservation, let us consider the schema R={R1, 'R2,.......,Rn} an_d F be the
+setp of corresponding functional dependencies. The functional dependencies of F’
+(Closure of F in R) should hold only the FD’s in  R. : _ i
+Let F’ = {F1, F2, F3,.....Fn}, Where F’ is a set of functional dependencies on R. But in
+general F* # F. However, it may be e eV . 3 }s :
+[fit is so, then every functional dependency in F is implied by F” afl.d F’ lS‘SaUSﬁCd, then
+F is also satisfied. A decomposition which satisfies the equation F*~ = F~ is dependency
+preserving decomposition. ’
+13. a) When do we call a relation is in 3NF? _ [WBUT 2013]
+Answer:
+A relation R is in third normal form (3NF) if and only if it is in 2NF and every non-key
+attribute is non-transitively dependent on the primary key. An attribute C is transitively
+dependent on attribute A if there exists an attribute B such that: A = B and B = C. Note
+' that 3NF is co.nceme.d with transitive dependencies which do not involve candidate keys.
+
+A 3NF rc'alatlon with more than one candidate key will clearly have transitive
+dependencies of thf: form:’prlmary_key — other_candidate key — any_non-key column
+SUPPLIER PART (spppher_no, supplier_name, part no, quantity)
+
+Functional Dependencies:
+
+We ass i ! : :
+
+candidaltjénlfe;]:?t supplier_name's are always unique to each supplier. Thus we have two
+(supplier no part_no) and (suppli
+
+10, part_ supplier_name, part
+Thus we have the following dependencies: Tl
+(supplier no, part_no) —  quantity
+‘ (supplier no, part — g
+.~ =19 Part_no) — supplier name
+, (suppl!er_name, part_no) —» quant?ty
+(supp.ller_name, part_no) — supplier no
+| supplfer_name — supplier no -
+supplier no — supplier name
+DBMSCS-76

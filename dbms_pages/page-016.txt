@@ -1,0 +1,27 @@
+- E:
+POPULAR PUBLICATIONS
+g$;;e; ey: An attribute or set of attributes that uniquely identifies a tuple within a
+relation , 4 Lak .
+Candidate key: A super key such that no proper subset is a super key within the relation
+Primary key: The candidate key that is selected to identify tuples uniquely within the
+relation, the candidate keys which are not selected as PKs are called "Alternate keys". So
+the reverse is Alternate keys. :
+15. Explain with example the difference between strong and weak entity sets.
+[WBUT 2019]
+Answer: Refer to Question No. 3 (I°' Part) of Short Answer Type Questions.
+Example of Strong entity set & Weak entity set:
+Flight is a strong entity. @
+P
+Departures is a weak entity.
+|
+1. Design a Generalization-Specialization hierarchy for a motor-vehicle sales
+: company. The company sells motor-cycles, passenger cars, vans, buses. Justify
+your placement of attributes at each level of the hierarchy. [WBUT 2010, 2011]
+Answer:
+The generalization—specialization hierarchy for the motor-vehicle company is given in
+. the figure. model, sales-tax-rate and sales-volume are attributes necessary for all types of
+vehicles. Commercial vehicles attract commercial vehicle tax, and each kind of
+commercial vehgcle has a passenger carrying capacity specified for it. Some kinds of non-
+commercial vehicles attract luxury vehicle tax. Cars alone can be of several types, such
+sports-car, sedan, wagon etc. hence the attribute type. ,
+DBMSCS-16 i

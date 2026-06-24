@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS
+MINING DATA STREAM
+Multiple Choice Type Questions
+1. The ‘Dice’ operation is concerned with [WBUT 2009, .
+a) Multiple runs of slice . i
+b) slice on more than one dimensio _ o
+i - dimension e
+c) selecting certain cells of more than one ¢l e
+d)) two consecutive slice operations in two different dimensions
+Answer: (d) i
+2. The major drawback of CLARANS algorithﬂ;; i:a [WBUT 200s,
+< a) it cannot handle very large volumes of dat. ..
+b)) it assumes that all objects fit into the main memory, and the result is v
+sensitive to input order ) K f
+c) it cannot find the best clustering if any sampled medoit p not among e
+best k methods @*‘7
+Answer: (b)
+3. A drill-down operation is concerned with _[WBUT 2009, 2016, 201 h
+a) which merges cells of two dimension ’ X
+b) which merges cells of any one dimension based on the characteristics of
+the dimension 78
+’ c) which splits cells of two dimensions ‘i
+d) which splits cells of any one dimension based on the characteristics of the
+dimension
+Answer: (d)
+4. Parameters used for association Rule Mining are (WBUT 2010, 2
+a) Confidence and Support b) Confidence and Itemcount
+c) Support and Itemcount d) Support, Confidence and Itemco
+Answer: (a)
+5. Two main types of clustering techniques in data mini I
+. a w8
+a) Serial clustering and parallel cluc;tering R UT
+b) :uararchlcal clusterinq and partitioning clustering . T
+:; k‘i’:&g"'_‘:“? clustering and heterogeneous clustering b
+Asaar: (b) oids clustering and K -means clustering iy
+) end
+6. The algorithm which uses | E
+seaociations of ems in dat the concept of a train running over data 10 °
+ata mining known as m
+‘; Spfioﬁty Algorithm N by
+¢) Dynamic Item-set C on Algorithm e
+Answer: (c) ounting Algorithm d) FP-Tree growth Algorithm
+DWM-48 | Lo

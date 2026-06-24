@@ -1,0 +1,49 @@
+POPULAR PUBLICATIONS | 8
+|
+' elated/associated with
+: . : the trigger T :
+B tablel tht?n“ passes all the constraints, such ag
+thc? insert event on this table will fire befOfc the o row insertion fails. SQL Server
+primary key constraint and some rules. If the record A
+will fire the Instead of Trigger.
+3. CLR Triggers the CLR (Common lLanguage
+CLR triggers are special type of triggers thal R o been introduced with SQL
+Runtime) in .net framework. CLR integration of triggers hf%T ](L](,”wcq like C#. Visual
+Server 2008 and allows for triggers to be coded in one of NET langtiasss
+Basic and F#. ' utations or need 3
+We coded the objects (like trigger) in the CLR that I:a.\'c heavy C«;:“ﬁ} DDL. and DA
+references to objects outside the SQL Server. We can wrile code' for OF‘“ l l-v] di v
+triggers, using a supported CLR language like C#, Visual basic and F#. I wiil discuss =
+CLR trigger later. 4
+4. Logon Triggers k-
+: . S A he I event of SQL Serveris =
+Logon triggers are special type of trigger that fire when LOGON even o
+raised. This event is raised when a user session is being established with SQL Ser\'er that k-
+is made after the authentication phase finishes, but before the user sesston is actually
+established. Hence, all messages that we define in the trigger such as error messages, will
+be redirected to the SQL Server error log. Logon triggers do not fire if authentication
+fails. We can use these triggers to audit and control server sessions, such as to track login
+" activity or limit the number of sessions for a specific login. ‘
+: k!
+_ 6. Discuss the different leve! of views. (WBUT 2016] =
+Answer: 3
+To recliuce'the redundar.lt data to the minim‘um possible. an object is created called View.
+The view is created mainly because of the following reasons: g
+1. When data security is required 4
+2 S\Z’:::;t;iaia redundancy is to be kept to the minimum while maintaining data
+Syntax: o
+Create View <viewname> as , 5
+Select <col 1> [.....] from <tablename> 3
+Where <col Mane> = <expression list> ‘ |
+- . I o
+Group by<group expression> Having <predicate>- ‘ i
+e.g ' A
+3 W > Fon! - V
+Create View View student As Select name, elective from student; ]
+Creates a View by the name view-student based on the relation sty d 5
+fier creation of the view, i ied I on student; : "
+Afier creation o v, it can be queried like a base table 5
+Syntax: | r
+Select <coll>, <col2 >,..... from < Viewname> | 3
+e.g. A
+Select name, elective from View-student; >

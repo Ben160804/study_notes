@@ -1,0 +1,39 @@
+F el vl
+DATABASE MANAGEMENT SYSTEMS
+9. What do you mean by deadlock handling? Explain i \ |
+Answer: - plain in detail. [WBUT 2016]
+A set of transactions are considered to be in a deadlock A :
+X : , state, if
+waiting for one another to release the data items needed for them tlh ihe u:nliia(l:)nons -
+[na deadlock state no transaction will proceed. e Ky S
+| The deadlock can be handled by rolling back a transaction which would be chosen as the
+yictim.
+Deadlock can be handled in the following ways: : '
+‘ Deadlock Preventior.lz This concept ensures that the system never enters a deadlock
+| state. It chqoses the transaction which would probably cause the deadlock and rolls-back
+[ the transaction. ' '
+; Deadlock Detection: This identifies the deadlock if any happened and recovers the
+1 system from deadlock.
+Deadlogk Recpvery: recovers the system from deadlock state. It chooses the identified
+transaction which caused the deadlock and rolls-back it.
+10. Consider the following two transactions: BUT 2018
+T1 : read (A); read (B); if A = 0, then B = B + 1; write (B); o :
+T2 : read (B); read (A); if B =0, then A = A + 1; write (A); '
+Add lock and unlock instructions to transaction T1 and T2. Is there any dead lock
+observed? ,
+Answer:
+Lock and unlock instructions:
+lock-S(A)
+read(A)
+‘ lock-X(B) :
+read(B) :
+if A=0,then B=B +1
+write(B)
+| unlock(A)
+unlock(B)
+| read(B)
+i read(A)
+If this schedule is followed, the transactions are in exclusion and hence there is no
+question of dead lock.
+1. Define schedule and conflict serializable schedule. [WBUT 2019]
+DBMSCS-109 :

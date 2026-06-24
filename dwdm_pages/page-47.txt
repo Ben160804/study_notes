@@ -1,0 +1,64 @@
+| DATA WAREHOUSING AND DATA MINING
+. Choosing 2 Data Mining System : _
+The selection of a data mining system depends on the following features —
+pata Types — The data mining system may handle formatted text, record-based data,
+
+' y and relational data. The data could also be in ASCII text, relational database da.ta_ or
+data warehouse data. Therefore, we should check what exact format the data mining
+system can handle. Rt h
+
+. System Issues — We must consider the compatibility of a data mining system Wit
+
+1 different operating systems. One data mining system may run on only one operating
+system or on several. There are also data mining systems that provide web-based user
+interfaces and allow XML data as input. : A
+
+o Data Sources — Data sources refer to the data formats in which data mining system
+will operate. Some data mining system may work only on ASCII text files while
+.others on multiple relational sources. Data mining system should also support ODBC
+connections or OLE DB for ODBC connections.
+
+i o Data Mining functions and methodologies — There are some data mining systems
+that provide only one data mining function such as classification while some provides
+multiple data mining functions such as concept description, discovery-driven OLAP
+
+, analysis, association mining, linkage analysis, statistical analysis, classification,
+prediction, clustering, outlier analysis, similarity search, etc.
+o Coupling data mining with databases or data warehouse systems — Data mining
+
+5 systems need to be coupled with a database or a data warehouse system. The coupled
+
+.~ components are integrated into a uniform information processing environment. Here
+
+- are the types of coupling listed below —
+
+- No coupling '
+- Loose Coupling ’
+
+\ — Semi tight Coupling :
+
+1 - — Tight Coupling
+
+: * Scalability — There are two scalability issues in data mining —
+
+j - Row (Database size) Scalability — A data mining system is considered as row y
+scalable when the number or rows are enlarged 10 times. It takes no more than 10
+times to execute a query.
+
+= Column (Dimension) Salability — A data mining system is considered as column
+
+1 scalable if the mining query execution time increases linearly with the number of
+
+columns.
+* Visualization Tools — Visualization in data mining can be categorized as follows —
+‘ — Data Visualization ‘
+- Minﬁng Results Visualization
+= Mining process visualization '
+
+E . ;)at:‘;l;'fll data mining ' |
+i llmng query la.m.guage and graphical user .mteliface ~ An easy-to-use
+Unlike? lUS_er }nterface s important to promote user-guided, interactive data mining,
+
+| v €lational database systems, data mining systems do not share underlying data
+€ query language.
+DWM-47

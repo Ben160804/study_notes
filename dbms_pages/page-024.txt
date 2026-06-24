@@ -1,0 +1,23 @@
+POPULAR PUBLICATIONS
+There are four possible mapping cardinalities. These are as follow: 4
+1. Onetoone (1 :1) _ :
+2. One to many (1 : M) g
+3. Many to one (M : 1)
+4. Many to many (M : M) 1
+One to one (1: 1): ' ':
+Let, entity E1, E2 and R is relation.
+(7 }—(>—
+One to Many (1: M):
+Let, entity E1, E2 and R is relation.
+| Many to one (M: 1): '
+| Let, entity E1, E2 and R is relation. -
+-
+Many to many (M : M)
+Let, entity El, E2and R is relation.
+2" Part: Refer to Question No. 1 of Short Answer Type Questions.
+8. Write short note on Data Dictionary. [WBUT 2013]
+Answer: ;
+* Refer to Question No. 4(b) of Short Answer Type Questions. .!
+]
+:
+_ DBMSCS-24

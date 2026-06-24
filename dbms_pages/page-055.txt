@@ -1,0 +1,38 @@
+' DATABASE MANAGEMENT SYSTEMS
+FUNCTIONAL DEPENDENCIES AND
+% Multiple Choice Tyrp e Questions
+!
+| 1. Lack of normalization can lead to which one of the following problems?
+| [WBUT 2006, 2008]
+| a) lost updates b) insertion problems
+c) deadlock d) none of these
+Answer: (b)
+2. 2NF is always in [WBUT 2010, 2012]
+a) INF b) BCNF c) MVD d) none of these
+Answer: (a) .
+3. When all the attributes in a relation describe and depend upon the primary key,
+the relation is said to be in [WBUT 2010]
+a) INF b) 2NF c) 3NF d) 4NF
+Answer: (¢) - ‘
+4. Consider the schema R=(S, T, U, V) and the dependencies |
+S>T.T->UU—-VandV —>S. Let R= (Rl and R2) be a decomposition such |
+that R1NR2 = 6. The decomposition is: [WBUT 2011] |
+a) Not in 2NF b) In 2NF but not in 3NF
+c) In 3NF but not in 2NF d) In both 2NF and 3NF
+Answer: (c) |
+5. R={1,J,K,L},F ={I > K,IL>J,JK - L, L — K}. The candidate keys are
+[WBUT 2011]
+a)Jand K b) JK c) only | d) JK and JL |
+Answer: (d)
+6. BCNF is a type of [WBUT 2012]
+a) Indexing b) DFD c) Normalization d) None of these
+| Answer: (c)
+| 7. Second Normal From [WBUT 2014] ‘
+| a) Eliminates transitive dependency between non-key attributes
+b) Eliminates partial dependency between non-key attributes and key |
+attributes ‘
+¢) Creates separate tables for the set of values that apply to multiply records
+d) Creates a separate table for each set of related data and identify a primary
+' key for each such set i
+Answer: (b)
+DBMSCS-55 ‘

@@ -1,0 +1,35 @@
+| DATA WAREHOUSING AND DATA MINING
+| The table below shows only those for which ¢ = 20%. holds. -
+| [ item 1d | Count
+:
+. ‘
+‘
+‘
+|
+) )
+. Pass3: ‘
+~ (Generate Candidate for k: =3 '
+b 03={{2,34},{2.3,5}, {2,3,6}, {2,3,7}, {2.4,6}, {2, 4, T}, {2, 5, 6}, {2, 5, 7}, {3.4.6}, |
+(3,57}, {4.5,6}, {4,5,7},{5,6,7}}
+~ Finally we see that for {3,5,7} 6 = 20%. holds.
+. 5. a) What is strong rule? Derive strong rules from the following transaction. '
+~ database considering minimum support as 40% and minimum confidence as 70%.
+f TID [item ID |
+' e
+, b) Explain CLS algorithm to construct a decision tree. [WBUT 2017]
+, Answer: :
+~ a)1¥part:
+- Astrong rule is one that satisfies both minimum support and minimum confidence.
+2" part:
+- For support of 40%, threshold is at least 2 transaction.
+R E—
+b (K (14, 5452 =L I 12, T =
+- {Ii, L}(3), {L;, I}(1), {11, [e}(2), {la1s }(2), | {Li, o}, {1y, Is} {1y, Lg}
+| ' L, Le} (1), {13, 16}(0)
+| A“
+: cquent itemsets: {1, I}, {I, I;}{Li, Le}, L1, 1o, 15,16
+; ?ISS(;ciation rules:
+{Il; Izi would generate: I,>1,(3/5, 3/4)and,~> 1,(3/5, 3/4)
+" ) 13 would generate: L2>15(2/5, 214)1;2>1,(2/5, 2/2) :
+1 e} would generate: 1> 14(2/5, 2/4)162>1,(2/5, 2/2)
+' DWM-57 .

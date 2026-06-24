@@ -1,0 +1,28 @@
+DATABASE MANAGEMENT SYSTEMS
+4. a) Draw an ER diagram for the system given as follows:
+An organizatipn has number of faculties who are expert in one or more subjects.
+
+“ For'each. subject-, number of such experts is there, system will store faculty and
+subject information and must support query on finding expertise on subjects.
+Students get enrolled to have training on one or more subjects. System will keep
+student information also. One faculty is allotted to teach one or more subjects and
+for one subject only one faculty is assigned. System will keep the information
+regarding such qssignment. [WBUT 2014, 2019]
+
+b? Describe how the entity animal (in a Z00) can be developed into a specialization
+hlerarchy. [WBUT 2014] :
+c) What is meant by a recursive relationship type? Give one example of recursive
+relationship type. [WBUT 2014]
+Answer:
+a)
+pe i ‘n i ? 4
+<[>
+-l n
+<>
+E-R diagram of the Organization-Faculty-Subject-Student
+> e >
+Gl »
+nile o> ‘
+DBMSCS-21
+:
+3

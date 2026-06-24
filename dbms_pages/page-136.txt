@@ -1,0 +1,76 @@
+PUBLICATIONS i
+a evolution lization provide for a better.
+
+5 Su’.,po”f.orsc"efmilities such as inheritance and gen)erat t tio}; e éﬂer
+Object oriented factliti€ . i captures a better representa eal-world
+structured schema, which 45
+objects.
+
+o Improved p'e’forma"';ed e Object-oriented environment ha.ve ' proved very
+The facilities prov! eearc—h done in this field and many (ests indicate that the
+effective. Previous re};MS b up A0 30-fold improvement on the RDBMS
+performance of 00D :
+performance.
+
+: O model o .
+
+b) EER model - theO_ : relationships are significantly easier to
+
+i) schema comprehension: ternary . £
+comprehend in the EER model than in the OO model; SR
+
+ii) the EER model supasses the 00 model for designing unary and ternary
+relationships; _
+
+iii) time: it takes less time to design EER schemas;_
+
+iv) preferences: the EER model is preferred by designers.
+
+We conclude that even if the objective is to implement an OO database schema, the
+
+fol'owing procedure is still recommended: 1) create an EER conceptual schema, 2) map it
+
+to an OO schema, and 3) augment the OO schema with behavioral constructs that are
+unique to the OO approach.
+
+4. a) Explain the concept of Distributed Database. What are the advantages and
+
+functions of distributed database?
+
+} B) D_escnbe briefly the following terms which are needed for Distributed Database
+esign: .
+Data Fragmentation.
+Data Replication.
+Data Allocati
+
+e ation. [MODEL QUESTION]
+
+a) A distributed datab :
+
+of database technol(z)lsg(;/ Sb;sr:m (DDBMS) is a technology fostered by the development
+
+independence for yser applicaticompl:ter net.work. Database systems provide data
+
+independent of physical implemen(;;ltsi Y offering a logical view of the st NEN
+
+On the other sig £
+
+. €, comput ]
+
+communicate. This is relevgnte:o g;tt\’\éorks alow physically distributed machines to
+
+various reasons like Privacy, efficie Nt t,CCh.“_Ology because one may consider that for
+
+Fo be closer to him/her of be re ?‘Cy . reliability, scalability users may want their data
+
+integrated global view of it plicated through different nodes and still obtain an
+
+Thus, DDBMSs explores ihe !
+
+istri com A nt AL
+
+d:itnbuted users the same level ofr‘n Su fllc.atmn facilities of a computer network to offer .
+
+gonsrytr processing, transaction manageervlces obtained in a centralized database system:
+aint support, Ment, recovery processing, security guaranties, and
+- DBMSCS-136 ' i

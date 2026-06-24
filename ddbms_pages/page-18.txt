@@ -1,0 +1,51 @@
+POPULAR PUBLICATIONS DISTRIBUTEDD. 4§
+26, Looal autonomy means ; ization for the query based on the fragy
+
+) looal query will be processed locally R AT The Query Processing d":s dulx.! m::/::rl;;gy that qinc?momm the
+
+b) local data will be acoesses by local site only scheme and fenerates the exce
+
+0) local DDA Is solo authorlty of local date ' operations involved in processing the query.
+
+) oach sito In a DIMS In Its own rlght ,
+Anwer! (1) 2 Part;
+26, Datal filo Inol (haracteristics of Query Processors:
+
+« Database profile Inoludes e o8 L
+
+) onrdinality h) iz o) distinot mm[MOPd;..Q"Ujm?:J e l’m.‘ (Ilfnpm language can be relational algebra or calculus; output language is relational
+
+Animeri d) (o algebra (annotated with communication primitives). The query processor must
+efficiently map input language to output language.
+
+« What are the objectives of Distributed Quo trategies, the best one can be selected through €xha ted
+Aniwort o roomisg? 65 AT ’n“p:;;l;g heilrinic (minimize size of intermediate relations). For distributors
+Objectives of Distributed Query Processing databases semi-joins can be applicd to reduce data transfer.
+
+I The main objectives of query processing in u distributed environment is to form a Statistics
+high Tovel query on  disteibuted database, which is seen as o single database by o Fragment cardinality and size .
+the users, fnto an efficient execution strategy expressed in a low lovel language in o Size and number of distinct values for each attribute. Detailed histograms of
+local databases, attribute values for better selectivity estimation.
+2 An important point of query processing is query optimization, Because many Declsion Sites
+oxecution stratogles are correct transformations of the same high level query the o Onesite or several sites participate in selection of strategy.
+one that optimizes (minimizes) resource consumption should be retained. Exploltation of network topology
+3. The good mensure of resource consumption are; »  Wide area network communication cost.
+1) The total cost that will be fneurred in processing the query. Itis the dome of all o Local area network parallel execution
+tmes ncurred in processing the operations of the query at various sites and Exploitation of replicated fragments
+Intrinsie communication, 1 + Larger number of possible strategies. -
+i) The resource time of the query, This is the time clapsed for executing the o Use of Semi joins.
+¢|‘uory.rslncc operations can be executed in parallel at different sited, the response o Rediice slae of dota tranifer:
+lime of a query may be significantly less than its cost. i
+A I a distributed system, the (ofal cost (o be minimized includes CPU, N0, and o Iceuate QL RARCAN G DEN MRS
+communication costs. This cost can be minimized by reducing the number of N0 3. What Is locking? What are the shared and exclusive locks? Briefly discuss
+operation through fast access methods (o the data and efficient use of main Timestamp protocol in relation to distributed database system?
+memory. The communication cost is the time needed for exchanging the data [MODEL QUESTION]
+between sited participating in the execution of the query, Answer:
+Any Database management system whether it is distributed or centralized, utilizes locks
+2. What do you meant by Query Processing? Write down the characteristics of o provide concurrency control. Common uses of locks are to ensure that only one user
+query Processors. [MODEL QUESTION] can modify a record at a time and that data cannot be read while it is being modified.
+Answer: Locking mechanisms can be enforced at the row, table or page level.
+1" Part: There are two mechanisms for locking data in a database: pessimistic locking, and
+‘ A Query Processor is a module in the Distributed Database System that performs the optimistic locking,
+ks to process, to optimize and to generate execution strategy for a high-level query.
+DDMS-34 DDMS-35

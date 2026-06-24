@@ -1,0 +1,47 @@
+POPULAR PUBLICATIONS
+Answer:
+g oy e
+v l:“" sads Y order id, code
+item name quantity rate _
+rate a
+Y order id
+. . [ ] salesaman name
+¥ customer name ,
+customer_address m
+Y sarlcxmzm name
+: salesman_address
+Step 2 ERD ”
+Primary Key & Foreign Key relations
+[Salesman | salesman_name | salesman_name | Orderfile | 3NF
+Iten_Code Order id, Item Order 3NF
+item code
+[Oder [ Oder 1| Salesman_Name | Order [3NF ©
+Order, ITIT Oode | Ordersit -~ |Order | 3NF. o0 Lol
+c)lsa t.able with only two columns that is in 3NF, always is in BCNF. What about a
+table with three columns that is in 3NF? Explain your answer and give examples to
+support it. BUT 2014
+Answer: L ]
+Definition-3NF
+A relation R Is in third normal form (3NF) if it is in 2NF and every non-key attribute of R
+Is non-transitively dependent on each candidate key of R,
+Definition-BCNF
+A relation R is said to be in BCNF w} :
+. y 1cnever X \ ; - .
+
+X is a candidate key for R — Aholds in R, and A is not in X, then
+—r=____ o
+RN AT e
+
+INF and BCNF
+; INF and BCNF
+
+d) What is MvD’s? What d
+
+O you mea
+decomposition? y n by lossless (or non-additive) join property of
+Answer:
+Refer to Question N
+
+0.6 o0f L
+f Long Answer Type Questions.
+DBMSCS-80

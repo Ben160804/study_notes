@@ -1,0 +1,45 @@
+- DATA WAREHOUSING AND DATA
+6. What are data mining primitives?
+Answer: [MODEL QUESTION]
+Data mining primitives
+‘ project __, attribute pre.
+weighing processing
+10N —— 5 knn join k- nearest
+, neighbor
+standard neural :
+networks
+Data mining Seph clustering » n table Data mining
+primitives on , classifier scan algorithm . :
+SQL association systems
+select blgck whitg .
+] P \ association >
+rules
+) cluster decision "
+split 4’//: froes i e :
+count by group functional i
+functional / dependencies
+dependencies '
+Fig: Data mining primitives in SQL
+Contrary to current belief, data mining is first and foremost a server technology. Until
+~ recently, most data mining tools operated on flat files and in-memory databases. With the
+shift of attention to larger databases, the need for implementing data mining algorithms
+on top of relational databases has been recognized. However, current relational ,
+. technology, with its emphasis on efficient updates and exact identification of records, is
+’ ill-suited to the support of data mining algorithms.
+’ Data mining algorithms require:
+o efficient sampling methods ' .
+| e storage of intermediate results during execution of queries ;
+* capacity to handle large amounts of data - .
+» geometric indexes that allow users to search in the neighborhood of record and
+, bit-mapped operations. . o
+Data mining is supported by client/server technology, with the server.technolo_gy being o
+great importance when working with large databases. All these functions can in prmcu;:e
+be realized on top of existing implementations, as they are based on generalizations of the :
+, Same mathematical structure, that is, first-order logic and algebra. G
+Can these ideas be brought into a general framework for the revnslon.o_f the re ‘?1 ;S ¥
+mode]? Following figure describes a number of fundamental data mining edro'mtlo
+relation to SQL primitives. In general, data mining routines can be divided into four
+groups: ) |
+. b it i values into :
+‘ L Pre-processing: Routines in this group take samples, QOHfPfeSS . ; (that s, k"
+1 clusters, and code tables into appropriate input formats f“’ T e

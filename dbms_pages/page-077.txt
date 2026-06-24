@@ -1,0 +1,45 @@
+DATABASE MANAGEMENT SYSTEMS
+b) consider the relation assignment {worker_id, building_id, startdate, name
+killtype} and !—'Ds arg {worker_ld->namg, gworker_id, building_id)->startdate}.
+is the relation in 2NF? If not, then make it in 2NF. [WBUT 2013]
+wer:
+
+‘ \’: :rskerﬂid “name ,
+worker_id, buildmg_ld)é.startdate : ‘
+These FD’s indicates partial deper:lfjienme.s of non key attributes on the key attribute
+
+. worker_id in relation (1). In the 2" relation startdate is dependent on the composite key.
+[t is not in 2NF. The 2NF relations are:
+
+| RI
+
+R2
+
+c) Describe Boyce-Codd normal form with example. : [WBUT 2013]
+Answer: ‘
+Boyce-Codd normal form (or BCNF or 3.5NF) is anormal form used in database
+normalization. It is a slightly stronger version of the third normal form (3NF). A table is
+in Boyce-Codd normal form if and only if for every one of its nontrivial dependencies X
+— ¥, X'is a super key—that is, X is either a candidate key or a superset thereof.
+In the definition of BCNF each FD X —Y, X must always be a superkey. For 3NF,
+however, X must be a superkey only if Y is not part of any other relation key (i.e. if Y is
+non-prime).
+Only in rare cases does a 3NF table not meet the requirements of BCNF. A 3NF table
+which does not have multiple overlapping candidate keys is guaranteed to be in BCNF.
+Depending on what its functional dependencies are, a 3NF table with two or more
+overlapping candidate keys may or may not be in BCNF. A relation R is in 3NF if and
+only if every dependency A->B satisfied by R meets at least ONE of the following
+criteria: 1. A->B is trivial (i.e. B is a subset of A) i
+2.Aisa superkey 3. B is a subset of a candidate key BCNF doesn't permit the third of
+these options. Therefore BCNF is said to be stronger than 3NF because 3NF permits
+some dependencies which BCNF does not.
+d) What is Query Tree? Why we need query tree? Consider the query “SELECT
+EMP_NAME FROM EMPLOYEE, WORK_ON, PROJECT WHERE
+PROJECT NAME='ASSEMBLY’ AND PRJ_NO='P1’ AND JPOIN_DATE='21-12-12’.
+Construct a query tree for this query. [WBUT 2013]
+Answer:
+Query Tree js an internal depiction of SQL statements. The rule system is located
+between the query parser and the planner. It takes the output of the parser and each built
+ofan SQL is stored separately. «
+
+l DBMSCS-77

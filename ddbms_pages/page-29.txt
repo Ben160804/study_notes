@@ -1,0 +1,41 @@
+POPULAR PUBLICATIONS DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Concurrency control techni imestamp . 3 : ,
+deadlocks cinnol oceur. T ondering do not use locks; hence, ¥ ﬂ;ﬁtg‘g:_ ﬁTel"If?.Ew i
+1Gﬂmem‘ian of Timestamp: ;:‘(;M
+imestamps can be generated in DBMS several ibility i :
+that is incremented each time its value is w!‘"’* 2":"’“,.,"',,"?0;’ 'ﬁe"", i mplfgﬁnms =*J. Doe
+maximum nlm.w@mmwm,mmmm“mmm 8. Writo the R* algorithm.
+tmim esw:‘m.m executing for some sbon period of time. Another way to implement Answer: - . sod as a relational algebra tree, the
+tamps is (o use the current date/time value of the system clock and ensure that The input to the algorithm is the localized query expressed as
+two timestamp values are generated during the same tick of the clock. nd Jocation of relations and their statistics.
+In case to DDBMS, the timestamp generation is a bit more complicated as the site must [nput: QT: query tree
+also be identified. The general approach for timestamping in DDBMS is to use the Qutput: strat: minimum cost stralegy
+concatenation of the local timestamp with a unique identifier, <local timestamp, site begin
+identifier>, The site identifier s placed in the least significant postion o ensure tht for each relation R, € 0T do
+events can be ordered according to their occurrence as opposed to their location begin
+for each access path A, to R, do
+b) Query graph identifies redundant relation in an SQL: . AP
+In a Query graph Nodes represent operand or result relation and Edge represents a join if determine cost (AP, )
+both connected nodes represent an operand relation, otherwise it is a prjection. It can be end-for
+used to simplify an SQL query by eliminating redundancies, e.g., redundant predicates. best- AP, ¢ AP, with minimum cost
+:!edundmcia are .oﬂen due to semantic integrity constraints expressed in the query end
+anguage e.g., queries on views are expanded into queri i i i .
+integrity ,,,sr sjcumy oonstrains. Quoriof CREScnS hat i certaa for each order (R,,.R,,,.....R_) withi=1,...,n'do
+y begin
+Consider the following query: build strategy (.. ((BestdR, ..o Ry)>a R,)pa . R,)
+SELECT TITLE FROM EMP
+WHERE compute the cost of strategy
+EMP.ENAME = *J, Doe" end-for
+OR strat + strategy with minimgm cost
+(NOT(EMP.TITLE = "Programmer’) for mh site k storing a relation involved in 0T do
+( EMP.TITLE = "Elect. Eng." LS, « local strategy (strategy, k)
+OR send ( LS, , site k) {each local strategy is optimized at site k}
+EMP.TITLE = "Programmer" ) end-for
+AND end
+NOT(EMP.TITLE = "Elect. Eng."))
+9. Explaln the distributed SDD-1 query optimization protocol. [MODEL QUESTION]
+Let pl be ENAME = "), Doe”, p2 be TITLE = "Programmer" and p3 be TITLE = Answer:
+"Elect.Eng.” SDD-1 Algorithm
+Then the qualification can be written as pl V (-p2 A (p2 V p3) A “p3) and then be Step 1: In the execution strategy (call it ES), include all the local processing
+transformed into p! Step 2: Reflect the effects of local processing on the database profile
+DDMS-56 ; DDMS-57

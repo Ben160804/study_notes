@@ -1,0 +1,38 @@
+« Roll-up is performed by climbing up a concept hierarchy for the dimen
+location. ] ] 5 EE .
+e Initially the concept hierarchy was "street < City < province _
+« On rolling up, the data is aggregated by ascending the location hierarchy fre _v
+level of city to the level of countr:". s - i e
+‘o The data is grouped into cities rat er than countries. S
+e  When roll-up is performed, one or more dimensions from the data cut
+removed. E
+Drill-down ) : .
+Drill-down is the reverse operation of roll-up. It is performed by either of the foll J
+ways: : i _ ; , f
+e By stepping down a concept hierarchy for a dimension :
+« By introducing a new dimension. -
+The following diagram illustrates how drill-down works: +3
+o NS e | 2
+& New York m.." ! -
+Toronte s /7 7./ " B
+. Vancouver ""’"' sl
+L nmnn,m -4
+- o . .
+1 S (RN NN SRR it vty 3
+Mobile Modem PhoneSecurty . .
+[ 0 o
+e Newvork L7 72
+| ¥ Toronto m.q’f e
+| Vancouver ""’ / ’ ; E
+Y —— 78
+| | G V%7788
+R e e e 77777 B
+| . Mobile Modem Phone Security Ky
+¢ Drill- i , item(types) . ' E
+. ;e. down is performed by stepping down a concept hierarchy for the dimer
+* Initially the concept hierarch " 4
++ 'On%Hrilling down, the i c)i’ir::\spay'< month < quarter < year." e
+the level of month. ‘on is descended from the level of qua
+*  When drill-down i : e
+added. 's performed, on or more dimensions from the data eu
+» v :.".1-‘—.”"-*".

@@ -1,0 +1,45 @@
+e =T e e RS
+DATABASE MANAGEMENT SYSTEMS
+iiil) CREATE ASSERTION MangerMakesMore
+CHECK (NOT EXISTS .
+(SELECT *
+; FROM EmpAS e, Works AS w, DeptAS 4
+w.did = d.did AND
+e.salary > (SELECT salary
+FROM EmpAS manager
+WHERE d.managerid = manager.eid)))
+4. Hotel (Hotel No, Hotel Name, Address) [WBUT 2011]
+Room (Room No, Hotel No, Type, Price_pn)
+Booking (Hotel No, Guest No, Date From, Date To,.Room No)
+Guest (Guest No, Guest Name, Guest Address)
+Where the underlined column names are primary keys. Write down expressions in
+relational algebra for the following queries:
+i) List all the hotels which are situated in Kolkata
+Answer:
+n:\‘ame O Address ="Kolkata’ (HOteD
+ii) List all single rooms with a charge below Rs. 1000 per night [WBUT 2011]
+Answer:
+ﬂmeNo GT_ype ="Single’ ¢ Price Pn<1000 (ROOITI) '
+iii) List the name of all guests who are going to stay at ITC hotel from 25"
+December to 1°' January. [WBUT 2011]
+Answer: |
+nGucstNamecHotelNamc ='ITC’ ¢ (Daleﬁom='251hDeC€mber, ‘ Dateto="1st January: O((GuESt EQ.JOIH
+Booking) EQ.Join Hotel) [[Guest.GuestNo @ Booking.GuestNo] © Hotelno] ( Room)
+iv) List the price per night and type of all rooms at Grand Hotel. [WBUT 2011]
+Answer: i _
+l—IRoomNo, Price_Pn, Type O Hotel Name ="Grand Hotel’ (H0161 EQ.JOI“ Room)
+Hotel.Hotel No ® Room.Hotel No
+T 2014
+5. a) Consider the following tables: : ' e |
+REATAURANTS (rid, rname, rcity, phone, seat-capacity)
+DISHES (did, dname, dtype) -
+CUSTOMER (cid, ename, ccity)
+:iRVES (rid, did)
+S_ALLERGY (cid, did) ’
+!) find the names of the restaurants that serve “Burger (dish ":m'fgr .
+i) list the names of dishes that customer “Roy” can eatt W:Tc:k:ta - g .
+Iii) list the names of dishes that appear in all restaurants | . ¥ 3
+Iv) Find the names of customers who are in the same city as restau;alz::n Maachan
+and who can eat at least one dish at “Maachan” wuthoutAaII.ergy pro .
+DBMSCS-49
+- : L R W

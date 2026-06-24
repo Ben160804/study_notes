@@ -1,0 +1,37 @@
+POPULAR PUBLICATIONS : i" ‘_
+Step I: Initialization - choose k medoids from T o?jects randomly. ' 2
+Step 2: Evaluation - calculate the cost Dy — D, for each swap of one medoiqg ‘
+object, where D, is the total distance before the swap and D', is the total distance 4 Wy
+swap. , , o
+Ste; 3: Selection - accept the swap with the best cost and if the cost is negative, go o
+step 2; otherwise record the medoids and terminate the program.
+The computational complexity of the PAM algorithm is O((1 + B)k(T ~ ky?) y L;_vg.fi
+based on the number of partitions per object, wherezﬁ is the number of successfu] s _,, ,_r
+It can also be expressed as O'((1 + Pk’ (T — k)") based on the number of distanee
+calculations, i.e., one partition per object is equivalent to k dlstaqces calcu]aﬁ“‘ v
+Clearly, this is time consuming even for the moderate number of objects and a sman
+number of medoids. ‘ : ] y
+The computational complexity of the CLARA algor|2tl12m is O(q(ks” + (ZTZ— K)) + Ps?)
+based on the number of partitions per object or O'(q(k’s” + k(T —k)) + Bk’s”) based on
+number of distance calculations, where q, s, k, p and T are the number of samples, object
+size per sample, number of medoids, the number of successful swaps for all sa
+tested and the total number of objects, respectively. Clearly, the CLARA algorithm can
+deal with a larger number objects than can PAM algorithm if s < T. o
+The computational complexity of CLARANS is O((B + numlocal (T - k)) based on
+number of partitions per object or O'((B + numlocal)k(T — k)) based on the number of
+: distance calculations, where B is the number of test moves between nodes.
+2. a) What is Clustering? Why is it.reduired for data warehousing and data
+~What are the differences between partitioning clustering and Hierarch cal
+clustering? R
+b) Suppose the following table shows the distances between different cities.
+Construct a hierarchical tree using Hierarchical clustering method. f ’
+BA [ 0 | 662 | 877 | 255 | 412 | 996 | b
+- ¢) Discuss K-mean algorithm with a suitable example. - [WBUT 20171
+Answer: s
+a) 1% Part: Refer to Question No. | (a) (I' Pari) of Long Answer Type Ques -
+2" Part: | “
+- Clustering 1s required for data warehousing and data mining for the following ree
+: * Scalability — We need highly scalable clustering algorithms to deal
+databases. : SN
+| DWIEAR o ool it
+ne :u.||".a.-|:'l""’:'_—: r.'- H . -y L. . e ‘

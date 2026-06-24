@@ -1,0 +1,38 @@
+POPULAR PUBLICATIONS : & OENTSYSTEM
+A loosely coupled system is shown below:
+PRESENTATION | BUSINESS LOGIC BACKEND
+Clobal (FIRSTTIER) (MIDDLE TIER) (THIRD TIER)
+i W
+b g | Windows G
+v Export Export B
+schema | schema 2 schema 3 ' ,d:::n h 'I.ha | %‘
+QL U o
+m\\dm ‘d/
+m c«l::l b Local Local
+Conceptual C ) ) >
+ﬂ Iova wed server
+Local internal Local internal Local >
+i
+are constructed
+using  powerful
+D
+as MSQL
+_ ﬁ ﬁ 1. Explain the Torm: Distributed data management. (MODEL QUESTION]
+Answer:
+istri i ion of multiple, logically interrelated databases
+R i Y (/!\Is::lsa‘urll:t;‘ l;:\(r’crd: :obl:ns;ullei :ﬂ;.:tl: “A():is:'ibumt:d SI?MS ?s the: defined as the software
+its th ement of the distributed database and makes the
+In Loosely-coupled system does not have a global schema and translation is between :l{::;:‘ulil::‘lmp:;nn:cm l: th:‘:suctgs
+external schemas and local conceptual schemas. This means that there is more work on This definition is based on the following implicit assumptions: ' .
+i - I. Data is stored at a number of sites. Each site is assumed to logically consist of a single
+r.
+i SRR i Aobsctast S QURTION ngmwm at these sites are interconnected by a computer network rather than a
+nswer: '
+Distributed object systems are the foundation for modern three-tier architectures, In a muliprocessor configuration. e
+hree-tier architecture, as shown in the figure, the presentation logic resides on the client -
+(first tier), the business logic resides on the middle tier (second tier), and other resources, Dota Danngowsnt Deia Managererd
+such as the database, reside on the backend (third tier).
+Distributed
+Object Management
+Fig. 1: Technologies Contributing to DOM
+: DDMS-92 DDMS-93

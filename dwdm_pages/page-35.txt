@@ -1,0 +1,56 @@
+DATA WAREHOUSING AND DATA MINING
+Multiple Choice Type Questions
+1. To optimize data warehouse design, which one is done? [WBUT 2011]
+a) Normalization of fact tables and demoralization of dimension tables
+b) Normalization of fact tables and dimension tables
+¢) Demoralization of fact tables and dimension tables
+d) Normalization of dimension tables and demoralization of fact tables
+Answer: (d)
+is the value of an attribute is examined as it varies over time.
+2. -
+“a)Time series Analysis b) Classification [MODEL QUESTION]
+c) Association d) Prediction
+Answer: (d)
+Long Answer Type Questions
+1. a) Define decision tree. [WBUT 2009, 2010]
+b) What are the advantages and disadvantages of the decision tree approach over
+
+i other approaches for data mining? [WBUT 2009]
+
+: ¢) Discuss briefly the tree construction principle. [WBUT 2009]
+
+: OR,
+
+‘ Describe the basic algorithm for decision tree induction. [WBUT 2013]
+d) What is a classification problem? What is the difference between supervised
+and unsupervised classification? [WBUT 2009]
+
+' Answer: -
+
+' a) Decision trees are powerful and popular tools for classification and prediction. The
+attractiveness of decision trees is due to the fact that, in contrast to neural networks,
+decision trees represent rules. ‘
+
+Decision tree is a classifier in the form of a tree structure (see Figure 1), where each node
+is either:
+
+: o aleaf node - indicates the value of the target attribute (class) of examples, or-
+
+' * adecision node - specifies some test to be carried out on a single attribute-value,
+
+: ‘wilh one branch and sub-tree for each possible outcome of the test.
+A de.cmon tree can be used to classify an example by starting at the root of the tree and
+
+‘ ;“(f)vmg t_hrough it until a leaf node, which provides the classification of the instance.
+
+‘ ef"(aormauon gain, is simply the expected reduction in entropy caused by partitioning the
+a‘n ::tp.lss accordlng to this attribute. More precisely, the information gain, Gain (S, A) of
+
+ribute A, relative to a collection of examples S, is defined as :
+
+. Ga - T g &
+
+Wher ! : veValue( A)
+for w;i\éﬁluesgA) is the set of all possible values for attribute A, and S, is the subset of S
+| attribute A has value v (i.e., S, = {s € S | A(s) = v}). Note the first term in the
+DWM-35

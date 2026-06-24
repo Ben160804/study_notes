@@ -1,0 +1,44 @@
+—— e
+DATABASE MANAGEMENT SYSTEMS
+4. Specify the query in SQL to declare a “Cursor” to-find names & cities of
+residence of customers who have both an account and a loan at a particular bank
+pranch in the same city as that customer. [WBUT 2012]
+Answer:
+select customer-name, customer-city
+from accountloan
+where account.customer-name = I()NI?. customer-name
+5. What is a trigger? How many types of trigger are there? [WBUT 2012]
+| Answer:
+| (% Part: Refer to Question No. 1(a) of Long Answer Type Questions.
+2 Part:
+In SQL Server we can create four types of triggers Data Definition Language (DDL)
+triggers, Data Manipulation Language (DML) triggers, CLR triggers and Logon triggers.
+1. DDL Triggers '
+In SQL Server we can create triggers on DDL, statements (like CREATE, ALTER, and
+DROP) and certain system defined stored procedures that perform DDL-like operations.
+Example: If you are going to execute the CREATE LOGIN statement or the sp_addlogin
+stored procedure to create login user, then both these can execute/fire a DDL trigger that
+you can create on CREATE_LOGIN event of SQL Server.
+We can use only FOR/AFTER clause in DDL triggers not INSTEAD OF clause means
+we can make only After Trigger on DDL statements.
+DDL trigger can be used to observe and control actions performed on the server, and to
+audit these operations. DDL triggers can be used to manage administrator tasks such as
+auditing and regulating database operations.
+2. DML Triggers |
+‘In SQL Server we can create triggers on DML statements (like INSERT. UPDATE, and
+DELETE) and stored procedures that perform DML-like operations. DML Triggers are of
+two types
+a) After Trigger (using FOR/AFTER CLAUSE)
+' This type of trigger fires after SQL Server finish the execution of the action
+| successfully that fired it. *
+| - Example: If you insert record/row in a table then the trigger related/associated with
+i ‘ the insert event on this table will fire only after the row passes all the constraints, like
+| as primary key constraint, and some rules. If the record/row insertion fails, SQL ‘
+Server will not fire the After Trigger. |
+b) Iastead of Trigger (using INSTEAD OF CLAUSE)
+This type of trigger fires before SQL Server starts the execution of the action that i
+fired it. ‘This is differ from the AFTER trigger, which fires after the action that caused ‘
+it to fire. We can have an INSTEAD OF insert/update/delete trigger on a table that
+successfully executed but does not include the actual insert/ update/ delete to the |
+‘ table. i
+DBMSCS-43 ‘

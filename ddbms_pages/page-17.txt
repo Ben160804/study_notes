@@ -1,0 +1,46 @@
+DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+9. A, B, Clis a set of attributes, The functional dependency Is n( 'f‘o(;loo:::owsm 16. PJ, [R:q,] Implies [MODEL QUESTION]
+AB-B,ACC,CB , N o [P/ R:q) b) [P R:A AND
+a)ls in INF b) is in 2NF ¢) is In 3NF d) Is in BCNF 0) [I’J,R:A Oqu] d) [”-/4 grik ]
+Answer: (a)
+Answer: (¢)
+10. What is the maximum number of functional dependencies (trivial and non UESTIO
+: 17, Allocation schema s a [MODEL QUESTION]
+oo MODEL QUESTION] 3)site Indopendence schema b) modorn schema
+R o WP |), . ¢nl d)2 ) site dependence schema d) none of these
+nswer: None of these, Itis (2°~1) Answer: (a)
+11. Is detormination of consistent view of the network has the same complexity as 16, DWFG stands for ' [MODEL QUESTION]
+determination of network failure? [MODEL QUESTION] a) Distributed wait for graph b) Domain window Firewall Gatoway
+a) Yos b) No ¢) Unknown d) Possible ¢) Distributod weighted Forward Graph d) none of these
+Answer: (d) Answer: ()
+12, Soml-joln Is required to [MODEL QUESTION] 19, Which of the following Is  replica control protocol? [MODEL QUESTION]
+a) reduced notwork traffic b) reduced memory usago 1) Distributed 2PL b) Blased protocol
+¢) Incroased spood d) none of these ¢) Majority locking d) All of these
+Answer: (1) Answer: (d)
+13, Which of the following Is not a phase of optimistic method for distributed ‘ 20, Which of the following s a ROWA protacol? [MODEL QUESTION]
+concurrency control? [MODEL QUESTION] a) Primary copy 2PL b) Majority locking
+a) road phase b) verification phase ¢) Distributed 2PL d) Contralized 2PL
+¢) valldation phase d) writo phase Answer: (¢)
+Answer: (b)
+" 21, Which of the following operation Is conflicting? [MODEL QUESTION]
+14, A sorlalizablo schodule always [MODEL QUESTION] a) Road-Writo  b) Write-Read ¢) Writo-Write d) All of these
+a) produces same result as all possiblo serlal schodulos of participating Answer: (b)
+transactions i
+b) produces samo rosult as a worlal schedulo of particlpating transactions 22, I a distributed system has n sites, the total numbor of message transfors in
+c) produces same rosult as a concurrent schodule of participating contralized 2PL Is (MODEL QUESTION]
+transactions 9 b) Int2 2
+d) Is samo as a sorfal schodulo of participating transactions Anlw’tz:"(c) Ay g e wha
+Answer: (b)
+’ 23, Which of the following refors to the operation of copylng and maintaining
+16, A somi Join Is which of the following? [MODEL QUESTION] database objoct in multiple databases belonging to a distributed system?
+a) only the joining attributes aro sont from ono site to anothr and thon all of (MODEL QUESTION]
+the rows roturnod 1) Backy, b) Recov Roplicati d
+b) all of the attributos aro sont from ono site to another and then only the Answ,er: (©) P ) " ¢) Replication ) None of these
+roquired rows are returned
+¢) only the Joining attributes aro sont from ono site to anothor and then only 24, Which of the following Is the recovery management tochniquo for distributed
+the required rows are refurned b th systom? (MODEL QUESTION]
+d) all the attributes are sent from one site to anothoer and then only the 4) Deforred updato b) Immediate update
+roquired rows are returnod ¢) Two-phase commit d) None of these
+Answer: (c) Answer: (c)
+DDMS-33
+DOMS-32

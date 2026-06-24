@@ -1,0 +1,45 @@
+"
+DATA WAREHOUSING AND DATA MINING
+2) Top-down approach: .
+At op-down melhod approaches a problem from the high level view a system.
+For example, in a bottom-up business example a company will look at sales and customer
+data to extract any patterns. _ b
+A top-down approach could model a corporation and its strategy and ask the .followmg.
+who are the target 'cqstomers? What is the supply chain? What is the marketing? How are A
+the departments divided? What are the corporate sales policies? How are sales team
+incentivized? i
+There are external factors that also need to be considered in this example such as
+competition from other companies and the overall economy. If all the divisions of the
+company are not aligned with the corporate strategy then it will be easy to understand »
+that the target sales and customer reach will not be optimal. By starting from the top and
+then deconstructing the parts and understanding the interactions between the parts one
+| can gain an understanding of what type of customers can be reached and attracted.
+I h) Backpropagation algorithm: ,
+f Backpropagation, is a common method of training artificial neural networks and used in
+| conjunction with an optimization method such as gradient descent. The algorithm repeats ;
+2 a two phase cycle, propagation and weight update. When an input vector is presented to
+{ the network, it is propagated forward through the network, layer by layer, until it reaches
+: the output layer. The output of the network is then compared to the desired output, using
+aloss function, and an error value is calculated for each of the neurons in the output
+layer. The error values are then propagated backwards, starting from the output, until
+each neuron has an associated error value which roughly represents its contribution to the
+- original output. _
+_ Backpropagation uses these error values to calculate the gradient of the loss function with X
+- respect to the weights in the network. In the second phase, this gradient is fed to the
+i optimization method, which in turn uses it to update the weights, in an attempt to
+minimize the loss function.
+The importance of this process is that, as the network is trained, the neurons in the
+' Intermediate layers organize themselves in such a way that the different neurcns learn to
+- recognize different characteristics of the total input space. After training, when an
+' afbltrary input pattern is present which contains noise or is incomplete, neurons in the
+hidden layer of the network will respond with an active output if the new input contains a
+- Patiern that resembles a feature that the individual neurons have learned to recognize
+durmg their training. '
+CB;cctﬁ’;;P:l}igatlion requi'res a kqown, .d_esired output for each .input value in order to
+‘ learning b :hos.s function gradle.nt 2 it is therefore. usually consnderec‘i to be a supervised
+% aUtoencgd od; nqnetheless, lt' is also used in some unsuper.vnse,d networks such
+etworks. :gs. It is a gene_rahzatlon pf the de!ta n.Jle to multl-layereq feedforward
+b laye, B,a % e POSSlPle by using the chain rule to lt.eratlvely compute gradients for each
+- eurong (q "Propag"atlon requires that the activation functionused by the artificial
+I "nodes") be differentiable. ‘
+‘ DWM-63 ' ' ‘

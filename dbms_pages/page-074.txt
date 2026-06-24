@@ -1,0 +1,36 @@
+. e |
+P PUBLICATION
+R2=
+AB>C D-E CG-D
+C>A D->G CE~A
+BC>D BE->C CE~G
+LSl TG98
+te step two:
+e {CGy'~(CGDBAE}  Be{(CGDBAE} delete CG->B
+CESA  {CE}={CEGADB} A € {CEGADB} delete CE2>A
+R=
+AB>C D-2E CE-G
+CoR P96
+BC->D BE->C
+CD->B CG-=>D
+b) Partial Functional Dependency:
+Refer to Question No. 3(iv) of Long Answer Type Questions.
+Non-transitive dependency:
+Refer to Question No. 5 of Long Answer Type Questions.
+¢) The following relation 7 is a counterexample to the rule.
+r[A|B]C]
+a b] C1
+_ a1 | by | ¢
+tI:iOt'e:llA)—}){ B and C — B, (since no 2 tuples have the same C value, C — B is true
+vially). However, it is not the case that 4 — C since th %
+but the C value in those tuples disagree. | © same £, Ypluc IS 51 e
+:J,-los\:iz;O::t :c;t; la:lr;sgha,:n a relation R with four attributes, ABCD. For each of the
+do the following: » a8suming those are the only dependencies that hold for R,
+i) Identify the candidate key(s) for R
+) 1 R 6 et 1 o™l form that R satifies (1NF, 2NF, INF, BONF).
+dependencies: » decompose it into a set of BCNF relations that preserve the
+) B»C,D—s 4 '
+W) 4BC D, 4 '
+V) A—-)B,BC__,D,A__)C
+V) AR C MBS DG o B 5 ’ [WBUT 2010]
+- DBMSCS-74

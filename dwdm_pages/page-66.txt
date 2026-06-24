@@ -1,0 +1,37 @@
+FUPULAR PUBLICATIONS "
+WEB MINING . 5
+¥
+1. The mining activity which mines web log records to dlsc[svvaermu;;‘ : ,
+patterns of web pages is P » 201, 1
+a) web content mining b) web usage mining ) o
+c) web structure mining | d) web search mining -
+Answer: (b) _ o
+2. K-means is based on _ [WBUT 2011, 2014, 201 B
+a) Euclidian distance b) Hamming distance 5
+¢) RMS d) None of these ; *
+Answer: (a) : 1
+3. is the application of data mining techniques to discover m
+from the Web. ~ [MODEL QUESTION
+a) Text Mining b) Multimedia Mining 3
+c) Web Mining d) Link Mining #
+Answer: (c) , A8
+1. What do you understand by Web Mining? Compare Web Mining with Data
+Mining. , [WBUT 2( W
+Answer: ' k.
+Web Mining is the use of the data mining techniques to automatically discover and
+extract information from web documents/services. It is used for discovering useft
+information from the World-Wide Web and its usage patterns. In web mining we use data
+mining techniques to make the web more useful and more profitable (for some) and to
+increase the efficiency of our interaction with the web. ' e
+Web mining can involve all of the traditional data mining processes of classification,
+segmentation, clustering, association, prediction, and modeling the only difference is
+the analyzes result in immediate action. Unlike data mining, web mining is dependent ol
+the use of software agent to trigger targeted offers as events take place in real time. Wed
+' mining unlike data mining which existed prior the Internet explosion involves a
+paradigrp of .data collection, integration and analysis. Web mining involves patterm
+recognition via a seamless stream of activity taking place over a decision network and'
+a static warehouse. Web mining works by performing data analysis via networks, e
+sof"cware agents to mine, collaborate and discover conditions and features which can ’
+{0 Increases in sales, cross-selling Opportunities and the targeting of specific prodt .l
+services, . -
+' : \:411#::!-’11;.:' il

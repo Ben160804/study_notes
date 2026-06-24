@@ -1,0 +1,30 @@
+POPULAR PUBLICATIONS
+BA/NA/RM and FI into a new -'_I
+called BA/FI/NA/RM i
+- L(BA/FI/NA/RM) = 268 : | L
+Finally, we merge the last two clusters at Ievel_ 295. ' o
+The process is summarized by the following hierarchical tree: B
+IJA NiA i ]I Mi TIO
+¢) K-means is an unsupervised learning algorithms that solve the clustering problem. The
+; procedure follows a simple and easy way to classify a given data set through a certa
+number of clusters (assume k clusters) fixed a priori. The algorithm is composed o e
+following steps: t
+1. Place K points into the space represented by the objects that are being clustered
+These points represent initial group centroids. : 8
+2. Assign each object to the group that has the closest centroid. -
+3. When all objects have been assigned, recalculate the positions of the K centroids.
+4. Repeat Steps 2 and 3 until the centroids no longer move. This produces a separatic
+of the objects into groups from which the metric to be minimized can be calculat ;
+Suppose that we have n sample feature’ vectors X1, X2, <.y X all from the same dl&l
+we know that they fall into k compact clusters, k < n. Let mi be the mean of the ve¢ ors
+‘ cluster i. If the clusters are well separated, we can use a minimum-distance classifi
+separate them. That is, we can say that X is in cluster i if || x - m, || is the minimum of
+~ thek dxstapc.e:s. This suggests the following procedure for finding the k means: ‘ E
+* Make initial guesses for the means m;, my, ..., my S
+’ *  Until there are no changes in any mean il
+©  Use the estimated means to classify the samples i -
+. S Int Fi
+, o Forifrom I tok j g i i s
+* Replace mi with the mean of all of t ] i e
+o end for _ he samples for cluster i A
+¢ end_until ‘ B

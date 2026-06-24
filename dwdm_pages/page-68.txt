@@ -1,0 +1,50 @@
+POPULAR PUBLICATIONS B
+> MODEL QUESTIAs
+3. What is Web Structure Mining? ' L . gl
+Answer: : ' . . (i
+Web structure mining is the application c?f discovering structur:‘:)cl LllfO:":t;lon Tom
+web. The structure of the web graph consists of web pages as NOTES, anc Ayperiinkey
+' : ‘ine basically shows the structured summan.
+edges connecting related pages. Structure mining : d Summa,
+i e S .o nchip between web pages linked by informgg.
+of a particular website. It identifies relationship o e Matig
+or direct link connection. To determine the connection O comm
+websites, Web structure mining can be very useful. - o
+Long Answer Type Questions :QJ'
+1. Discuss about mining multimedia data on the web. [MODEL QUESTY ., ‘
+Answer: : ¢ mulsimedia infa 7
+Multimedia data mining refers to the analysis of large amounts of mu timedia .v.‘_f-_ 0
+in order to find patterns or statistical relationships. Once data is collfac?ed, computer
+programs are used to analyze it and look for meaningful connections. Thl.s. info ation i
+often used by governments to improve social systems. It can also be used in market;
+discover consumer habits. i
+Multimedia data mining requires the collection of huge amounts of data. The sampl‘e
+is important when analyzing data because predicted trends and patterns are more likely te
+be inaccurate with a smaller sample. This data can be collected from a number of
+, different media, including videos, sound files, and images. Some experts also consider
+l A spatial data and text to be multimedia. Information from one or more of these media i
+, the focus of data collection.
+| Whereas an analysis of numerical data can be straightforward, multimedia data analysis
+requires sophisticated computer programs which can turn it into useful numerical data
+There are a number of computer programs available that make sense of the info ui
+gathered from multimedia data mining. These computer programs are used to search for
+relationships that may not be apparent or logically obvious. B
+_When multimedia‘is mined for information, one of the most common uses for this
+information is to anticipate behavior patterns or trends. Information can be divided into
+classes as well, which allows different groups, such as men and women or Sundays anc
+Mlon_days,. to be? analyzed separately. Data can be clustered, or grouped by u,,;‘\_;f;'
+::( :;gxl]:hlp, which can help track consumer affinity for a certain brand over
+Vhf"l:;m;di; data mining has a number of uses in today’s society. An example of thi
+: ould be the us . : My
+S 1S 1 Jols . . ra
+T e i} reets, expanding exnstlr!g streets, or diverting tratt
+ganizations and city planners can use the inf . ffic flo
+more smoothly and quickly 5¢ the Information to help tra
+While the term'data minj | . il
+n * I 4 LR
+for & long time, Groceryg ;:orr eelsat“f'ely new, the practice of mining data has been arou
+censumer behavior by collectine ¢ or example, have long used data mining to U
+: y collecting data from their regi : i
+sales information can be . _ egisters. The numerical data re iny
+Y @ computer program to learn what people are bt
+DWM-68 :

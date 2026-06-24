@@ -1,0 +1,43 @@
+o
+™ Part: When existing databases are aggregated, a battom-up approach (o the design o
+distribution can be used. This approach is based on the integration of existing
+Sae into a single, global schema. It should be noticed l!mlhebonqmoupwmdllulh
+xhom ":::' Jess easily to the development of horizontally fragmented relations.
+Alcaton Datahase
+, U s
+111111-_:::.____‘_ Appheation Primitive DBMS
+oy g
+: lﬁ&: :M;fh: -
+[ ) =
+E —— (a) Remote access via DBMS primitives
+=Sk |
+Request for
+Executon of
+Figure shows 2 reference architecture for a distributed database. At due top level there in Apphestion |- Auvlary DRMS,
+global schema. The globel schema defines all the data which are contained in the g — !
+&m’hmddnhxsifdtﬂnmud’mﬂmdldl.hmismﬂ Seel
+globel schema can be defined exactly in the same way as in a non distributed database. T Gkl Rt I N Y I
+The global schema coasists of the definition of a set of global relations. Awuliary (| DBMS; ) Pomavesand
+Each global relation can be spit into several non-overlapping portions which are called p o e
+fregments. The mapping between global relations and fragments is defined in the ) R
+fragmentation schema. This mapping is one to many; i.c. several fragments comresponds (b)m“‘ﬂ“"‘""mhﬂym
+to ane gobel eation, but nly are glol relat k to one fragment AhctuogmemsDDBMSmsmudaluntwodiﬁamDBM&Hm
+Fragments are logical portions of global relations which are physically located at pne or DDBMSs dd the problem of transating between the different data models of the
+several sites of the network. The allocation schema defines at which site(s) a fragment is diffrent local DBMSs to the complexity of homogeneous DDBMSs. For this reason, if
+bl ' mcdcvglo?tnulofadmib\nedchnhukpufumedtop-downwidmamm
+S)m!mwmfmiqnwdmlopahomgamsyﬂmem,ashmwm
+b) The diagram that replicated copy of R2 of fragment R1 is allocated into different sites the previous section, In some cases the motivation for creating a distributed database is
+asR/}andR,'is: ~ e the necessty of integrating several prexisting databases; in this case it i required to
+’"‘ /u :ﬁgm?w&mmwma global view of the database.
+o MuogumDDBMSsmvaymmumgfmm|
+g:.“.“_" "“WDPBMSSuiﬂaﬂyumrdnmmmiumubcmu:
+~n,~u Risite2 commercially available systems mvidesmudegmofsuppm for heterogeneity.
+ST 4. Write short notes on the following: [MODEL QUESTION]
+G o a) Transparency .
+¢) When the distributed database is developed s the aggregation of existing databases, jl b) Heterogeneous databases
+is not easy 1o follow the top-down approach. In fact, in this case the global schema is Answer:
+often produced as a compromise between existing data descriptions. It is even possible 4) DBMS Transparency:
+that each pair of existing databases is independently interfaced using a different The term DBMS transparency refers to the ability of DDBMS to hide the implementation
+translation schema, without the notion of a global schema; this, however, leads to systems details from the user. Thus the fact that a distributed database is split into several
+which are different in conception from the reference architecture.
+DDMS-14 | DDMS-15

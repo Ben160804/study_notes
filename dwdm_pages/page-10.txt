@@ -1,0 +1,36 @@
+2" Part: : , Lo
+An application of data mining is market segmentation. With market segmentatic
+company will be able to find behaviors that are common among its C“sm,
+look for patterns among customers that seem to purchase the same ;émducts at the-
+time. Another application of data mining is called customer cfhum. ust .
+allow a company to estimate which customers are the most likely to stop purch sing
+products or services and go to one of its competitors. ‘ ==
+b) The Following Steps Are Usually Followed In Data Mining. These steps are
+with the process moving backward whenever needed. . e
+1. Develop an understanding of the application, of the relevant prior knowledge, nd o
+the end user's goals. ' | e ;-
+2. Create a target data set to be used for discovery. -
+3. Clean and preprocess data (including handling missing data fields, noise in the
+* accounting for time series, and known changes). fay 5 3
+4 Reduce the number of variables and find invariant representations of data if possible.
+' 5. Choose the data-mining task (classification, regression, clustering, etc.). P
+6. Choose the data-mining algorithm. i
+7. Search for patterns of interest (this is the actual data mining). : e
+' 8. Interpret the pattern mined. If necessary, iterate through any of steps 1 through7.
+9. Consolidate knowledge discovered and prepare a report. ' ' i
+¢) The given eight points were: ‘ : S
+Al:(2,10) e
+A3:(8,4) 7
+BI: (5, 8) ' T e
+B3: (6,4) | : o e
+EEfT) - ‘ T el R
+1 C2:(4,9) ' | | i
+The points Al, B2, and C1 were assumed to be the initial three cluster centres.
+two possible ways of clustering the given points using the k-means algorithm, depen din
+on to which cluster we assign the point B1: : T A
+The first way: ’ i e
+1.1. Round One: ; S _'*
+— Compute for each of the eight points its distance from eac oentm‘ | , i
+= 'll‘thteoctll:;:fcelrlil,s‘te;g)er’:‘hicz it is most similar. bl Sl o
+ClugteF B Bi i € first round execution is: o " ‘3'
+- Cluster 2: B2, A3, B3 | e

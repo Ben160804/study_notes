@@ -1,0 +1,43 @@
+.
+. NIRIBUTED DAL ke) i.:
+m L)
+o oo chudy sy, & A O o i TRANSACTION MANAG
+xmnu.uu-umt-:umnmma
+wmhhndhhﬂﬁmhthmm Juest! \
+uuu&mumum.mmmu A
+i g CTO S e om0 b Bt s o . . MODEL QUESTIN,
+‘“F*“hhﬂﬂmuﬂ:mm 3 hobegh b pint g gt
+::mmmmemtw seahaby, aod ) it
+L)
+““.lluh Tt o mmation | ool R ovample, e :“"‘"{,"
+M.uucnmcm-ﬁ.h.mw« Anwer: @)
+e, whe e ity of oot amng It 8 B aenaie — [MODEL QUESTION
+&uunuuu-&muaua«:mmu o i< -l ) infarmation
+.n*ima“da““dm Answers (3)
+nuummhuhumn .
+mwm X Granularity means Qhoska Nﬂtm
+| proge: s of data
+vhh-h-u-mumw mﬂ 1@ P
+hnh-wunq“l\-&uuhﬂn
+uusuumauuumuumnm 4 Which of the following refers 1o the operation of copying and maintalning
+e e o kg s sy s D By “‘“*'*Mw&mmmw&nm
+mﬂh&ﬂhw*mhhsmw :mw & None of theee
+:muumuummummuma Awwer: (©)
+® presened afl e wme. Main @ifrence between intogrty and sy s e communicate distributed information
+Sy s with e valiity of dhe, whike security o with protecion of dany wmrwn:mwmwm::
+M‘m*uwdmwiun i IMODEL QUESTION]
+m«tm»mm‘hlmm a)Rootagent  HDTM QLN d) None of these
+dnﬁqamdhn&u&hm.ww Answer: ()
+ln‘hnnsenkmdhlntm‘qdm.
+B IMODEL QUESTION)
+a) site b) network ©) partition d) coardinator
+| Answer: ()
+T.The Nighest level in the Nierarchy of data crganization s called
+‘ [MODEL QUESTION
+; adatabank  b)datadase <) data fle 4) data record
+Answer: ()
+lMdNMMMNM‘NM
+‘ updated or none of them? mmm:
+' a) read one write al B) two phase commit
+€) two phase locking 9 update propagation
+DDMS-66 { DDMS-§?

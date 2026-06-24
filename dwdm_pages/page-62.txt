@@ -1,0 +1,44 @@
+POPULAR PUBLICATIONS : L
+e) WUM: : ' i tions can be carried out over the Webhag
+speed with which business transac : . i .
+I::neisi:; ddripving force in the rapid growﬂ.n of electronic c;mr?f'?EZit fe%e(;“ﬁ?:x}'_.rg 8
+commerce activity that involves the end user 18 u’ndt?rggm% ;‘1 ougsr; clicks has il ht n‘r 8
+ability to track users' browsing behavior dowrtl) t?olrr;dll\fcl isanow ocsibleong vendof‘ﬁ' 3
+n ever betore. :
+vendor and end customer closer ;hafor . dividual customers at a massive scale, 3
+personalize his product messag customization. The scenario described |
+phenomenon that is being referred to as mass o & mining (WUM), which is the i
+above is one of many possible applications of Web : sag f usnge patterns from WM
+process of applying data mining techniques to the c.hS:COVCg’ s associated it Weh, -
+data, targeted towards various applications. Data mining erforts e. content mining o
+called Web mining, can be broadly divided into three classes, 1.€. ll&agmr 5
+mining, and structure mining. . e
+. -
+24.5 builds decision trees from a set of training datf«.l in the saTe Wlay ;5 1D3, lt{s:llrge:e A
+concept of information entropy. The training data. is a §et § = {8l 51,- )22 a dy a
+} classified samples. Each sample si consists of a p-dlmensmnal vector (x1,1, oL ...,)fp,l)! ;—"
+where the xj represent attributes or features of the sample, as well as the class in which st
+falls. , : "
+At each node of the tree, C4.5 chooses the attribute of the data that most fef'fectlv-ely §pl§s i
+its set of samples into subsets enriched in one class or the other. Tl_le‘splltt}ng criterionis
+" the normalized information gain (difference in entropy). The attribute with tl}e highest
+normalized information gain is chosen to make the decision. The C4.5 algorithm then
+recurs on the smailer sublists. ' .
+This algorithm has a few base cases: '
+e All the samples in the list belong to the same class. When this happens, it simply
+creates a leaf node for the decision tree saying to choose that class. : 14 :
+e None of the features provide any information gain. In this case, C4.5 creates '
+decision node higher up the tree using the expected value of the class. )
+° Instancie of previously-unseen class encountered. Again, C4.5 creates a decision
+EOS node higher up the tree using the expected value. | vt
+Pseudocode | | ‘1
+In pseudocode, the general algorithm for building decision trees is: '
+1. Check for base cases ‘ . _ 5o
+2. For each attribute a 0 AR
+* Find the normalized infi ' " " 4l
+3. Leta_best be the attribute vvoifcrl??ltlle:ofrlligﬁg}stritm frc;{n sp! g H
+4. Create a decision node that splits on a_best S o %
+5. Recur on the sublists obtaj STitt: e
+ained : wor
+children of node by splitting on a_best, and add those ne ’ j‘
+: DWM-62 o

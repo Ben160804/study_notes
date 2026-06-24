@@ -1,0 +1,30 @@
+D. hci SR
+| (Multiple Choice Type Questions) ‘ ' \0*
+, Choose the correct alternatives for the foliowing: AL 5:}
+i Check-pointing is associated with \;it\u\\:
+v 3) log based recovery 23
+?) g b) non-log based recovery k > ‘Q\\\
+¢) both (a) and (b) d) none of these A \\;
+i) The different levels of data abstraction are < }3
+a) physical level D) logical level : A2 \
+c) view level v'd) all of these
+ii) The strategy for processing a query is improved by 3 s :‘\QQ
+a) query evalu-atjvon | b) decomposition \;\%t
+¥'c) query optimization d) none of these > \\:'SQ
+v) Viewis a \A\\E&
+a) temporary table  ¥'b) virtual able c) SQL statement d) query X:\“‘
+v) DML stands for S\«\\ss\
+v'a) Data Manipulation Language b) Data Media Language : %A\\i\s?\
+¢) both (a) & (b) d) none of these ; QAN
+vi) Closure of F is N 3\\\\\)\1
+a)F v'b) F+ c) F- d) F++ \\\\\i
+vir) Transaction follows - \~§§}
+v'a) acid properties b) non-preemption property \\§
+¢) preemption property d) starvation property : \\“\\E
+vill) Relations produced from an ER-model will always be in : :\Ni
+v'a) INF b) 2NF c) 3NF d) 4NF 3 \\\\\\
+) BCNF stands for T PN ES
+2) Boyle Codd Normalization b) Boyce Cold Normal Form ._ :E\«:’(\g
+¥'¢) Boyce Codd Normal Form d) none of these )\t‘\\\\
+
+DBMSCS-145 ™

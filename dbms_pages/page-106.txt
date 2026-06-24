@@ -1,0 +1,61 @@
+POPULAR PUBLICATIONS
+Consider the following example transaction from before:
+Read (Sno = x, Salary)
+Salary = Salary * 1.1
+Write (Sno = x, Salary) .
+For the Read operation, the DBMS performs the following steps:
+—  Find the address of the disk block containing the record with key value x.
+—  Transfer this disk block into a database buffer in main memory.
+— Copy the salary data from the database buffer into the variable Salary.
+For the Write operation, the following steps occur:
+—  Find the address of the disk block containing the record with key value x.
+— Transfer this disk block into a database buffer in main memory.
+— Copy the salary data from the variable Salary into the database buffer.
+—  Write the database buffer back to disk.
+The database buffers function as an intermediate storage location (or cache) to minimize
+the cost of reading and writing data on disk. So, it is common to delay writing them to
+disk until absolutely necessary. It is only once the buffers have been flushed to disk that
+any update operations can be regarded as permanent.
+The flushing of buffers can be triggered by special commands (e.g., transaction commit),
+or automatically when the buffer becomes full. Explicit flushing of the buffers is called
+force-writing. Failure may occur between writing to the buffers and flushing the buffers
+to disk. In this case, the recovery manager must determine the status of the transaction
+that performed the write at the time of failure. If the transaction that wrote prior to failure
+had issued its commit, then the recovery manager must redo the transaction’s updates to
+ensure.
+
+5. What is the single most significant difference between two-phase locking and
+l the time-stamping technique concurrency control? Explain briefly. [WBUT 2014]
+_ OR,
+
+Explain two-phase locking protocol. ‘ [WBUT 2016]
+
+OR,
+
+What_is the main difference between two-phase locking and the time stamping
+
+technique concurrency control? Explain briefly. [WBUT 2019]
+
+Answer: ' ’
+
+Tw_'o Phase Locking - 2PL '
+
+g:;ts 103(}:25 pr?tOCOI c_iivides transaction execution phase into three parts. In the first
+
+, N rans.actlon starts [ ok acquisition phase
+
+€xecuting, transaction look for Releasing phase
+
+grant of locks. Second part is \
+
+where the transaction acquires all / |
+
+locks and no other lock s required.
+
+Transaction keeps executing its , .
+
+operation. As soon as the L Trend Time
+
+transaction releases its first lock, Fig: Two Phase Locking
+DBMSCS-106
+i A

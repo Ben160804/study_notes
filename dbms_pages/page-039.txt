@@ -1,0 +1,38 @@
+J—
+DATABASE MANAGEMENT SYSTEMS
+| Multiple Choice Type Questions
+1. View is a _ [WBUT 2007, 2015]
+a) temporary table  b) virtual table ¢) SQL statement  d) query »
+Answer: (b)
+2. Four DML commands are [WBUT 2009, 2012]
+‘ a) CREATE, UPDATE, DELETE, SELECT
+, b) INSERT, UPDATE, DROP, SELECT
+{ ¢) INSERT, MODIFY, DELETE, SELECT
+’ d) INSERT, UPDATE, DELETE, SELECT
+Answer: (¢)
+3. SELECT operation in SQL is a [WBUT 2010, 2012, 2017]
+a) data query language b) data definition language
+c¢) data manipulation language d) data control language
+Answer: (¢) '
+4. Atriggeris [WBUT 2011}
+a) a statement that enables to start any DBMS
+b) a statement that is executed by the user when debugging an application
+program
+_ ¢) a condition the system tests for the validity of the database user
+d) astatement that is executed automatically by the system of a modification
+Answer: (d) ‘
+5. One difference between TRUNCATE and DELETE command is [WBUT 2011]
+a) TRUNCATE deletes the table but DELETE only deletes records
+b) DELETE operation can be rolled back, bud TRUNCATE operation cannot be
+rolled back ) :
+c) TRUNCATE can be rolled back but DELETE cannot be rolled back
+d) TRUNCATE is a DML command but DELETE is a DDL command
+Answer: (b) : :
+| 6. Consider the primary key foreign key relationship between Employee ar!d
+Department table via Dept ID column. If you try to delete a department in
+Department table which is referred in Employee table, Oracle by default does not
+allow this. This is known as ON DELETE ......cccoeeveninenes [WBUT 2011]
+a) SET CASCADE : b) SET DEFAULT
+¢) RESTRICT d) SET NULL ,,
+Answer: (a) |
+} : DBMSCS-39

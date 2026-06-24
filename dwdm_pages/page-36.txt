@@ -1,0 +1,45 @@
+i
+POPULAR PUBLICATIONS
+equation for Gain is just the entropy of the original cczlllec?lorla?t r?gﬂt;hj\ Seﬁc\)nd term is
+the expected value of the entropy after S is partitione us'ff'gh sosal il e CXpecteq
+entropy -described by this second term is simply the sum of the en ropies of t_.each Subs
+Sv, weighted by the fraction of examples [S,|/|S| that belong to S,. Gain (S,A) is therefore
+the expected reduction in entropy caused by knowing the value of attribute A. Put angpg, ¥
+i i i i rovided about the target attribute value, given
+way, Gain(S,A) is the information p _ ‘ ber of bi the s
+value of some other attribute A. The value of Gain(S,A) is the number of bits saved Whﬂn
+encoding the target value of an arbitrary member of S, by knowing the value of attribqu
+A decision tree can be constructed top-down using the information gain in the foll. Wi .
+way: i
+1. begin at the root node ' . P i
+2. determine the attribute with the highest information gain which is not already
+used as an ancestor node . &
+3. add a child node for each possible value of that attribute e
+4. attach all examples to the child node where the attribute values of the examples .
+are identical to the attribute value attached to the node :
+5. .if all examples attached to the child node can be classified uniquely add that g
+classification to that node and mark it as leaf node 3
+6. go back to step two if there are unused attributes left, otherwise add the
+. classification of most of the examples attached to the child node T
+b) Advantages of Decision Tree model : ¥
+' ¢ Decision tree methods tend to produce models that are easy to interpret. At each no s'-_."
+terminal node, a decision is based upon just one predictor variable and this makes it
+easy to follow. For example, to explain particular classification one need only look at
+the series of simple decisions that led to it. The final tree model can in-fact be cast
+into a set of rules one can follow to classify a given case. In comparison, general‘»_
+linear models use linear combinations of variables that can be difficult to interpret or
+explain.
+* Tree models make no assumptions about the distribution of the underlying data and
+- they are thus a non-parametric procedure. This. can be especially useful if the
+- distribution of the data is indeed unknown, something that happens a lot in practice.
+* Decision tree methods are easily able to handle both categorical and continue s
+variables. i
+* Decision tree methods have a built-in feature selection method that makes hem
+iImmune to the presence of useless variables. Such variables are ignored and they do
+no affect the tree building process. This is a common problem with over-parametized
+. datasets. . o
+: gi; g‘r‘;izl; :tfe :’ef)’ adf‘apt'at.rev_ealing comple.x ipteractions betwegn \Z:
+S :a rren? can r::ontam d.lffe_rent combinations of variab-les and ﬂi@-_ v
+et %p ore than once m. dlfferent pa.rts of the tree. This can IM L
+€ can depend on another and in what specific context this dependency € iy
+' DWM-36 | o

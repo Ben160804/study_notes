@@ -1,0 +1,41 @@
+DATA WAREHOUSING AND DATA MINING |
+ransactions of D into » nonoverlapping partitions. If the minimum support threshold for
+jransactions 1n D s R B .then the minimum support count for a partition is minsup,
+the number of transactions in that partition. For each partition, all frequent itemsets
+within the partition are found. Th.ese are referred to as local frequent itemsets. In Phase I,
+a second scan of D is conducted in which the actual support of each candidate is assessed
+, in order t0 determine the global frequent itemsets. Partition size and the number of
+partitions are set so that each partit.ion can fit into main memory and therefore be read
+only once in each phase. The following figure describes the phases. .
+Phase | ' Phase II
+DivideD | = | Findthe - Combine all Find global
+: : frequent Frequent
+f : -' :
+| local to form among -
+A . each . candidate candidates
+partition itemsets )
+Apriori algorithm needs many database scans and for each scan, frequent itemsets are
+| searched by pattern matching, which is especially time-consuming for large frequent
+‘ itemsets with long patterns. Partition algorithm uses the intersection of transaction ids
+‘ (tids) to determine the support count. Because it performs a breadth-first search, it
+partitions the database into blocks in which local frequent itemsets are found to overcome
+the memory limitations. An extra database scan is needed to determine the global
+frequency of local frequent itemsets.
+4. What is clustering? Discuss two main methods of clustering. [WBUT 2010]
+Answer: _
+1" Part: Refer to Question No. 1(a) (1 * Part) of Long Answer Type Questions.
+E 2"Part:
+The non-hierarchical techniques in general are faster to create from the historical
+database but require that the user make some decision about the number of clusters
+desired or the minimum “nearness”. required for two records to be within the same
+cluster. These non-hierarchical techniques are often run multiple times starting off with
+Some arbitrary or even random clustering and then iteratively improving the clustering by
+Zlg:ftﬂmg some records around. These techniques sometimes create clusters that are :
+the; :j(i:?th only one pass through the database .ad_dmg rccord-s to existing c{usters_ when
+S recoigd gre‘atmg new clus!e_rs when no existing cluster is a good candidate for the
+b Choic. efcausg the de_ﬁnlllon of which clusters are formed can depend on these -
+| e technies of which starting clusters should be cho_sen or even how. mgny clusters _
+‘ SOMetimes cgelzfs c'at? be less repeatable than the hierarchical techniques and can ;
+. Predeterm: ¢ either too many or too few clusters because the numt.m‘ of clusters is iy
+| ined by the user not determined solely by the patterns inherent in the database. |
+3 - » S 7 i AL *;

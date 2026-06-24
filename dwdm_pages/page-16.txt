@@ -1,0 +1,51 @@
+cardholder may be different in each. Software must translate data from one ystem
+another and select the address most recently entered. ; ey
+A hotly debated technical issue is whether it is better 10 S€t Up @ relational database
+structure or a multidimensional one. In a relational structure, data is stored in ta les,
+permitting ad hoc queries. In a multidimensional structure, on the other hand, 15 of
+cubes are arranged in arrays, with subsets created accorfllflg to category. Whi
+multidimensional structures facilitate multidimensional data mining, !ehuond tructures
+thus far have performed better in client/server environments. And, with the explosion of
+the Internet, the world is becoming one big client/server environment. g .
+
+" Finally, there is the issue of cost. While system hardware costs have dre pped
+dramatically within the past five years, data mining and'data warehousing ‘3“‘! W > &
+reinforcing. The more powerful the data mining queries, the greater the u.tlllty of the
+information being gleaned from the data, and the greater the pressure to increase the
+amount of data being collected and maintained, which increases the pressure for
+more powerful data mining queries. This increases pressure for larger, faster systems,
+which are more expensive. T
+d) Text mining: ) e
+Text Mining is the discovery by computer of new, previously unknown information, by
+automatically extracting information from different written resources. A key element is
+the linking together of the extracted information together to form new facts or new
+hypotheses to be explored further by more conventional means of experimentation.
+
+' text mining, the goal is to discover heretofore unknown information, something that no
+one yet knows and so could not have yet written down. - o
+The difference between regular data mining and text mining is that in text mining the
+patterns are extracted from natural language text rather than from structured databases o .
+facts. Databases are designed for programs to process automatically; text is written for
+people to read. We do not have programs that can "read" text and will not have such for
+
+ the forseeable future. Many researchers think it will require a full simulation of how the
+
+mind works before we can write programs that read the way people do. S
+¢) DBMS vis-a-vis Data Mining: | i
+DBMS and data mining answer different queries. Data mining helps in predicting future
+whereas DBMS gives reports. _ "
+Example DBMS Reports s o
+
+* Last months sales for each service type L
+
+. Sa'lles per service grouped by customer sex or age bracket i
+
+*  Listof customers who lapsed their policy i
+Questions answered using Data Mining S
+
+e What characte.ristics do customers that lapse their policy have in common
+
+. l&c;rvlv do they differ from customers who renew their policy? _
+
+ich motor insurance policy holders would be potential customers for
+~ House Content Insurance policy? ol i R

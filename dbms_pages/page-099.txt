@@ -1,0 +1,50 @@
+‘ DATABASE MANAGEMENT SYSTEMS i
+7. Write short notes on the following: |
+a) B-tree !
+
+p) File indexing [WBUT 2013, 2019]
+c) B+ tree [WBUT 2016]
+OR, [WBUT 2016]
+B+ tree file organization
+d) Ordered Index [WBUT 2018]
+e) Primary Index and Secondary Index : IWVISH 20373
+, [WBUT 2018]
+Answer:
+a) B-tree: .
+
+. et andl fhase Revs pant i TREN non- eaf npde is one less than the number
+| of its chi ysp on the keys in the children in the fashion of a search
+| tree. {\ll leaves are on .the'same level. All non-leaf nodes except the root have at least (m/
+| 7] children. The root is either a leaf node, or it has from two to m children. A leaf node
+| contains no more than m — 1 keys. The number m should always be odd. A corresponding
+| B-tree allows search key values to appear only once. Thus we can store the index in less
+| space.
+
+b) File indexing:
+The sorting of a large database file is a very consuming operation. Also, since record
+searching is done in main memory, all the records, in the case of a sequential search,
+must be read in the main memory one by one. This process incurs huge I/O time. In
+general, data in a base file are ordered according to an ordering attribute. .* file can have
+only one ordering attribute which is the primary key of the concerned table. But an
+application programmer may wish to sort the records according to any of the available
+attributes. In order to avoid huge sorting and searching times, indexed sequential access
+method (ISAM) has been developed. For indexed sequential search, an auxiliary file
+called an index file is created beforehand. A file index is a data structure that is used for
+speeding up the processes of record search and retrieval in a database. An index is
+| generally created on a key attribute of a database file (index on other attributes are also
+| possible). :
+| In the simplest case, an index file contains only one field containing the set of values of
+| the key attribute. During a record search operation, the index file in main memory and the
+search process is applied over it (for the required key value). Once the desi{ed key value
+| is found, the serial number of the record in physical database can be determined from the
+index location and the desired record is read directly. . -
+
+| Index file structure and access mechanism can be of different types. In the simplest
+situation, as discussed above, and index file comes with an overflow area in order 1o
+provide the facility for insertion of new records. When an index entry In maintained for
+each record of complete base file, it is called full indexing. MOMEUMES, actqal e
+records are divided logically into smaller group> (blocks) and the index file contains only
+one entry for each record separately. Here search i_s d_one for blocks of recdords Only‘i
+Sl.nce' disk I/O is generally performed on a block basis (i.e. one block of records are rea
+
+_ DBMSCS-99

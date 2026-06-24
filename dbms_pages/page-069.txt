@@ -1,0 +1,43 @@
+r
+DATABASE MANAGEMENT SYSTEMS
+SNFﬁ fi is also know ject-ioi ion is i
+The 5" normal form 1s also known as project-join normal form. A relation is in fifth
+normal form (SNF), if it is in 4NF (fourth Normal Form) and won’t have lossless
+! decomposition in smaller tables.
+3 ¢) Given R(A,B,C,D) with FD's F={A->B,A->C,C->D}) Consider the decomposition of
+Rinto R1 (A, B, C) with FD F1={A-> B, A-> C } and
+R2 (C, D) with FD F2= {C—> D}. ;
+s this decomposition lossless and dependency preserving? Explain. [WBUT 2007]
+Answer:
+Lossless Decomposition: :
+Let R having the decompositions R1 and R2 with given set of FD’s say F , then R1 and
+R2 to become lossless then at least one of the following functional dependencies should
+hold in '
+R1 N R2——RI1
+RINR2——>R2
+From the given FDs C—— D,
+C-> CD —— R2 [decomposition is loss less]
+Dependency Preservation
+Result = (Result N R1)* NR2
+F= {A->B,A->C,C->D}
+F+'= {((A->B,A->C,C->D,A->D) N ( A-> B, A->C) ) N ( C—> D) }
+= {A->B,A->C,C->D }
+Thus F= F+’ [Hence dependency Preserving]
+4. If ‘D’ be the set of all functional and multivalued dependencies then write the
+rules to compute the‘D+ (Closureof D). [WBUT 2007, 2010]
+Answer:
+We can find all of D+ by applying Armstrong’s Axioms:
+* ifBca, then a — B (reflexivity)
+* ifa— B, thenya — v B (augmentation)
+* ifa—>f andP -7, theno -y (transitivity)
+5. Explain the following terms ‘Fully functional dependency’ and ‘non transitive
+dependency’ with examples. [WBUT 2008]
+Answer:;
+: An_ attribute is fully functionally dependent on a set of attributes X if it is
+_ I functionally dependent on X, and
+1. not functionally dependent on any proper subset of X. {Employee Address} has a
+functional dependency on {Employee ID, Skill}, but not a full functional
+dependency, because it is also dependent on {Employee ID}.
+A non-transitive dependency is one in which an attribute is dependent on a non-key
+attribute in that table. There is no dependency between non-prime key attributes.
+i DBMSCS-69

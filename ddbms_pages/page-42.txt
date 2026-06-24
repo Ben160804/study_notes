@@ -1,0 +1,46 @@
+g
+Messages (i‘_&‘:. in state w1), it aborts the transaction upon recovery, according to the curn (1
+failure transition. The cohorts time out waiting for the prepare message, and also abort :;se
+the transaction as per the timeou transition. return (NPSQuorum);
+Phase I1l : Z:g
+In the third phase, on receiving acknowledgements to the Prepare messages from all the i
+cohqn;. the coordinator sends a Commit message (o all the cohorts. A cohort, on Algorithm for Write Quorum Construction:
+receiving a Comnl message, commits the transaction. If the coordii..t~r fails before Function Write Quorum(Trees): QUORUM;
+sending the commit message (i.c, in state pl), it commits the transaction upon recovery, var NeSOGceum, children: (UONDM;
+according to the failure transition from state PL. The cohorts time ot waiting for the * o ivaE DOSRIIIRGEG
+Comm!l message, They commit the transaction according to the timeout transition from begin
+state pi. However, if a cohort fails before sending an acknowledgement message to a - e
+Prepare message, the coordinator times-out in state pl. The coordinator aborts the e Sl
+transaction and sends Abort m toall th e . return ({ )); :
+ill abort th i 5 . eCOMﬂS-Thtfalledcohm,uponmovery, else if all nodes of NPS (node) is already taken then
+Wil abort the transaction weorc_lmgto the failure transaction from state wi. for each child ¢ children
+3Ph?5°°°mm““““b!°°h§¢“llphmmuwcrbom\donﬂnmmofﬁme NPSQuorum = NPSQuorum U
+required before 2 transaction either commits or aborts. This property ensures that if a WriteQuorum = (child subtree);
+given mwm 1S attempting to commit via this protocol and holds some resource else if all nodes of NPS (node) are accessible then
+locks, it will release the locks after the timeout. begin
+NPSQuorum = NPSQuorum U
+b) In a distributed database system, a transaction could be executing its operations at (any node among node and is siblings);
+multiple sites. Since atomicity requires every distributed transaction to be atomic, the |
+transaction must have the same fate (commit or abor) at every site, In case of network fax s Ehi3d & cltidum
+partidoning, sts are parttioned and the partions may no b abl t commuricate with g o SO
+each other. This is where a quorum-based technique comes in. The fundamental idea is If unable to take any node from NPS(node)
+that a transaction is executed if the majority of sites vote to execute it return ({ });
+1 Every site in the system is assigned a vote Vi. Let us assume that the total number of else .
+votes in the system is V, and the abort and commit quorums are Va and Vc, respectively. return (NPSQuorum);
+end
+Algorithm for Read Quorum Construction: else
+Function Read Quorum (irees): QUORUM; return ({ });
+var NPSQuorum, children: QUORUN; i
+gi:m’ e 5. What aro the uses of catalogs in DDBMS? What are the contents of catalog?
+node = root of the tree; Ho«nhlopmnlloahdhdlﬂmntaolz'ln DBMS?
+gtﬁ“"(‘f)‘j“’ Foat Describe how you will manage the storage and allocation of a global system
+else if all nodes of NPS (node) are accessible then catalogue in a distributed DBMS. [MODEL QUESTION]
+return (each node of NPS(node)); Answer:
+s 3) The Global System Catalog holds information specific to the distributed nature of the
+begin system, such as the fragmentation and allocation schemas. A site catalog describes all
+children = children of node; objects (fragments, replicas) at a site and keeps track of replicas of relations created at
+for each node ¢ children his site,
+NPSQuorum = ReadQuorum(child Subtrees); Contents of catalog: It stores not only data regarding relations, indexes, users, etc, but
+1If all nodes of NPS(node) are inaccessible then also all the necessary control information for independence in the following manner:
+DDMS-82 DDMS-83
+e = » 13

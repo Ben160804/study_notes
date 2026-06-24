@@ -1,0 +1,39 @@
+POPULAR PUBLICATIONS ]
+3
+9. Define the following: [MODEL QUESTION]
+i) Derived attribute [
+ii) Domain 4
+iii) 1 to Many relationship ‘ :
+iv) Projection |
+v) Union compatibility E
+Answer: :
+i) Derived Attribute: a
+The attribute values which are not a part of the entity but can be computed in association |
+with some other stored attributes. It is not stored but can be computed as required.
+\)crncd attribute 'i
+For example the age of a person which can be computed by subtracting the dob from the :
+current date.
+i) Domain:
+Each simple attribute of an entity type is associated with a value set, which specifies the
+set of values that may be assigned to that attribute for each individual entity.
+e.g., If the range of ages allowed for employees is between 16 to 70. We can say that the
+domain of age attribute in employee table is (16—70).
+iii) One-to-many:
+1: M, exists when one occurrence of the first entity can be related to many occurrences of |
+the second entity, but each occurrence of the second entity can be associated with only |
+one occurrence of the first entity. :
+iv) Projection Operator: The projeclion_operatiop projects all or an attribute or a set of }
+selective attributes from a relation. It is a vertical subset of the given relation. The J
+operation is symbolized by 7. ‘ t3}
+The syntax of the projection query Is:
+T <List of attribute num.esl offset position > (Relation Name)
+For example, let us execute the following queries using the relation Employee
+Find the employees whose EMP# is greater than 100 and less than 104 and Working 4
+under the manager Patel and show all the attributes 3
+. n emp#» Name, Dept, Managcr(o Emp>100 A Emp<104AManager="Patel’ (EMPLOYEE)) i
+:
+v) The operations union, difference, intersection are union compatible. Any two relations :
+A anq B are said to be uni.on comp_atlble if A_and B are of the same degree say ‘n ‘and the ;
+domain of the corresponding n attributes are identical.
+i.e. if A=A{aa,,.......,a,} and i
+_ o DBMSCS-32 :

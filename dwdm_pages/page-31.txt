@@ -1,0 +1,30 @@
+J— .
+DATA WAREHOUSING AND DATA MINING
+" Here is an example showing how the means m1 and m2 move into the centers of two
+clusters. A
+. % Final : |
+‘e f : Boundary :
+) Start m X -
+' 3. a) Introduce the concept of Support, Confidence and Frequent Itemset and then
+ﬂ give a formal definition of Association Rule.
+b) Generate all Frequent Itemsets from the following transaction data given
+.' minimum support = 0.3.
+~ TID | fems | TD | items | '
+1 | ABGE | 6.7 |
+1 — 2 | BO0E | T DI SR
+'- 3 | 8¢ |8 [TUANEEE
+- —a_ [ —ABD | 0 0 TR
+i 5 1 A&C | A0 e
+¢) Find the Association Rules from the above Frequent sets at min. 50%
+3 confidence. _ [(WBUT 2010]
+' Answer: , v
+a) Refer to Question No. 2 of Short Answer Type Questions. :
+{ b) Passl -
+P e (w0 | |
+, {E 5/10
+Pass2
+B [(AB} (410 | | ‘
+B [{AC} |50
+B ((AD} (110 ] |
+Nio%, M 17, Y |
+i v DWBSAT . v ddiabi i 1

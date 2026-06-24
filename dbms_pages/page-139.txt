@@ -1,0 +1,45 @@
+i
+DATABASE MANAGEMENT SYSTEMS
+7. Object identity must be supported.
+3. Encapsulation must be supported.
+4. Types or Classes must be supported.
+5. Types or Classes must be able to inherit from their ancestors.
+6. Dynamic binding must be supported. ‘
+7. The DML must be computationally complete. ?
+L 8 The set of data types must be extensible.
+{ 9. Data persistence must be provided.
+, 10. The DBMS must be capable of managing very large databases.
+[ 1. The DBMS must support concurrent users.
+12. DBMS must be able to recover from hardware/software failures.
+[3. DBMS must provide a simple way of querying data.
+2" part:
+List of advantages and disadvantages of using an OODBMS over an RDBMS with an '
+object oriented programming language
+|. Composite Objects and Relationships: An OODBMS can outperform an
+RDBMS by ten to a thousand times depending on the complexity of the data
+being handled.
+2. Class Hierarchy: Data in RDMS has hierarchical characteristics but it is easier
+to describe in an OODBMS. For example; an employee can be a manager or not
+i1 an RDBMS can be described by a type identifier or creating a separate table
+using foreign keys between Managers and Employees. In an OODBMS, the
+Employee class is simply a parent class of the Manager class.
+| 3. Necessity of a Query Language: A SQL is not necessary for accessing data :
+from an OODBMS unlike an RDBMS It can be translucently accessed through
+objects. However, queries can be used in OODBMS.
+4. Impedance mismatch is completely avoided when using an OODBMS. Like; a
+typical application that uses an object oriented programming language and an
+~ RDBMS, a significant amount of time is usually spent mapping tables to objects
+and back and many a times atomic type data ina RDBMS do not map cleanly.
+5. No Primary Keys: in a RDBMS for unique identification any two tuples can not
+, have the same primary key values In an OODBMS, the unique identification of
+' objects is done in abstraction via OIDs. Thus there is no limitation on the values
+i that can be stored in an object. ‘
+6. One Data Model: A data model typically model entities and their relationships
+| in RDBMS with E-R diagram. In OODBMS there is no disconnecting between
+the database model and the application model because the entities are just other
+. objects in the system. An entire application can thus be comprehensively
+modelled in one UML diagram.
+| Disadvantages ‘
+l. Schema Changes: In an RDBMS modifying the database schema is simple.
+‘ While in an OODBMS modifying the schema means those changes have to be
+| DBMSCS-139 .

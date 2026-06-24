@@ -1,0 +1,36 @@
+DATABASE MANAGEMENT SYSTEMS “
+5
+student ID|student_Name|advisor-Id |
+T1 ] siudeee R —
+T 10 | student-10 | 3
+‘ P R (R B e advisor_ID | advisor_Name
+"5 | swdent-s | 3 o advisor-]
+7 | student-7 | 3 il advisor-3
+| T Y —@n—t- Oy e 5 - advisor-5
+Corresponding SQL statement:
+SELECT S.student_ID, S.student_Name, S.advisor-Id, A.advisor_Name
+FROM  STUDENTS S - INNER JOIN advisors A ON S.advisor-
+Id=A.advisor_ ID;
+Output 1is
+. Query-Output
+student_ID advisor_Name
+I | swdent-t | 1 | advisord |
+0
+Outer join: Refér to Question No. 5(b) of Short Answer Type Questions. '
+d) Tuple relational calculus: ;
+The tuple relational calculus is a non procedural language (declarative language). It
+describes the desired information without giving a specific procedure for obtaining that
+information. A query in the tuple relational calculus is expressed as {t | P(t)} i.e. it is the
+set of all tuples t such that predicate P is true for t. P is a well formed forrpula. A well- :
+formed formula consists of a set of atoms, logical connectives and quantifiers connect
+those items. | ! : .
+The tuple-oriented calculus uses a tuple variables i.e., variable whose only permitted
+values are tuples of that relation.
+e) Degree of relationship: L o :
+The degree of relationship (also known as cardinality) is the number qf occurrences in
+one entity which are associated (or linked) to the number O.f occurrences in another.
+There are three degrees of relationship, known as:
+one-to-one (1:1) '
+one-to-many: (1:M) '
+many-to-many (M:N) :
+DBMSCS-37

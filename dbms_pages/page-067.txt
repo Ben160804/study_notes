@@ -1,0 +1,40 @@
+’ DATABASE MANAGEMENT SYSTEMS 1
+.f xplain the following terms:
+? 3 ;Ll'Em’a)lization s [WBUT 2007) l
+Answer:
+Normalization 1
+Relations resulting from a well-written E-R design may still have some undesirable l
+properties, €.g. composite attributes, multi-valued attributes, data redundancy etc. In
+order to remove these undesirables we apply a process called normalization. The cel;tral
+concept is the notion of functional dependency. ' '
+ii) Full functional dependency [WBUT 2007] :
+Answer:
+Refer to Question No. 5 of Long Answer Type Questions.
+iii) Transitive dependency [WBUT 2007]
+Answer:
+A transitive dependency is an indirect functional dependency, one in which X—Z only
+by virtue of X—Y and Y—Z.
+iv) Partial dependency ‘ [WBUT 2007]
+Answer:
+A partial dependency is a dependency where A is functionally dependant on B
+(A — B), but there is some attribute on A that can be removed from A and yet the
+dependacy stills holds. For instance if the relation existed
+StaffNo, sName — branchNo
+Then you could say that for every StaffNo, sName there is only one value of branchNo,
+but since there is no relation between branchNo and staffNo the relation is only partial.
+b) Explain different types of Normal Form with examples (upto § NF). [WBUT 2007]
+Answer:
+INF 4
+A relation R is in first normal form (1NF) if and only if all underlying domains contain
+atomic values only
+Example: INF but not 2NF .
+FIRST (supplier_no, status, city, part_no, quantity)
+Functional Dependencies:
+(supplier_no, part no) = quantity
+(supplier_no) - status
+(supplier_no) - city .
+city > status (Supplier's status is determined by location)
+Non-key attributes are not mutually independent (city ® status). : k
+Non-key attributes are not fully functionally dependent on the primary key (i.e., status
+and city are dependent on just part of the key, namely supplier_no).
+; DBMSCS-67

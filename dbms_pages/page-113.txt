@@ -1,0 +1,46 @@
+DATABASE MANAGEMENT SYSTEMS
+_ 4. a) Distinguish between locking and timestamp protocols for concurrency
+controls. Explain multi-version two-phase locking. [WBUT 2010]
+b) Define three concurrency problems, dirty read, non-repeatable read, phantoms.
+c) Consider the following two transactions: [WBUT 2010, 2011, 2013, 2019]
+T, cread (A);
+read (B);
+ifA=0,thenB:B+1;
+: write ( B)
+i :read (B);
+read (A);
+fB=0,then A: A+1;
+Write (A)
+Add lock and unlock instructions to transactions T, and T,, so that they observe
+the two-phase locking protocol. Can the execution of these transactions result in a
+deadlock? [WBUT 2010] ,
+Answer:
+a) Locking data items to prevent multiple transactions from accessing the items
+concurrently is the most common method used to ensure serializability. In this section,
+we examine the basic idea behind the locking concepts and introduce two-phase locking
+protocol. s
+A lock is a variable associated with data items that describe the status of the item with
+} respect to possible operations that can be applied to it. :
+There are various types of locks are used in concurrency control like Binary Locks and
+Shared/Exclusive Locks. In the locking protocols, the order between every pair of _
+conflicting transactions is determined at execution time by the first lock that they both
+request that involves incompatible modes.
+. Another method for determining the serializability order is select an ordering among
+transactions in advance. Timestamp — ordering scheme is the typical example of this
+' method. ‘ i
+A timestamps is a unique variable associated with a transaction. Timestamp of
+transaction T is denoted by TS(T). This timestamp is assigned by the database system in
+the order in which the transaction submitted to the system. If Ti has been assigned
+timestamp TS(Ti) and a new transaction Tj enters the system then TS(Ti) < TS(T))
+~ There are two simple ways for generating timestamp:
+A 1. Use the current value of system clock as the timestamps
+2. Use a l_ogical f:ounter that is incremented each time a value is assigned to a A
+! transaction as timestamp. ‘
+In lorder to use timestamp techniques, each data item Q is associtated with two timestamp
+values: '
+e read TS(Q). This is. the largest timestamp of any transaction that have
+successfully read data item Q. ;
+L e TS0, Ths is o o ransaton hat s tead Q sucossslly
+Wikl e e O mp of any transaction that sucessfully
+write_TS(Q) = TS(T) where T is the youngest transaction that has written Q successfully
+DBMSCS-113

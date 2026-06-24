@@ -1,0 +1,65 @@
+IR  POPULAR PUBLICATIONS
+
+‘1 : . that. : A transaction is either performed in its entirety or
+202 x) Which of the following guarantees that, "
+BRE  performed at all” B 4
+}:2 g a) consistency b) durability €) isolation vd) atomicity
+2393 xi) Which of the following is true? |
+‘jk:{;a a) a super key is always a candidate key
+
+:1\;5\ b) every 3NF schema is also in BCNF |
+
+@‘:ﬁ: v ¢) generalization is a bottom-up design approach
+
+P?\ d) none of these
+
+A\\\\ GROUP-B
+
+l}y\ (Short Answer Type Questions)
+
+;{ﬁ\ 2. ay What do you mean by degree, cardinality of.relationship? .
+
+242 b) What do you mean by data abstraction? Explain three levels of data abstraction?
+
+\}‘i‘jj a) See Topic: ENTITY-RELATIONSHIP MODEL, Short Answer Type Question No. 10,
+
+2{:'%5:\ b) See Topic: ENTITY-RELATIONSHIP MODEL, Short Answer Type Question No. 11.
+
+Q\«‘:‘; 3. Discuss the ACID properties of a Database transaction.
+
+ﬂ‘%i‘:: See Topic: TRANSACTION PROCESSING, Short Answer Type Question No. 2.
+
+C‘gi}‘ 4. a) What is Data dictionary? _
+
+3}5{ b) What do you mean by unary and binary operations in Relational algebra? Give example.
+‘,f\i‘f ) See Topic: ENTITY-RELATIONSHIP MODEL, Short Answer Type Question No, 4.b) (OR).
+};&i{k b) See Topic: RELATIONAL MODEL, Short Answer Type Question No. 6.
+
+‘ijgj“j 5. Explain with example “BCNF is stricter than 3NF”.
+
+3;;;; Sec Topie: FUNCTIONAL DEPENDENCIES AND NO RMALIZATION, Short Answer Type
+*j:ﬁ\; Question No. 2, :
+
+5%: 6 Briefly explain two phase locking protocol.
+
+%é, See Topic: TRANSACTION PROCESSING, Short Answer Type Question No. 1.
+
+3355 | GROUP-C
+
+/‘ﬁ ; (Long Answer Type Questions) '
+
+}:}!v 7. Consider the following employee database primary key; are underlined
+
+,j,: Employee(emp!oyee—name, street, city) | |
+
+32 Works(employee-name, company-name, safary)
+
+BN Company(companymame, city) |
+
+” Ma.nages(employee-name, Manager-name)
+
+Write SQL's for the queries.given below:
+
+;' (1) Find the names of all employees who' work for XYZ
+
+3 DBMSCS-146

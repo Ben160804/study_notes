@@ -1,0 +1,45 @@
+MEW o £
+g 23
+mf""*l. Muntz Algorithm g §§
+conrollrs are amange gy o M of Menaee g 1 the fuly disributed dedlock detction o, ol controlls shre eq
+"3P°'Bibleford=ldlock&mﬂmh"'m'(Aellililcqulm"n"ﬂ"!e mpamﬁlityfordmﬁngdudlodlnlhxhemmmm.
+°°""°"°"’Wmuﬁmﬁﬂ"hmw"{:ﬁ“ . ah th represcns o el gaph. The den s, fdadlck exis a e
+deadlock detecion. Al g (4164 vtk conrley) e s - il pparinaeast)on fhe pral graphs.
+with the allocation of the Maintains a part ofthe globa| TWF for
+all TWF graphs spanning its o at that leaf controler A ngnjea Fph conemed Mbciﬂndliumbcdmnﬁuhmhmiuﬁuukmm?mﬂ-
+deadlocks involying gl i cilden contollers and i e oA Process Termination
+M.m;‘mﬁ,ﬁ?‘m"zhm ¢ o detctin a Afer 8 delcton algorithm deteines that a deadlock exists, there are diferet
+o re iti propagated o i $ resource / approaches from the deadlock automatically:
+*“va:;umf:mmMm.ﬁ:ume:mum B I Amuﬁmp&wwm;wm :
+mmmuhmm]wmmuhwmﬁm““: 2. Abor ne process a  ime untl th deadlock cycle is elminated
+1ouly o peodicaly. e THF gk of i To st partalteminaion, we ned 1 deide in which order to abor he deadlocked
+processes. Usually, the sequence of termination s decided by:
+5 I, Priority of processes
+y 3 2. Duration of processes
+3. Number of types of resources held by processes
+U 4, Number of resources being requested
+5. Number of processes (o be terminated
+v N - To eliminate deadlocks using resource preemption, resources held by processes need to
+s PO be reallocaed to other processes successively until a eadlock cycle is broken.
+0 0 I Selecting Victim
+o . TheovdaofpreunptionwillbedﬂamimdhmdonminimumcuCoafm
+include number of resources being held by deadlocked processes, amount of time the
+&:ﬁ“&@dm detection: deadlocked processes consumed, c.
+tion attempts to find and resol and ) 2. Rollback
+TVllhul;e:by(wouiwi.: oon dndody. 4 scheme is If a resource s preempted from a process, this process must be rolled back to a safe
+2 — exists an actual deadlock, it must be detected in a finite amount of ::o‘: (.h'e‘dptm Mmm#::#zmt :ammrb{ctﬂl:m p:eluuo:i;:s
+. Safety-The scheme must not find a deadlock that far as necessary to break the deadlock.
+These strateqs . 1s.mwmllym, 1§
+b gl ymdm;orrelcyy(:? ;'\::’;i‘"“%? t;:/l’mzl in some schemes is ::Iiﬁlye:uill s::.:::us may always be picked as victim. As a result this process will never be ;
+;eypmau th; Hl::mhg? or :pa}dmciu. Thus, if process Py is waiting for a resource hi; completed. To avoid starvation, number of rollback should be included as cos factor. |
+f [}
+MP'WPL | an edge in the WFG from the node for process Py to the node for 7. Justify the following statements: m%f:m !
+g 50 l)UnlqwﬂmuhnpgmmhnhMIanlsmnanwwD : )
+lr: ot:l AND model (resource modcl).ncyclf in the graph indicates a deadlock. In the OR b) Query graph identfes edundantrlaton n an SQL. |
+bloc.k. cycle may not mean a deadlock since any of a set of requested resources inay Answer:
+unblock the process. A knot in the WFG is needed to declare a deadlock. A knot exists 1) Unique timestamp generation is difficlt in DDBMS than centralized DBMS:
+when all nodes reached " Pgew
+. that can be from some node in a directed graph can also reach AtimaumpisluniqueidentiﬁercruledbylchBMSloidmifyaunadm’
+' Typically, timestamp values are assigned in the order in which the transactions are
+submitted to the system, 50 4 timestamp can be thought of as the fransaction start time
+DDMS-54 DDMS-55

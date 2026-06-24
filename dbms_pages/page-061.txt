@@ -1,0 +1,36 @@
+DATABASE MANAGEMENT SYSTEMS
+The new matrix will be
+[ |a_¥e - IC - SRRl
+R la & Ja  [be [bg |
+as | a
+a7 Jag |
+Thus R2 s fully transformed in terms of a; and hence the decomposition is loss less.
+10. Discuss the properties of decomposition including attribute preservation,
+dependency preservation and lossless join with example. [WBUT 2014]
+. Answer:
+’ Aftribute preservation condition:
+' Each attribute in R will appear in at least one relation schema Ri in the decomposition s0
+that no attributes are “lost”.
+- Another goal of decomposition is to have each individual relation Ri in the
+decomposition D be in BCNF or 3NF.
+Additional properties of decomposition are needed to prevent from generating spurious
+tuples.
+Lossless Decomposition
+Any relation when decomposed in to two or more relations the primary objective is to
+ensure that it should be Loss less. In order to do that the following functional
+dependencies ‘are checked. Let us assume that the parent relation R be decomposed into
+R1 and R2. F be a set of functional dependencies in R. F is the closure of R holding any
+of the following functional dependencies: N
+RIMR2 2RI |
+RINR2 >R2
+The relational expressions ensures that the attributes participates in the natural join (R1[)
+R2) is a candidate key for one of the two relations and the chance of generating unwanted
+tuples is also ruled out. For examile;
+Let R={contractno, hotelno, location}
+Let R1={Contractno, Hotelno}, R2= {HotelNo, location}, where ContractNo and
+}Tiﬁte\no are the primary keys of the decomposed relations R1 and R2 respectively.
+Lef closure F"is {R} above.
+. us apply the dependency rule above :
+111 R2= {contractno, hotelno} (1 {HotelNo, location}>R2-> Hotelno
+i
+‘ DBMSCS-61

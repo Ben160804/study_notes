@@ -1,0 +1,26 @@
+DATABASE MANAGEMENT SYSTEMS
+<=
+ommercial vehicle- '
+tax-rate v
+& Luxury-vehicle-tax-
+| rate
+; Non- Commercial g
+? harils vehicle
+cycle
+2. a) What do you mean by composite attribute and derived attribute? Give
+example. [WBUT 2011]
+Answer:
+Composite A ﬂribu
+Street -address House Number City. State _Zip
+Street-address Name
+Composite Attribute 4 ,
+Can be divided into smaller subparts, which contains independent meaning. The address
+attribute of the employee relation can be divided into House Number, Street Address,
+City, State and zip. e
+Derived Attribute:
+The attribute values which are not a part of the entity but can be computed in association
+with some other stored attributes. It is not stored but can be computed as required.
+' Derived attribute
+For example the age of a person which can be computed by subtracting the dob from the
+current date.
+» DBMSCS-17

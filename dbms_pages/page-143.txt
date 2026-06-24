@@ -1,0 +1,41 @@
+r
+DATABASE MANAGEMENT SYSTEMS
+|
+ystem makes a}ppropr:ate actions on the other copies, Finally, we can say that it performs
+ﬂ;e same function as in tradltlongl DBMSs, and it is not necessarily implemented by the ‘
+existing systems, but it shows which levels and schema are conceptually relevant.
+How does an auzx'iliary program help in fetching data in a DDBMS?
+[nstall an ODBC support for a DBMS by defining the ODBC driver with the ODBC Data
+‘ Source Administrator. Nothing to worry about this task because it is typically carried out
+by an installation program. Once the ODBC driver has been installed and a database
+ created, create a DSN.
+‘ DSNs are used to map a specific data source to an ODBC driver. Following are the three
+valid types of DSNs supported: |
+e User data source: This data source is local to the computer on which it is created
+_ and can be used only by the user who creates it.
+o System data source: This data source belongs to the computer on which it is
+created and belongs to that computer rather than the user who created it. Any
+users can access this data source as long as they have the correct privileges.
+o File data source: This data source is specific to the underlying database file, in
+other words, any user that has the appropriate driver installed can use the data
+source.
+Each ODBC driver defines what information is needed to éreate a DSN for a data source
+that the driver supports. Once the ODBC driver is selected, the ODBC Data Source ;
+Administrator, when adding a DSN, instructs the driver to display its configuration dialog
+box. At a minimum, most ODBC drivers require the physical filename that represents the
+data source, whether the system is local or remote and the folder where the file resides.
+7. Define Data Warehouse and briefly describe its characteristics.
+[MODEL QUESTION]
+Answer; y f
+A data warehouse consists of a computer database responsible for the collection and
+storage of information for a specific organization. This collection of information is then {
+Used to manage information efficiently and analyze the collected data. Although data ‘
+Warehouses vary in overall design, majority of them are subject oriented, meaning that
+the stored information is connected to objects or events that occur in reality. The data
+| Provided by the data warehouse for analysis provides information on a specific subject,
+‘ rat.her than the functions of the company and is collected from varying sources into one
+| Uit having time-variant. | |
+A S‘adflta Warehouse has significantly different features from other enterprise-wide systems,
+Micularly in how data is stored, managed and manipulated.
+DBMSCS-143 -
+%

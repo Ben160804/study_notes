@@ -1,0 +1,2237 @@
+/ POPULAR PUBLICATIONS
+2. Explain shell sort technique. [MODEL QUESTION]
+Answer:
+The shell sort, sometimes called the “diminishing increment sort,” improves on the DI STRIBUTED DATABASE
+insertion sort by breakmg the onglnal list into a number of smaller SUb-IlSlS, each of T —————— T T TR e e i £ T
+which is sorted using an insertion sort. The unique way that these sub-lists are chosen is :
+the key to the shell sort. Instead of breaking the list into sub-ists of contiguous items, the MANAGEIENT S YSTEM
+shell sort uses an increment i , sometimes called the gap, to create a sub-lists by choosing ———
+all items that are  items apart. This can be seen in figure. This list has nine items. If we
+use an increment of three, there are three sub-lists, each of which Ean be sorted by an
+insertion sort. After completing these sorts, we get the list shown in figure. Although this
+list is not completely sorted, something very interesting has happened. By sorting the Introduction 2
+sub-lists, we have moved the items closer to where they actually belong, Figure shows a
+final insertion sort using an increment of one, in other words, a standard insertion sort, Distributed Database Design 17
+Note that by performing the earlier sub-list sorts, we have now reduced the total number
+of shifting operations necessary to put the list in its final order. for this case, we need istributed Query Optimization 31
+’ only four more shifts to complete the process. In the way in which the increments are Dist Quen s
+4 chosen is the unique feature of the shell sort. The function shell sort shown below uses a - 67
+different set of increments. In this case, we begin with 2 sub-lists. On the next pass, 4 Transaction Management
+subdlists are sorted. Eventually, a single list is sorted with the basic inscrtion sort Figure
+shows the first sub-lists for our example using this increment. Parallel Database Systems 88
+unn 55 | 20 | sublst Advanced Topics 91
+e]o e [r]n ] [o]] e
+FlTe o r[a]uls o] . |
+uu 7|3 u 55 | 20 | sublst 1 soed
+[ I
+I'Iﬂﬁﬁﬁnﬁlll sublist 2 sorted
+e o HOTE:
+. - P I\III"II sublist 3 sorted n
+III“’II‘I MAKAUT course structure and syllabus of 6" semester has been changed from 2021
+ll lI DISTRIBUTED DATABASE MANAGEMENT SYSTEM has been introduced as a
+- n afler sorting sublists new subject in present curriculum. Taking special care of this matter we are providing
+1726 n 5 atincrement 3 chapterwise model questions & answer, so that students can get an idea about
+university questions patterns.
+b AGL-144
+™~
+POPULAR PUBLICATIONS DISTRIBUTED DATABASE MANAGEMENT SYSTE
+|NTRODUCTION 7. Global Schema Fragmentation Schema and Allocation Schema reside in
+—RVUVVIIVIV [MODEL QUESTION]
+: a) one of the machine selected as a coordinator of the DDBMS
+Multiple Choice Type Ques b) the system virtually
+- Lo c)) all the machines of the DDBMS network
+1. Common problem of designing DDBMS and centralized DBMS are: g (o;these
+:(c
+: [MODEL QUESTION] Asswer:
+a) Design of conceptual schema and design of fragmentation ' i igni
+i DDBMS.
+b) Des.lgn of fragmentation and design of allocatiogn of fragments Ll e dm?l:lggﬂ QUESTION]
+Z) g:l'gn of allocation of fragments and design of physical database 2) Bottom-up b) Top-down ¢) Flat d) None of these
+) Design of conceptual schema and design of physical database
+Answer: (c) Aaswer: (b)
+S . The unit of data transfer to and from disk is [MODEL QUESTION]
+2. The data dlchonar'y tells the DBMS [MODEL QUESTION] : a)information  b) block ¢) pages d) file
+a) what files are in the database wer: (d)
+b) what attributes are possessed by the data Anpwes
+¢) what these files contain 10. Which of the following is not a feature of DDBMS? [MODEL QUESTION]
+d) all of these a) network transparency b) OS transparency
+Answer: (d) ¢) DBMS transparency d) hardware transparency
+: : Answer: (b)
+3. Which of the following models is used by distributed database system?
+a) Mainframe computing model [MODEL QUESTION] 11. A distributed database has which of the following advantages over a
+b) Disconnected, personal computing model centralized database? [MODEL QUESTION]
+c) Client / server computing model a) software cost b) software complexity
+d) None of these ¢) slow response d) modular growth
+Answer: (c) Answer: (d)
+4 Which of the following is not benefit of site autonomy? ~ [MODELQUESTION] [ 12 An autonomous homogenous environment is which of the '°3‘3é‘{'%?uesmm
+a) A global catalog is not necessary to access local data ! [M
+B a) the same DBMS is at each node and each DBMS works independently
+b) Node can upgrades software independently DBMS i M notiand tral DBMS coordinates databas
+c) Administrators can recover from isolated system failures independently b) :l::;::sme I8 at each node and a cen e
+d? No Zeed for Backp SEs oYYy c) adifferent DBMS is at each node and each DBMS works independently
+Answer: (d) d) adifferent DBMS is at each node and a central DBMS coordinates database
+N access F
+5. DDBMS provides better ............... over centralized DBMS. [MODEL QUESTION] Auswer: 3)
+a) decentralization b) tuning
+¢) security d) transparency 13. A heterogeneous distributed is which of the following? ~ [MODEL QUESTION]
+Answer: (d) a) the same DBMS is used at each location and data are not distributed
+) Noved. without Hocation across all nodes
+6. ‘“Fragmentation transparency cannot be achieve [Mgl')EEl:)UESTION] b) the same DBMS is used at each location and data are distributed across al!
+transparency.” nodes
+a) True b) False c) Unknown d) None of these ¢) a different DBMS is used at each location and data are not distributed
+Answer: (b) across all nodes
+d) adifferent DBMS is used at each at each location and data are distributed
+across all nodes
+Answer: (d)
+DDMS-2 DDMS-3
+distributed database is which of the following 2" A multiprocessor systom where two or more processors share the same
+3 e - (MODEL QUESTION] primary memory Is callod e uplo(:‘ODEL QUESTION]
+same S is used at each a) homogeneous y €O
+et wedie ch location and data are not distributed o) tightly coupled d) all of these
+I b) the same DBMS is used at each location and data are distributed across all Answer: (€)
+X Rodes
+" ¢) a dﬂﬂ:um DBMS is used at each location and data are not distributed Short Answer Type Questions
+l d4 :“ Mnodu DBMS is used at each location and data are distributed across 1, What s Distributed Data Processing (DDP)? [MODEL QUESTION]
+i Answer: (b) Answer: . - .
+
+: Distributed data processing allows distribution of application programs and data among
+. 15. Which of the followi interconnected sites (0 satisfy the information needs 9[ the organization. Depending onts
+1 a) Replication mﬂ.:::':;' R ature of T;?::m muoﬂggf;‘.alﬁ:mm equirements, an organization may choose t0 centralize or decentralize its data processing
+1 ¢) Locking transparenc systems.
+| Answer: (¢) . S oa mesparency 1%1;;: are two types of Distributed Data Processing:
+
+16. Distributed database system do not hel ODEL QUESTIO Centralized data processing:
+A a) interconnection of existing dmmg i N In a centralized system, one machine controls all file access and updates. A centralized
+[ b) incremental growth of the organization system permits a high level of control over application programs and data.
+¢) reduction communication overhead of geographically ~distributed A centralized data processing system is useful when:
+l transactions o All datais shared across application programs.
+| d) reduction of the memory requirement of distributed data « Many end users need access (o the same data and also require the most current
+Auswer: (¢) data available.
+| ] ) «  Security has been established as the responsibility of the central site.
+17. Top-downdapp:on_:h to the design of data distribution is applicable when « Large volumes of data are involved. In this case, centralized control can help
+;; :t;’: 3 s o:tlj':)gn. :?:’g' fn:lm;:mch [MODEL QUESTION) ' handle the volume of data efficiently. .
+¢) both of 3'9;? GEaKNG daabeess In o centralized data processing environment, more altention typically is given (o direct-
+d) none of these access storage devices (that is, their cost and reliability) than to data transmission.
+Answer: () The following illustration shows how one machine controls all file access and updates in
+acentralized system.
+18. Distributed Systems should [MODEL QUESTION]
+a) meet prescribed time constraints b) aim better resource sharing e
+¢) aim better system utilization d) aim low system overhead .
+ost
+Answer: (b) Machine H
+19. What is data about data called? [MODEL QUESTION]
+a) Metadata b) Data catalog ¢) Information d) Database
+Answer: (a)
+20. Which of the following features(s) Is (are) important aspects of a distributed
+database? [MODEL QUESTION]
+a) Distribution b) Logical correlation
+¢) Distribution & logical correlation d) Disjointness
+Answer: (¢)
+. DDMS-4 DDMS-5
+l”“‘d""‘““l‘,‘ data processing; 3. Whatisthe difference between parallel database and aumu[::g g;t:m;m\
+N a decentralize i chi '
+varied needs of e:;fst:: B conlr'ol o RO o et Answer: : |
+A d“‘“g:“”d system is useful when: ' [n a multi-database system, a transaction s initially cm;led a;d;]e sa\;;d It:uuus‘:c?ph?s i
+* Datis primarily accessed at a 5 i iscase it : ( finally committed in the master database later when the ion
+il o wlZem o us:(li .a single location. In this case, i is most efficient to s:ot:ab:acl egulhcre :ls part of the database synchronization process. The tentatively
+* The update rate is high. In this case, distribution of the data across differen s; commilted transaction can exist in the system for an unlimited period of time. In other
+;::uld thsit more eficient update operations, S words, the life cycle of the transaction is entirely different.
+* Security has been established as a |oca| ibili
+* Data s used in highly specializeq ways ;?pem:g.':y ' A parallel database system is one that seeks to improve performance through parallel
+i implementation of various operations such as loading data, building indexes, and
+2. Write down the advantages and disadvantages of Distributed Database System? ;V‘J’“‘m"g i
+ures
+Answer: ot ) : o Machines are physically close to each other, .g., same server room
+The advantages of Distributed Database Systems are: o Machines connects with dedicated high-speed LANs and switches
+* Modular Developmeat: Modular development of a distibuted database implies that * Communication cost s assumed to be small
+asystem can be expanded to new locations o units by adding new servers and data to o Can shared-memory, shared-disk, or shared-nothing architecture
+the. €xisting setup and connecting them to the distributed system without interruption,
+This type of expansion causes no interruptions in the functioning of distributed ina distributed database system, data is physically stored across several sites, and each
+databascs 3 site is typically managed by a DBMS that is capable of running independently of the
+* Reliability: Distributed databases offer greater reliability in contrast to centralized other sites.
+databases. In case of a database failure in a centralized database, the system comes to Features
+a complete stop. In a distributed database, the system functions even when failures o Machines can far from each other, e.g., in different continent
+oceur, only delivering reduced performance until the issue is resolved. »  Can be connected using public-purpose network, e.g., Internet
+¢ Lower C{)mmnie!ﬁon' C9st: Locally storing data'reduces communication costs for »  Communication cost and problems cannot be ignored
+. mﬁmdpﬁm ;n distributed databases. Local data slorage is not possible in » o Usually shared-nothing architecture
+¢ Better Response: Efficient data distribution in 4 distributed database system 4. What is distribution transparency? Explain different levels of distributed
+provides a faster response when user requests are met locally. In centralized transparency. [MODEL QUESTION]
+databases, user requests pass through the central machine, which processes all Answer:
+requests. The result is an increase in response time, especially with a lot of queries. Distribution transparency provides high-level abstractions which hide rietwork location
+behind an impenetrable wall. In such a system, a process can't know where it is
+The Disadvantages of Distributed Database Systems are; executing, even when it wants and needs to know.
+- Costly Software: Ensuring data transparency and coordination across multiple sites Distribution Transparency for Read-Only Applications are:
+‘often requires using expensive software in a distributed database system. Fragmentation transparency - reference to global relation as if the DB is not distributed
+Large Overhead: Many operations on multiple sites require numerous calculations Location transparency - user accesses fragments ignoring where they are
+and constant synchronization when database replication is used, causing a lot of Local Mapping transparency - refers to objects using names independent from local
+cessing overhead. systems but has to specify sites of the objects, mapping of application into functions used
+Integrity: A possible issue when using database replication is data integity, by the local DBMS
+compromised by updating data at multiple sites. Naming transparency - items in a database must have a unique name, but users don't
+¥ Data Distribution: Responsiveness to user requests largely depends on need to worry about it.
+distribution. That means responsiveness can be reduced if data is ot
+ibuted across multiple sites.
+) DDMS-6 DDMS-7
+. POPULAR PUBLICATIONS
+read(terminal "
+s::: mﬂ. SNAME DDBMS | iy : Replication transparency . . e )
+from SUPPLIER m Site | A copy of cach fragment can be maintained at several sites. Data replication is the design
+where SNUM = SSNUM, o Eo process 0f deciding which fragments will be replicated. A DISTRIBUTED SYSTEM
+b i m Site2 often employs DATA REPLICATION to ensure a fast response from databases and to
+(a) Fragmentation transparency (level 1) e enable the system (0 be rcsili;nl o ha:‘dw;;e l):rrors. Reptllical;:n uanSplarcncg is the term
+X ‘ ibe the fact that the user should be unaware that data is replicated.
+read(terminal, SSNUM), W = used o descr y i
+mﬁmgmms 6. “High reliability does not ensure correctness of the distributed system.”
+where SNUM = SSNUM, Comment critically. [MODEL QUESTION]
+if not #FOUND then DDBMS - Answer:
+mﬁmmﬁ w ol High Reliability: Distributed applications often require substantial.cﬂjon to achigve
+Where SNUM = SSNUM, citker () Jevels of reliability equivalent to those expected from stand-alone applications. Detecting
+el SNAME) W See ervice failures in a stand-alone application is relatively straightforward.
+(b) Location transparency (level 2) e === When the failed site recovers or is repaired, tpeghanisms must be available to integrate it
+W 2 smoothly back into the system. Data transmission costs are also reduced here since all
+e sers at all sites are not accessing one centralized database. Distributed reliability
+from suppug:,w :#;#E, protocols maintain the atomicity and durability properties by
+where SNUM = $SNUM, o (1) ensuring that either all of the actions of a transaction that is executing at different sites
+ifnot KFOUND then i
+Seect NAME i SNAME ﬁ oy complete successfully (called commit) or none of them complete successfully (called
+from SUPPLIER, AT SITE 3 : abor), and L ; -
+where SNUM = SSNUM, (2) ensuring that the modifications made to the database by committed transactions
+wrie(ermina, SNAME) m Site2 curvive failures. The first requires atomic commit protocols (see Commit Protocols),
+(c) Local mapping transparency (level 3) while the second requires recovery protocols. s
+Comectness conditions are not satisfied by reliability factors each time.
+: 5. What are the fragmentation, replication and location transparencies? 7. What are the components which are necessary for building a distributed ‘
+[MODEL QUESTION] database? [MODEL QUESTION]
+Answer: Answer: c
+Fragmentation fransparency The basic components are as follows:
+Fragmentation transparency hides the fact from users that the data are fragmented. This is ¢ Local data management system (DM): This module is responsible for accessing
+the highest level of distribution transparency. If a distributed system has fragmentation - data stored at the site.
+transparency, then the user must not be aware regarding the fragmentation of data. As a o The data dictionary: The information regarding distribution of data (i.c. fragments)
+result, database accesses must be based on global schema and the user need not to specify is stored in the data dictionary.
+the particular fragment names or data locations. + The transaction Module: This module creates the global plan for execution of a
+query based on the information stored in the data dictionary. TM translates global
+chatlan t(ansparemy . _ query into queries on fragments stored at different sites. TM also ensures
+With location transparency, the user is aware how the data are fragmented but still does concurrency control, access planning, query optimization and distributed query
+not have any idea regarding the location of the fragments. Location transparency is the execution,
+middle level of distribution transparency. To relrieve data from a distributed database ¢ The data communication module (DC): This module is responsible for reliable
+with location transparency, the end user or programmer has to specify the database inter-site communication using the links.
+fragment names but need not specify where these fragments are located in the distributed
+system. 8._Describe the reference architecture of Distributed Database Management system
+with proper diagram. [MODEL QUESTION]
+DDMS-8 DDMS-9
+POPULAR PUBLICATIONS DISLRULLD ﬁ/ "U‘
+A
+Answer:
+) N e | 8 in th foat molDDll
+T n the featu h
+l i rm:rm ‘ iﬁm 1, What [s Distributed Database system? Expla (MODEL QUESTION)
+Answert
+T 1" Part ¢ multinle interconnected databases, which are
+concepiual A Distributed Database Is a collection of mult D‘c l e m;” o)
+i spread physically across varfous locations lhnl' communicate via o : Pnd hecrri u
+' Distributed databases utilize multiple nodes, They scale horizontally a |"
+disributed system. More nodes in the system provide more computing power, ofler
+W greater avallability, and resolve the single point of failure issue.
+2" Part:
+Some general features of Distributed databases are:
+i o Location independency - Data is physically stored at multiple sites and managed by
+S an independent DDBMS. ) :
+; 5 we s o Distributed query processing - Distributed databases answer queries in a distributed
+- boal Local environment that manages data at multiple sites. High-level queries are transformed
+m mapping into a query execution plan for simpler management.
+schema schema o Distributed transaction management - It provides a consistent distributed database
+through commit protocols, distributed - concurrency control techniques, and
+Lo Local Local ; distributed recovery methods in case of many transactions and failures.
+conceptual « Scamless integration - Databases in a collection usually represent a single logical
+s i database, and they are interconnected.
+« Network linking - All databases in a collection are linked by a network and
+. Local Local Local communicate with each other.
++ Transaction processing - Distributed databases incorporate transaction processing, :
+phoi which is a program including a collection of one or more database operations.
+Transaction processing is an atomic process that is cither entirely executed or not at
+i i — all.
+DB = 2. a) What is transparency? Discuss network transparency and replication
+transparency with example. [MODEL QUESTION]
+Top-down design-The system begins with the analysis of requirements that defines the Auswer:
+system environment. And the last step is physical design. This approach is used for a) I" Part:
+Designing systems from scratch and for Homogeneous systems. DBMS Transparency:
+Bottom-up approach is used when the databases already exist at a number of sites or The term DBMS transparency refers to the ability of DDBMS to hide the implementation
+whc.n the databases should be-connected to solve common tasks. The process consists in details from the user. Thus the fact that a distributed database is split into several
+the integration of local schemes in the global conceptual schema. fragments that can be stored on different computers and perhaps replicated is hidden from
+. the user. The objective of the transparency is to make the distributed system appear like a
+centralized system.
+DDMS-10 DDMS-11
+- ]
+DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+We can identify four mai ' .
+. Distﬁbn:i?m r main types of transparency ina DDBMS: Most modern commercial DBMS are based on this system. The ANSI-SPARC model
+ransparency
+- powever never became a formal standard.
+a) Fragmentation transparency ANSSPARC
+b) Location transparency ' E Archiecture for
+» Transaction transparency Duabases
+a) Performance transparency / I \
+b) DBMS transparency externl level
+(View)
+2" Part:
+Network transparency: i ml:d
+According (o this property, a distributed database must be network transparent. Network
+transparency means that a user must be unaware about the operational details of the v e Satte
+network. thwork transparency is basically one of the properties of distributed database. -
+Actually in dlsu'}btned databases when a user wants o access data and if that particular
+data does not exist on user computer then it i the responsibility of DBMS o provide the — -
+data from any othcr corpputcr where it exists. User does not know about this thing as g (Physical level)
+froq\ where data is coming, Network transparency also means roaming transparency and ~
+it gives the freedom of entering query from any workstation to a user. So a user does not
+know hm where the results of query are coming as results may be coming from user A standard three level approach to database design has been agreed upon:
+workstation or any other workstation. Here the term roaming means that if a user moves o External level
+from one place to other then all other users does not know about this. + Conceptual level
+: + Internal level (includes physical data storage)
+Replication transparency:
+A copy ofcach'fr.agmcnl can be maintained at several sites. Data replication is the design The Three Level Architecture has the aim of enabling users to access the same data but
+_ process of deciding which fragments will be replicated. A DISTRIBUTED SYSTEM with a personalised view of it. The distancing of the intemal level from the extemal level
+often employs DATA REPLICATION to ensure a fast response from databases and to means that users do not need to know how the data is physically stored in the database.
+enable the system o be resilient to hardware errors. Replication transparency is the term This level separation also allows the Database Administrator (DBA) to change the
+used to describe the fact that the user should be unaware that data is replicated. database storage structures without affecting the users' views.
+« External Level (User Views): A user's view of the database describes a part of the
+3. a) Draw the ANSI/SPARC reference architecture of Distributed Database System database that is relevant to a particular user. It excludes irelevant data as well as data
+and discuss about the site independent schemas. which the user is not authorized to access.
+b) Show with the help ol e tagranthat replicated copy of R; of fragment R, is o Conceptual Level: The conceptual level is a way of describing what data is stored
+allocated into different sites as Ry and R; ithin the whole database and how the data is inter-related. Th ol Jeed
+¢) When Bottom-up approach of distributed database design preferable over Top- R e o 0 - e
+down approach? does ot specify how the data is physically stored.
+d) Explain the advantage of Remote access via an auxiliary program in case of Some important facts about this level are:
+heterogeneous distributed database system with the help of a diagram. 1. DBA works at this level.
+[MODEL QUESTION] 2. Describes the structure of all users.
+a) 1" Part: 4. Global view of database.
+The ANSI-SPARC Architecture, where ANSI-SPARC stands for American National 5. Independent of hardware and software.
+Standards [nstitute, Standards Planning And Requirements Committee, is an abstract o Internal Level: The intemal level involves how the database is physically
+design standard for a Database Management System (DBMS), first proposed in 1975. represented on the computer system. It describes how the data is actually stored in the
+database and on the computer hardware.
+DDMS-12 DDMS-13
+o
+™ Part: When existing databases are aggregated, a battom-up approach (o the design o
+distribution can be used. This approach is based on the integration of existing
+Sae into a single, global schema. It should be noticed l!mlhebonqmoupwmdllulh
+xhom ":::' Jess easily to the development of horizontally fragmented relations.
+Alcaton Datahase
+, U s
+111111-_:::.____‘_ Appheation Primitive DBMS
+oy g
+: lﬁ&: :M;fh: -
+[ ) =
+E —— (a) Remote access via DBMS primitives
+=Sk |
+Request for
+Executon of
+Figure shows 2 reference architecture for a distributed database. At due top level there in Apphestion |- Auvlary DRMS,
+global schema. The globel schema defines all the data which are contained in the g — !
+&m’hmddnhxsifdtﬂnmud’mﬂmdldl.hmismﬂ Seel
+globel schema can be defined exactly in the same way as in a non distributed database. T Gkl Rt I N Y I
+The global schema coasists of the definition of a set of global relations. Awuliary (| DBMS; ) Pomavesand
+Each global relation can be spit into several non-overlapping portions which are called p o e
+fregments. The mapping between global relations and fragments is defined in the ) R
+fragmentation schema. This mapping is one to many; i.c. several fragments comresponds (b)m“‘ﬂ“"‘""mhﬂym
+to ane gobel eation, but nly are glol relat k to one fragment AhctuogmemsDDBMSmsmudaluntwodiﬁamDBM&Hm
+Fragments are logical portions of global relations which are physically located at pne or DDBMSs dd the problem of transating between the different data models of the
+several sites of the network. The allocation schema defines at which site(s) a fragment is diffrent local DBMSs to the complexity of homogeneous DDBMSs. For this reason, if
+bl ' mcdcvglo?tnulofadmib\nedchnhukpufumedtop-downwidmamm
+S)m!mwmfmiqnwdmlopahomgamsyﬂmem,ashmwm
+b) The diagram that replicated copy of R2 of fragment R1 is allocated into different sites the previous section, In some cases the motivation for creating a distributed database is
+asR/}andR,'is: ~ e the necessty of integrating several prexisting databases; in this case it i required to
+’"‘ /u :ﬁgm?w&mmwma global view of the database.
+o MuogumDDBMSsmvaymmumgfmm|
+g:.“.“_" "“WDPBMSSuiﬂaﬂyumrdnmmmiumubcmu:
+~n,~u Risite2 commercially available systems mvidesmudegmofsuppm for heterogeneity.
+ST 4. Write short notes on the following: [MODEL QUESTION]
+G o a) Transparency .
+¢) When the distributed database is developed s the aggregation of existing databases, jl b) Heterogeneous databases
+is not easy 1o follow the top-down approach. In fact, in this case the global schema is Answer:
+often produced as a compromise between existing data descriptions. It is even possible 4) DBMS Transparency:
+that each pair of existing databases is independently interfaced using a different The term DBMS transparency refers to the ability of DDBMS to hide the implementation
+translation schema, without the notion of a global schema; this, however, leads to systems details from the user. Thus the fact that a distributed database is split into several
+which are different in conception from the reference architecture.
+DDMS-14 | DDMS-15
+POPULAR PUBLICATIONS mmmmmww
+' fragments that can be stored on different computers and perhaps replicated is hidden from
+the user. The objective of the transparency is to make the dislribulgd system appear like a MA-B—AS—E—DEM
+centralized system. ;
+We can identify four main types of transparency in a DDBMS:
+» Distribution transparency
+a) Fragn!cnlmion {ransparency 1. Allocation problem is easier [MODEL QUESTION]
+b) Location transparency a) in redundant system b) in non-redundant system
+» Transaction transparency ¢) inreplicated (attributes) system d) both (a) and (c)
+¢) Performance transparency ) Answer: (a)
+d) DBMS transparency
+2, Clustering means [MODEL QUESTION]
+2™ Part: a) keeping a common data l:dont: :)ladc‘:h i
+. b) keeping different types of data in different places
+Networ_k (ransparency: s c)) kn:lnﬂ different types of data in one place
+According to this property, a distributed database must be network transparent. Network d) keeping in a common data in different places
+{ransparency means that a user must be unaware about the operational details of the Answer: (a)
+network. Network transparency is basically one of the properties of distributed database. :
+Actually in distributed databases when a user wants to access data and if that particular 3, The horizontal fragmentation of a relation cannot be based on a property of its
+data does not exist on user computer then it is the responsibility of DBMS to provide the own attributes, but is derived from the horizontal fragmentation of another relation
+data from any other computer where it exists. User does nol know about this thing as i6 Callod .ovevecrseesieeennss Fragmentation. [MODEL QUESTION]
+from where data is coming. Network transparency also means roaming transparency and a) horizontal b) vertical
+it ives the freedom of entering query from any workstation to a user. S0  user does no ¢) mixed d) derived horizontal fragmentation
+know from where the results of query are coming as results may be coming from user Answer: (d) .
+workstation or any other workstation. Here the term roaming means that if a user moves
+from one place to other then all other users does not know about this. 4. Which of the following conditions cannot satisfy vertical hg[:omb';ttogzlESTIONl
+Replication transparency: .
+A cI:)py of each fral:;mcmtzan be maintained at several siles. Data replication is the design "_ Disjointness b) Completeness ) Reconstruction ¢) Robulld
+process of deciding which fragments will be replicated. ADISTRIBUTED SYSTEM Auswer: (¢
+often employs DATA REPLICATION to ensure a fast response from databases and to
+enable lh[c) system (0 be resilient to hardware errors. Replication transparency s the term 5 Lm‘:::‘;‘:m’;:z ::Imlzo:(v;:tﬂl‘og;m folowing?  [MODEL QUESTION]
+used to describe the fact that the user should be unaware that data is replicated. b) programmers to treat the data as ifitis at one location
+¢) managors to treat the data as if it is at one location
+b) Heterogencous databases: d) all of these
+A heterogeneous DDBMS uses instead at least two different DBMSs. Heterogeneous Answer: (d)
+DDBMSs add the problem of translating between the different data models of the
+different local DBMSs to the complexity of homogeneous DDBMSs. For this reason, if 6. Storing a separate copy of the database at multiple locations is which of the
+the development of a distributed database is performed top-down without a preexisting following? [MODEL QUESTION]
+system, it is convenient to develop a homogencous sysiem. However, as it was stated in a) data replication b) horizontal partitioning
+the previous section, in some cases the motivation for crealing a distributed database is ¢) vertical partitioning d) horizontal and vertical partitioning
+the necessity of integrating several preexisting databases; in this case it is required to Answer: (a)
+develop a heterogeneous DDBMS, capable of building a global view of the databasc. .
+Although the problems of heterogeneous DDBMSs are very hard, and therefore really . Roplication should be used when which of the following oxlot?o .
+hetcrogeneous DpBMSs exist onl)‘f as research Prqlolypcs, ru Im‘usl be s}mcd that S FanestoaRiall B hcucky T 4 notwo?: p?ohl;.ltufnzluo:]l
+commercially available systems provide some degree of support for heterogeneily. rofreshing of large tables
+DDMS-16 DDMS-17
+TR\ EERNA VN I
+LRI
+% when |
+il h“\hubwwm 4) availability and reliubilty of distributed dats
+e Ut b] worklond costand availabiy
+\aewar: ) ¢ storage cost and avalability
+& Reol d) none of these
+ogmataiony T Vol W of o following conditions of Answer: 1)
+3m""" ) Reconstruction S 16, In DDBMSs, #MWWMW"’“‘;& QuESTION
+A Wi, 4) Local conceptual schema b) Global extemal schema
+- ) Global conceptual schema d) Local mapping schema
+p m schema depends on the . [MODEL QUESTION] Answer: (b)
+¢) type of the local DBMS d) location Short Answer Type Questions
+Answer: (¢) :
+ocation . Discuss horizontal, vertical, mixed, and derived fragmentations with examples.
+"'t"m"‘mmhmm [MODEL QUESTION) ' [MODEL QUESTION]
+¢) Replication transparency b) Local mapping transparoncy Answer: _
+Answer: (d) d) none of these Horizontal Fragmentation: Horizontal fragmentation consists of partitioning the tuples
+of a global relation into subsets; this is clearly useful 'in dumbmd dauhu:,‘ M::d u:h
+11. Split approach of vertical fragmentation subset can contain data that have common ge.ognpmal propertis It can be defined by
+) progressing splitting u:; oone (MODEL QUESTION] expressing each fragment as a selection operation on the global relation
+¢) both (a) & (b) d) mmﬂlﬂnc Example: let a global relation be
+Answer: (c) SUPPLIER (SNUM, NAME, CITY)
+12. To make non distributed system distri Then the horizontal fragmentation can be defined in the following way
+4) 0O component M;;::wmmm TIO SUPPLIER = SLery . yypue- SUPPLIER
+¢) DOC component d) (a) & (¢) SUPPLIER,= SLeyry ~gumgs SUPPLIER
+Answer: (d)
+Vertical Fragmentation;
+13. The disjointness condition is not strictly followed In ~ (MODEL QUES The FVertical fragmentation of a global relation is the subdivision of its attributes into
+4) horizontal fragmentation b) vertical fragmentation . groups; fragments are obtained by projecting the global relation over each group. This
+¢) mixed fragmentation d) hybrid fragmentation can be useful in distributed databases where each group of attributes can contain data that
+Answer: (b) have common geographical properties. The fragmentation is correct, if each attribute is
+mapped into at least one atribute of the fragments; morcover, it must be possible to
+14. Location independence represents that [MODEL QUESTION) reconstruct the original relation by joining the fragments together,
+;: ::: n g::. : tf;omlﬁaxzo of m:a: . Example: Consider a global relation
+0 n of the da MD (R ; -
+¢) users are aware of the physical names of database objects EMP (EMPNUM, NAME, SAL, TAX, MGRNUM, DEPTNUM)
+A“:)!m.) e e A vertical fragmentation of this relation can be defines as
+' EMPy=PJ i vani, warwon e EMP
+EMPyPJ iniwing sar, 1ax EMP
+et DDMS-19
+DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+opex:liioFm"ng:er::':‘m' J\hee fragments that are obtalr!ed by the above fragmentation beginning of a sector, which simplifies organization and makes it easier o grow ﬁlef.
+P la |lons mselves, so that it is possible to apply the fragmentation Any space left over between the last byte of the file and the first byte of the next sector is
+The rcconsmmg:]v:a): &I‘(’)‘g:i?desh:t the Icorrecmess‘ conditions are satisfied each time, internal fragmentation.
+
+; ained by applying the reconstruction rules i reverse order.
+Example: Consider the same global relation ’ 3, What is data replication? Explain with example. [MODEL QUESTION]
+EMP (EMPNUM, NAME, SAL, TAX, MGRNUM, DEPTINUM) Answer:
+The following i o mi ) Data replication is the design process of deciding which fragments will be replicated.
+ﬁ: ollowing is a mlxed.fragmentauon, which is obtained by applying the vertical ADISTRIBUTED SYSTEM often employs DATA REPLICATIONto ensure a fast
+DEg;)nz;l;gm.)n of the previous example, followed by a horizontal fragmentation on response from databases and to enable the system to be resilient to hardware errors.
+M Replication transparency is the term used to describe the fact that the user should be
+EMP, = SLogpmvumse Pdeonin, vuse woron, oepmu EMP unaware that data is replicated. :
+EMP,=SLivcoermvunas PIseomung s s perma EMP A copy of each_ ﬁ_'agmen.t can be maintaiqed at scve;al sites. Da_ta rgplimtion is the @6|gn
+EMR=SE oo Pl sszisiianbantic ['wmu EMP process of deciding which fragments will be replicated. Replication, or the copying of
+EMP =P apmn xois su. rEMP " data in databases to multiple loc.:ttigns to support distn'blftcd applications, is an important
+new tool for businesses ir building competitive service advantages. New replicator
+Derived fragmentation: Since the process of fragmenting a si ot facilities from several vendors are making this technology much more useful and
+. : * nting a singl J gy
+is a considerable effort, the question is whether sucg;lna ﬁagrgnenmxgi:nm‘:: :: reliomlz practical than it's been in the past. In this article we will go into enough detail on
+further. In fact, there exists a good reason to do so when considering of how picall rplicaion for the reader to undertand the importance of repliction, it benefts and
+relational database schemas are constructed. In general, one finds i for:iyp key some of the related technical issues. While replication or data copying can clearly provide
+relationships., where one relation refers to another relatic;n by using it's piimaryg:ey a)s, B w“h local and therefore much quicker access (0 da t‘he challenge is to Provide
+refe@u. Since qme .relationships carry a specific meaning it is very likely, that this these copies to users so tbat the overa]l systems _op_eme with the same integrity and
+* foreign key relationship will also be used during accesses to the database, i.c. by managemnet ca;l)qcny&hamgvallablc mthamono!lthlc, central model. )
+gxecutingjoin operations over the two relations. This means that the conespondi;xg 'tu.ples ' e e RS e vk ret_:ords exist on two diffreat systems in two
+in the two relations will be jointly accessed. Thus it is of advantage to keep them at the dnﬂ'erent. locations, say New York and Chicago, the system needs to insure that the same
+;ame site in order to reduce communication cost. It is of advantage to "propagate” a I bty spet Ao
+orizontal fragmentation that has been obtained for one relation to other relations that are
+related via a foreign key relationship and to keep later the corresponding fragments at the ; av)‘hWh?t B !:-" advantage’and iadimmta R o ion?
+same site. We call fragments obtained in this way derived horizontal fragments A)nsw:t R i [MODEL QUESTION]
+2. Whatis the data fragmentation? [MODEL QUESTION] mfrﬁc;:: nm;sint}cl;asrzr:t:;iftrig:?fsrzglsgying dhajt?.mofﬁ-cnm lm s
+Answer: . in char f replication which make it appealing are:
+The database may be broken up into logical units called fragments which will be stored at G apliion s tmenton TR B (SOL)satemen.
+. ; . A Replicated transactions are applied in the same order as the rred on the pri
+different sites. The simplest logical units are the tables themselves 5 PP RSO Q0L SOETININAGY,
+. . : de
+Data fragmentation occurs when a piece of data in memory is broken up into man g : o .
+pieces. The de-fragmentation tool is to rearrange blocks on disk so that the bI%cks of eacﬁ The. T lo- detec} Whethﬂ: SR clonne?uon s temporarly
+file are contiguous, There are mainly two types of fragmentation. They are Extemal :)hmlnc]and when the component is available again. When a disruption like this occurs,
+: : : icati hould continue functioning without having to be adjusted
+Fragmentation and Intemnal Fragmentation. ¥ e ; EEAE MIIRE 500 W,
+In the external fragmentation, the free space, that is available for storage is divided into Although the replication server s povwerf and flexdble, i s not casy to sdminisrate
+many small pieces. The slorage space is of‘man Py s Another contributing factor is that the scope and complexity of the database
+e .mi i rgucftcd s YRCILL 'LI S'T:; n fynamlc memory administrator's job expands significantly when replication is involved. The previously
+are ten blocks of 300 E s ofetgree Spa;:e use :r;zglfugﬁsm&cd rea?o:)s'r:)en:p:'cl? Therel independent data servers are now closely related because data is replicated between them.
+allocat the requested block of 1000 byle;. P ¥ BLOnS, O Su1Lcanne :'I:;s l:;f«u:;lx means :.hal 0tbhe data servers have become one large system. Thus, making
+In Internal fragmentation, the space is wasted. it is ofien accepted in return for increased e nistvoy SRS TR
+efficiency or simplicity. For example, in many file systems, files always start at the
+DDMS-20 DDMS-21
+& §
+§ it
+POPULAR PUBLICATIONS RE
+a copies al multiple sites
+b) One of the ways in which  remote database can be accessed by an application is via Data ropllation refes to (thcoﬂi(::? ,;;not;iaslmdpm several s':lu (o0 serve
+an auxiliary program, This program is written by an application programmer which computer network. Fragment cop
+returns the result to (he requesting application, i information requirements.
+5. What aro corroctness rulos of fragmentation? Explain each ryle, 7, a) What aro the factors affocting allocation? [MODEL QUESTION)
+[MODEL QUESTION) b) Whiatls miotetm prodicate?
+Answer: ' Answer:
+
+Correctness Rules of Fragmentation are oy follows: ) The factors affecting allocation are:
+
+1) Completeness- Decomposition of relation R into fragments RI, R, .. Rn is ' ¢ response time constraints
+
+complete ff each data item in R can also be found in some Rj, : * availability constrains
+
++ network topology
+
+b) Reconstruction- | relation R s decomposed into fragments R1, R2, , . . Rn, then o security resrictions
+
+there should exist some relationa] operator V' that reconstructs R from its fragments, i¢,, -
+
+R=RY... VRn b) Minterm predicate y for a set of P of simple predicates refers to conjunction of all
+* - Union o combine horizonal ragmens predicates appearing in P cithr taken in natural form or negated provided that the
+*Join to combine vertcal fragments. expression is not a contradiction. Simple and negated simple predicates.
+
+¢) Disjointness- If relation R is decomposed into fragments R1, R2,..., Rnand data Examples:
+
+item di appears in fragment Rj, then di should not appear in any other fragment Rk, k < PNAME = “Maintenance” AND BUDGET < 200000
+
+ (exception: primary key attribute for vertica| fragmentation) NOT(PNAME = “Maintenance”) AND BUDGET < 200000
+¢ For horizontal fragmentation, data item is a tuple
+* For vertical fragmentation, data item is an ann'%u(c 8.a) What is vertical clustering? [MODEL QUESTION]
+‘ b) What is partial union?
+6. What is the d co a Answer:
+roplication? Moronce among data fragmentation, data [::ggtloguaensdndoﬁ; 8) In Vertical clustering an attribute may be contained in more than onc.ﬁ'agmct_ils. The
+Answer; vertical clustering causes replication of some data elements. The replication is more
+Data fragmentation allows one to break a single object into two or more segments or advantageous for the read-only applications than for the reac.l-wrile application. In the
+[ragmens. The object might be a user's database, o system database, or a table, Fach latter case, the same update operation is performed on several sites.
+fragment can be stored af any site over a computer network. Information about data
+(ragmentation s stored in the distributed data catalog (DDC), from which it is accessed h) Let R and § be two union-compatible relations. Then their union RUS s a relation
+by the TP o process user requests, Which contains tuples from both relations: R()§ = {xxeR orxes).
+" Union is a-partial operation on relations: it is only defined for some (compatible)
+Thereae lhme types o dun ff"'“‘""“m RiNap: relations, nolI:‘or all of them. i
+¢ Horizontal fragmentation
+* Vertical fragmentation, 9. What is Mixed and Horizontal Fragmentation? Explain with an examplo.
+* Mixed fragmentation [MODEL QUESTION]
+Answer;
+Allocation describes the process of deciding where 10 locate data. Data allocation Mixed Fragmentation: The fragments that are obained by the above fragmentation
+re as follows: Operations are relations themselves, so that it is possible to apply the fragmentation
+ntralized dat allocation, the entire database is stored at one e, operations recursively, provided that the correctness conditions are satisfied each time.
+tioned data allocat on, the database s divided into two or more The reconstruction can be obiained by applying the reconstruction rules in reverse order.
+1ents) and stored at two or more sites, Example: Consider the same global refation
+n, copies of one or more database fragments are EMP (EMPNUM, NAME, $L, TAX. MGRNUM, DEPTNUM)
+' ’ DDMS-23
+MMAMM—M
+The following is a mixed fragmentation, which is obtained by applying the vertical Fach horizontal fragment must have all columns of the original base table. .
+fragmentation of the previous example, followed by a horizontal fragmentation on For example, in the student schema, if the detals of all students of Computer Scnenglcl
+s i czum needs to be maintained at the School of Computer Science, then the designer Wi
+:;,A{{: ! =;Lumuugo Pdisowune vase wmn ogervi EMP porizontally fragment the database as follows:
+2= SLrcoerrvonas PIpevin wasee worwins, errvon EMP CREATE COMP_STD AS
+EMP3= SLoeprainpz Pdessewuns nasee srvene oeprving EMP SELECT 'U:ZSM—ST‘;EI;!;:!: o Sclience®:
+EMP= Pl pwing nusc sur., tacEMP WHERE CO -
+; A . i tation
+i TR St . . . d tation, a combination of horizontal and vemca.l fra.gmen
+1‘{‘;"?:)‘;:' FI" agmentation: Hon;on.ml fragmentation consists of partitioning the tuples bn h)"bnd ::i-;;nn;s?; the most flexible fragmentation technique since it generates
+global relation into subsets; this is clearly useful in distributed databases, where each R | extraneous information. However, reconstruction of the original
+subsct can contan data that have common geographical properte. It can be defined b iy g mommi
+expressiog each fragment as a selection operation on the global relation, Y wable is often an expensive task.
+Example: let a global relation be " o
+of Fragmen :
+YRR AR A, Gy g:.cv:mc‘l'augéisfsloregr close to the site of usage, efficiency of the database system 1s
+Then the horizontal fragmentation can be defined in the followin, - increased. i jes since data is
+g Way: imization techniques are sufficient for most queries since data IS
+SUPPLIER, = SLrry - 4s0re- SUPPLIER . ;ﬁyii;qaﬁreummuon_ techniqu -
+SUPPLIER;= SLary s SUPPLIER o Since imelevant data is not available at the sites, security and privacy of the database
+;0 dExplain different types of fragmentation indicating their advantage and system can be maintained.
+AI:Saw:::ntage. [MODEL QUESTION] Dissdvantagesof Fragmentation . ’
+: mgmetr;l]ation can be of three types: horizontal, vertical, and hybrid (combination of + When data from different fragments are required, the access speeds may be very
+orizontal and vertical), high. ) — .
+In vertical fragmentation, the fields or columns of a table are grouped into fragments. o In case of recursive fragmemalion, the job of reconstruction will need expensive
+“In order to maintain re-constructiveness, each fi in i techniques. . ’
+field(s) of the table. T o Lack :f back-up copies of data in different sites may render the database ineffective
+Vertical fragmentation can be used to enforce privacy of data. in case of failure of a site.
+For example, let us consider that a University database keeps records of all registered Long Answer Type Questions i
+students in a Student table having the following schema,
+“ STUDENT ' 1. a) Consider the schema SUPPLIER (SNO, NAME, CITY) and SUPPLY (SNO, PNO,
+m DNO, QUAN) and the following transaction:
+Read (tty, $PNO)
+Now, the fees details are maintained in the accounts section. In this cas, the designer Select Name into sﬁ;’:tv
+will fragment the database as follows: From SUPPLIER, S
+CREATE TABLE STD_FEES AS Where SUPPLIER.SNO = SUPPLY.SNO
+P PNO = §PNo
+SELECT Regd_No, Fees c;:i[t)os(::P:NYa.me)
+g What is the level of transparency of the abov:| tra::sac:ion-an:l \;hyﬁ'; ?
+. A . g h for a non-replicated allocation of horizonta
+Horizontal fragmentation groups the tuples of a table in accordance to values of one or ?ng::ﬁ;’::ont_m‘ fit. spposc P
+ey fiea c) Does any directory file system provide the network transparency? If yes, explain
+Horizontal fragmentation should also confirm to the rule of re-constructiveness. ' how the transparency is achieved.
+~ DDMS4 DDMS-25
+~
+a &g
+DISTRIBUTED DAT, § é
+POPULAR PUBLICATIONS '
+d) What | )
+at Is the most complex offect of update oporation in distributed database Y
+:ymm? Explain with the help of update subtreo, [MODEL QUESTION] ;\
+nswer:
+1) The level of lransp‘arency of !hc above transaction is'Fragmenlulion Iransparency. - ' EMP;
+Because, the transaction here hides the factfrom users haf the data are fragmented. This OOHX N
+is the highest level of distribution transparency. If a distributed system has fragmentation / } '
+transparency, then the user must pot he aware regarding the fragmentation of data, As ." — Um’%zm
+result, (!ulnbnse dccesses must be based on global schema and the user need not to specify A S B
+Uhe paricular fragment names or data locations h Sl
+b)"Dclermining anon rcd}lndunl final allocation is easier. The simplest method is a "bes(.
+tl,i: lappronch. a mca.:ure :15 associated with each possible allocation, and the site with the !
+St measure is- selected. Replication introduces f ity i i ' . .
+because; o b compledy in e daiy [n order to understand which data movement operations ar¢ nqu'mgo:Zi:r:zd;l:i::t:
+1, The dcprec of replication of each fragment becomes a variable of the problem. f:.gmcnuliOn attribute, it is useful to lfmk . ll-lc rmgmenm:lor‘:am;mﬁon The update
+2. Modeling read applications is complicated by the fact hat he applications can select . A which is used in a Sdmion. predicl g 8 horely ligrlln the ﬂb‘;"e horizontal
+fmong several alternative sites for decessing fragments, For determining (he subtree of 4 is the subtree having as rool the node rc;‘)-nsen : Eh e updte sube for
+'redundnnl a!location of fragments, either of the following two methods can be used: fragmentation. For example, we indicate in the abovgblgurc limited to the fragments
+!) Determine the set of all sites where the benefi of allocating one copy of the atribute DEPTNUM. The effects of a change of an attribute are .f B A
+fragment is higher than the cost, which are leaves of its update subtree. For example, a change of aftribul fe (change
+it) - For non replicated problem, introduce replicated copies starting from the most allects only EMP, EMP, and EMF, but not EMP,. A tuple can Tllf:updllt
+beneficial, fragments) between two of the three former fragments as a consequence of the uj | :
+
+In general, the update subtree of a atribute A can be more complex than the su;np . onr:
+¢) Directory file system provide the network transparency, Network transparency allows shown in Figure 1, and the effect of chang.ing a value of the attribute A. is th"::e s(:lr:\;:t)in
+applications to access remote resources through network without needing to know complex. For example, suppose that relation EMP,h” the fragm en({notrl: sineRdiits
+whether they are remote or local, In a distributed directory file system, network Figure 2.2 In this case the update subtree of atiibute DEPTNUM is fc i vt
+transparency involves three aspects: naming, performance, and failure resiliency, whole fragmentation tree. The effect of ghan_glﬂs the DEP_ INUM th’e °h :h:llpl;c ol eg
+Naming plays an important role in distributed file systems. A directory file system is said EMPNUM = 100 from 3 to 15 is shown in Figure 2.b. This upda}e is suc = t:en'
+0 provide name transparency if it satisfies the following three requirements, First, any originally stored in fragments belonging to the left subtree of Figure 2.2, : nl;:wcen
+fle s accessible from any location. Second, the same name is used at every location, And part of the right subtree. We sce that not only the data has been move
+third, file location is not reflected i the pame. fragments, but the tuple has also been composed in a different way.
+
+EMP
+d) In providing distribution transparency to update applications, there is another problem \ !
+Which is more complex than performing the updates on al copies of a data item. Consider
+or example what happens if the CITY attribute of a supplier is modified. Clearly, the o . X,
+er tuple must be moved from one fragmen to another, Moreover, in our example = o
+ tuples of the SUPPLY relation which refer o the same supplier also must
+because the SUPPLY relation has a derived fragmentation, It is EMP,  EMP,  EMP,  EMP
+g the value of an attribute which is used in the definition of P} TS Lowrread <W(EMP)
+ave rather complex effects, The degree o which these | ?&-»:Wumﬂn
+aclerizes the leve i i EMP; = PloanwnonanernunSLoarnan«
+the I (:t distribution transparency EMP,= Plnancsu oS Lasrnene o EMP)
+B (a) A different fragmentation and fragmentation tree for relation EMP
+i ' DDMS-27
+DISTRIBLTELD DATABASE MANAGEMENT SYSTEM
+o (IMI) .
+ARINUAE NAMEHSAT T YA — awerl
+mmlmml :)'Wo can group engineers into 2 groups according lo (holr salary
+L ' . - < 200,000 nd * 200000 The 2 fragments
+o E T, ", Ve, """—“!:—-- ‘ [ MPy and EMP; are defined:
+| INUM l NANI I DTN ] i T R b [MP, = EMP e PAY,
+WL 1 | "!:}M I l\tlAn'll I m { Mw,f,'w I where
+() et of dating DI TNUM of eployes wih EMPNUM 10p PAY; * o (PAY)
+Iy 2 PAY, = 05 s (PAY)
+2 Dincuss bost fit, all boneficlal Wl yond Energy Algorithim (BEA) has boen wsed for clustering of entiies A finds an
+allooation of fragments, 1o and addonal banetola ate Strategy for :r)stlnu ol onﬁlmu((ln our e tributes) such that the global affinity measure (AM) 1s
+Answor; (MODEL QuesTioN) maxlmized.
+’I';wi:' W’I""“"f AM -)r’z (affinity of A, and A, with their nefghbors)
+04 L
+& Ihis‘:‘h:' b evaluaed ho many accosses ae rquied from the applications ocated '
+B fiy fnput: The AA mairlx
+Where
+fthe frequency of application K at site | Output: The clustered aflinity matrix CA which is a perturbation of AA
+My the number of accesses from application k to fragment 1, Inftiatization: Place and fix one of the columns of AA in CA.
+The site with greatest B value by selected for the (i nm‘m.m | 2 Meration: Place the remaining n-h columns n the remaining 141 positions in the CA
+" matrix. For each column, choose the placement that makes the most contribution to
+All benefictal site approach; ' {he global affinity mensure.
+The goodness of a site Is measured by the benefit of the local read nccesses and {he costs 3. Row order: Order the rows according to the column ordering,
+ol remote update accesses; - '
+By = fun - € X L Lo fitig ¢) All beneficlal sites = In this approach the set of all sites where the benefit ol allocation
+where of one copy of the fragment is higher than the cost, and allocate a copy of the fragment to
+fiy the frequency of application k at site | cach element of this s,
+fi the number of read accesses from application k to fragment | Additional replication - Determine the soluton of the: non-eplicatedproblem.
+Uy the number of update accesses from application k o fragment | Progressively introduce replicated copies startng from the most beneficial; the process is
+Cupdate cost relative (o the read ferminated when no additional replication is beneficinl.
+Additional replica fon approach: 4, Writo short notes on the following: [MODEL QUESTION]
+Beside the costs involved in B, a 5o called reliability factor s contained in the measure 1) Vertical and dorived fragmentation
+{00, This factor increases with the increasing number of replications, b) Fragmontation
+Answer;
+3. a) Considor the two rolation schomas PAY = (TITLE, SAL) and EMP = (ENO, A) Vertical and derived fragmentation:
+ENAME, TITLE) and whoro ownor (L) = PAY and membor (L) = EMP and L Is the link Horizontal Fragmentation: Horizontal fragmentation consists of partitioning the tuples
+botwoon the two relation schemas, Define a dorived horizontal fragmentation on of o global relation into subsets; this is clearly useful in distributed databases, where each
+E"v'; with the prodicates SAL < = 200000 and SAL > 20000, subset can contain data that have common geographical properties. It can be defined by
+) Writo the BEA algorithm for vertical fragmentation, expressing each fragment as a selection operation on the global relation,
+¢) Discuss “all bonoficlal sitos” and “additional replication” mothods for replicated Example: let a global relation be
+allocation of horlzontal fragments, [MODEL QUESTION] SUPPLIER (SNUM, NAME, CITY)
+DDMS-28 DDMS-29
+0
+ISTRIBUTED DAT. )
+AR PUBLICATIONS F
+PTIMIZA F
+Then the horizonta] fragmentation can be defined in the following way; DISTRIBUTED OUERY o
+: SUPPLIER, = SLery “swore SUPPLIER tions
+SUPPLIER= SLey Simogs SUPPLIER Multiple Choice Type Questio
+Vertical Fragmenta jop: hich of the following ¢
+, : i ttributes violets wi
+The Vertical f’agmenlahorf of a global relation s the subdivision of it attributes into 1. R'p"t::it:r’n"‘? PR wcﬁorooﬂ Que
+groups; fragm.ents. are obtained by Projecting the glob| relation over each group. This mgmg‘mpletonm p Roc: n;) and (c)
+can be usefu in dlstnbut.ed databases where each 8roup of attributes can coptajp data that :; Disjointness el
+have common geographical Properties. The fragmentation is correct;sif each attribute is wer: ()
+mapped into at Iga.m one attribute of the fragments; moreover, it must be possible (o s - operation, B = >binary
+:consul'uct the original relation byjoining the fragments together, 2. Idempotence of unary operation implies (U = >unary P[;‘o DEI: QUESTION]
+Xample: Consider a globa| relation .
+ration) URBU(S)
+ Averin e EMPNUMNAME, AL 2, g DEPTNUM) U1 V2R 6 L2 IR o 1L SR e
+A vertical fragmentation of this relation can be defines ag ¢)UReUIU2R i
+EMP;=pJ ENNUMNAME, MaRNUM, Dgpmvuy EMP Answer: (¢)
+EMP;=pJ EMPNUM, SALTAx EMP [MODEL QUESTION]
+hase commitment protocol is used for
+T 3. Two-pha b) integrity control
+b) F ragmentation: a) concurrency control d) redundancy
+Fragmentation is 3 process of dividing the whole o full database into varigys sub- c) recavery '
+tables or sub relations 5o that data can be stored in different systems. The small pieces Answer: (a)
+of sub relations are called fragments, These fragments are called logical data units anq is used for [MODEL QUESTION]
+are stored at various sites. It must pe made sure that the fragments are such that they 4. Time stamp '“‘ch‘"l::r':l . b) integrity control
+can be used to reconstruct the original relation, &) CONcIIITINCY 0o ¢) redundancy
+In the fragmentation process, let’s say, If a table T is fragmented and js divided into 4 o n_w)’m
+number of fragments say T, T2, T3...TN. The fragments  contain sufficient Ameri(s L QUESTION]
+information to allow the restoration of the original table T, This restoration can be done . ’ lled Hons
+4 data model, the columns are ca
+by the use of UNION or JoN operation on various fragments. This process is % I";::::i?:.l b) tuples ¢) degree d) attributes
+called data Jragmentation. AJ| of these fragments are independent which means these Answer: (b)
+fragments can not be derived from others, The users needn’t be logically concerneg ESTION]
+about fragmentation which means they should not concerned that the data is fragmented 6. Primary key never takes [MOD‘E,L T:NULL
+and this is called fragmentation Independence or we can say fragmentation a) date b) NULL SISt I
+fransparency, Answer: (b)
+Advantages; 71 how many weays m rows and n atributes can be reprosent[e"ngEL QUESTION]
+* As the data is stored cloge to the usage site, the efficiency of the database system ) d mi*n!
+will increase, 3 m*n b) nl*m e P
+* Local query optimization methods are sufficient for some queries as the data is Answer: (a)
+available locally, EL QUESTIO|
+*  Inorder to maintain the security and privacy of the database system, fragmentation 8. Spurious WP'“} may occur due to MO8 §
+is advantageous, :}ﬁ;‘:&"j’;‘l‘: shutlon
+, ing tables from join : . i
+Disadvantages: i ) :;)(:;’:‘:"ag : b (i) ]md (i) ¢) (i) and (iii) d) (i), (ii) and (iii)
+* Access speeds may be very high if data from different fragments are needed, Answer: (3)
+¢ Ifwe are using recursive fragmentation, then it will be very expensive, M DDMS-31
+I ) DDMS-30
+DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+9. A, B, Clis a set of attributes, The functional dependency Is n( 'f‘o(;loo:::owsm 16. PJ, [R:q,] Implies [MODEL QUESTION]
+AB-B,ACC,CB , N o [P/ R:q) b) [P R:A AND
+a)ls in INF b) is in 2NF ¢) is In 3NF d) Is in BCNF 0) [I’J,R:A Oqu] d) [”-/4 grik ]
+Answer: (a)
+Answer: (¢)
+10. What is the maximum number of functional dependencies (trivial and non UESTIO
+: 17, Allocation schema s a [MODEL QUESTION]
+oo MODEL QUESTION] 3)site Indopendence schema b) modorn schema
+R o WP |), . ¢nl d)2 ) site dependence schema d) none of these
+nswer: None of these, Itis (2°~1) Answer: (a)
+11. Is detormination of consistent view of the network has the same complexity as 16, DWFG stands for ' [MODEL QUESTION]
+determination of network failure? [MODEL QUESTION] a) Distributed wait for graph b) Domain window Firewall Gatoway
+a) Yos b) No ¢) Unknown d) Possible ¢) Distributod weighted Forward Graph d) none of these
+Answer: (d) Answer: ()
+12, Soml-joln Is required to [MODEL QUESTION] 19, Which of the following Is  replica control protocol? [MODEL QUESTION]
+a) reduced notwork traffic b) reduced memory usago 1) Distributed 2PL b) Blased protocol
+¢) Incroased spood d) none of these ¢) Majority locking d) All of these
+Answer: (1) Answer: (d)
+13, Which of the following Is not a phase of optimistic method for distributed ‘ 20, Which of the following s a ROWA protacol? [MODEL QUESTION]
+concurrency control? [MODEL QUESTION] a) Primary copy 2PL b) Majority locking
+a) road phase b) verification phase ¢) Distributed 2PL d) Contralized 2PL
+¢) valldation phase d) writo phase Answer: (¢)
+Answer: (b)
+" 21, Which of the following operation Is conflicting? [MODEL QUESTION]
+14, A sorlalizablo schodule always [MODEL QUESTION] a) Road-Writo  b) Write-Read ¢) Writo-Write d) All of these
+a) produces same result as all possiblo serlal schodulos of participating Answer: (b)
+transactions i
+b) produces samo rosult as a worlal schedulo of particlpating transactions 22, I a distributed system has n sites, the total numbor of message transfors in
+c) produces same rosult as a concurrent schodule of participating contralized 2PL Is (MODEL QUESTION]
+transactions 9 b) Int2 2
+d) Is samo as a sorfal schodulo of participating transactions Anlw’tz:"(c) Ay g e wha
+Answer: (b)
+’ 23, Which of the following refors to the operation of copylng and maintaining
+16, A somi Join Is which of the following? [MODEL QUESTION] database objoct in multiple databases belonging to a distributed system?
+a) only the joining attributes aro sont from ono site to anothr and thon all of (MODEL QUESTION]
+the rows roturnod 1) Backy, b) Recov Roplicati d
+b) all of the attributos aro sont from ono site to another and then only the Answ,er: (©) P ) " ¢) Replication ) None of these
+roquired rows are returned
+¢) only the Joining attributes aro sont from ono site to anothor and then only 24, Which of the following Is the recovery management tochniquo for distributed
+the required rows are refurned b th systom? (MODEL QUESTION]
+d) all the attributes are sent from one site to anothoer and then only the 4) Deforred updato b) Immediate update
+roquired rows are returnod ¢) Two-phase commit d) None of these
+Answer: (c) Answer: (c)
+DDMS-33
+DOMS-32
+POPULAR PUBLICATIONS DISTRIBUTEDD. 4§
+26, Looal autonomy means ; ization for the query based on the fragy
+
+) looal query will be processed locally R AT The Query Processing d":s dulx.! m::/::rl;;gy that qinc?momm the
+
+b) local data will be acoesses by local site only scheme and fenerates the exce
+
+0) local DDA Is solo authorlty of local date ' operations involved in processing the query.
+
+) oach sito In a DIMS In Its own rlght ,
+Anwer! (1) 2 Part;
+26, Datal filo Inol (haracteristics of Query Processors:
+
+« Database profile Inoludes e o8 L
+
+) onrdinality h) iz o) distinot mm[MOPd;..Q"Ujm?:J e l’m.‘ (Ilfnpm language can be relational algebra or calculus; output language is relational
+
+Animeri d) (o algebra (annotated with communication primitives). The query processor must
+efficiently map input language to output language.
+
+« What are the objectives of Distributed Quo trategies, the best one can be selected through €xha ted
+Aniwort o roomisg? 65 AT ’n“p:;;l;g heilrinic (minimize size of intermediate relations). For distributors
+Objectives of Distributed Query Processing databases semi-joins can be applicd to reduce data transfer.
+
+I The main objectives of query processing in u distributed environment is to form a Statistics
+high Tovel query on  disteibuted database, which is seen as o single database by o Fragment cardinality and size .
+the users, fnto an efficient execution strategy expressed in a low lovel language in o Size and number of distinct values for each attribute. Detailed histograms of
+local databases, attribute values for better selectivity estimation.
+2 An important point of query processing is query optimization, Because many Declsion Sites
+oxecution stratogles are correct transformations of the same high level query the o Onesite or several sites participate in selection of strategy.
+one that optimizes (minimizes) resource consumption should be retained. Exploltation of network topology
+3. The good mensure of resource consumption are; »  Wide area network communication cost.
+1) The total cost that will be fneurred in processing the query. Itis the dome of all o Local area network parallel execution
+tmes ncurred in processing the operations of the query at various sites and Exploitation of replicated fragments
+Intrinsie communication, 1 + Larger number of possible strategies. -
+i) The resource time of the query, This is the time clapsed for executing the o Use of Semi joins.
+¢|‘uory.rslncc operations can be executed in parallel at different sited, the response o Rediice slae of dota tranifer:
+lime of a query may be significantly less than its cost. i
+A I a distributed system, the (ofal cost (o be minimized includes CPU, N0, and o Iceuate QL RARCAN G DEN MRS
+communication costs. This cost can be minimized by reducing the number of N0 3. What Is locking? What are the shared and exclusive locks? Briefly discuss
+operation through fast access methods (o the data and efficient use of main Timestamp protocol in relation to distributed database system?
+memory. The communication cost is the time needed for exchanging the data [MODEL QUESTION]
+between sited participating in the execution of the query, Answer:
+Any Database management system whether it is distributed or centralized, utilizes locks
+2. What do you meant by Query Processing? Write down the characteristics of o provide concurrency control. Common uses of locks are to ensure that only one user
+query Processors. [MODEL QUESTION] can modify a record at a time and that data cannot be read while it is being modified.
+Answer: Locking mechanisms can be enforced at the row, table or page level.
+1" Part: There are two mechanisms for locking data in a database: pessimistic locking, and
+‘ A Query Processor is a module in the Distributed Database System that performs the optimistic locking,
+ks to process, to optimize and to generate execution strategy for a high-level query.
+DDMS-34 DDMS-35
+L
+FMMM DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Exclusive locks o i i R & S where F is a formula which
+_Join of two relations R and S is denoted as
+These locks proect i e . sl 5 jection of all atributes of th firs
+e ownl;o n :ﬁ;ﬂam to file resources, boﬁ! recoverable and non-tecoverable o specifies a join predlcat:,.a.nd is dﬂtlved ff::m (:1: :l::l:xson of a
+exmive lock Y one lransaction at a time. Any transaction that requec - operand rlation after the join operation of the e s
+1ustve lock must wait if another task currently o : fequires an major difference between Natural Join and Semi Join is emi
+against the requested resource. Y owns an exclusive lock or a shared oc > al projection operation on all attributes of the first operand relation afier natural
+i '.d'dnzon uI::J The size of the resultant relation of Semi Join operation is less than that of
+Shared locks Jﬁ::umin Therefore, the performance of Semi Join operation is increased. Note that
+A shared lock reserves it object for read join is not commudative, i.c.
+: ing only. I semi-join 5 not co .
+process of being updated during a read -on?y guzg a:dmlo"éfsa mric:rl:o is b:ot USI:d the g RD<ABS # SDEABR
+prevent updates of a record between the i k to
+Synchronous poin, ¢ ime that a record is read and the next For an example consider the tables Emplo) ¢ and Dept.
+It prevents the object from changing whi - [ Emplyee |
+ging while the |
+pceashrd ok on e s ock remains. More than one program can Name | Empld | Depihame [ DeptName | Manager
+Tiaatijoonco mﬁ :'
+The principal idea behind the time stamping scheme is that each transaction is given a mnﬂ.m ‘ m-
+;mque time stamp used to decide the serialization order. mmm |
+Wo primary methods are used to generate unique timestamps, one is centralized and
+is distributed. In Qne centralized scheme, a single site is chosen for distributing the The natural join of the two tables is given by
+Ummps: The site can use a logical counter or its own local clock for this purpose,
+In thc distributed scheme, each site generates a unique local type stamp using either a mmmm
+logical counter or the local clock. The global unique timestamp is obtained mmmm
+: . g p by
+concatenation of lhe‘umque local type stamp with the site identifier, which must be mmm
+unique. We use the site identifier in the least significant position to ensure that the global m&!ﬂlmm
+timestamps generated in one site are not always greater than those generated in another mmm :
+site.
+We may still have a problem if one site generates local timestamps at a faster rate than Consider the following Dept table '
+: ps
+does the other site. In such a case, the fast site’s logical counter would be larger than that [ Dt |
+of other sites. Therefore, all timestamps generated by the fast site will be larger than m
+those generated by other sites. A mechanism is needed to ensure that the local imestamps m
+are generaled fairly across the system. To accomplish the fair generation of timestamps, g_m
+we define within each site S, a logical clock (LC,) which generates the unique local m
+timestamp. To ensure that the various logical clocks are synchronized, we require that a “ fo
+site S, advance its logical clock whenever a transaction T; with timestamp <x,y> visits Production m
+that site and x is greater than the current value of LC;. In this case, site S, advances its e
+i o - b
+logical clock to the value x+y. The semijoin of Employee and department is given by
+4. What are the difference between semi join and natural join? Explain with Name | Empld | DeptName |
+example. Show that semi join in not commutative. [MODEL QUESTION] m_
+pumer . e
+The Natural Join of two relations R and S is defined as R P4 S is an equijoin in which all
+attributes with the same names in the two relations are compared.
+DDMS-37
+DDMS-36
+POPULAR PUBLICATIONS : DISTRIBUTED DATAB, g 285
+5. Consider the following PROJECT relation, Thi i machines send their graphs to the central coordinator, which
+fragments namely, P1 and P2 as given % s gmeied n two Bo.th e les and hence no deadlock. Now two events occur.
+given below: ODEL QUESTION] union. There are no cycles and hen T are sent (o
+IIIE.IEIE--EI-IIE{-I releases resource R and asks machine B for resource T. Two messages 10 the
+lm-lmammmm coordinator: g DY
+P |05 | DFVELOPWENT | prg | message | (o machine A): “reesing R
+POGS | EO014_ | DEVELOPMENT | Pro | message 2 (iom machine B): “vaitng or " i
+L — ( This should cause no problems (no deadlock). Howerer, i d et ded‘;eskuétclh:
+* Oprype=+ = P2 s : e { a deadlock.
+Show the correctness of the fragrrlontat‘i,c:m’.»E wermeet SOIECT coordinator would then construct thlt(: graph in Figure below and detec
+Answer: ' condition is known s false deadlock. -
+J S
+PL: Gprype-«peve opment (PROJE ° o
+-m--m_-rm_-mz- F
+-m--m-lmmm-m_ : :
+[P0 T EWS | DEVELOPVENT | roy 4]
+L P03 | EO0M | DEVELOPMENT | ros | :
+P2: Gprype- wainmenancer (PROJE . | °
+_P 004 -Zﬁ_.mm Proj4 A way to fix this i o use Lamport’s algorithm to impose global time ordering on all
+- machines. Alternatively, if the coordinator suspects deadlock, it can send a reliable
+:nw::..'s e Sanptl [MODEL QUESTION] message to every machine asking whether it has any release messages. Each machine will
+o ’ . then respond with either a release message or a negative acknowledgement to
+Sugpos.e machine A has a process P0, which holds the resource § and wants resource R, acmme[;ogc receipt of the message.
+which is held by P1. The local graph on A is shown in Figure below.
+e holds 7. Optimize the following query: [MODEL QUESTION]
+: E . List the flats that are for rent along with the corresponding branch details.
+8 Relations: BRANCH (Branch No., Street, Postcode) _
+2 PROPFORRENT(PNO., Rent Amount, Owner No., Type, Branch No.)
+Consider the following fragments:
+n P1: gBranch_no= “B003" * type = “House" (PROPFORRENT)
+2 P2: oBranch_no= “B003" A type = “Flat” (PROPFORRENT)
+2 P3: oBranch_nol= “B003" (PROPFORRENT)
+B1: oBranch_no= “B003” (BRANCH)
+o Bz:. oBranch_nol= “B003" (BRANCH)
+Another machine, machine B, has a process P2, which is holding resource T.and wants ::::It:\izt:zhfqt.e Write the corresponding relational algebraic expression. Then
+resource . Its local graph is shown below. ' et it [ JT-
+S SELECT * FROM BRANCH b, PROPERTY p / \
+; H ° WHERE b, Branch No. = p.Branch No. Oppetia v
+AND p.type = “Flat™, .
+: § A
+- V] B B,
+- /N
+PP B
+DDMS-38 ) DDMS-39
+POPULAR PUBLICATIONS QE]WWWW
+DUR 236
+8. What is deadlock prevention? ODEL QUES
+Answer: w QUEsTION EMP ENO-ASGEND 0 ASG PNO=PROI PNO
+Distributed Deadlock Prevention: ,
+With a deadlock prevention approach, a transaction is aborted and restarted if there is o - ?
+nisk that deadlock might occur, Since deadlocks can never occur in this wa
+prevention climinates the need for deadlock detection and- resoluion i g:z: s @ ey
+prevention is done in the following way: if a transaction T) requests a resourcc which i
+2 ich is ;
+by anoter ransacton T, theapreventio et is apled, fhe s o tht e [MODEL QUESTION]
+there is a risk of deadlock, then T is not allowed to enter a wait state. Instead, either T is 0, Consider the following relation algebra:
+abo:;: and restarted (nonpreemptive method), or T is aborted and restarted (preemptive o Tenume (Gmgro =374 (EMP dno D1 = dn[:d D?T)' pp—
+method). 35000 (EMP no
+. =374 AND sal >= are less than
+The prevention test must ensure that if T is allowed to wait for T, then deadlock can The (am expression genarate names of the mmﬂ:‘:‘ m"‘ Sigelaic
+never occur. This is typically obtained b orderin i i i d manager number is 374. Draw operator
+: ; . OWiained by B lransactions, using for instance the 35000 and manag the highest level.
+lexncograph»czfl ordering of their identifiers, T,is allowed to wait for T; only if i < j, The expression and optimize it into the hig
+reason why this method works is that it is impossible to build a closed chain Answer: : is shown in fig (a) we start by merging luvu
+== i) The Wpondmg opamolr)-ér;r relation. Then we factorize the selection on ‘sal’ wnl?
+such that if, 5 i then <. orall cortesponding to EMP and ¢ the nodes, Cortesponding (0 the selection on ‘mgmo
+In order to generate unique identifiers for transactions in a distributed system, it s respect (0 Join. N:dv;wc = mn:ri?‘g 10 the join; we came to the operator tree of fig. (b).
+sufficient that each site generate locally unique identifiers and append the site identifier and ﬁnally.!hc E fi |lmbcx;xusion:
+to them, However, for the performance of the algorithm, it is better that identifiers reflect We recognize the follo n% . 4
+the "time" of transaction initiation, Therefore, timestamps are used for this purpose, Ormgrno =374 (Er:ﬁ;."
+We can use the p ;
+A nonpreemptive method for deadlock prevention based on timestamps i the following: R-(oR) < ok ' Finally we can apply idempotence to the
+If T, requests a lock on a data item which is already locked by T, then T, is permitted to mdgdqg the operator I"°? o ;’:; mojr;%tif)z towa:g the leaves of the tree generating the
+wait only if T, s older than T, If T;is younger than T, then T, i aborted and restarted projection and push selections and pr P
+with the same timestamp. The rationale of this method is the following: It is better always operator tree of fig. (d).
+to restart the younger transaction. “¢|- 1
+A preemptive method works with the opposite rule: if T; requests a lock on a data ifem % !
+
+s “ $ Oul> 1500
+which is already locked by T, then 7, is permitted to wait only if it is younger than T, / \ \ o
+otherwise, 7, is aborted and the lock is granted to T, The rationale of this method is the D e D<o R > 3
+following: Since we still want to abort the younger transaction, with a preemptive method AL
+we must allow older transactions to preempt younger ones, and therefore only younger / \ / \ / \
+transactions wait for older ones. EMP  Ouporie °‘| faies T’"‘ EMP  Ouguet
+9. Consider the following; [MODEL QUESTION] D,!,,, ar B 9 mlﬂ
+
+Select Ename, Resp from Emp, Asg, Proj. ' g
+where Emp.Eno = Asg.Eno and Pname = “CAD/CAM" Fig. (a)
+and Dur > = 36 and draw its query graph, ¥
+Answer:
+The query graph of the following query:
+Select Ename, Resp from Emp, Asg, Proj, -
+where Emp.Eno = Asg.Eno and Pnarme = “CAD/CAM”
+and Dur>=136 DDMS41
+DDMS-40
+POPULAR PUBLICATIONS DR 4, u'g «‘
+~ é
+. i B
+"T e 13, Explain the significance of the semi-join program in context W E/
+> I swer: o
+kL ‘ . e aneqioin RIN,.; S where 4 and B arearbues (o, more
+B / B tibuts)or R and S, the semicoin program for s given by
+/ \ ‘ n.l... e SN, (RSJ,=,PJ,S) 3 " il
+start by considering a simple example of a semi-join program and I transmt
+EMP et Ouismyom a.,.l,,,‘ cl::tu; semi-jyoin program between two relations R and S over two attributes 4 and B
+Fig. () DF!" | ' | is defined as (R 8J,;8)IN .S, and is equivalent to RIN . S. Assmfn‘: that R and
+EMP .  DEPT § are allocated at sites r and s, respectively. Then, performing the semi-join program
+! Fig.(4) corresponds to:
+11. “2PL protocol only ensure that the schedule is conflict seriali 1. Sending PJ, (8) tosite 7, ata cost:
+; izable or not; but it e g
+e ;mm all ;I;.mue combination of valid serilizable schedule.” Comment © €, +C,xsize(B)xval(B[S])
+o example. [MODEL QUESTION] A g :
+wer: 2, Computing the semi-join on r , at a null cost; let
+2PL ensures conflict serializability. R'=RSJ,.,S
+Every schedule p:loduced by two-phase locking, i.e., 3. Sending R' to s, ata cost:
+® every read and write is preceded by a lock and followed by an unlock - i ;
+G s C, +C, xsize(R)xcard(R
+o o DB item is su'nultaneously locked by more than one transaction 4 Com utain t;ie 'oin(on)s at a(nuzl cost
+e foreach transaction, the last lock precedes the first unlock is conflict-serializable, Th pm" d t-J i
+Transactions can be serialized according to their lock points. o : ;
+Futk' schedules may cause cascading aborts. i.e. if a transaction aborts after it releases a ‘ Cy=2xC,+G, "(Si”(B)" vaI(B [s ]) +size(R)xcard(R ))
+t i i
+‘::"‘ it may cause other transactions that have accessed the unlocked data item to abort as Semi-join is not symmetric, and clearly the other semi-join program (SSIR)IN R has a
+! different cost. Comparing their two costs solves the problem of determining the optimal
+12. Prove that[R:a. 187, [s: : ) semi-join program for the join of R arid . Notice that the two programs produce results
+[ I ] F [ 9s ]ZIR 8J¢S:q; AND g; AND F ] * which are allocated on different sites; thus, the possible difference in cost in the
+Pl ' [MODEL QUESTION] transmission of the results also should be taken into consideration.
+O - - " Moreover, it is important to verify that the semi-join program is profitable with respect to
+::"“'Jmﬂ is derived from the use of projection and join. the use of joins s a query processing tactic, which consists in executing the join directly,
+) without previous semi-joins. The cost of using joins as a query processing tactic is that of
+[R:q, )87, [S:44] transmitting one of the operands to the site of the other one. If we perform the join at site
+= P JM‘) ([ R:q,,] N, [ s :q,]) ' 5, the corresponding cost is
+o Pl (R Si0, ANDG, ANDF ' Cpy =€, +C, xsize(R)xcard(R)
+, An(R) [oR' 9s ]) Comparing C, and Cg,, the semi-join program is profitable if
+=2 [H_m(m,s):q, AND ¢, ANDF] €, +C, x(size(B)x val(B[S]) + size(R) xcard (R')) <C, xsize(R) xcard R)
+L;g,s:q, ANDg; ANDF] In many cases the above inequality holds, because size(B) and vl (B[S]) are small
+e 7 of t algeb };,of qualified relations. Since it can be shown that its equal to. hilecard (R) i lrge than card(R ).
+1 rules a M, values that are less than or below the limit will also
+- DDMS-42 DDMS-43
+" DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Explain the different between the terms “deadlock prevention” and “deadlock 2 .
+m::co"- [MODEL QUESTION) ::vmlaln distributed query optimization. [MODEL QUESTION]
+: er:
+Deadlock Prevention: / Distributed query optimization refers to the process of producing a ca|]>lla: for the
+*  Preventing deadlocks by constraining how requests for . processing of a query (o a distributed database system. The ?Im is called .a query
+the system and how they are h.'mdledg(systerl;le(c]iesign)0r el Es execution plan. In a distributed database system, schema and queries refer Ito !ofllcal .umtsr
+. &isa. ry conditi ional distributed relation database system, for instance, logical units o0
+; ;’: nge::alr lI:otl:;.ensurc e emion e e conditions for deadlock ::t:a :e l:l:!;:rst.l ?ll'lhﬂclsunits ma;ebe fragmented aty the underlying physical level. The
+Deadlock Avoidance: fragments, which can be redundant and replicated, are allocated to different database
+* The system dynamically considers every request and decides whether it s safe to SNl Sy,
+grant it at this point, .
+. o . g rpe Que!
+. Theh system re?ulres additional information regarding the overall potential use of
+each resource for each process.
+o Allows more concumn[:y 1.3) What is Serializability in a distributed database? -
+) b) Give a brief introduction to 2PL as a distributed concurrency cosnzmg er{n::'l‘od -
+; ’ s ects, y be stored at site S1, z, w be stored at site S2. ine for
+15. Write down the query optimization algorithm of INTEGERS, w&ml’ml executions, whether the execution is Serializable or not.
+PE [MODEL QUESTION] If yes, determine all possible total order of transactions.
+ﬂ\ If no, then prove that there is no total order possible.
+Algorithm: Dynamic*-QOA Execution 1:
+Input: MRQ: multirelation query §1: R (x) R (x) W; (x) Wi (x)
+Output: result of the last multirelation query Ex::ﬁ R ;\.') R; (2) W, (w) Wi (w)
+begin Execution 2:
+fﬂ' each detachable ORQ, in MRQ do {ORQ is monorelation query} :; ; :‘v((:))R’ (x) W )W, 1)
+o Exocuti.on I3:
+| MRQ'_list «REDUCE(MRQ) {MRQ repl. By n irreducible queries} S1:R, (X R, (x) W, ()W (y)
+hile n#0 do {n is the number of irreducible queries} : S2:R(2) R, (2) W, (2) Wi (W)
+{choose next irreducible query involving the smallest fragments} .EL%"%%;.) R 00 W ()
+2 : )
+MRO' 1.—SELECT_QUERY (MRQ' _list); $2: W, (2) R (W) R; (w) W, (w) [MODEL QUESTION]
+{determine fragments to transferand processing site for MRQ'} Answer:
+Fragment-site-list «- SELECT STRATEGY (MRQ'); a) Serializability in a Distributed Database:
+{move the selected fragments to the selected sites) In a distributed database, each transaction performs operations at several sites. The
+for each pair (F, S) in Fragment-site-list do y sequence of operation performed by transactions at a site is a local schedule. An
+f_ move fragment F to site S ‘ execution of  distributed transactions T, T,,.......,T, at m sites is modeled by a set of
+execute MRQ'; local schedules S1, §2, ........, Sm.
+nen-l If we apply at each node a local concurrency control mechanism, we can ensure that all
+) {output is the result of the last MRQ'} i local schedules are serializable. However, the serializability of local schedules is not
+sufficient to ensure the correctness of the execution of a set of distributed transactions.
+end
+T e e ———— Consider, for example, the following two schedules.
+Si(site 1):R (x)W, (x) R, (x)# (x)
+S2(site 2):R, ()W, (y)R (y)¥.(»)
+7 4
+POPULAR PUBLICATIONS
+e in site 82, The log is not serial
+Both local schedules are verial; however, there fs p obal " is no conflict in site S1. But in site 82,
+; A serial ¢ ,  does not T
+of both transactions because T, <7 in Serial (Sl)und"T <7 hm"flmm B;oniugmcwulordmng All the operations of T, precedes T; .
+warinioe the seralzabity of gins Wissn. o Paccution
+fui.u-ubimy o locl scheduls i.':nwbiur:d R g ot k) 5&“”,‘:“‘(2, W) () "
+. ¥ , : W (1) R (w J X ¢
+The exection of transactions Ty, is comeat if: ummbolh [‘h‘c)wlwdulﬂ are um}. Here is a l'°b:‘ ’:u'":s';?':“m:f Sovs il
+- Bach loal schedue Sk i ez e arsactions, Because T, <, in both seials (31) and (52). 50,
+2. There exists a tota) ordering of Byl such thas, if T<T, in the total Serializable.
+derl . 4 All possible total orders,
+ordeting, then ther i 4 seial chedule. SK' such that Sk is eqivatent 15 Sy §1 2R, (1) W, (0 R, (5)
+a0 7, <1, in Serial ( Sk ),f“WhlileWhlimuaimlnvemmed 52 Ry () Wy (w) W, 2) Ry (w) '
+some action, Or,
+, §1:Ry(9) R () W) 0
+b) In st two-phase locking a transaction cannot write ino the database until it pa §2: R (w) W, (2) R (w) W, (w)
+'W}wmmhwimmmmmmwmmmm R
+*ﬁtmzmﬂnmmwnmmmwmmm [MODEL QUESTION)
+e locking s wed for concunecy cono, e e rematy oy s gy ol gty o .
+e o other cansctions during the tomic commit protco aough s B rete’adio i $0L, baood o0 the i DS IR
+m:aionrelmaiulochaﬂaphuelomupmml. Mﬂmmmgﬁmmﬁ
+ﬂudvmgumﬁmMonmdonlyvalucwfcommiuedeimmdlhm %m
+are 1o cascaded aborts, The disadvantages are that there is fimited concurrency and From ASG
+deadlocks may occur, Where RESP = “Analyst” S5
+I all sites use strict two-phase locking and participate in 4 two-phase commit protocol, And NOT (PNO = “P2" or DUR =
+the transactions are globally Serializable and hence corect b) What are the different laysrs/steps of query processing?
+¢) Execution I; a) The relation is:  Tlenols wesesmbyr . o o5 o (ASG)).
+S1: R () R (1) W (x) W, (x) I
+52: R, (w) Ry (2) W, (w) W, (w) The query graph: ™
+In case of above execution, it is not Serializable, Because there is a conflict between \ ]
+(x) and W, (x), P
+Here in T, and T, both transactions, write operation is being performed on same site §1 / \
+and on same object ‘x’. And the same conflict is continued in site $2 as Write operation
+is being performed on same object ‘w' by T,and T, c:m--w o"“"’"" DUR=12
+Execution 2:
+812 R (x) R (x) W, ()W, (y) [ I
+52:W,(z) ASG ASG
+In case of above execution, it is not Serializable, Because there is a conflict between W,
+(y) and W, (y) ;
+Hth;m‘l]bothnmiom,wrilcopmion is being performed on same site S|
+and on same object ‘y',
+'T_ 1R, ) R ) W, )W, )
+SRR () Wi (2) Wi (w)
+B DDMS-47
+- DDMS-46
+. DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Eraph is:
+[ query optimization. Query decomposition and data localization correspond to query
+, rewriting. The first three layers are performed by a central control site and use schema
+i information stored in the global directory. The fourth layer performs distributed query
+AN execution by executing the plan and retums the answer to the query. It is done by the
+\ local stes andthe conrol st
+v Query Decomposition: The first layer decomposes the distributed calculus query into an
+/ algebraic query on global relations. The information needed for this transformation is
+0 ) found in the global conceptual schema describing the global relations.
+s Tpgoy: O ;
+I e Data Localization: The input to the second layer is an algebraic query on distributed
+[ I relations. The main role of the second layer is to localize the query's data using data
+0 ASG ASG distribution information, This layer determines which fragments are involved in the query
+and transforms the distributed query into a fragmented query.
+b)
+‘m.i".:’: Global Query Optimization: The input to the third layer is a fragment query, that is, an
+| algebraic query on fragments. The goal of query optimization is (o find an execution
+Quey strategy for the query, which s close to optimal. An execution strategy for a distributed
+query can be described with reltional algebra operations and communication primitives
+(send / receive operations) for transferring data between sites.
+Algely
+(.M:I‘Rmm Local Query Optimization: The last layer performed by all the sites having fragments
+\ involved in query. Each sub-query executing at one site, called a local query, is then
+Control Data optimized using the local schema of the site. At this time, the algorithms to perform the
+™ Deconpesiion relational operations may be chosen. Local optimization uses the algorithms of
+centralized systems.
+Alpebraic Query on
+'"'r“" 3, Consider the join R/N S Assume that R and S are at different sites; and
+Global disregarded the cost of collection the result of the join. Let C, = 0and C| =1.
+The following profiles are given:
+slze (R) = 50; card (R) = 100; val(A[R]) = 50; Size (A) =3
+Distributed Query on size (S) = 5; card (S) = 50; val(B[S]) = 50; Size (B) =3
+. ‘“"‘i“ e RSJ,,S has seloctively p =02
+Tooks e S8, R has seloctively p=08
+Sites I'xecution Glve the transmission cost of:
+) 1) performing the join at the site of R using semi-join reduction
+Fig: The Different Layers / Steps of Query Processing Ii) performing the join at the site of S using semi-join reduction
+- i) performing the join at the site of R without semi-join reduction
+I the above Figure a generic layering scheme for o 1v) performing the join at the site of S without semi-join reduction
+! query processing is shown where each
+layer solves a well-defined sub-probl om. F R AR b Which Is the best solution? [MODEL QUESTION]
+query processing, problem. Four main layers are involved in distributed
+The first three layers map the input imized distri
+b query into an optimized distributed query execution
+plan. They perform the functions of uery decomposition, data localization, and global
+DDMS-48 ‘ DDMS-49
+TULAR PUBLICATIONS Yy Q-
+™
+B §7 g3
+Answer: oy
+i) Performing the join at the si i e -
+oo e site of R using semi-join reduction, at a cost Answer: , :
+o +Cy xsize(B) xval (B(S)) =0 +1x3x 50 =150 ) Having long-running queries nol only consumes sysem resources that
+- / erver and application run slowly, but also may lead to table Ioch:g ;nd ud‘::
+W Performing the join at the site of § using semi-ioi i ‘<sues, S0, query optimization (QO) becomes an important fask. As are many
+; -0 ) 1ssues. y q ry Pt p 3
+Co +C, xsize(R)xcard (R)=0+1x 50 I?)O = S(;O(l)n b s equivalent transformations of same highlevel query, aim of QO s choose 0% lhl
+minimizes resource usage. In general it also reduces {otal execution time of query. Since
+i) Performing the join at the site of R wi = ] the problem is computationally intractable with large number of relations, so strategy
+Let, R=R S, ,§ Of R without semi-join reduction at null cost; adopted is reduced to finding near optimum solution.
+'
+iv) Performi ! ' . ' b) The distributed cost model includes cost functions to predict th_e cost of operators,
+Tl:c :;;:lrlrlcrfs:};:'joln at the site of s without semi-join reduction at null cost; database Statistics, base data and formulas to calculate the sizes of intermediate resuls.
+2xC,4C x(sk .B Two different types of ¢ost functions can be used- they are reduce total time and reduce
+o 0y x(size(B)xval (BS]) + size(R)xcard (R") response time
+=2X0+|*(3XS0+50x100) =(|SO+5M) =5150
+Reduce total time
+4.3) Why are distributed deadlocks occ o Reduce each cost component (in terms of time) individually, i.c., do as little for
+) po y, Loy
+b) What are distributed « NODEL aUEsTION] i
+byt walt-for graph and local wait-for graph? How wait-for graph euh oost comp?r.wn t.'s possicle -
+- detection? o Optimize the utilization of the resources (i.c., increase system throughput)
+) istibuted deadlocks can occur i disributed ystems when i The fotal time is i ime of ol indiv
+icks ¢ systems when distributed : ¢ total time is given by the Sum of the time of all individual components. These are
+concurrency control is being used, R local processing time given by CPU time + /O time and Communication time: fixed time
+N g to initiate a message + time to transmit the data
+wait-for graph is a directed used for dead : y Total time =TCPU _ #instructions + TI/O _#1/Os + TMSG _ #imessages + TTR _#b
+.l;;c ps:dlocnl oy s graph used for deadlock detection where each site Reckoa rewense e i - messig - Foytes
+cu n ; s of thergnph correspond to all the processes that are currently either holding or Do many thiagei parallel as possibie
+requesting any o }he resources local to that site, A global wai-for graph is maintained in ¢ May increase total time because of increased total activity
+aA snllgll:l lcoon:dmnuon process; this graph is the union of all local wait-for graphs. .
+glo waul-for-;;nph an be reconstructed under the following conditions: The response time is the clapsed time between the initiation and the completion of a
+* On removing or inserting new edge in local wait for graph . 1
+f l‘;;'r‘nodxullr); when number change occurs in locl wait-for graph Em"“ﬂ"m"’b;rcp U _ fiseq instructions + TVO _ #seq /Os + TMSG _ #seq messages
+¢ When coordinator invokes detection algorithm, g
+Centralized Apmh may be used for dis(ribzled dendlock detection Hom K deadlocth wh_em flseq x (x in inslmclilons. 1/0, messages, bytes) is the maximum number of x
+d'etuﬁon coordinator constructs gl_obal waltfor graph, detects deadlock, and selects }vhlcrlldmusl be done sequentially. Any processing and communication done in parallel is
+vietim process to roIIb‘ack. Due to incomplete or delayed information, the coordinator's 'Eg::m : :Q ite 3 with : v
+constructed global-wait-for graph may not exactly match the real sitation. False ple: Queey atste 3 with dotafrom sites | and 2,
+&la/dcadlocks might be incorrectly detected with unnecessary processes being rolled (e Dy
+D,
+. a) What s query optimization? DEL QUESTIO (G 2)
+xplain distributed cost model with an example. e N Assume that only the communication cost i:uc':nsidered
+You mean by the cardinality of selection? Total time = TMSG _2+TIR _(x+y)
+Itr query optimization, Response time = max(TMSG + TTR _x, TMSG + TTR _y)
+¥
+DDMS-50
+DDMS-51
+i ks
+F DT IBU LD DA TABASK MANAGEMEN] (5110
+) I8 the specification of the number of occyrrences
+Mlhmofmdmo:jfu Ofone bjct tht an be avallable on the Salary attribute, we can use the Index 1 locate the tuphes. Different
+"'mﬂobldmulmmwmmw“(l,l : algorithins might have different cont
+clduwmyobjm(mmmmmhér‘m"m”&mm hus, I order 1o specify fully how 1o evaluate & query, the system Is responsibde for
+can relate 10 some other number of occurrences of ; objmoa 'M"‘“N i object construting & query exscution plan which made up of the relational lgebra exprossion
+Cardinality defines “the maximum number of objcts tha (MN relutionship) and the detailed algorithms to evaluste each operstion i that expression. Morearir, the
+Wp'.mm.llhmmmmwmd can- paricipate fn o selected plan should minimize the cost of quary evalustion The prouess of choosing 4
+Mobl-amumlmumm‘, whether of not a paricular wmmmmum-mmmmhmw
+: Optimizer.
+&W"/MM f ?mwmofqulmiulonml:dmdlmw,m'ymwwm
+main steps in expression thal 1y equivalent to gven expression bl that s more officient 1
+sleps I processing u higholevel query are lltrated n e | e ocul, The other apect nvolves th selction of 8 deall gy o rocassing te
+Qe o g query, this relates 1o chossing the prouessing sborithn, chonning he indions o s wd
+000,
+o Tk e h qery gl chsen, h vy Ecton gy bt o, st
+that plan and return the answer of the query,
+Welational Algebes | npessions
+4, What are the sdditional threst 1o handle desdlock from centralized U distntwted
+| e BMS? Explain contralized and hirarchica Sesdic dectin Dicss the oocs
+of roplication 1 crosts desdlock. [MODEL GUESTION)
+st sow s Answer:
+Fassation pon The problem of deadlock detection is more difficht in & distributed databass than in &
+centralized one, becase the ciroular waking situstion which determines a deadlonk can
+._@ involve seversses o o jus ne
+(pery Ontgpat spoeassandesd 10 P 'D"“
+Wiz Sheps in query processing process Q
+::;":“:dfm :"‘“ w:h parsing and ramlating 4 given highlevel language
+4o its imemediate form such as relational alyebra expressions, The parser need t anyansassadpoll Tl 2
+dlg}tl«x::mofﬂlcmddwmhdzmmicfdlhcwy(ilmt: @ LA) = D'A
+v " 4 /
+d W o s § ot o b S o Al e R
+anslaed it relational dyehna expression. Itrinas wd ool was-Non pyghs
+A rdional dggna expression of 4 query specifies only partially how W evaluate 4
+query, there are severdl ways 1o ovdbutte 0 relationdl Wlyghns exgression. For crample, There several methods for dealing with deadlocks n a ditribued system
+consider the query. 1, Deadlock detection using cenealized of Werachical conteol
+SELECT Sabary PROM EMPLOYEE WHERE Salary = 00, . Distribwied deadlock detection
+The prrsibhe selationdl dyphna exgressions for this query are. b, Deadlock prevention
+¢ Nskf sy A EMASIYER )
+¢ syl s fMASIVEE) LW%*W«M&@*‘: _
+Furtber, cach redationdl dyhra operation can e exssssed wsing varions it For In hiaschical sypriten, stes e Oogjcally) arrangod in berwchical fashion, wd » ske
+cramghe, W imhement. e proveding shection, we can o 4 linear wach in the is tespomsithe on Gersin Beadonks wov i, oy 1 chibdeen stes The, sy
+EMPLOYEE file 1o retriens the tughes with Salary 7= SO0, Womener, if a0 inder take advatage of uess paierss that e Vocaized 10 3 chuser of ies 1o opfimize
+DIMS52 DIMSA3
+MEW o £
+g 23
+mf""*l. Muntz Algorithm g §§
+conrollrs are amange gy o M of Menaee g 1 the fuly disributed dedlock detction o, ol controlls shre eq
+"3P°'Bibleford=ldlock&mﬂmh"'m'(Aellililcqulm"n"ﬂ"!e mpamﬁlityfordmﬁngdudlodlnlhxhemmmm.
+°°""°"°"’Wmuﬁmﬁﬂ"hmw"{:ﬁ“ . ah th represcns o el gaph. The den s, fdadlck exis a e
+deadlock detecion. Al g (4164 vtk conrley) e s - il pparinaeast)on fhe pral graphs.
+with the allocation of the Maintains a part ofthe globa| TWF for
+all TWF graphs spanning its o at that leaf controler A ngnjea Fph conemed Mbciﬂndliumbcdmnﬁuhmhmiuﬁuukmm?mﬂ-
+deadlocks involying gl i cilden contollers and i e oA Process Termination
+M.m;‘mﬁ,ﬁ?‘m"zhm ¢ o detctin a Afer 8 delcton algorithm deteines that a deadlock exists, there are diferet
+o re iti propagated o i $ resource / approaches from the deadlock automatically:
+*“va:;umf:mmMm.ﬁ:ume:mum B I Amuﬁmp&wwm;wm :
+mmmuhmm]wmmuhwmﬁm““: 2. Abor ne process a  ime untl th deadlock cycle is elminated
+1ouly o peodicaly. e THF gk of i To st partalteminaion, we ned 1 deide in which order to abor he deadlocked
+processes. Usually, the sequence of termination s decided by:
+5 I, Priority of processes
+y 3 2. Duration of processes
+3. Number of types of resources held by processes
+U 4, Number of resources being requested
+5. Number of processes (o be terminated
+v N - To eliminate deadlocks using resource preemption, resources held by processes need to
+s PO be reallocaed to other processes successively until a eadlock cycle is broken.
+0 0 I Selecting Victim
+o . TheovdaofpreunptionwillbedﬂamimdhmdonminimumcuCoafm
+include number of resources being held by deadlocked processes, amount of time the
+&:ﬁ“&@dm detection: deadlocked processes consumed, c.
+tion attempts to find and resol and ) 2. Rollback
+TVllhul;e:by(wouiwi.: oon dndody. 4 scheme is If a resource s preempted from a process, this process must be rolled back to a safe
+2 — exists an actual deadlock, it must be detected in a finite amount of ::o‘: (.h'e‘dptm Mmm#::#zmt :ammrb{ctﬂl:m p:eluuo:i;:s
+. Safety-The scheme must not find a deadlock that far as necessary to break the deadlock.
+These strateqs . 1s.mwmllym, 1§
+b gl ymdm;orrelcyy(:? ;'\::’;i‘"“%? t;:/l’mzl in some schemes is ::Iiﬁlye:uill s::.:::us may always be picked as victim. As a result this process will never be ;
+;eypmau th; Hl::mhg? or :pa}dmciu. Thus, if process Py is waiting for a resource hi; completed. To avoid starvation, number of rollback should be included as cos factor. |
+f [}
+MP'WPL | an edge in the WFG from the node for process Py to the node for 7. Justify the following statements: m%f:m !
+g 50 l)UnlqwﬂmuhnpgmmhnhMIanlsmnanwwD : )
+lr: ot:l AND model (resource modcl).ncyclf in the graph indicates a deadlock. In the OR b) Query graph identfes edundantrlaton n an SQL. |
+bloc.k. cycle may not mean a deadlock since any of a set of requested resources inay Answer:
+unblock the process. A knot in the WFG is needed to declare a deadlock. A knot exists 1) Unique timestamp generation is difficlt in DDBMS than centralized DBMS:
+when all nodes reached " Pgew
+. that can be from some node in a directed graph can also reach AtimaumpisluniqueidentiﬁercruledbylchBMSloidmifyaunadm’
+' Typically, timestamp values are assigned in the order in which the transactions are
+submitted to the system, 50 4 timestamp can be thought of as the fransaction start time
+DDMS-54 DDMS-55
+POPULAR PUBLICATIONS DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Concurrency control techni imestamp . 3 : ,
+deadlocks cinnol oceur. T ondering do not use locks; hence, ¥ ﬂ;ﬁtg‘g:_ ﬁTel"If?.Ew i
+1Gﬂmem‘ian of Timestamp: ;:‘(;M
+imestamps can be generated in DBMS several ibility i :
+that is incremented each time its value is w!‘"’* 2":"’“,.,"',,"?0;’ 'ﬁe"", i mplfgﬁnms =*J. Doe
+maximum nlm.w@mmwm,mmmm“mmm 8. Writo the R* algorithm.
+tmim esw:‘m.m executing for some sbon period of time. Another way to implement Answer: - . sod as a relational algebra tree, the
+tamps is (o use the current date/time value of the system clock and ensure that The input to the algorithm is the localized query expressed as
+two timestamp values are generated during the same tick of the clock. nd Jocation of relations and their statistics.
+In case to DDBMS, the timestamp generation is a bit more complicated as the site must [nput: QT: query tree
+also be identified. The general approach for timestamping in DDBMS is to use the Qutput: strat: minimum cost stralegy
+concatenation of the local timestamp with a unique identifier, <local timestamp, site begin
+identifier>, The site identifier s placed in the least significant postion o ensure tht for each relation R, € 0T do
+events can be ordered according to their occurrence as opposed to their location begin
+for each access path A, to R, do
+b) Query graph identifies redundant relation in an SQL: . AP
+In a Query graph Nodes represent operand or result relation and Edge represents a join if determine cost (AP, )
+both connected nodes represent an operand relation, otherwise it is a prjection. It can be end-for
+used to simplify an SQL query by eliminating redundancies, e.g., redundant predicates. best- AP, ¢ AP, with minimum cost
+:!edundmcia are .oﬂen due to semantic integrity constraints expressed in the query end
+anguage e.g., queries on views are expanded into queri i i i .
+integrity ,,,sr sjcumy oonstrains. Quoriof CREScnS hat i certaa for each order (R,,.R,,,.....R_) withi=1,...,n'do
+y begin
+Consider the following query: build strategy (.. ((BestdR, ..o Ry)>a R,)pa . R,)
+SELECT TITLE FROM EMP
+WHERE compute the cost of strategy
+EMP.ENAME = *J, Doe" end-for
+OR strat + strategy with minimgm cost
+(NOT(EMP.TITLE = "Programmer’) for mh site k storing a relation involved in 0T do
+( EMP.TITLE = "Elect. Eng." LS, « local strategy (strategy, k)
+OR send ( LS, , site k) {each local strategy is optimized at site k}
+EMP.TITLE = "Programmer" ) end-for
+AND end
+NOT(EMP.TITLE = "Elect. Eng."))
+9. Explaln the distributed SDD-1 query optimization protocol. [MODEL QUESTION]
+Let pl be ENAME = "), Doe”, p2 be TITLE = "Programmer" and p3 be TITLE = Answer:
+"Elect.Eng.” SDD-1 Algorithm
+Then the qualification can be written as pl V (-p2 A (p2 V p3) A “p3) and then be Step 1: In the execution strategy (call it ES), include all the local processing
+transformed into p! Step 2: Reflect the effects of local processing on the database profile
+DDMS-56 ; DDMS-57
+D
+DISTRIBUTED DATABAS é%% F g
+POPULAR PUBLICATIONS o, @ 2
+is listed below:
+. The optimized query tree for the above query &
+Step 3: Construct a set of beneficial semijoin operations (BS) as follows: flousnas
+BS = For each semijoin SJi BS « BS Sliif cost(S)j ) < benefit(SJi) T
+Iterative Process ) ] ENOMSGIN » PROINO
+Step 4: Remove the most beneficial SJi from BS and append it to ES DB « A
+Step 5: Modify the database profile accordingly / T \
+Step 6: Modify BS appropriaely ~ compute new benefitcost values - check ifanynew | Mowowe Nnoows  Moono
+semijoin need o be included in BS | l
+Step 7: 1fBS # 0, £0 back to Step 4, " PROJ ASG
+Assembly Site Selection IR N
+Step 8: Find the site where the largest amount of data resides and select it as the assembly T
+site EMP
+rules:
+Postprocessing b) Simplify the following query by using the idempotency [MODEL QUESTION]
+Step 9: For each Ri at the assembly site, find the semijoins of the type Ri Rj where the not(TITLE = ‘programmer’)
+total cost of ES without this semijoin is smaller than the cost with i and remove the il "":‘:,‘m‘fe = ‘Elect.eng’)
+38 and mTLE = programme ' 0
+semijoin from ES, and not (TITLE = ‘Elect.eng’) or ENAME = ‘Sachin’.
+Step 10: Permute the order of semijoins if doing so would improve the total cost of ES, Answer:
+i les:
+10. ) Consider the following schema: [MODEL QUESTION] “‘l'd’mp,f"':";m“
+EMP = (ENO, ENAME, TITLE) ' pvP= i
+ASG = (ENO, PNO, RESP, DUR) ZEPVEEE)
+PROJ = (PNO, PNAME, BIDGET, LOC) i 0L
+Consider the following query: 4. pVialse=p
+SELECT ENAME, PNAME 5. pAfalse=false
+FROM EMP, ASG, PRO.J 6. pVtrue=true
+WHERE EMP.ENO = ASG.ENO _ 7. pA-p=false ‘
+AND ASG.PNO = PROJ.PNO 8. pV-p=true
+AND (TITIE = ‘ELECT.ENG'OR ASG.PNO<' P3) 9, mAGNDIED
+Draw the canonical tree and then transform it to an optimised tree, 10. pyV(piAp) =Py
+Answer: 5 ' : Let the simplification proceeds as follows:
+The canonical tree for the above query is as follows: Let p beTITLE = “Programmer”,
+TNowe mue p2 be TITLE = “Elect. Eng.”, and
+‘ ps be ENAME = “Sachin”,
+The query qualification is:
+OTITLE = ELECENG VASONO< 71" CPAPAPR) APV
+T Elimination of Redundancy S ‘ .
+DEMP N0~ ASGENOAASGINO ~ PROINO Ty The disjunctive normal form for this qualification is obtained by applying rule 5 which
+yields:
+/ T \ CPAGEAP)Y APV s
+. and then rule 3 yields:
+EMP PROJ AsG CPAPAR)VCPARAP) VP
+DPMS-59
+DDMS-58
+POPULAR PUBLICATIONS EMWM@LW—W
+ing rule 7, i 12. Consider the following global, fragmentation and allocation schema:
+i “"P'ﬁ:ﬁem,\eﬂ.p:;f,"(l:m" P Slobal schema:  STUDENT (STUDAD, DEPT, NAME)
+3 P P Fragmentation schema: STUDENT;= SLoepre -ee- STUDENT
+By applying the same rule, we get i STUDENT,=SLogpre-cs* STUDENT
+, (false A false) V ps (Assume that EE and CS are only possible value for DEPT).
+Which is equivalent to ps by rule 4. (Allocation schema: STUDENT, at sites 1, 2 and STUDENT; atsites 3,4.)
+So the simplified SQL is Wite a query that moves the student having number 802 from department “EE” to
+Select ENO from ASG where ENAME = ‘Sachin’. department “CS", at fevels 1, 2 and 3 of transparency. [MODEL QUESTION]
+Answer: ;
+11. Assume the fragmentation of a global relation R (AB,C) is destribed by the Fragmentation Transparency (Level 1
+following predicates: Update STUDENT
+Pl:(1<=A<=4) Set DEPT="CS”
+P2:(5<=A<=T)AND (1 <=B<=5) Where STUD-ID =802;
+P3:(5<=A<=7)AND(6<=BN<=10)
+P4:(8<=A<=10)AND (1<=C<=5) tion Transparency (ievel2)
+P5:(8<=A<=10) AND(6<=C<=10) . Loc‘Sel(:::t NAM‘EaimocSyNﬂAWME fz'om STUDENT
+Introduce the CUT operation in the following parametric queries: Where STUD-ID=802;
+) SLusx o sarR [nsert into STUDENT (STUD-ID, DEPT, NAME)
+i) Slesy ao sasrR Values (802, ‘CS’, SNAME);
+STUD-ID=802;
+i) SLooe on cark (HODEL QUESTION] DELETE from STUDENT where
+Answer: Local Mapping Transparency (Level 3)
+o cur $r=A Select NAME into SNAME from STUDENT at SITE
+And sy:c Where STUD-ID=802;
+. 5B  [nsert into STUDENT, AT SITE 3 (STUD-ID, DEPT, NAME)
+$x=C , Values (802, ‘CS’, SNAME);
+And L DELETE from STUDENT at SITE | where STUD-ID=802; :
+b D $xA or8y=C DELETE from STUDENT at SITE 2 where STUD-ID=802;
+Sx=A And $y>B o
+§=C AndSy=B 13, Write sort notes on the following: [MODEL QUESTION]
+a) Primary copy locking
+pil P21 P PALPSI b) Weight-majority locking
+pil RI P3P sl c) Write-locks-all
+i d) Quorum based protocol in distributed concurrency control
+¢) Wound wait protocol
+pii P21 DL P BSI f) Conservative timestamp ordering protocol
+Where g) Relation between database integrity and database security
+Pl:(1<=A<=4) Answer:
+P2:(5<=A<=T)AND(1<=B<=)) ' a) Primary copy locking:
+P3:(5<=A<=T)AND(6< =_BN 5" 10) In the primary copy locking approach, all locks for a data item x are requested at the site
+P4:(8<=A<=10)AND (I <=C <: 5) - of the primary copy. We will assume first that also all the read and write operations are
+PS:(8<=A<=10)AND (6 <= C<=10) performed on this copy; however, writes are then propagated to all other copies.
+Considering a database, if we choose x1, yl, and 22 as primary copies, then the
+avgilabili(y of the database for the 12 transactions is the same as in the majority approach
+(Figure), because the assignment of votes which we had applied determined a primary
+DD
+DDMS-60 s
+. '
+DISTRIBUTED DAT; 3 gy
+q - )
+=l BLIVATIONS %
+] s Let us assign votes for the copies of data items in the following way: g é’ ;é
+€Opy situation. This wil] always happen if we apply weighted voting o items having only Vi) =V()=V()=3 1
+tWo copies, Howev?r, this is a particylar case; if many copies exist, so that different Y=Vl =r(@2)=1 )
+majorities can be bul, then the o ©opy approach by a particular assignment of votes, V(2)=V(3)=V(3)=1 ) ‘
+Severa_l enhancements of the primary copy approach exist Which make it more attractive. With this assignment we can now consider the availability'of the system in Ihe
+ITheK:;nuPal e are: . _ partitions. We choose the read and write quorums to be 2 for all data items,
+) :w't:g cctlmslent '“ds a d'ffﬁ'ﬂ\‘ copies than the primary, even if read locks are availability for the 12 transactions is shown in Figure. Thg fol'lqmng can be observed:'
+3 :ﬁozn t(;‘ney . the.pnmary, this enhances the locality of reads 1. Transactions 1, 2, 3,4, 7, and 10 have all the same avallablht)!. They are cl!n.raclenud \
+g céan;:Liglrpuon ofthe primary copy ifa site crash makes it unavailable; this by the fact that they access all three data items either for reading or for writing or for
+4. Allowing the mi 0. P e : both. Since the read quorum is equal o the write quorum, it makes no difference whether
+: enhancef the |Mgl;mlm e primary copy dependmg On s usage pattemn. This also the data item is read or written from the viewpoint of availability. For the same reason,
+Nt transactions 5, 6, 8, and 11, which access only data itemls ;Iand ,;/.thha\lfe the same
+i fort . ilability. Also, transactions 9 and 12 have the same availability of the latter group,
+. Welght-majonty bocking ;:::sbel tgtl: copy with highest weight for data item x resides at the same site as the copy
+o with highest weight for y. -
+12 3456 3 0ulue U 2lw v g 2. The availability for update transactions is greater with the weighlgd majority approach
+= : ] - 12 (1 than with write-locks-all, while the availability for read-only tramacuons is smaller.
+uthions & ma g g '2 3. With this method, read-only transactions increase their availability if they can read an
+> n.-I:I_-I ) inconsistent database, i.e.,if they do not need to lock items; in fact, columns 10/, 11 and
+Weightd mjoiy, it 12" are the same for the majority approach as for the write-locks-all approach
+V)=V ()= () =2.anq ¢) Write-locks-all:
+V()= (3)=F ()2 A
+1134567890 u_nfw y
+mm 12 (I
+Weight-majority locking: The pure majority locking approach is not very suitable for Putiions Aa -__m ; 22 12
+our example, because two copies of each data item exist; hence to lock a majority wie ] S B I S N N
+_must lock both. We will therefore consider a weighted majority approach, or quorum ’ ==
+approach, which adopts the same rules which has been used for quorum-based '
+commitment and termination protocols. Write-locks-all: The Figure shows, for each transaction and for each type of partition,
+These rules, applied to the locking problem, consist of assigning to each data item x the group, if any, in which the transaction can be executed, The read-only transactions
+total number of votes V), and assigning votes ¥(x) to each €opy 2, in such a way that 10, 11" and 12" are the same as 10, 11 and 12, except that consistency is not required for
+V(%) is the sum of all Vix). A read quorum V,{x) and a write quorum ¥,(x) are then them; hence, no locks are used. The values of Figure confirm the intuition: For
+determined, such that: transactions with a small write-set and especially for read-only transactions, the system is
+V,(x)+¥, (x)> V() much more available than for transactions with a large write-set For read-only
+transactions it makes no difference whether consistency is required or not, because the
+V. (x)>¥ ()2 copy which is locked is required anyway for reading. Note that read-only transactions
+A transaction can read (write) x if it obtains read (write) locks on 50 many copies of x that sometimes can run in more than one roup, because ifa data item has two copies in two
+the sum of their votes is greater than or equal to ¥,(x)(V,). Due o the first condition, different groups, then no update transaction can write on it and read-only transactions can
+all conflicts between read and write operations are determined, because two transactions use each copy consistently,
+which perform a read and a write operation on x cannot reach the read and write quorum If we make the assumption that no partitions occur, but only site crashes, then the same
+using two disjoint subsets of copes. Likewise, because of the second condition, al approach can be used as with a non-redundant database; .c., the updates of non-available
+conflcts between write operations are determined. Notice that the second condition can copies of data items can be spooled. In this case, the availability of the database for
+be omitted if transactions read all data items which are written, _ update transactions increases very much. In fact, since only the read-set matters in this
+: DDMS-63
+. ‘ DDMS-62
+case, transactions 1, 4, and 7 have the same availabili . Qﬁmmﬂmwmﬁ“wbblthl
+mdhsmmactionII:MWMJY?wlg:m!mm‘wmu' _ : :
+cxample must be careully interprted. The fuct that a tion 12. Obviously, the The first rule ensures that a data item is not read and written by two (ransactions
+group means now that it can be run f all athe sites are do""m‘m:: can run in a given concurrently. The second rule ensures that two wrile operations from (WO (ransactions
+groups. The high increase in availabiliy is obtained at m:“'sk‘ Ofb\ll_ldlngseplme cannot oceur concurrently on the same data item. The two rules ensure that one-copy
+of catastrophic partitions. ceralizabilit is maintained.
+:) Quorum-based protocol: ’ o :
+worum is the mini Rember . ¢) Wound wait protocol:
+m:ducl the business :jlrl: gz;beor,gmb, this f{ . df"b_m“" body necessary to O)nc of the problems of locking_ mechanisms is the 'p_otcnlial for deadlock. Deadlock
+be there, although many bodies may have a lower p- ’: majority of the people expected to occurs when (o or more transactions are mutually waiting for each other's resources. To
+igher quorum. ~* avoid such deadlocks, some dalabase management systems give priority to older
+uorum-based voti . transactions. That is, if an older {ransaction requires access (0 data item that is locked
+gmd o mv;;:d?; ::: 5 'd:pl'“ control method, as well as a commit by a younger transaction, the younger transaction is forced to release all of its data items,
+ty in the presence of network partitioning. is activities are rolled back (based on the log), the older transaction is given access (0 the
+: . data item, and the younger transaction is forced to start again. 1fa younger transaction is
+gu:m voting in am ; - . repeatedly preempted, it will grow older in the process and qltimalcly become one of the
+e sk Simmalomicity . “'““cmdi could be executing it operations at older transactions. This protocol, known as the wound-wait protocol (old transactions
+Sy ’f:q Ies every stributed lmslc_uon ‘to be atomic, the wound young transactions, young transactions wait for old ones), assures that every
+saction must have the same fate (commit or abor) at every site. In case of network ransaction will ultimately be allowed to complete its task.
+P"c:“f‘:':& sites are partitioned and the partitions may not be able to communicate with
+::m a° - This ‘iss“’lﬂ;:d qmmw technique comes in. The fundamental idea is f) Conservative timestamp ordering protocol:
+B fransaction is executed it majority of sites vote to execulte i [tis a timestamp ordering scheme for every site (i.c, a transaction manager, TM) in the
+very site in the system is assigned a vote Vi. Let us assume that the total number of system. There is scheduler process that keeps track of all the transaction requests
+votes in the system is V, and the abort and commit quorums are Va and Vc, respectively. arriving at a certain data manager (DM). This scheduler also maintains two internal queue
+Then the following rules must be obeyed in the implementation of the commit protocol: l data structures for each TM, namely a READ and a WRITE queue. These queues, as the
+1. Va+Ve>V, where 0 Va, Ve v. ‘ name suggests, hold READ and WRITE requests for a TM and are ordered by using the
+9. Before a transaction commits, it must obtain a commit quorum Vc. f {imestamp ordering scheme previously mentioned.
+3. Before a transaction aborts, it must obtain an abort quorum Va. When a TM wants to perform a READ or a WRITE operation to a certain DM, it sends :
+T_'hc first rule ensures that a transaction cannot be committed and aborted at the same request to the scheduler responsible for that DM. A request consists of a READ/WRITE
+time. The next two rules indicate the votes that 2 transaction has to obtain before it can command, a variable-value pair to be read/written (value is NIL in case of a READ-op),
+terminate one way or the other. and timestamp (TS). The scheduler is then responsible for cither allowing the request
+execution or for buffering the request in case of a potential conflict (we will define
+Quorum-based voting for replica control “potential" later, don't worry). The scheduler is also responsible for making sure that each
+In replicated databases, a data object has copies present at several sites. To ensure request is processed by the algorithm when it comes in, and for testing if any of the
+serializability, no two transactions should be allowed to read or write a data item | buffered requests can be executed.
+concurrently. In case of replicated databases, a quorum-based replica control protocol can Whenever a read or write request is buffered or executed, buffered requests are tested (o
+be used o ensure that no two copies of a data item are read or written by two transactions ‘ see if any of them can be executed, by running the algorithm for each one of them.
+concurrently. The algorithm guarantees serialization simply by ordering every action, be it conflictant
+In the quorum-based voting for replica, each copy of a replicated data item is assigned a ’ or not. That's why it's called conservative ordering algorithm, by the way. As an example,
+vote, Each operation then has to obtain a read quorum (V) or a write quorum (Vw) to assume the following ordering of requests arriving to a DM-scheduler:
+read or write a data item, respectively. If a given data item has a total of V votes, the Istto arrive, w/ TS=1 : REQ READ (TM_I, DM_1, x, 1);
+quorums have to obey the following rules: | 2nd to arrive, w/ TS=2 : REQ_READ(TM 2, DM_I, x, 2);
+LVr+Vw>V 3rd to arrive, w/ TS=3 : REQ_READ (TM_2, DM:I, Y, 3);
+2. Vw> V2 dth o arrive, w/ TS=4 : REQ_WRITE(TM_1, DM_L, y, 4);
+DDMS-64
+DDMS-65
+-
+.
+. NIRIBUTED DAL ke) i.:
+m L)
+o oo chudy sy, & A O o i TRANSACTION MANAG
+xmnu.uu-umt-:umnmma
+wmhhndhhﬂﬁmhthmm Juest! \
+uuu&mumum.mmmu A
+i g CTO S e om0 b Bt s o . . MODEL QUESTIN,
+‘“F*“hhﬂﬂmuﬂ:mm 3 hobegh b pint g gt
+::mmmmemtw seahaby, aod ) it
+L)
+““.lluh Tt o mmation | ool R ovample, e :“"‘"{,"
+M.uucnmcm-ﬁ.h.mw« Anwer: @)
+e, whe e ity of oot amng It 8 B aenaie — [MODEL QUESTION
+&uunuuu-&muaua«:mmu o i< -l ) infarmation
+.n*ima“da““dm Answers (3)
+nuummhuhumn .
+mwm X Granularity means Qhoska Nﬂtm
+| proge: s of data
+vhh-h-u-mumw mﬂ 1@ P
+hnh-wunq“l\-&uuhﬂn
+uusuumauuumuumnm 4 Which of the following refers 1o the operation of copying and maintalning
+e e o kg s sy s D By “‘“*'*Mw&mmmw&nm
+mﬂh&ﬂhw*mhhsmw :mw & None of theee
+:muumuummummuma Awwer: (©)
+® presened afl e wme. Main @ifrence between intogrty and sy s e communicate distributed information
+Sy s with e valiity of dhe, whike security o with protecion of dany wmrwn:mwmwm::
+M‘m*uwdmwiun i IMODEL QUESTION]
+m«tm»mm‘hlmm a)Rootagent  HDTM QLN d) None of these
+dnﬁqamdhn&u&hm.ww Answer: ()
+ln‘hnnsenkmdhlntm‘qdm.
+B IMODEL QUESTION)
+a) site b) network ©) partition d) coardinator
+| Answer: ()
+T.The Nighest level in the Nierarchy of data crganization s called
+‘ [MODEL QUESTION
+; adatabank  b)datadase <) data fle 4) data record
+Answer: ()
+lMdNMMMNM‘NM
+‘ updated or none of them? mmm:
+' a) read one write al B) two phase commit
+€) two phase locking 9 update propagation
+DDMS-66 { DDMS-§?
+PUBLICATIONS
+DISTRBUTED DALABASE MANAGEMENT SY5TEM
+9. Which of the following ls
+u) romote data mo:d iy | [MODEL QU 16, Which of the following fallures doss not occur In & distributed system?
+b) derived 'mmnull:: ,..:‘ distributed database Is samo RTON (MODEL QUESTION]
+¢) 3 phase commit Is an ”mll;::d uindanoy i o) Disk fallures ) Link fallures ¢) Mossago Loss  d) None of these
+A d) blal;; 2 phase locking protocol mmmgmm.mm mﬂ Answer: (¢)
+nswer; 0 k
+16, Which of the following refers o the operation multiple physical %b(;;]o
+10. Which of the following is Incorrect? pelonging to a distributed system? [MODEL QUESTI
+) redundancy is allowed in distributed database to | [MODEL QUESTION] 9 B'lckup b) Recovery ¢) Replication d) All of these
+b: cold restart is required aftor catastrophic fallre ncroase rollability Answer: (c)
+o)m | rotocol ‘
+d) pﬂ.‘n‘m e?p';"::.:w ,.,,:' ot ensuro seriallzabilty 17. In basle TO algorithm [MODEL QUESTION]
+Answer: (¢) ces rellabllity of distributed database 4) younger transaction are executed first
+b) older transaction are restarted
+)'old transaction are executed first
+11, A transaction manager is which . s
+a) maintains a log og mn..cuo,: e Soxavingt [MODEL QUESTION] . d) both older and younger transaction are restarted
+b | Answer: (c)
+)) m:mllm before and after database images !
+¢) maintains a
+d) all of these S i ] Short Answer Type Questions
+Answer: (d)
+' 1, Explain unilateral abort capability in the context of 2-phase commit pvotoc:;io
+! ODEL QUE!
+12. Which of the following is true concerning a global transaction? i o M N]
+DEL QUESTION] ‘ il  partci he outcome of the transaction, any participant can decide o
+a) the required data (Mol Until a participant votes on the outco , any participan
+Mu'::h as nms::r.y Bt one-loos! eke anCISSRRIINS] DBNS rovies i unilaterally stop the transaction by issuing an Abort request (o its transaction manager.
+b) the required data are located 1 This ability is known as a Unilateral Abort.
+distributed DBMS routes roq'u”th:. :::::::,;m JRRIRocH sl and the ! After a transaction manager receives an Abort request from one of its participants, it
+c) the required data are at one local site and the distributed DBMS passes the g immediately transitions the transaction o the Aborting state, which guaranices an Abort
+request to only the local DBMS ! outcome. All other participants will be notified of the Abort outcome, although it is
+d) the required data are located in at least one nonlocal site and the , possible that the root application does not discover the Abort outcome until it attempts to
+distributed DBMS passes the request to only the local DBMS l complete the transaction or perform some other operation involving the transaction
+Answer: (b) { manager or another participant.
+l' After a specified transaction manager enfers the Aborting state, it does not issue any
+13. The name of the agent at the site of origin of a transaction is . further Phase Zero notifications or Phase One requests to vote. For a transaction that
+_ [MODEL QUESTION] spans two Or more transaction managers due to propagation, it is possible for the Abort
+:; m:m _a?ent ¢ b) root agent outcome decision to race with other Phase Zero or Phase One activity as it is
+principle agen d) none of these communicated between the transaction managers.
+Answer: (b)
+14. Whicl:h of the following techﬁiques is used when the information on stable |
+storage is lost? [MODEL QUESTION] 1
+a) Shadow paging b) Check point |
+¢) Cold restart d) None of these
+Answer: (c)
+|
+DDMS-68 L B
+) .
+—— g : g Jf
+v v
+POPULAR PUBLICATIONS l {
+e ined in the loca
+' fion T is contained in the 106
+) ‘ ansaction of a transac tained in the
+The folowing figure shows the Unilateral Abort flow. : Ira ﬂ:ﬁ "olhcr b ransaction of T must be con
+Trisaction II g:;kpoinls at other sites.
+Manager Manager | [n the case of cold restart ool ]
+(ake the latest availa!alc local c|hfh p: int and re-establish the local states at
+A Paricipant may send ar take the COITCSPOﬂd’mg glb:]bahcclt;() lpﬂ(:
+b:f::imn;c sites according o this global ¢
+m R | Prepared message in Phase , ; . :
+‘ - il b Generaton ofgobal checkpoin be performed when there is no active transaction. The
+" ” The snapshol, the checkpoint must b¢ per hould wait for site B.
+ik xact solution needs a lot of idle time as site A §
+: ¢
+[y ™ e "
+Abort ized checkpoints: o en interval, Every checkpoi
+\ Loosely synchron heckpoint within a given interval. EVETY Ci
+An_by.mrmn. = X The 'sitzs can perform u'cb:n 1-,,30 TM should guarantee (hat'lf a T finishes before
+participant have voted identified by an order num | finishes beforethe local Ci.
+by =1 Lol el of s o bl o gobl hespins
+uArm m'.',ﬁ':. The following figure shows synz onization p Time
+Pt sl ——%
+T; y
+ite 2 \ 7
+2 Explain checkpoint and cold restart of a distributed database system. 4 R el
+[MODEL QUESTION] y
+Answer: Site3 T, G
+Check point: A checkpoint is a synchronization record placed in the log to note a point oy for 2-phase-commitment
+when all concluded transactions are safely on disk. It limits the log segment needed to T nd T, we buctions o et T, Tl’)‘mm 6 :
+recover from a failure, ‘ - 1,Cy, Cs welocal heckpoins(startedfrom sie
+Cold restart: After a fatal failure of the system, the actual consistent state of the DBMS is T Vi m— =READY, C=COMMIT)
+lost. An archived older consistent state is to be recovered. As a2 DDBMS has global == Mesagesof o commanent o (k = READY., .
+consistent state, a site cannot change their state independently from the other sites. Jf one Synchronization problems for global checkpoints
+site has to make cold restart then all of the other sites must make cold restart, QUESTION]
+For each transaction T, the state contains the updates performed by all subtransactions of 3. What i the flat transaction? Explain with example. [MODEL
+T atany site (T is contained in the global state), or it does not contain any of them. Men
+[fthe T transaction is contained in the global state, then all conflicting transactions which | Flat Transaction
+have preceded T in the serialization order, are also contained in the global state, Comsists of ) Bepnumston
+The duration in the ACID concept cannot be guaranteed as the effect of some transactions ~ Computation on local variables not seen by DBMS; hence wi '
+will be lost due to the fatal failure. But all of the transactions before a given point of time be ignored in most future discussion . i
+S it = Access to DBMS using call or statement leyel lnlﬂ"fiCC :
+The consistency requirements are met as recovery replies the earlier consistent o This is transaction schedule; commit applies to these e !
+transactions. . tions I
+The checkpoint de replication notes a point of time when a snapshot is taken about a ‘ ‘})Jp:li:tcml aciwe I
+consistent state of the database system. A global checkpoint is a set of local checkpoi.m ) asingle DBMS Commit
+;hﬁn ux performed at all sites of the system and are synchronized by the following i d: equate for simple applications
+DDMS-71
+DDMS-70
+k - 2
+\‘ /AR PUBLICATIONS :
++ Explain the cold starts and warm starts, DISTRIBUTED DAT.
+nswer: [MODEL QUES lizod database systom
+g .mmmmmanmmmwmaumz
+Cold reMES e fnlght {ike to mov to a distributed database environment. Outline the advantages
+\fler a fatal failure of the system, the actual consis and disadvantages of sucha decision. [MODEL QUESTION]
+archived older consistent state i state of the DBMS i wer:
+g is to be recovered. As a D) is lost. An Ans .
+' state, a site cannot change their state i . fm: DBMS has global consist The two systems are shown in the diagram below. —
+ke cold st el e aer s st ke Se]
+Local failure - global recovery cold restart,
+>
+Consistent global state: ¢ o) Computer
+For each transaction T, the state contai = [sict ]
+3 ’ contains
+T at any site (T is contained i tl.'e“"""_‘Q‘!’elfﬂll“ed")'lllsubtransletions Ex
+in the global state), or it does § of Q
+it does not contain any of them. ﬁ = ﬁ
+o Seiszahycopt =) =
+:It;lheTwmt?anminedin(hegloMmmmmﬂM : g o s
+mvedpmeded T in the serialization order, are also contained in the g';so::lm“ﬁ which Centrlized Dotabase System  Distributed Database System
+wili blelTol;?I:h: 'tl;c utcf[&mm cannotbe guarantid as the ffec Ofwmt:amacti A Changes in the corporate environment toward decentralized opcrauonslhave (pﬁmple:
+i ) G Bt e ¢ ne
+g failure. But all of the transaction before a given point of time organizations fo move toward distributed database systems that complemen
+The consistency requirements are met as recovery replies the earli (;Cocd:"“f:l'll‘:’db;@;“;i}’;: may have many local-area networks (LANs) joined with 2
+;nmacliomf, - S e onsa WANy af well as additional data servers and applications on the LANs. Clienl:
+ecovery of the participant s performed by the warm restart lcations at the sites need o access data locally through the LAN of remotely throug
+record wnlt'lecn‘in the log: i ket :hpep WAN. For example, a client in Tokyo n:rihdt loc(.;:cll);l acaf r: dl:blc stored on the
+o when it's an action or abort, actions are undone; when it’s it, acti | Tokyo data server or remotely access a table stored on ew York data server.
+redone; either way, the failure has occurred before starting ‘;:::)n:nl:i’t “r‘(":’:;;" In a distributed database environment, mainframe computers may be peeded at corporate
+o when it's ready, failure has occurred during 2PC; participant is in do;:abt abo'ut or regional headquarters (0 maintain sensitive corporate data, whnl}: clients at remote sites
+the result of the transaction. ’ use minicomputers and server-class workstations for Jocal processing.
+o During a warm restart, the identifiers of the transactions in d ; :
+the ready set. For each of them the final tmnsac(iono:{;ézmgurz:::eb?"ecgg Both centralized and distributed database systems must deal with the problems associated
+from the TM. i with remote access: i
+o This can happen as a result of a direct (remot + Network response slows when WAN traffic is heavy. For example, a mission-
+as a repetition of the second phase oftl(e p,o‘;c’(;wmy) S SRR critical transaction-processing application may be adversely affected when 4
+' | decision-support application requests a [arge number of rows.
+5. What is local autonomy? [MODEL QUESTIO + A centralized data server can become a bottleneck as a large user community
+Answer: N contends for data server access.
+Local autonomy means that all the data in the distributed network : « Datais unavailable when a failure occurs on the network.
+locally. For example, a site in one location might have a rem:,:c dag;;::ﬁ:‘dag:?aﬂ Distributed databases can be defined as collection of multiple, logically interrelated
+in a national distributed system. While functioning as a part of the distribut cz e “l: o databases distributed over a computer network. All the database must be logically related
+the local database continues to process local operations independently from the ovemli that are managed by DDBMS (distributed database management system).
+distributed system, and does not rely on the distributed system to E et While a centralized database has all its data on one place. As itis otally different from
+i distributed database which has data on different places. In centralized database as all the
+data reside on one place s problem of bottle-neck can occur, and data availability is not
+efficient as in distributed database.
+DDMS-72 DDMS-73
+I
+- h
+POPULAR PUBLICATIONS "’ 5/
+:)Bv:":d lhcddlﬂmlncdo“ I:mmn contralizod and distibuted DBMS with respect to
+\ redundancy, indexing, rellabllity and performance. [MODEL QUESTIO!
+Answer: . | NI Writo down the 2-phase commitment protocol. What are different communication
+The features which characterize the traditional database approach are centralized control, 1irucluf' for this protocol? What is log write-ahead protocol? [MODEL QUESTION)
+data "‘fkl’fm_lcncc. reduction of redundancy, complex physical structures for efficient : qwer:
+access, 'll_lcgflly- fecovery, coneurrency conirol, privacy, and security. A“n Part: .
+* The possibiliy of providing centralzed contral oves the information resources of ':'hc {wo-phase comilt protocol provides an automatic recovery mechanism in case a
+a Whole enterprise or organization was considered 05 one of the strongest stem or media failure occurs during execution of the transaction. The two-phase
+motivations for introducing databases; they were developed as the evolution of symmil protocol ensures that all participating database servers receive and implement the
+information systems in which each application had its own private fies. The - ¢ action (either to commit or to roll back a transaction), regardless of local or network
+fundamental function of database administrator (DBA) was to guarantee the ;a{rum
+safety of data; the data itself was recognized to be important investinent of the I?I ny database server is unable to commit it portion of the transaction, all database
+enterprise which required a centralized responsibility, r:'crs participating in the transaction must be prevented from committing their work,
+i distributed databases, e idea ofcentaized control is much less emphasized, ;cmh a two-phase commit protocol, the distributed transaction manager employs a
+¢ In distributed databases, data independence has the same importance as in coordinator 10 manage the individual resource managers.
+traditional databases; however, & new aspect is added (0 the usual notion of data
+independence, namely, distribuion Iransparency, ‘The commit process proceeds as follows:
+. Reductlon_oj redundancy In traditional databases, redundancy was reduced as o Phasel
+far a5 possiblefor two ressons: i, nconssences among several copies of the o Each participating resource manager coordinates local operations and forces all
+same logical data are automatically avoided by having only one copy, and log records out:
+second, storage space is saved by eliminating redundancy. Reduction of o Ifsuccessful, respond "OK"
+redundancy was obtained by data sharing, i.e,, by allowing several applications to o Ifunsuccessful, cither allow a time-out or respond "OOPS"
+access the same files and records. In distributed databases, however, there are o Phase?
+several reasons for considering data redundancy as a desirable feature: first, the o Ifall participants respond "OK":
+locality of applications can be increased if the data is replicated at all sites where * Coordinator instructs participating resource managers to "COMMIT"
+. applications need it, and second, the availability of the system can be increased, *  Participants complete operation writing the log record for the commit
+because a site failure does not stop the execution of applications at other sites if o Otherwise:
+the data is replicated. * Coordinator instructs participating resource managers to "ROLLBACK"
+¢ Integrity, recovery, and concurrency control In databases the issues of integrity, * Participants complete their respective local undos
+recovery, and concurrency control, although they refer to different problems, are
+strongly interrelated. To a large extent, the solution of these problems consists of In-order for the scheme to work reliably, both the coordinator and the participating
+providing transactions. resource managers independently must be able to guarantee proper completion, including
+*  Privacy and security In traditional databases, the database administrator, having any necessary restart/redo operations. The following figure describes the basic protocol.
+centralized control, can ensure that only authorized access to the data is
+performed. Note, however, that the centralized database approach in itself,
+without specialized control procedures, is more vulnerable to privacy and
+security violations than the older approaches based on separate files.
+In distributed databases, local administrators are faced essentially with the same problem
+as database administrators in a traditional database, However, two peculiar aspects of
+distributed databases are worth mentioning: first, in a distributed database with a very
+high degree of site autonomy, the owners of local data feel more protected because they
+can enforce their own protections instead of depending on a central database
+administrator; second, security problems are intrinsic to distributed systems in general,
+because communication networks can represent a weak poirit with respect to protection.
+DDMS-74 DDMS-75
+mﬂuﬂy_&lﬂm
+Contdingier Participant
+Coordinator Patespant
+| h ) Coolinar Pt Coonlnor  Pascpant. Comlnet Participant
+O prepare l ; Py Py Py P P Py
+phase |
+0 - vl YES |
+log : [ r:
+oy ot ' i 0 : SNy 1on¢
+~ % 1
+sl |
+flas 0 ‘nl_*.
+pos '
+n h@ b 0] g L ©
+0 Qs (5
+- Ombacclor g z.)whmdmnuummluomzwmmmd.wmtm
+1f the coordinator the outcomes of these failures? [MODEL QUESTION]
+has detected a participant’s failure, it must decide abort ici Answer:
+uwumwa&:m»wm?ﬁxﬂ FuilllrslldthdrouteomesiIZ-phaseeommitpmoe?l- .
+bmﬂk.bymﬂigltdup-ﬁdmlfiﬂshgmmitm Whmthecoordinnororapanicipmtmtsmmfulm.:tmunlogmordsto
+protocol 10 elect  new coondinator. _ demminethemtcofmemnsaaion,m\dtoactaecordindy.Forimtanoe. ifit finds itself
+inphasel,itmfsmemmaaion;ifitﬁndsitsdfinphasczilscndsthelogged
+7 Part secision o the participats;if th las log record i the end ofthe transacton,there s
+When the coordinator or 2 participant restarts after 2 failure, it uses the records nothing to do.
+mumﬁhmmwnmm.hizmi?gﬁmi& NoledmpanicipamﬂlatvmedYESmtcrsm'mmmiMym‘unﬁlitlmmeivcda
+hﬁnl.imumgnmwhmz“m“'w decisionfrommeooordinalor.ormtillimeout.‘lhisisbeauscanod\crpanicipammny
+mnﬁwﬁmﬁhmmmemmammmmg Iuvealmdymadecitha'aoommitoranabondecisim(nmeisexcludedforlhelim
+nothing to 4o. bcing)Thismyludloablockingsoemﬁo:s\mposep.lmvotedYESmdisinlhc
+mﬂlMﬂvﬂdYﬁSMnW * until it has recei umaimyme;supposelhald\e coordinator made a decision, sent it to some
+decision from the coondimator, or until timeout. Thi & e ml;mamﬁ; pricpans,and then fie: suppsc, addiion, that these later paricipants als il
+mmﬂ*eﬁmmhammm(mswwmmm nma.dectslonhnsgauallybemmade.butp.lldmghbeingcomahasnomcamo
+being). This may kad 0 & ” o o has voted YES and s inthe hnwn.alasumulaﬁud\eoootdimlml'nsbmmpaired(ifthccootdimtorhas
+. s Mb'wﬁ ”’“l."’ awm ek ik T e logged the decision on stable storage before faling, the decision can be retieved and
+saricipanes, and then o suppuse,in addidon htthese e paric also faled. resent o the paricpants).
+Then 8 deciing 8 By been made, bt p, aboush being mﬁmnomto i m;mtocolmmncsmaldutlssmblcslmgntud\mdewid\amuh' ead log, thal
+know it, &t least untl sfter the coordinator has bem.rqnimd (f the coordinator has l nonodecnsh(sfatvcr.tlmd\cdminmewrimlmdIogismverloslorcawptedina
+logzed the decision on sable 02 beiutfziling,ﬂtdedsionanbu&iﬂedmd c:ash.andd\ft'anytwonodescancommmcae' with each other. The last assumption is
+resent 10 the participants). not 1o mw,umm Qmmmhﬁmantypiallyberaouted.mﬁm wo
+Tk;mﬁxdmhd'urismgmgeaad\mdcwid\animwbg,m f“‘"?““““‘mmhm'“mdﬁis'“{"ymﬂmwwmlmtm
+mm&aﬂbfam.ﬂuﬂrduhd’twmc-dudlogismmawmptedim mlh\"rlgﬁguttshowSTwo-phmoommnonntmmim
+:nimithlmpmomdsmmmﬂiﬂuithad\ahu.mhstmmpdmis
+uwmzsmmm@mmqpidhbcmcdmﬁmm
+mqﬁuxsnm:hmmga:if:mdcisuﬂbdcsuu)edmmanbclastm
+foliowing ﬁgnstmsTuo—ph&oumhmfailmdacﬁim
+DDMS-76 DDMS-77
+i
+I
+Ml e y 4
+'~ }? 5
+k‘w:m Purticipant. Coondinator — Participunt. Coordinalor Purticipant the arguments are all co-related. Therefore, no special mechanism is need to han, <
+’ h ) R A " ' is case. e B g
+A . " l’!“:a, behavior - remote object. This is one of lhc cases in which the behavior and
+I focvore | ™ e object to which it is applied are located at different sites. There are two ways of
+: dealing with this case. One alternative is to move the ntfmo.tc object to lhe site vdm
+\ the behavior is located. The second is to ship the behavior implementation to the site
+- ' [T where the object is located.
+: \ 3. Remote behavior - local object. This case is the reverse of case (2). B
+BSIL <N N ; ‘m“" v 4: Remote function — remote argument. This case is the reverse of case (1). |
+~ \\
+umeout b Nested Transaction: . . . '
+® (®) © An alternative transaction model is to permit a transaction (o include other transactions
+with their own begin and commit points. Such transactions are mllcdd m;ed m-ctlu. A
+i i h Ily called sub-transactions.
+m: l:ho the difference between reliability and availability? What are the factors ﬂ\Ex:s"!clek {mmm T it
+n? on? What s nested transaction? [MODEL QUESTION) in_transaction Reservation
+Answer: D:‘I_
+st . n
+ll)' h? iabili ; Begin_transaction Airline
+mr.: uted re.habthry lxotocols maintain the atomicity and durability properties by
+@ ‘!::""8 thlll cither all of the actions of a transaction that is executing at different end. {Airline}
+Slies - complete successfully (called commit Begin_transaction Hotel
+successully (called abor), and espuom. o leeicmsion
+(il ensuring that the modifications made to the database by commi ; end. (Hotel)
+E ; y committed transactions ;
+survive fmlurgs. The first requires atomic commit protocols (see Commit i - e
+Protocols), while the second requires recovery protocols ;
+end. {Car)
+':vt:l'ilat:)hlllyle |s-s|mPly lhe.nme an item is able to operate (opmupg timetstandby time)as Nested transactions have received considerable interest as a more generalized transaction
+iy ‘t’he t]me in service. It tells us how much the cash machine can yield if we feed it concept. The level of nesting is generally open, allowing subtractions themselves to have
+X required inputs e.g. raw material, power etc. and remove the product as it is nested transactions. This generality is necessary to support application areas where
+made. It can be defined as the i : : RN p
+. can be defined as the percentage of time over a well-defined period that a system transactions are more complex than in traditional data processing.
+or service is available for users. So, for example, if a system is said to have 99.999%,
+or five nines, availability, this system must not be unavailable more than five minutes 3. Describe different types of failure in DDBMS. [MODEL QUESTION]
+over the course of a year, Answer:
+Communication Failures in Distributed Databases
+‘ E Part: Recovery mechanisms for distributed transactions require understanding also the failures
+Th :fgdon affecting allocation: ‘ which may occur in the communications between sites. In this section, we classify the
+Ihe datz l!loaﬂm pmblem for object dmbam involves allocation of both methods and main types of communication failures, and state some basic assumptions on the
+lasses. The method llloﬂflon pl?blem is tightly coupled to the class allocation problem. communication network which are relevant in this chapter.
+icat ions o object-oriented databases invoke methods, the application of When a message is sent from site X to site ¥, we require from a communication network
+flects the performance of applications. However, allocation of methods hat the following behavior:
+nultiple classes at different sites is a problem that has been not yet been :k Xrreceives a positive acknowledgment afer a delay which is less then some maximum
+cal object. This is the most straightforward case and is included 2. The message is delivered at Y in proper sequence with respect to other X-Y messages.
+ine case. The behavior, the object to which it is to be applied, and 3. The message is correct.
+- DDMS-78 DDMS-79
+< =
+Y
+' POPULAR PUSLICATIONS : any
+There s 2 great variety of possible fai . -
+o veive e acknowledgment with message might be out of order, X might 1) Coardinator -receives a ransaction equest :
+acknowiedgment without the '*‘.'thﬁmd.xmm“, Mm&mamCmﬂMwﬁmﬂlmdlm.
+————— : message being delivered, and. 50 on. Most communication The finit state automation o the rotol is shown below-
+',XN\. \RWO‘dﬂM“dhm”h‘umh Corlomr o
+L 1fa mesage from X'to Fis delivered at ¥, then the message is comect and :
+[ ﬁ.?”“f““‘*‘mhﬁnm ol -y
+messages and partitions. Cobemti (1= 8.0 : il
+When a site X does not receive an acknowledgment of o ol ,"s-ln---
+X 3 . . .. _‘ ' ‘h
+sefined ime i Xis - .mﬁmamrma g e 4 0 %)
+1. Dida failure, occur atall, or is the system simply slow? - T e B e e
+2 ifa failure occurred, was it a communication failure, or a crash of site 17 sha S
+3. Hasthe message been delivesed at Yo not? O 0 P -
+The anwer fo question 3 does ot depend o the answer to question 2, because e e - (<)
+commumication failure or the crash can have happened before or after the delivery of the Tiad Mot =
+message. g Coed recened o
+Therefore, several levels of reliability algorithms can be designed, which are capable of O < Tt e
+deafing with the following failures, in order of increasing difficulty: ot F e Trmen
+Class1.  Site failures caly. F'T:l T ET
+Class2  Site failures and lost messages, but no partitions. ' B
+Class3.  Site aifures, lost messages, and pertitions. &)
+the system behaves'in an crroncous way. We will call catastrophic failures for a . m«z:’:mﬁﬂhﬁghmﬁnoﬁkm
+r&dﬁynﬂﬂiﬂndlhﬁﬂuﬁﬂiﬁmﬁkhﬁwﬁhbyiLAm hﬁldaisﬂﬂl!futlbemilpwwlhg's.dlhsiuninmq.lfh
+pﬁionisamopi‘icfa’hnfmd\edgxit}mo(dmlmdl Wﬁbwﬂehmql.dlheﬂhpﬁnh”mﬁhh
+mumummm.uwmumm
+Unfornmately failures do not occur one at a time. A system which can tolerate K failures Phase [
+SdiedKiuﬂiallndmhlcddsziscaup(Bq)pliedmsﬁeﬁilusMw Dligdtﬁmﬂns,ﬂtwadimu‘isinsttwl,wdlmlmisdﬂn’hml
+partitions. (mwtkhasﬂxiuhahudymmabmmmmemﬁm)awaq
+With respect o site falurcs, an algorithm is said t0 be Koresilient if it works properly depending on whether it has received the Commit_Request message or not. [ cohart
+even if K sites are down. lﬁtbmdmpuﬁﬁas.l(—rufﬁarymfuswlhenunberof Ek.ﬂzm&mﬁnmﬂwﬁrgfahwmﬁmhﬁiuwhlh
+sub partitions which have been gencrated. An extreme case of multiple failure is a total umummmmmmmmmﬂu
+ﬁilm-hmdlskﬁmdowanyalgaiﬂmd)mdnlwilhthisw:,ashis cohorts.
+Phase II
+4 3) Briefly discuss 3-phase commitment protocol. hhmmhmdmm:hmmbmhwilh
+unsﬂcmumdnﬁumwdmdwmmwa MmmehMLMhmﬁwﬂd-
+algorithm that works in case of partition. [MODEL QUESTION] Abort message 10 all the coborts. On receiving a Prepare message,  cohort sends an
+wmmum.unmmsmnﬁm
+DDMS80 DR
+y
+g
+Messages (i‘_&‘:. in state w1), it aborts the transaction upon recovery, according to the curn (1
+failure transition. The cohorts time out waiting for the prepare message, and also abort :;se
+the transaction as per the timeou transition. return (NPSQuorum);
+Phase I1l : Z:g
+In the third phase, on receiving acknowledgements to the Prepare messages from all the i
+cohqn;. the coordinator sends a Commit message (o all the cohorts. A cohort, on Algorithm for Write Quorum Construction:
+receiving a Comnl message, commits the transaction. If the coordii..t~r fails before Function Write Quorum(Trees): QUORUM;
+sending the commit message (i.c, in state pl), it commits the transaction upon recovery, var NeSOGceum, children: (UONDM;
+according to the failure transition from state PL. The cohorts time ot waiting for the * o ivaE DOSRIIIRGEG
+Comm!l message, They commit the transaction according to the timeout transition from begin
+state pi. However, if a cohort fails before sending an acknowledgement message to a - e
+Prepare message, the coordinator times-out in state pl. The coordinator aborts the e Sl
+transaction and sends Abort m toall th e . return ({ )); :
+ill abort th i 5 . eCOMﬂS-Thtfalledcohm,uponmovery, else if all nodes of NPS (node) is already taken then
+Wil abort the transaction weorc_lmgto the failure transaction from state wi. for each child ¢ children
+3Ph?5°°°mm““““b!°°h§¢“llphmmuwcrbom\donﬂnmmofﬁme NPSQuorum = NPSQuorum U
+required before 2 transaction either commits or aborts. This property ensures that if a WriteQuorum = (child subtree);
+given mwm 1S attempting to commit via this protocol and holds some resource else if all nodes of NPS (node) are accessible then
+locks, it will release the locks after the timeout. begin
+NPSQuorum = NPSQuorum U
+b) In a distributed database system, a transaction could be executing its operations at (any node among node and is siblings);
+multiple sites. Since atomicity requires every distributed transaction to be atomic, the |
+transaction must have the same fate (commit or abor) at every site, In case of network fax s Ehi3d & cltidum
+partidoning, sts are parttioned and the partions may no b abl t commuricate with g o SO
+each other. This is where a quorum-based technique comes in. The fundamental idea is If unable to take any node from NPS(node)
+that a transaction is executed if the majority of sites vote to execute it return ({ });
+1 Every site in the system is assigned a vote Vi. Let us assume that the total number of else .
+votes in the system is V, and the abort and commit quorums are Va and Vc, respectively. return (NPSQuorum);
+end
+Algorithm for Read Quorum Construction: else
+Function Read Quorum (irees): QUORUM; return ({ });
+var NPSQuorum, children: QUORUN; i
+gi:m’ e 5. What aro the uses of catalogs in DDBMS? What are the contents of catalog?
+node = root of the tree; Ho«nhlopmnlloahdhdlﬂmntaolz'ln DBMS?
+gtﬁ“"(‘f)‘j“’ Foat Describe how you will manage the storage and allocation of a global system
+else if all nodes of NPS (node) are accessible then catalogue in a distributed DBMS. [MODEL QUESTION]
+return (each node of NPS(node)); Answer:
+s 3) The Global System Catalog holds information specific to the distributed nature of the
+begin system, such as the fragmentation and allocation schemas. A site catalog describes all
+children = children of node; objects (fragments, replicas) at a site and keeps track of replicas of relations created at
+for each node ¢ children his site,
+NPSQuorum = ReadQuorum(child Subtrees); Contents of catalog: It stores not only data regarding relations, indexes, users, etc, but
+1If all nodes of NPS(node) are inaccessible then also all the necessary control information for independence in the following manner:
+DDMS-82 DDMS-83
+e = » 13
+MMMMAE&EMAMWM
+1. Centralized: violate no reliance on a central si
+/ ESTI
+2. Fully repliated: 1o of ocal autonomy % b) Wht s allocation? puissLares
+3, Partioned: nonlcal oprationsar very Anser: . location
+4. Combination of (1) and (3): m'v:y mm ceotral si Data allocation describes the process of deciding where 10 locate data. Data &
+ona sile. iralegies are 4 follows: : R
+The distributed database ' e ’ o With centralized data allocation, the entire dalabasc’ poeo s .
+/ in addiion 10 data in :ﬂu,,mmwm“"“-mn el b e slcaon, e b is G o 0 € T
+partitioning and repli in a centrlised DBMS. Because of data disiointed parts (fragments) and stored at two or more SIEs.
+ng and replication, this extra information is needed. There ) AT e database fragments &r¢
+approaches to implementing a distributed database catalog, are a number of » With replcated data allocation, copies of one or m
++ Centralised - Keep one master copy of the ! stored at several sites.
+« Fully replicated - Keep one copy o the catalog .
+o at each site nd explain it with proper example.
+- Partiti : Wite the horizontal Algorithm a 0
+v MM‘\:’ Partiion and replicae the catlog as usagepatensdemand ) [MODEL QUESTION]
+““""“’f“m m horizontal fragmens are defined using seletions on_ global reatons; (e
+. protocol PSS WPy conmimen celected in one and only one fragment. Thus, determining the primary fragmentation of &
+Amm-' global relation requires determining 3 s¢t of disjoint and complete selection predlcau;
+i h The property that we require for cach fragment is that the clements of them must
+phase commitment protocol overcome limitation of 2-phase commitment protocol: referenced homogeneously by all the applications. ; :
+A Two-phase commit protocol cannot dependably recover from a failure of both the The horizontal fragmentation function distributes a relation based on selection predicates.
+coprdmntot and a cohort member during the Commit phase. If only the coordinator had The following example is used in subsequent discussions.
+failed, and no cohort members had received a commit message, it could safely be inferred EMP
+that no commit had happened. If, however, both the coordinator and a cohort member ﬁmmm-’ﬂﬂ!
+failed, it is possible that the failed cohort member was the first to be notified, and had Bl |J.Doc | Elec.Eng
+actually done the commit. Even if a new coordinator is selected, it cannot confidently E2 | M. Smith | Syst Anal.
+proceed with the operation until it has received an agreement from all cohort members ... : B3 |AlLe Mech. Eng.
+and hence must block until all cohort members respond. E4 | ). Miller Pm&';’n“:“
+The Three-phase commit protocol eliminates this problem by introducing the Prepared to Eg E' ‘(:I:sey ZIY:; ey
+commit state. If the coordinator fails before sending preCommit messages, the cohort will 57 R Da:is Mech Engg'
+unanimously agree that the operation was aborted. The coordinator will not send out 2 S e Anal.
+g::r:l?n'?:n 'lll'h;:&:lsi:ngi:latu:ﬂlh‘clIpfo‘s):‘i%riilitl;edr?at:?nymc:;oﬁcnlf:;bl:rmacl:]:alyl;rzo;rpel[::idd:z Rel.ation EMP(ENO, ENAME, TITLE) of the ::ve fLaltl)le can be split into three
+ransaction before all cohort members were aware of the decision to do so (an ambiguity horizontal fragments EMPE;rP" and EMP,, defined as follovs:
+that necessitated indefinie blocking in the Two-phase commit protocol). EMP, = Gawcer | )
+how network paritioning is handied in replicated databases EMP, =015 goves (M)
+1. lownol'onnlanenroca )
+s : y [MODEL QUESTION] EMP, = 00,55 (EMP)
+Answer: The localization program for an horizontally fragmented relation is the union of the
+Network partitions separate replica managers into two or more subgroups, in such a way fragments. In our example we have
+that the members of a subgroup can communicate with one another but members of EMP = EMP, UEMP, UEMP,
+different subgroups cannot communicate, There are (o approaches ior this - 1) Thus the localized form of any query specified on EMP is obtained by replacing it by
+Optimistic approaches use available copies with validation and 2) Pessimistic approaches EMP, UEMP, UEMP,.
+which use Quorum consensus.
+DDMS-84 DDMS-85
+.
+i
+POPULAR PUBLICATIONS DISTRIBUTED DATAB )
+8. Write shorts notes on the following; [MODEL QUESTIO ; nted by replicating the same information on several disks with independee,
+
+;} m:m ™ i ;zﬂ:em:lwa aﬁ:fsing the so-called careful replacement strategy: at every updae
+
+; ion, first one copy of the information is updated, then the correctness of the
+
+¢) Wait-Die and Wound-Wait algorithm operation, P is updated
+
+Answer: update is verified, and finally the second copy is updated. f filure:
+
+:))n Network partitioning: Having introduced stable storage, we can introduce a new type of failure: -
+
+e of the most difficult failures in a distributeq system is network partitioning (whe ilures with loss of stable storage: In these failures, some information ; in
+set of computers are networked together byt they are isolated m molhger( s'e'("oaf 4 ft::,ll:”s:omge is los{because of several, simultaneous failures of the thfrd type. ‘
+o hal are inerconnected). When network partitioning happens, there is 3 danger Although we can make the probabiliy of failures of stable storage arbitrarily small
+;hﬁal WW in each pmitiop unilaterally decide to commit or abort the transaction, [f by using more replication and careful replacement strategies, it is impossible to
+
+¢ o partitions do not dec!de on the same action (either both committing or both reduce this probability to zero.
+aborting the transaction), the ntegity of the database willbe lost. Therfor, e gig,
+:mmmr:a Qu0mm~based commit protocol that deals with network partitioning, ¢) Wait-Die and Wound-Wait algorithm: ' ;
+etwork partitioning can completely destroy mutual consistency in the worst case, and Wait/Die and Wound/Wait are deadlock avoidance algorithms which use a symmetry-
+this fact has led 10 a cerain amount of restrctiveness, vagueness, and even nervousness breaking technique. In both these algorithms there exists an older process (0) and a
+in plstdlsumon.s, of how it may be handled, In some environments it is desirable or ounger process (Y). Process age can be determined by a timestamp at process creation
+flecessary to pemmit users to continue modifying resources such as files when the network ﬂme_ Smaller timestamps are older processes, while larger timestamps represent younger
+'S partitioned. A “‘_“"0*' operating system would be 3 good example. In such processes.
+environments mutual inconsistency becomes a fact of lfe which must be dealt with. Once The Wait-Die algorithm:
+e 18 deected, some reconcilaton steps are needed. In thog cases where the «  Allow wait only if waiting process is older.
+semantics of the operations involved are straightforward, automatic reconciliation may be Since timestamps increase in any chain of waiting processes, cvcles are impossible.
+possible. m the younger process restarts and requests the resource again, it may be killed once
+b) Site Failure: sl - two algorithms.
+From the viewpoint of local recovery, the most important characteristic of failures is the e i
+amount mfommjon which is lost because of the failure, Therefore, in the classification of The Wound-Wait algorithm:
+failures We consider essentially the memory component. From this viewpoint failures can =~ ¢ Otherwise allow wait only if waiting process is younger.
+be ClﬂSSl.ﬁed as fgllows: Here timestamps decrease in any chain of waiting process, so cycles are again
+L Fnlure.s without loss of information: In these failures, all the information impossible. It is wiser to give older processes priority. When the younger process re-
+ stored in memory is available for the recovery. These failures include, for requests resource, it has to wait for older process to finish. This is the better of the two
+example, the abort of transactions because an_eror condition is discovered algorithms.
+like an arithmetic overflow or a division by zero,
+2. Failures with loss of volatile storage: In these failures, the content of main
+memory is lost; however, all the information which is recorded on disks is not
+| affected by the failure, Typical failures of this kind are system crashes,
+3. Failures with loss of nonvolatile storage: In these failures, called media failures,
+also the content of disk storage is lost. Typical failures of this kind are head crashes.
+Thembabilityoffailmuofthetlﬁrdtypeis less than that of the other two types.
+- Moreover, it is possible to make the probability of the failures of the third type
+arbitrarily small by replicating the information on several disks having independent
+failure modes. Two disks have independent failure modes if the probability of
+Mdﬂndosnotdependonmeopnﬁomlsmtusoﬂheotherone.
+idea is the basis for the development of stable storage. Stable storage is the
+resilient storage medium available in the system. Stable storage is typically
+DDMS-86 DDMS-87
+t L AS PUBLIGATIONS
+gmm% o Tuking advantage of non-local resources
+s o CostSaving
+4 o Overcoming memory constraints
+1. Explein o Save time and money
+: . ides a user-friend! mming perspective to memory
+- Parallel Query Processing. NODEL ¢ + Global address space provides a user-friendly programming perspec
+The steps for Parallel Query Processing ‘
+N are: The Disadvantages of the Parallel systems are:
+l Translation: Coaversion of the relational algebra expression ) + Primary disadvantage s the lack of scalability between memory and CPUs. i
+d Qpn-_mﬁon: Reondering of join operations in the W':t it - » Programmer responsibility for synchronization constructs that ensure “correct
+different joun algorithms to minimise the cast of the execution choase among access of global memory. .
+3. Parallelisation: Transfoming the query tree to a physical ¢ : + It becomes increasingly difficult and expensive (o design and produce shared
+lhtplanlrfthemgm& weoind kadeg nmorymachineswitheverimasingnumbasofmcssm
+4 Execution: Running the concurrent transactions,
+: R e e
+. : PARALLELIZATION ‘ 1. a) Describe scale up ad speedup :l;tor? in 'p:glz dm‘bu:::l“ o
+' Annotared 4 different of data joning techniques in databa
+oy 1l 8 Qe ) E I - - gt it [MODEL QUESTION]
+NI i | (Schauk) Answer: \ . _
+: g i Following are the major factors which afffect the efficient parallel operation and can
+H reduce both speedup and scaleup.
+Startup costs : :
+< Fig: Parallel query processing For every single operation which is to be done in parallel, there is an associated cost
+: involved in Starting the process. That is, breaking a given big process into many @l
+2. What are the difference between proc&smmumssomeumumofﬁmeormoumForexfmpk,.aqu_whlchma
+e s Pt the data of table ned o partiton th table as well as nstructing various paralll
+Answer: N processors to execute the query before any parallel operation begins.
+(Features | ParallelSystems | Distributed Systems |
+- Example: SELECT * FROM Emp ORDER BY Salary;
+Tightly coupled system shared | Weakly coupled system i '
+memo Distributed memory IhisquerysmtsdnmcordsofEmptableonSaluymibute.Letusmumelhallhuem
+Global clock control No global clock control 1 million employees, so one million records. It will consume some time to execute ina
+Order of Gbps | computer with minimal resources. If we would like to execute the query in parallel, we
+Interconnection need to distribute (or redistribute) the data into several processors (in case of Shared
+Performance Performance (cost & scalability) Nothing Architecture), also, we need to instruct all the processars (o execute the query.
+Scientific computing Reliability/availability These two operations need some amount of time well before any parallel execution
+Information/resource & sharing. happens.
+3. Write down the advantages and disadvantages of parallel system. Interference
+[MODEL QUESTION] Since processes executing in a parallel system often access shared resources, 2 slowdown
+Answer: may result from the interference of each new process as it competes with existing
+The advantages of the Parallel systems are: processes for commonly held resources, such as a system bus, or shared disks, or even
+o Provide Concurrency (do multiple things at the same time) locks. Both speedup and scaleup are affected by this phenomenon.
+DDMS-88 DDMS-89
+e ——— ey ‘ \9! -
+DISTRIBUTED DATABASE MANAGEMEN Sy \
+POPULAR PUBLICATIONS S \
+- ADVANCED TOPICS
+| RUVAINLVEY S~
+When breaking down a single task into number of parallel small asks, it is very hard to Questions
+Make ther equal in size. Hence, the performance of the system depends on the slowest Short Answer 1ype &
+CPU which processes the larger sub-task, This type of uneven distribution of a job is d tight! led
+. u - ) 5 5 y coup
+called skew. For example, if a task of size 100 15 divided into 10 parts, and the division is hat do you mean by fodorated database? What lr:'::).t;l'o.lz:l:m?ﬂ
+she ‘.‘f\" there may be some tasks of size less than 10 and some tasks of size more than \. V;I :‘. in reforonce with distributed database manag [MODEL QUESTION]
+10, if even ane task happens to be of size 20, the speedup obtained by running the tasks sysie
+tn parallel s only five, instead of ten as we would have hoped, Answer:
+' i !
+: — W Part: : ; sparently access
+!)) Different types of d!u partitioning techniques in parallel databases 'lrh: :;lrposc of federated database systems is to provide mf“"si::)1‘:::;£‘ " m‘)‘lnnc,_ A
+i) Round Robfn: The simplest portioning strategy distributes tuples among the fragments d modify data dispersed over heterogencous database systems in { A system (DBMS)
+i a round-robin fashion. This is the partitioned version of the classic entry-sequence file, ::dmtcd database system is a type of mc[a.da!abasc managcn}lc\lwrk) : and may be
+Assume that there are n disks. D,.D,,,D,, among which the data are to be partitioned, The constituent databases are interconncc_led via c::mp:lcrte:‘cs mma.in s
+This strategy scans the relation in some order and sends the ith tuple to disk number geographically decentralized. Since the consituent d{m memcyssomclimcs daunting) task
+D, sy - The round-robin scheme ensures an even distribution of tuples across disks. a federated database system is a ?onlmuble altcmall\:\c l:')cdem(led database, or virtual
+Round-robin partitioning is excellen for applications that wish to read the entire relation of merging together several disparate dﬂ}""”“z £ 211 cootimen danibeser iy &
+sequentially for each query. The problem with round-robin partitioning is that it is very database, is the fully integrated, logical composite o
+diffcult to process point queries and range queries, federated database system.
+Global _ Global
+ii) Hash partitioning: This strategy choose one or more attributes from the given P
+relational schema as the partitioning attributes. A hash function is chosen whose range is
+within Oton - 1, ifﬂmmndisks.ﬁachmplc of the original relation is hashed based ——
+on the pattoning attributes. f the has function retums i then th tuple i placed on disk o
+D,
+.. . . . . . . -. J
+Hash Partitioning is ideally suited for applications that want only sequential and m (ﬂ::'
+associative accesses to the data, Tuples are stored by applying a hashing function to an
+» . . 0 . L“.l
+attribute. The hash function specifies the placement of the tuple on a particular disk. = F = q e, =
+. o - sien il picin J7 cOS) [ || | onMS |t ppcaion
+ii) Range Partitioning: Range portioning clusters together tuples with similar attribute ' :
+values in the same partition. This strategy distributes contiguous attribute-value ranges to <8 - i
+each disk. It chooses a partitioning attribute as a partitioning vector, Using range- Local m m
+partitioning technique, a relation s partitioned in the following way. Let {v,,v,v, ,} At i
+dmotemepnmmveaorofﬂlepa'unonmgmnbuusuchﬂmnfl<j,men V<), d e
+Consider a tuple f such that ([A]=x. If x<v, then  goes on disk D, and if x>v, ,,
+then  goes on disk D, ,. If v, <x <, then f goes on disk D
+Range portioning is good for sequential and associative access, and is also good for 2 Part: -
+clustering date. A Tightly coupled system has a global schema and translation is between local and global
+schema. This means that more work has to happen on the database administrator and less
+work on the user: query is written based on a global schema.
+DDMS-90 DDMS-91
+1
+POPULAR PUBLICATIONS : & OENTSYSTEM
+A loosely coupled system is shown below:
+PRESENTATION | BUSINESS LOGIC BACKEND
+Clobal (FIRSTTIER) (MIDDLE TIER) (THIRD TIER)
+i W
+b g | Windows G
+v Export Export B
+schema | schema 2 schema 3 ' ,d:::n h 'I.ha | %‘
+QL U o
+m\\dm ‘d/
+m c«l::l b Local Local
+Conceptual C ) ) >
+ﬂ Iova wed server
+Local internal Local internal Local >
+i
+are constructed
+using  powerful
+D
+as MSQL
+_ ﬁ ﬁ 1. Explain the Torm: Distributed data management. (MODEL QUESTION]
+Answer:
+istri i ion of multiple, logically interrelated databases
+R i Y (/!\Is::lsa‘urll:t;‘ l;:\(r’crd: :obl:ns;ullei :ﬂ;.:tl: “A():is:'ibumt:d SI?MS ?s the: defined as the software
+its th ement of the distributed database and makes the
+In Loosely-coupled system does not have a global schema and translation is between :l{::;:‘ulil::‘lmp:;nn:cm l: th:‘:suctgs
+external schemas and local conceptual schemas. This means that there is more work on This definition is based on the following implicit assumptions: ' .
+i - I. Data is stored at a number of sites. Each site is assumed to logically consist of a single
+r.
+i SRR i Aobsctast S QURTION ngmwm at these sites are interconnected by a computer network rather than a
+nswer: '
+Distributed object systems are the foundation for modern three-tier architectures, In a muliprocessor configuration. e
+hree-tier architecture, as shown in the figure, the presentation logic resides on the client -
+(first tier), the business logic resides on the middle tier (second tier), and other resources, Dota Danngowsnt Deia Managererd
+such as the database, reside on the backend (third tier).
+Distributed
+Object Management
+Fig. 1: Technologies Contributing to DOM
+: DDMS-92 DDMS-93
+POPULAR PUBLICATIONS DISTRIBUTED DATABASE MANAGEMENT 5ysypy
+The two assumptions mak istincti - sed in a variety of environments ranging from web applications to n-tier client/server
+DBMS, W ¢ the disinction between distibuted DBMS and paralle] :;pl;ications. It can be used from virtually any programming or scripting language that
+Distributed DBMSs provide : i s the Microsoft COM Automation technology, such as Visual Basic, Visual C++, L
+queries and Wi:"" m""me""'m“wm: {m phynca]lly distributed database, User :7;;0 in Excel, Active Server Pages, PowerBuilder, Delphi, Microsoft Internet
+a global conceptual schema (GCS) which is plniti:xnt:;m r i (ES)'de foed i [nformation Services, and Microsoft Distributed Transaction Coordinator.
+forming the local conceptual schemas (LCS) at those sit mm“md . dlf!'crcnl ,s'u,’ Because it is a native driver, 0040 generally provides the fastest performance on
+then mapped 0 a local internal schema (LIS) which d:: “bu e LCS na given site s Windows clients to Oracle databases. It does not incur the overhead of ODBC and OLE
+of data at that site, cribes the physica organization DB drivers. 0040 has been developed and has evolved specifically for use with Oracle
+m m " n database servers, It provides easy access to features that are unique o Oracle, but are
+g otherwise cumbersome or inaccessible to use from ODBC and OLE DB-based
+m components, such as ADO,
+3, Write sort notes on the following: [MODEL QUESTION]
+a) MDBS
+m v m b; Peor-o-Poer Architecture
+¢) Distributed databaso administration
+how [
+Fig, 2: Datalogical Distributed DBMS Architecture \\
+2 Doscrbs thefollowing:
+) 0040
+; Federsed MDS 3
+&ﬂw database system is 4 type of meta-database management system (DBMS),
+transparenly maps multiple autonomous database systems into a single federaed
+constituent database systems remain e 2 = '
+lm?uw.  federated database system is a contrastable alternative o the (sometimes In recent years, MDBS has been gaining the atiention of many researchers who atiempt to
+daunting) task of me!'ﬂn( several disparate databases. A federated database, or virtual logically integrate several different independent DDBMSs while allowing the local
+database, is a composite of all constituent databases in a federated database system, There DBMSs to maintain complete control of their operations, Complete autonomy means that
+is o actual data integration in the constituent disparate databases as a result of data there can be no software modifications (o the local DBMSs in a DDBMS, Hence, an
+federation. MDMS, which provides the necessary functionality, is introduced as an additional
+Through data abstraction, federated database systems can provide a uniform user software layer on top of the local DBMSs,
+interface, enabling users and clients o store & retrieve dath from muliple noncontiguous An MDBS is a software that can be manipulated and accessed through a single
+databases with a single query - even if the constituent databases are heterogeneous, To manipulation language with a single common data model in a heterogeneous environment
+this end, a federated database system must be able 1o decompose the query into without interfering with the normal execution of the individual database systems. The
+subqueries for submission to the relevant constituent DBMS's, after which the system MDBS has developed from a requirement to manage and retrieve data from multiple
+must composite the result sets of the subqueries. Because various database management databases within a single application while providing complete autonomy 1o individual
+systems employ different query languages, federated database systems can apply database systems, To support DBMS transparency, MDBS resides on top of existing
+wrappers 1o the subqueries to translate them ino the appropriate query languages, databases and file systems and presents a single database to its users, An MDBS
+, m‘iﬂﬂil!l a global schema against which user issue queries and updates, and this global
+. ) OM Objects for OLE (0040) is & COM-based data sccess drver that combines schema s constructed by integrating the schemas of local databases.
+searnless and optimized access 1o Oracle databases with easy to use interfaces, 0040 can
+= DOMS.94 DDMS-95

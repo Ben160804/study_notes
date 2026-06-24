@@ -1,0 +1,36 @@
+b) Some of the entries relevant to a technical university are given bellow: !
+For each of them, indicate the type of relationship existing ar.nong.the'm (for
+example, one-to-one, one-to-many or many to many). Draw a relationship diagram
+- for each of them.
+i) STUDENT and ENGG-BRANCH (students register for engg branches) |
+ii) BOOK and BOOK-COPY (books have copies)
+iii) ENGG-BRANCH and SECTION (branches have section)
+iv) SECTION and CLASS-ROOM (sections are scheduled in classroc.ns)
+- V) FACULTY and ENGG-BRANCH (facuity teaches in a particular branch) A
+Answer: o
+. for
+i) [ 1 ;n
+e
+Book Copies
+iii) i f |
+v) Section w -
+Class Rooms .
+- ‘1
+" o>
+- ¢)AnER diagram can be viewed as a graph Wh
+pf the structure of an enterprise schemi? p at dothe following means in terms
+i) The graph is disconnected [WBUT 2011]
+ii) The graph is cyelic. ,
+Answer: :
+i) If pair of entity sets is . |
+)I t Z l/: (()j.nenuty sets IS con.n‘ectfzd by a path in an E-R diagram, the entity sets are |
+related. isconnected graph implies that there are pairs of entity sets that al‘e'Un lated |
+to each other. if we split the graph into connected Y g
+: _ . Cled components, we have, in effect. a
+5eparate -databasc corresponding to each connected component. At this ()i;1t analogy is
+with partial and complete participation with E-R diagram. Raandc..
+ii) A path in the graph between a pair of enti indicate o -
+between the two entity sets. If there?s ac ‘cl:t'lty ;ets s mdlr?d relat@SMP ;
+the cycle are related to each other at | yelc In the graph then every pair of entity sets 3
+on the c) -ach other at least in two distinct ways. If the E-R diagram i
+DBMSCS-18

@@ -1,0 +1,45 @@
+r S T TTE—
+DATABASE MANAGEMENT SYSTEMS
+DATABASE SECURITY
+| Muitiple Choice Type Questions
+1. “Each }JSE; ::v:ua:g provide use id and password to access the database” — This
+By [MODEL QUESTION]
+a) Authentication b) Athorization
+c) Access control d) Privilege
+Answer: (¢) |
+2. Which of the following is the process by which a user’s identity is checked?
+
+l iy | [MODEL QUESTION]
+
+! a) Authentication b) Authorization
+
+‘ c) Access control d) All of these
+
+| Answer: ()
+
+’ 3. Which of the following is the command that reads SQL statements form DBRMs
+and produces a mechanism to access data as directed by the SQL statements?
+
+[MODEL QUESTION]
+a) Compile b) DCLGEN ~¢) BIND d) EXECUTE
+Answer: (b)
+Long Answer Type Questions 3
+1. Explain the importance of view in providing security to the database. What are
+the importance of GRANT and REVOKE commands? [MODEL QUESTION]
+Answer: , ‘
+1* Part: .
+
+: Views can serve as security mechanisms by restricting the data available to users. Some
+data can be accessible to users for query and modification, while the rest of the table or
+database is invisible and inaccessible. Permission to access the sups«?t of data in a view
+must be granted, denied, or revoked, regardless of the set of permissions in force on the
+
+, underlying table(s).
+
+For example, the salary column in a table contains confidential v::mployee information, :
+but the rest of the columns contain information that should be ave.ulable to all users. You
+can define a view that includes all of the columns in the table with the exception of .the
+- sensitive salary column. As long as table and view have the same owner, granting
+SELECT permissions on the view allows the user to se€ non-confidential columns in the
+view without having any permissions on the table itself. :
+DBMSCS-127 |

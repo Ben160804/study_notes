@@ -1,0 +1,49 @@
+Ml e y 4
+'~ }? 5
+k‘w:m Purticipant. Coondinator — Participunt. Coordinalor Purticipant the arguments are all co-related. Therefore, no special mechanism is need to han, <
+’ h ) R A " ' is case. e B g
+A . " l’!“:a, behavior - remote object. This is one of lhc cases in which the behavior and
+I focvore | ™ e object to which it is applied are located at different sites. There are two ways of
+: dealing with this case. One alternative is to move the ntfmo.tc object to lhe site vdm
+\ the behavior is located. The second is to ship the behavior implementation to the site
+- ' [T where the object is located.
+: \ 3. Remote behavior - local object. This case is the reverse of case (2). B
+BSIL <N N ; ‘m“" v 4: Remote function — remote argument. This case is the reverse of case (1). |
+~ \\
+umeout b Nested Transaction: . . . '
+® (®) © An alternative transaction model is to permit a transaction (o include other transactions
+with their own begin and commit points. Such transactions are mllcdd m;ed m-ctlu. A
+i i h Ily called sub-transactions.
+m: l:ho the difference between reliability and availability? What are the factors ﬂ\Ex:s"!clek {mmm T it
+n? on? What s nested transaction? [MODEL QUESTION) in_transaction Reservation
+Answer: D:‘I_
+st . n
+ll)' h? iabili ; Begin_transaction Airline
+mr.: uted re.habthry lxotocols maintain the atomicity and durability properties by
+@ ‘!::""8 thlll cither all of the actions of a transaction that is executing at different end. {Airline}
+Slies - complete successfully (called commit Begin_transaction Hotel
+successully (called abor), and espuom. o leeicmsion
+(il ensuring that the modifications made to the database by commi ; end. (Hotel)
+E ; y committed transactions ;
+survive fmlurgs. The first requires atomic commit protocols (see Commit i - e
+Protocols), while the second requires recovery protocols ;
+end. {Car)
+':vt:l'ilat:)hlllyle |s-s|mPly lhe.nme an item is able to operate (opmupg timetstandby time)as Nested transactions have received considerable interest as a more generalized transaction
+iy ‘t’he t]me in service. It tells us how much the cash machine can yield if we feed it concept. The level of nesting is generally open, allowing subtractions themselves to have
+X required inputs e.g. raw material, power etc. and remove the product as it is nested transactions. This generality is necessary to support application areas where
+made. It can be defined as the i : : RN p
+. can be defined as the percentage of time over a well-defined period that a system transactions are more complex than in traditional data processing.
+or service is available for users. So, for example, if a system is said to have 99.999%,
+or five nines, availability, this system must not be unavailable more than five minutes 3. Describe different types of failure in DDBMS. [MODEL QUESTION]
+over the course of a year, Answer:
+Communication Failures in Distributed Databases
+‘ E Part: Recovery mechanisms for distributed transactions require understanding also the failures
+Th :fgdon affecting allocation: ‘ which may occur in the communications between sites. In this section, we classify the
+Ihe datz l!loaﬂm pmblem for object dmbam involves allocation of both methods and main types of communication failures, and state some basic assumptions on the
+lasses. The method llloﬂflon pl?blem is tightly coupled to the class allocation problem. communication network which are relevant in this chapter.
+icat ions o object-oriented databases invoke methods, the application of When a message is sent from site X to site ¥, we require from a communication network
+flects the performance of applications. However, allocation of methods hat the following behavior:
+nultiple classes at different sites is a problem that has been not yet been :k Xrreceives a positive acknowledgment afer a delay which is less then some maximum
+cal object. This is the most straightforward case and is included 2. The message is delivered at Y in proper sequence with respect to other X-Y messages.
+ine case. The behavior, the object to which it is to be applied, and 3. The message is correct.
+- DDMS-78 DDMS-79

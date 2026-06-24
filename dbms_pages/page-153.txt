@@ -1,0 +1,69 @@
+DATABASE MANAGEMENTSYSTEM ~ § NS
+
+he following two sets of FDs: NN
+
+c) Consudert‘e . g S : %&
+
+,A__)(,_AC%D,E—)AD.E——)H} e
+F={ Y
+
+~ R
+
+;={A—>CD,E— AH}. PP
+
+. WRE
+
+check whether they are equivalent. Justify your answer. &g*{.‘l&
+
+See Topic: FUNCTIONAL DEPENDENCIES AND NORMALIZATION, Long Answer Type Question E‘s::s%\
+
+’ No. 18. RN
+
+1 No. I,
+
+@ .
+g Consider the relational database: : %}éﬁi v
+Employee (person-name, street, city) ;ps{s% 3
+Works (person-name, company name, salary) &% "%
+Company (company name, city) %?b
+Manages (person-name, manager-name) AR
+
+i AN
+Write down appropriate SQL statement for the following queries: &«{,«g ;
+a) Find the name of all employees who work for ‘SBI bank’ $g§~ ;
+b) Find name, street address, cities of residence of all employees who work for ‘UBI Bank' and hggg
+earn more than Rs. 5,00,000 per annum. PRARS
+R
+c¢) Find the second highest salary for employees in ‘SBI bank’. : _ &v{% ;
+d) Find the names of all employees who live in the same city and on the same stréet as do theur‘ && *
+manager. %si
+e) Find the company that has the most employees. &;{‘
+See Topic: SQL, Long Answer Type Question No. 7. &g{%
+XA
+R, | W
+9. a) What are the various states of a transaction? Explain with a state diagram. %..%
+b) Consider the following schedule: Ao 1‘ o T %g& :
+S$1:12 (C), 12 (B), w2 (B), r3 (B), r3 (C), r1 (A), w1 (A), w3 (B), w3 (C), 12 (A), r1 (B), w1 (B), . ?§§$
+Is the schedule serializable? 2 A ' NN
+: sired?
+¢) What is cascadeless schedule? Why is cascadeless of schedule de | %iﬁ
+d) Explain log based recovery. g meti e R %&g '
+T v f @ / / / uest NO. .
+See Topic: TRA,\'SACTIOI\ PROCESSING, Long Answer lype %&\\
+‘ Ty RAXL
+CE.E— AB,C —»> D} Why R is in 2NF, Y
+10.2) If R=(A4, B,C, D) and the FDs are {AB - } %%i%
+: ~ | e
+but not in 3NF? Explain. : : & SNE RI2X2
+; A it is in 3NF but if a relation schema is in QR
+b) Show that if a relation schema is in BCNF, then it is in - "i&g
+then it is not necessary in BCNF. Give examples. %%:g
+¢) What are metadata and data dictionary? A
+d i : rimary key, foreign key and super key. : §$§\' |
+) Explai the terms candidate key. p NCIES AND NORMALIZATION, Long Answer Type  RPS¥®
+4 & b) See Topic: FUNCTIONAL DEPENDENCIES Al 5
+Question No. 19 it 7 Tenas
+No. 19, ; L ¢ Answer Type Question No. 4. 23
+©) See Topic: ENTITY-RELATIONSHIP MODPljt’ 2:2:: Answer Type Question No. 2. %‘}
+@) See Topic: ENTITY-RELATIONSHIP MODEL, Short : QA2
+- ¥ -

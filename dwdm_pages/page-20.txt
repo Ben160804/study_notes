@@ -1,0 +1,39 @@
+POPULAR PUBLICATIONS qg
+CLASSIFICATION AND PREDICTION OF
+| Multiple Choice 1yp€ Questions |
+1. Which of the following techniques are appropriate for dﬁ;\sv;l.’a;ezl‘a%;slznoa'g ol d
+a) Hashing on primary keys ! ’ 8]
+b) Indexing on foreign keys of the fact table | |
+c) Bit-map indexing .
+d) Join indexing |
+Answer: (¢)
+2. ......is an-example of predictive type of data mining whereas .....- is an example
+of descriptive type of data mining. - [WBUT 2010, 2012
+a) Association Rule, Clustering b) Assomgtuon Rule,. Clas_SIficatnon '
+c) Classification, Clustering ~ d) Clustering, Classification ;
+Answer: (C) ;
+3. What is Metadata? ! [WBUT 2017] ,
+a) Summarized data b) Operational data :
+c) Data about data d) None of these -
+b Answer: (¢) '_
+4. The full form of OLAP is [WBUT 2017] 5
+a) Online Analytical Processing b) Online Advanced Processing e
+c¢) Online Advanced preparation d) Online Analytical Performance i
+Answer: (2) ¥
+5. The apriori algorithm is a [WBUT 2017]
+a) top — down search b) breadth first search 3
+c) depth first search d) bottom-up search u
+Answer: (d) :
+6. Classification rules are extracted from [WBUT 2017]
+A a) Rog)node b) Decision tree c) Siblings d) Branches o
+nswer: H
+"‘;;J'”
+7. Which of the following is a predictive model? £
+a) Clustering 4 i . [WBUT 2017] 5
+¢) Summarization b) Regrogcian |
+Answer: (b) .d? Association rules é
+8. All set of items whose support i A o
+pport is greater than the user-specified mi jmum
+support pecified min
+pport are called as uT 20171
+DWM-20 = F

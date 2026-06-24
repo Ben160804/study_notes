@@ -1,0 +1,45 @@
+i ks
+F DT IBU LD DA TABASK MANAGEMEN] (5110
+) I8 the specification of the number of occyrrences
+Mlhmofmdmo:jfu Ofone bjct tht an be avallable on the Salary attribute, we can use the Index 1 locate the tuphes. Different
+"'mﬂobldmulmmwmmw“(l,l : algorithins might have different cont
+clduwmyobjm(mmmmmhér‘m"m”&mm hus, I order 1o specify fully how 1o evaluate & query, the system Is responsibde for
+can relate 10 some other number of occurrences of ; objmoa 'M"‘“N i object construting & query exscution plan which made up of the relational lgebra exprossion
+Cardinality defines “the maximum number of objcts tha (MN relutionship) and the detailed algorithms to evaluste each operstion i that expression. Morearir, the
+Wp'.mm.llhmmmmwmd can- paricipate fn o selected plan should minimize the cost of quary evalustion The prouess of choosing 4
+Mobl-amumlmumm‘, whether of not a paricular wmmmmum-mmmmhmw
+: Optimizer.
+&W"/MM f ?mwmofqulmiulonml:dmdlmw,m'ymwwm
+main steps in expression thal 1y equivalent to gven expression bl that s more officient 1
+sleps I processing u higholevel query are lltrated n e | e ocul, The other apect nvolves th selction of 8 deall gy o rocassing te
+Qe o g query, this relates 1o chossing the prouessing sborithn, chonning he indions o s wd
+000,
+o Tk e h qery gl chsen, h vy Ecton gy bt o, st
+that plan and return the answer of the query,
+Welational Algebes | npessions
+4, What are the sdditional threst 1o handle desdlock from centralized U distntwted
+| e BMS? Explain contralized and hirarchica Sesdic dectin Dicss the oocs
+of roplication 1 crosts desdlock. [MODEL GUESTION)
+st sow s Answer:
+Fassation pon The problem of deadlock detection is more difficht in & distributed databass than in &
+centralized one, becase the ciroular waking situstion which determines a deadlonk can
+._@ involve seversses o o jus ne
+(pery Ontgpat spoeassandesd 10 P 'D"“
+Wiz Sheps in query processing process Q
+::;":“:dfm :"‘“ w:h parsing and ramlating 4 given highlevel language
+4o its imemediate form such as relational alyebra expressions, The parser need t anyansassadpoll Tl 2
+dlg}tl«x::mofﬂlcmddwmhdzmmicfdlhcwy(ilmt: @ LA) = D'A
+v " 4 /
+d W o s § ot o b S o Al e R
+anslaed it relational dyehna expression. Itrinas wd ool was-Non pyghs
+A rdional dggna expression of 4 query specifies only partially how W evaluate 4
+query, there are severdl ways 1o ovdbutte 0 relationdl Wlyghns exgression. For crample, There several methods for dealing with deadlocks n a ditribued system
+consider the query. 1, Deadlock detection using cenealized of Werachical conteol
+SELECT Sabary PROM EMPLOYEE WHERE Salary = 00, . Distribwied deadlock detection
+The prrsibhe selationdl dyphna exgressions for this query are. b, Deadlock prevention
+¢ Nskf sy A EMASIYER )
+¢ syl s fMASIVEE) LW%*W«M&@*‘: _
+Furtber, cach redationdl dyhra operation can e exssssed wsing varions it For In hiaschical sypriten, stes e Oogjcally) arrangod in berwchical fashion, wd » ske
+cramghe, W imhement. e proveding shection, we can o 4 linear wach in the is tespomsithe on Gersin Beadonks wov i, oy 1 chibdeen stes The, sy
+EMPLOYEE file 1o retriens the tughes with Salary 7= SO0, Womener, if a0 inder take advatage of uess paierss that e Vocaized 10 3 chuser of ies 1o opfimize
+DIMS52 DIMSA3

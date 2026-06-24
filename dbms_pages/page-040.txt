@@ -1,0 +1,40 @@
+POPULAR PUBLICATIONS
+B o S50
+[ Asz | RAMASWANY | Zon——
+RAYAN
+—Asi0 | BALAJ 5o
+Use these data for the following questions. % E2 where EL.SAL >
+Select SAL from EMP E1 where 3 > (select count (°) from EmP =£HWIUD oo o
+E2.SAL) will retrieve
+a) 3500, 5000, 2500 b) 5000, zggg
+c) 2850, 5750 d) 5000, 5
+Answer: (¢)
+M 1
+8. What operator performs pattern matching is SC_IL? [‘:IV Bfutz :g;z’ 2017]
+a) Except b) Intersect c) Like d) All o
+Answer: (d)
+- 9. DML is provided for [WBUT 2013, 2019]
+a) description of logical structure of database
+b) addition of new structures in the database system
+¢) manipulation & processing of database
+d) definition of physical structure of database system
+Answer: (¢)
+10. Which of the following is a comparison operator in SQL? [WBUT 2013]
+a)= b) LIKE c) BETWEEN d) all of these
+Answer: (d) -
+11. Consider the following SQL statements: . [WBUT 2014]
+A. Select * from student where year = 2"" or year = 3’
+B. Select * from student where year in (2", 3%
+a) A is correct while B is not
+b) B is correct while A is not
+c) Both will generate same result set :
+d) A and B will generate different result sets
+Answer: (¢)
+12. Consider the following query:
+(((P WHERE _COLOUR=’RED’)’RED’)[P#]JOIN SP)[S#]JOIN S) MEVES
+[SNAME]Which one of the following set of o i
+involve? perations does the above Query
+a) 1 selection, 2 joins, 3 projections
+| c) 2 selections, 2 joins, 3 projections d; : ;’;‘,’fﬁt'”’ 2joins, 3 selections
+Answer: (b) ction, 2 joins, 3 intersections
+; DBMSCS-40 |

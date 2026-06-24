@@ -1,0 +1,44 @@
+t L AS PUBLIGATIONS
+gmm% o Tuking advantage of non-local resources
+s o CostSaving
+4 o Overcoming memory constraints
+1. Explein o Save time and money
+: . ides a user-friend! mming perspective to memory
+- Parallel Query Processing. NODEL ¢ + Global address space provides a user-friendly programming perspec
+The steps for Parallel Query Processing ‘
+N are: The Disadvantages of the Parallel systems are:
+l Translation: Coaversion of the relational algebra expression ) + Primary disadvantage s the lack of scalability between memory and CPUs. i
+d Qpn-_mﬁon: Reondering of join operations in the W':t it - » Programmer responsibility for synchronization constructs that ensure “correct
+different joun algorithms to minimise the cast of the execution choase among access of global memory. .
+3. Parallelisation: Transfoming the query tree to a physical ¢ : + It becomes increasingly difficult and expensive (o design and produce shared
+lhtplanlrfthemgm& weoind kadeg nmorymachineswitheverimasingnumbasofmcssm
+4 Execution: Running the concurrent transactions,
+: R e e
+. : PARALLELIZATION ‘ 1. a) Describe scale up ad speedup :l;tor? in 'p:glz dm‘bu:::l“ o
+' Annotared 4 different of data joning techniques in databa
+oy 1l 8 Qe ) E I - - gt it [MODEL QUESTION]
+NI i | (Schauk) Answer: \ . _
+: g i Following are the major factors which afffect the efficient parallel operation and can
+H reduce both speedup and scaleup.
+Startup costs : :
+< Fig: Parallel query processing For every single operation which is to be done in parallel, there is an associated cost
+: involved in Starting the process. That is, breaking a given big process into many @l
+2. What are the difference between proc&smmumssomeumumofﬁmeormoumForexfmpk,.aqu_whlchma
+e s Pt the data of table ned o partiton th table as well as nstructing various paralll
+Answer: N processors to execute the query before any parallel operation begins.
+(Features | ParallelSystems | Distributed Systems |
+- Example: SELECT * FROM Emp ORDER BY Salary;
+Tightly coupled system shared | Weakly coupled system i '
+memo Distributed memory IhisquerysmtsdnmcordsofEmptableonSaluymibute.Letusmumelhallhuem
+Global clock control No global clock control 1 million employees, so one million records. It will consume some time to execute ina
+Order of Gbps | computer with minimal resources. If we would like to execute the query in parallel, we
+Interconnection need to distribute (or redistribute) the data into several processors (in case of Shared
+Performance Performance (cost & scalability) Nothing Architecture), also, we need to instruct all the processars (o execute the query.
+Scientific computing Reliability/availability These two operations need some amount of time well before any parallel execution
+Information/resource & sharing. happens.
+3. Write down the advantages and disadvantages of parallel system. Interference
+[MODEL QUESTION] Since processes executing in a parallel system often access shared resources, 2 slowdown
+Answer: may result from the interference of each new process as it competes with existing
+The advantages of the Parallel systems are: processes for commonly held resources, such as a system bus, or shared disks, or even
+o Provide Concurrency (do multiple things at the same time) locks. Both speedup and scaleup are affected by this phenomenon.
+DDMS-88 DDMS-89

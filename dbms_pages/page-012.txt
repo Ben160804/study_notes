@@ -1,0 +1,43 @@
+» 3. Explain the difference between weak entity set and strong entlgvsaeth_ 2006, 2010]
+Answer: -
+1) An entity set, which has a primary key, is 1) An entity set is called a weak_ entity set if its
+termed as strong entity set. existence depends on other entities i.c., strong
+entities. ;
+‘ to form a primary key. attributes to form a primary key. .
+' 3) A strong entity set is indicated in E-R|3) A weak entity set is indicated in E-R
+diagram by a singly outlined rectangle. diagrams by a doubly outlined rectangle.
+4) The primary key of strong entity set s formed|4) The primary key of weak entity set is formed
+by the primary key of the strong entity set. by the primary key of the strong entity set plus
+' its discriminator.
+4. a) What is metadata? [WBUT 2007, 2010, 2017]
+b) What do you mean by data dictionary? Why is the data dictionary required In
+RDBMS? [WBUT 2007]
+OR,
+What is Data dictionary? [WBUT 2015, 2017, 2019]
+Answer: :
+a) Metadata is defined as data providing information about one or more other pieces of
+data, such as:
+= Means of creation of the data
+= Purpose of the data
+« Time and date of creation
+= Creator or author of data
+= Placement on a computer network where the data was created
+=  Standards used
+For example, a digital image may include metadata that describes how large the picture
+is, the color depth, the image resolution, when the image was created, and other data. A
+text document's metadata may contain information about how long the document is, who
+the authorlls, when the document was written, and a short summary of the document.
+Metadata ls-data. As suc].1, metadata can be stored and managed in a database, often
+calle-d a rgglstry or repository. However, it is impossible to identify metadata just by
+Jooking at it because a user would not know when data is metadata or just data. ‘ J
+b) Data Dictionary
+A data dictionary or metadata repository is a "centralized repository of informati
+about data such as meaning, relationships to other data, origin, usage and form N
+A data dictionary is organized into five sections: i i
+¢ Data elements
+e Data Flows
+o Data Stores
+* Processes
+» External Entities.
+DBMSCS-12
+1

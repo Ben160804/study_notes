@@ -1,0 +1,40 @@
+POPULAR PUBLICATIONS | k-
+So cost of swapping medoid from ¢ tO Qig = |
+S = current total cost — past total cost =22 —-20= 2.> 0 , e
+So moving to O’ would be a bad idea, so the previous choice was good. So we try o
+nonmedoids and found that our first chonce was the b;st. Sc? thl(: conglg}u'atm "
+change and algorithm terminates here (i.e. there is no change in the me oids). :
+6. What is metadata in Data warehousing? What is metadata catalog? Dis ""
+different categories of metadata used in od':ta warehouse. [WBUT 2 ]
+- a) What is metadata? ' el | [WBUT “ )
+b) What is the typical content of metadata Rof a data warehouse? [WBUT 201
+: What is Metadata? Explain-different types of Metadata. [WBUT 20177
+Answer: b
+Metadata is simply defined as data about data. The data that is used to represent othey
+data is known as metadata. In terms of data warehouse, we can define metadata as
+follows. e
+e Metadata is the road-map to a data warehouse. il
+e Metadata in a data warehouse defines the warehouse objects. - -
+e Metadata acts as a directory. This directory helps the decision support system to
+locate the contents of a data warehouse. e '»:'In ¥
+A collection of metadata records combined with data management and search tools “
+a data catalogue. The architecture of these data catalogues can vary from tightly helc
+internal data indexes to widely accessible distributed catalogues spread across the
+Internet. ¥
+’ Metadata can be broadly categorized into three categories: R
+o . Business Metadata: It has the data ownership information, business definition, and
+changing policies. : . - A
+o Techpical Metadata: It includes database system names, table and column
+fmd sizes, data types apd allowed values. Technical metadata also includes structu
+mforma'tlon such as primary and foreign Key attributes and indices. ' -
+° (?peratlopal Metadata: It includes currency of data and data lineage. Currency of
+h:clta means whet}.ler the data is active, archived, or purged. Lineage of data means the
+istory of data migrated and transformation applied on it.
+Long Answer Type Questions
+1. a) What is clusterinc it diffi |
+g? Why is it difficult to h A A
+olisdt . : _ andle categorical data 10
+ering? Distinguish between partition clustering and hierarchical clustering.
+What is clustering? Wt OR, T LS v?i-li‘
+hierarchical clustgring '::::I:r': th_O?_antures of qpod cluster? WHELES TSI
+que [WBUT 2013, 2014, 2016, 2U1°

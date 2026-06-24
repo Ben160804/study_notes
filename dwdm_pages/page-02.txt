@@ -1,0 +1,41 @@
+POPULAR PUBLICATIONS ' _ “39;5;
+p »;;f’!'f“
+INTRODUCTION TO DATA WAREHOUSING
+Multiple Choice Type & uestions |
+1. A data warehouse is an integrated collection of data because [WBUT 2009, 2015
+a) Itisa collection of data of different types .
+b) Itisa collection of data derived from multiple sources
+c) ltisa relational database
+d) It contains summarized data
+Answer: (b) ‘ b
+is sai ' ‘subj ' * collection of data
+2. A data warehouse is said to contain a ‘subject oriented’ col i
+because [WBUT 2009, 2013]
+. a) Its contents have a common theme g
+b) Itis built fora specific application n
+c¢) It cannot support multiple subjects &
+d) Itis a generalization of ‘object-oriented’ | -
+Answer: (a) i |
+3. A Data warehouse is said to be contain in time-varying collection of data j
+because [WBUT 2010, 2013, 2015]
+| a) Its content vary automatically with time _ i
+b) Its life-span is very limited i
+¢) Every key structure of data warehouse contains either implicitly or
+: explicitly an element of time e
+d) Its content has explicit time-stamp : i
+Answer: (¢) g
+4. Data Wa.n_ahousing is used for : [WBUT 2010, 2012]
+a) Decision Supp.ort §ystem b) OLTP applications B
+' c) Database appiications d) Data Manipulation applications - ol
+. Answer: (a) PP , g
+5. Which of the following is TRUE? ‘ ! ’
+la); ED)a:a warehouse can be used for analytical processing omBUT 2010, 2012] | ;
+3 :;y‘:i’:;f?;::::si?:gbe used for information processing (query, report) and *‘
+c) Data warehouse can be used inin . o ??“
+d) Data warehouse can be use:jo;:ratiifr::z:gg o i port), "{
+_ " analytical processing and data‘mirin on processing (query, repotts -
+Answer: (d) , g .
+6. Data warehouse . L e ; ‘.‘H'l
+; data warehouse architecture is Just an over guideline. It is not a blueprint for !
+a) True 2 “wauT 2011]
+Answer: (b) b) False r\

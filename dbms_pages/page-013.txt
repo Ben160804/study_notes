@@ -1,0 +1,39 @@
+p—
+' \ DATABASE MANAGEMENT SYSTEMS
+\ The format of the data dictionary contains:
+o Data Type: Data Element/Data Flow/Data Store
+e Data Name: Name of the Data Elements, Data Flow/Data Store.
+o Data Aliases: Alternate names used for the convenience of multiple users.
+e Data Description: A short description of data.
+e Data characteristics: Frequency of the use. Data length, Range of data values etc.
+ Data Composition: Various data elements contained in a data store of data flow.
+5. Give an example of derived attribute. [WBUT 2009, 2010]
+Answer:
+Derived Attribute
+The attribute values which are not a part of the entity but can be computed in association
+with some other stored attributes.
+-'\Denved attribute
+For example the age of a person which can be computed by subtracting the dob from the
+current date.
+6. Explain candidate key with an example. [WBUT 2011]
+Answer:
+Refer to Question No. 2 of Short Answer Type Questions.
+7. Define super key, candidate key and primary key. [WBUT 2012]
+Answer:
+Refer to Question No. 2 of Short Answer Type Questions.
+8. What is cardinality ratio? [WBUT 2013, 2017]
+Answer: : ; '
+Cardinality: Cardinality is the specification of the number of occurrences of one object
+that can be related to the number of occurrences of another object. \ o 1 .
+For example, one object can relate to only one other object (1:1 relationship); one object
+: can relate to many objects (1:N relationship); Some number of occurrences of an obj.ect
+can relate to some other number of occurrences of another object (M:N .re.latlons.hlp).
+Cardinality defines “the maximum number of objects that can participate in a
+relationship”. HoWever, it does not provide an indication of wh_ethpr or no.t a particular
+data object must participate in the relationship. To specify this information, the data
+model adds modality to the object/ relationship pair.
+9. What is disjointless constraint? [WBUT 2013]
+Answer: ' . _
+Disjoint Constraints: One or more sub collections of a given super collection may be
+declared to be disjoint. It implies that no object may occur in more than one of these sub
+DBMSCS-13

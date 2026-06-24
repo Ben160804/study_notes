@@ -1,0 +1,39 @@
+= P POPULAR PUBLICATIONS
+Multiple Choice 1yP€ Questions
+| | [WBUT 2006, 2008]
+‘ _ Cardinality Ratio means : _ _
+: a) Num)t’)er attributes associated wuthI a;p ent'_l'ti)‘; A,
+i ity-relations :
+b) Number of Relation of an entity ll'et. n and number of entity of an entity-
+c) A ratio between number of relatio
+| relationship diagram ' R .
+d) The numbsr of entities to which another entity can be associated via a
+relationship set
+Answer: (d) ;
+i tabase can be expressed graphically by
+2. Overall logical structure of a da [WBUT 2009, 2016]
+a) ER diagram b) Records c) Relations d) Hierarchy
+Answer: (a)
+3. The information about data in a database is called [WBUT 2009, 2011, 2016]
+a) meta data b) tera data c) hyper data d) none of these
+Answer: (a) ‘
+4. A table can have only one [WBUT 2010, 2012]
+a) Primary key b) Candidate key c) Super key d) all of these
+Answer: (a)
+5. What is a RDBMS terminology for a set of legal values that an attribute can
+have? [WBUT 2010]
+a) Tuple b) Relation c) Attribute d) Domain
+Answer: (d)
+6. What is the smallest unil_t of data in a relational model? [WBUT 2010, 2012]
+a) Data type b) Field c) Data value d) None of these
+Answer: (c) .
+7. The word ‘loss’ in lossless refers to [WBUT 2010]
+a) loss of information b) loss of attributes
+c) loss of relations d) none of these ‘
+Answer: (c)
+8. What separates the ‘h sical :
+data representation? physical aspects of data storage from the logical aspects of
+a) Data b) Schem : [WBUT 2010]
+Answer: (b) ) 3 ¢) Constraints d) Relationship
+DBMSCS-8
+.

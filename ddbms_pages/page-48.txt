@@ -1,0 +1,41 @@
+POPULAR PUBLICATIONS DISTRIBUTED DATABASE MANAGEMENT 5ysypy
+The two assumptions mak istincti - sed in a variety of environments ranging from web applications to n-tier client/server
+DBMS, W ¢ the disinction between distibuted DBMS and paralle] :;pl;ications. It can be used from virtually any programming or scripting language that
+Distributed DBMSs provide : i s the Microsoft COM Automation technology, such as Visual Basic, Visual C++, L
+queries and Wi:"" m""me""'m“wm: {m phynca]lly distributed database, User :7;;0 in Excel, Active Server Pages, PowerBuilder, Delphi, Microsoft Internet
+a global conceptual schema (GCS) which is plniti:xnt:;m r i (ES)'de foed i [nformation Services, and Microsoft Distributed Transaction Coordinator.
+forming the local conceptual schemas (LCS) at those sit mm“md . dlf!'crcnl ,s'u,’ Because it is a native driver, 0040 generally provides the fastest performance on
+then mapped 0 a local internal schema (LIS) which d:: “bu e LCS na given site s Windows clients to Oracle databases. It does not incur the overhead of ODBC and OLE
+of data at that site, cribes the physica organization DB drivers. 0040 has been developed and has evolved specifically for use with Oracle
+m m " n database servers, It provides easy access to features that are unique o Oracle, but are
+g otherwise cumbersome or inaccessible to use from ODBC and OLE DB-based
+m components, such as ADO,
+3, Write sort notes on the following: [MODEL QUESTION]
+a) MDBS
+m v m b; Peor-o-Poer Architecture
+¢) Distributed databaso administration
+how [
+Fig, 2: Datalogical Distributed DBMS Architecture \\
+2 Doscrbs thefollowing:
+) 0040
+; Federsed MDS 3
+&ﬂw database system is 4 type of meta-database management system (DBMS),
+transparenly maps multiple autonomous database systems into a single federaed
+constituent database systems remain e 2 = '
+lm?uw.  federated database system is a contrastable alternative o the (sometimes In recent years, MDBS has been gaining the atiention of many researchers who atiempt to
+daunting) task of me!'ﬂn( several disparate databases. A federated database, or virtual logically integrate several different independent DDBMSs while allowing the local
+database, is a composite of all constituent databases in a federated database system, There DBMSs to maintain complete control of their operations, Complete autonomy means that
+is o actual data integration in the constituent disparate databases as a result of data there can be no software modifications (o the local DBMSs in a DDBMS, Hence, an
+federation. MDMS, which provides the necessary functionality, is introduced as an additional
+Through data abstraction, federated database systems can provide a uniform user software layer on top of the local DBMSs,
+interface, enabling users and clients o store & retrieve dath from muliple noncontiguous An MDBS is a software that can be manipulated and accessed through a single
+databases with a single query - even if the constituent databases are heterogeneous, To manipulation language with a single common data model in a heterogeneous environment
+this end, a federated database system must be able 1o decompose the query into without interfering with the normal execution of the individual database systems. The
+subqueries for submission to the relevant constituent DBMS's, after which the system MDBS has developed from a requirement to manage and retrieve data from multiple
+must composite the result sets of the subqueries. Because various database management databases within a single application while providing complete autonomy 1o individual
+systems employ different query languages, federated database systems can apply database systems, To support DBMS transparency, MDBS resides on top of existing
+wrappers 1o the subqueries to translate them ino the appropriate query languages, databases and file systems and presents a single database to its users, An MDBS
+, m‘iﬂﬂil!l a global schema against which user issue queries and updates, and this global
+. ) OM Objects for OLE (0040) is & COM-based data sccess drver that combines schema s constructed by integrating the schemas of local databases.
+searnless and optimized access 1o Oracle databases with easy to use interfaces, 0040 can
+= DOMS.94 DDMS-95

@@ -1,0 +1,32 @@
+DATABASE MANAGEMENT SYSTEMS
+Long Answer Type Questions
+1. What is the difference between Primary index, Secondary index and Clustering
+index? [(WBUT 2006, 2011]
+'  Answer:
+Primary & Secondary Index:
+Refer to Question No. 3(a) of Long Answer Type Questions.
+Clustering Indexes .
+If records of a file are physically ordered on a nonkey field, called the clustering field.
+' We can create a clustering index to speed up the retrieval of records that haye ‘the same
+value for the clustering field. This differs from a primary index, which requires that the
+‘ ordering field of the data file have a distinct value for each record.
+The clustering index file, like the primary index file, has two fields. The flrst field
+contains distinct values of the clustering field, and the second field contains blo.ck
+pointers. The block pointer points to the first block in the data file that has a record with
+-, that value for its clustering field.
+Data File
+. P 11
+i PR O V TR
+F 2 -
+} Bl it
+., Bl
+E N -
+BN e
+e
+| | 4 L
+Clustering index is always non-dense. ' -
+' 2. What is Blocking Factor? Explain the difference between B-tree and B -tree
+indexing with proper example. [WBUT 2008, 2011]
+Answer: -
+, Blocking: refers to storing a number of records in one block on the disk.
+DBMSCS-91

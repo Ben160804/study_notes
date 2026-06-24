@@ -1,0 +1,44 @@
+il SR L ™
+DATA WAREHOUSING AND DATA MINING
+. update the cluster centres: .
+! The new centre of Cluster 1: (3.67, 9) ,
+The new centre of Cluster 2: (7, 4.33) : _
+The new centre of Cluster 3: (1.5, 3.5)
+| 1.2. Round Two: .
+| - No changes \ . :
+The second way: _ :
+2.1. Round One: ‘ '
+' _ Compute for each of the eight points its distance from each cluster centre, and assign it
+to the cluster to which it is most similar. :
+: —> The clustering after the first round execution is: ' i : ‘
+: Cluster 1: A1, C2 ' .
+| Cluster 2: B2, A3, B1,B3 .
+Cluster 3: C1, A2 ‘ g 3 R gl
+- update the cluster centres: ‘ B
+The new centre of Cluster 1: (3, 9.5) '
+The new centre of Cluster 2: (6.5, 5.25)
+' The new centre of Cluster 3: (1.5, 3.5) :
+| 2.2. Round Two:
+- recompute for each of the eight points its distance from each cluster centre, and assign it
+to the cluster to which it is most similar. :
+‘ => The clustering after the second round execution is: _ :
+, Cluster 1: Al, B1, C2 . :
+Cluster 2: B2, A3, B3 ~
+' Cluster 3: C1, A2 , ]
+' - update the cluster centres: _ '
+The new centre of Cluster 1: (3.67, 9) A ‘
+The new centre of Cluster 2: (7, 4.33) . .
+' The new centre of Cluster 3: (1.5, 3.5) W
+2.3. Round Three: '
+' - No changes ‘_ "
+. 4. a) Write down the design steps for a typical data warehouse. [WBUT 2015]
+b) Explain the flowchart for KDD process. '
+¢) Define Roll-up and Drill-down process with a suitable example..
+Answer: "
+2) In general, building any data warehouse consists of the following steps: - :
+: 1. Extracting the transactional data from the data sources into a staging area - The
+Extract step covers the data extraction from the source system and makes it
+_ accessible for further processing. The main objective of the extract step is to retrieve
+_ all the required data from the source system with as little resources as possible. The :
+’ extract step should be designed in a way that it does not negatively affect the source
+System in terms or performance, response time or any kind of locking.

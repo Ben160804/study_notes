@@ -1,0 +1,44 @@
+POPULAR PUBLICATIONS DR 4, u'g «‘
+~ é
+. i B
+"T e 13, Explain the significance of the semi-join program in context W E/
+> I swer: o
+kL ‘ . e aneqioin RIN,.; S where 4 and B arearbues (o, more
+B / B tibuts)or R and S, the semicoin program for s given by
+/ \ ‘ n.l... e SN, (RSJ,=,PJ,S) 3 " il
+start by considering a simple example of a semi-join program and I transmt
+EMP et Ouismyom a.,.l,,,‘ cl::tu; semi-jyoin program between two relations R and S over two attributes 4 and B
+Fig. () DF!" | ' | is defined as (R 8J,;8)IN .S, and is equivalent to RIN . S. Assmfn‘: that R and
+EMP .  DEPT § are allocated at sites r and s, respectively. Then, performing the semi-join program
+! Fig.(4) corresponds to:
+11. “2PL protocol only ensure that the schedule is conflict seriali 1. Sending PJ, (8) tosite 7, ata cost:
+; izable or not; but it e g
+e ;mm all ;I;.mue combination of valid serilizable schedule.” Comment © €, +C,xsize(B)xval(B[S])
+o example. [MODEL QUESTION] A g :
+wer: 2, Computing the semi-join on r , at a null cost; let
+2PL ensures conflict serializability. R'=RSJ,.,S
+Every schedule p:loduced by two-phase locking, i.e., 3. Sending R' to s, ata cost:
+® every read and write is preceded by a lock and followed by an unlock - i ;
+G s C, +C, xsize(R)xcard(R
+o o DB item is su'nultaneously locked by more than one transaction 4 Com utain t;ie 'oin(on)s at a(nuzl cost
+e foreach transaction, the last lock precedes the first unlock is conflict-serializable, Th pm" d t-J i
+Transactions can be serialized according to their lock points. o : ;
+Futk' schedules may cause cascading aborts. i.e. if a transaction aborts after it releases a ‘ Cy=2xC,+G, "(Si”(B)" vaI(B [s ]) +size(R)xcard(R ))
+t i i
+‘::"‘ it may cause other transactions that have accessed the unlocked data item to abort as Semi-join is not symmetric, and clearly the other semi-join program (SSIR)IN R has a
+! different cost. Comparing their two costs solves the problem of determining the optimal
+12. Prove that[R:a. 187, [s: : ) semi-join program for the join of R arid . Notice that the two programs produce results
+[ I ] F [ 9s ]ZIR 8J¢S:q; AND g; AND F ] * which are allocated on different sites; thus, the possible difference in cost in the
+Pl ' [MODEL QUESTION] transmission of the results also should be taken into consideration.
+O - - " Moreover, it is important to verify that the semi-join program is profitable with respect to
+::"“'Jmﬂ is derived from the use of projection and join. the use of joins s a query processing tactic, which consists in executing the join directly,
+) without previous semi-joins. The cost of using joins as a query processing tactic is that of
+[R:q, )87, [S:44] transmitting one of the operands to the site of the other one. If we perform the join at site
+= P JM‘) ([ R:q,,] N, [ s :q,]) ' 5, the corresponding cost is
+o Pl (R Si0, ANDG, ANDF ' Cpy =€, +C, xsize(R)xcard(R)
+, An(R) [oR' 9s ]) Comparing C, and Cg,, the semi-join program is profitable if
+=2 [H_m(m,s):q, AND ¢, ANDF] €, +C, x(size(B)x val(B[S]) + size(R) xcard (R')) <C, xsize(R) xcard R)
+L;g,s:q, ANDg; ANDF] In many cases the above inequality holds, because size(B) and vl (B[S]) are small
+e 7 of t algeb };,of qualified relations. Since it can be shown that its equal to. hilecard (R) i lrge than card(R ).
+1 rules a M, values that are less than or below the limit will also
+- DDMS-42 DDMS-43

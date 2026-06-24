@@ -1,0 +1,51 @@
+POPULAR PUBLICATIONS QE]WWWW
+DUR 236
+8. What is deadlock prevention? ODEL QUES
+Answer: w QUEsTION EMP ENO-ASGEND 0 ASG PNO=PROI PNO
+Distributed Deadlock Prevention: ,
+With a deadlock prevention approach, a transaction is aborted and restarted if there is o - ?
+nisk that deadlock might occur, Since deadlocks can never occur in this wa
+prevention climinates the need for deadlock detection and- resoluion i g:z: s @ ey
+prevention is done in the following way: if a transaction T) requests a resourcc which i
+2 ich is ;
+by anoter ransacton T, theapreventio et is apled, fhe s o tht e [MODEL QUESTION]
+there is a risk of deadlock, then T is not allowed to enter a wait state. Instead, either T is 0, Consider the following relation algebra:
+abo:;: and restarted (nonpreemptive method), or T is aborted and restarted (preemptive o Tenume (Gmgro =374 (EMP dno D1 = dn[:d D?T)' pp—
+method). 35000 (EMP no
+. =374 AND sal >= are less than
+The prevention test must ensure that if T is allowed to wait for T, then deadlock can The (am expression genarate names of the mmﬂ:‘:‘ m"‘ Sigelaic
+never occur. This is typically obtained b orderin i i i d manager number is 374. Draw operator
+: ; . OWiained by B lransactions, using for instance the 35000 and manag the highest level.
+lexncograph»czfl ordering of their identifiers, T,is allowed to wait for T; only if i < j, The expression and optimize it into the hig
+reason why this method works is that it is impossible to build a closed chain Answer: : is shown in fig (a) we start by merging luvu
+== i) The Wpondmg opamolr)-ér;r relation. Then we factorize the selection on ‘sal’ wnl?
+such that if, 5 i then <. orall cortesponding to EMP and ¢ the nodes, Cortesponding (0 the selection on ‘mgmo
+In order to generate unique identifiers for transactions in a distributed system, it s respect (0 Join. N:dv;wc = mn:ri?‘g 10 the join; we came to the operator tree of fig. (b).
+sufficient that each site generate locally unique identifiers and append the site identifier and ﬁnally.!hc E fi |lmbcx;xusion:
+to them, However, for the performance of the algorithm, it is better that identifiers reflect We recognize the follo n% . 4
+the "time" of transaction initiation, Therefore, timestamps are used for this purpose, Ormgrno =374 (Er:ﬁ;."
+We can use the p ;
+A nonpreemptive method for deadlock prevention based on timestamps i the following: R-(oR) < ok ' Finally we can apply idempotence to the
+If T, requests a lock on a data item which is already locked by T, then T, is permitted to mdgdqg the operator I"°? o ;’:; mojr;%tif)z towa:g the leaves of the tree generating the
+wait only if T, s older than T, If T;is younger than T, then T, i aborted and restarted projection and push selections and pr P
+with the same timestamp. The rationale of this method is the following: It is better always operator tree of fig. (d).
+to restart the younger transaction. “¢|- 1
+A preemptive method works with the opposite rule: if T; requests a lock on a data ifem % !
+
+s “ $ Oul> 1500
+which is already locked by T, then 7, is permitted to wait only if it is younger than T, / \ \ o
+otherwise, 7, is aborted and the lock is granted to T, The rationale of this method is the D e D<o R > 3
+following: Since we still want to abort the younger transaction, with a preemptive method AL
+we must allow older transactions to preempt younger ones, and therefore only younger / \ / \ / \
+transactions wait for older ones. EMP  Ouporie °‘| faies T’"‘ EMP  Ouguet
+9. Consider the following; [MODEL QUESTION] D,!,,, ar B 9 mlﬂ
+
+Select Ename, Resp from Emp, Asg, Proj. ' g
+where Emp.Eno = Asg.Eno and Pname = “CAD/CAM" Fig. (a)
+and Dur > = 36 and draw its query graph, ¥
+Answer:
+The query graph of the following query:
+Select Ename, Resp from Emp, Asg, Proj, -
+where Emp.Eno = Asg.Eno and Pnarme = “CAD/CAM”
+and Dur>=136 DDMS41
+DDMS-40

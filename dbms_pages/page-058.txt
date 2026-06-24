@@ -1,0 +1,47 @@
+» t always be 2 superkey. For 3NF,
+tion of BCNF each FD X —Y, X mus , g
+L‘L\;Zi/edrcg(mmust be a superkey only if Y is not part of any other relation key (e o vl
+-prime). 3
+‘(l)onnlypglmra)re cases does a INF table not meet the requirements of BC;\IF- l/:te ?:Igct?\?::e
+which does not have multiple overlapping candidate keys is guaranteed to : morc;
+Depending on what its functional dependencies are, a 3NF table with two O
+overlapping candidate keys may or may not be in BCNF. .
+BCNF is stronger than 3nf. _
+A relation R is in 3NF if and only if every dependency A->B satisfied by R meets at least
+ONE of the following criteria: i
+1. A->B is trivial (i.e. B is a subset of A)
+2. A is a superkey
+3. B is a subset of a candidate key _ -
+BCNF doesn't permit the third of these options. Therefore BCNF is said to be stronger -
+than 3NF because 3NF permits some dependencies which BCNF does not.
+o i i | dependencies for
+3. Compute the closure of the following set F of functiona :
+relation schema: [WBUT 2008, 2011]
+R= (A, B,C,D,E)
+A—BC, CD—E, B—D, E—A
+List the candidate keys for R.
+Answer:
+From the given FD A —BC
+Let us assume that F= {ABC} and we compute the closure F'
+From the relation B—D 5.t D € F <current>
+Initialise F'<curren- ={ABCD } ,
+From the relation CD—>E s.t E ¢ i AR :
+F* <uews={ABCDE}
+Thus F" is {ABCDE } . |
+Dependencies Are:
+A-B, A—)C, A->D, AE: A is a candidate key , ‘
+CD->E is a composite key and a candidate key |
+4. Draw a functional dependehc‘ di S _
+BCNF. Decompose that FD diangm iz?;a;:lslio diagram) that is in 3NF but notin
+Answer: ' [WBUT 2009, 2011]
+Example (3NF but not BCNF):
+SUPPLIER_PART (supplier no, suppl; ]
+_ pplier_no,
+l\;;mctional Dependenciis; _ho; supplier_name, part_no, quantity) ;'
+¢ assume that supplier name' | A
+candidate keys: % s are always unique . A
+(supplier nf,ys‘m Que to each supplier. Thus we have tWe =
+P part_no) and (supplier name o5 . 4
+g ave the following depen dencies-, part_no)
+PPET_NC, part_no) -> quantity ' e
+DBMSCs.-sg F

@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS
+A — ABCDE from the above St€ps _(”"ion)
+Since £ — A, E — ABCDE (transmvt?z_ve)
+: — transiti _ k.
+gfnce gD ;inggC jgngc(' iA BCDE (augmentative, transitive )
+ince B — :
+Also,C—C,D—D.BD = D.EE L o e, or CD on the left hand side of the
+Therefore, any functional B E o rar Sypant he FD. Allow * to represent
+' ArrOW IS i;. F+, no matter which other attributes appear In the FD. <
+¢ of attributes in R, then F+is o .
+aBrgs—c;g.BD—-»D,C—+C,D—»D,‘BD—*BD,B**D,B B, B — BD.
+' i N.T,C,R;and Y.
+i i are D, and O and non-prime attri butqs are N, T,C,R; '
+2 22;52: :;:Zf: t?: in 2NF, if all the non-prime attributes are fully functionally
+dent on the relation key(s). ‘ _
+gi:g;nt;: s(e)t of FDs we can see that the non-prime attributes (N,‘T,C',R., and Y) are fully
+functionally dependent on the prime attributes, therefore, the rela!tlon is in 2ZNF.
+A relation scheme is in 3NF, if for all the non-trivial FDs in F+ is of the form CR-D,D
+is a prime attribute and in FD , D—N, D is a superkey. Thqs from the set of FDs we see
+that for all the FDs, this is satisfied, therefore, the relation 1s 1n 3NF.
+A relation scheme is in BCNF, if for all the non-trivial FDs in F+ the form CR—-D,
+DN, D is a superkey but not CR. Hence, the given relation scheme is in BCNF.
+~ 17. Consider the relation R = {A, B,C, D, E} and the set of functional dependencies:
+F={AD-B,B—C,C— D} |
+Find out the candidate key. [WBUT 2016]
+- Answer:
+The attribute E is non participative attribute, so no functional dependency is provided.
+So (AD)’ = {B, C,D} using (AD>B, B>C, C>D)
+(AD)' = {A, B, C, D}
+(B)'=(C, D) using (B=>C, C-2D)
+(C)'=(D) |
+Ca‘;dlda_te Key is minimal set of attributes of a relation which can be used to identify a
+tuple uniquely. So AD is the candidate key (Fither include attribute E or exclude it)
+18. i H 0 +
+Yl :i ;',-:‘,:no::,t:e closure of attribute set (4D) i.e. (4AD)"in the R. Set of FD’s F
+w:
+b) Find out the candidate keys for R,
+c) Consider the. following two sets of FDs:
+F={4->C, AC > D, E— AD,E - H)
+G={A>CD,E— AH}.
+Check whet p |
+her they are equivalent. Justify your answer.
+DBMSCS-82

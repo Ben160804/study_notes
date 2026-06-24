@@ -1,0 +1,42 @@
+r — — L —
+DATABASE MANAGEMENT SYSTEMS
+w3(2). R3(x), W3(y)
+s3: R1(x), R1(y), W2(x) .\W2(y), R2(x),
+R2(y) » WI(x),Wi(y), R3(x), W3(y),
+R3(X), R3(z), W3(x),W3(z)
+S| and S2 are schedules but ¢ £ Bl T
+Here utnot S3(°___ “ indicates the non schedule sequence)
+ribe the wait-die and -wai
+b) Desct nd wound-wait protoclc\)’:Istor deadlock prevention.
+UT 2 g
+ADSWer: 007, 2010, 2011, 2013, 2019]
+1. The Wait-Die algorithm:
+Allow wait only if waiting process is older.
+Since timestamps Increase in any chain of waiting processes, cycles are impossible.
+Wound -Die Algorithm
+i Wants Resource Holds Resource
+‘; Waits
+' Wants Resource Holds Resource
+. /,.\ .
+Dice
+The Wait-Die algorithm kills the younger process.
+When the younger process restarts and requests the resource again, it may be killed once
+more.
+This is the less efficient of these two algorithms.
+2. The Wound-Wait algorithm: -
+Otherwise allow wait only if waiting process is younger.
+| Here timestamps decrease in any chain of waiting process, so cycles are again
+impossible.
+| It is wiser to give older processes priority.
+Wound -Die Algorithm :
+| Wants Resource Holds Resource
+‘ (e )
+Preempts
+Wants Resource Holds Resource
+Son
+Dice
+The Wound-Wait aleori ts the younger process.
+- gorithm preempts the y . 2 !
+W}'ler.l the younger process re-requests resource, it has to wait for older process to finish.
+This is the better of the two algorithms.
+DBMSCS-111

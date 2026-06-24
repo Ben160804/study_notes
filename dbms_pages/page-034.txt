@@ -1,0 +1,45 @@
+: . stions "2
+| — Answer Type Quest
+-' : | . high level query,
+' to process a L :
+p i i rite down the steps uT ‘
+‘ 1. What is query optimization W [WBUT 2003 f
+Answer: , Type Questions-
+1 t Answer 1Yp |
+1* Part: Refer to Question No. 1 of Shor _
+2" Part: : :
+Overview of Query Processing: ) d in figure 1. |
+. : s o a high- are illustrated 1n Hg !
+- The main steps n processglug #ib}%fg_}g\e’ﬂm%ﬂ%}'
+f
+Relational Algebra Expressions ;
+' : ——
+' ¥ Statistics about Data
+Execution plan
+| S ——s ,
+Query Execution Engine - .;
+Query Output |
+Fig: Steps in query processing process
+; The functions of Query Parser is parsing and translating a given. high-level language
+query into its immediate form such as relational algebra expressions. The parser need to '
+check for the syntax of the query and also check for the semantic of the query ( it means |
+verifying the relation names, the attribute names in the query are the names -of relations
+and attnbgtes_ in t'he database). A parse-tree of the query is constructed and then ;
+translated into relational algebra expression.
+A relational algebra expressi v 6 :
+ary. i [ s 0. & quiny spec.lf'.es only partially how to evaluate a |
+query, there are several ways to evaluate an relational algebra expressi
+consider the query: pression. For example,
+SELECT Salary FROM E :
+5 Salary FROM EMPLOYEE WHERE Salary > = 50,000
+e possible relational algebra expressions for this query are:
+e HSalmy(USalary;»x50000(EMPLOYEE)) 2
+5 .h Usalmy>-soooo(175a1a,y5MPLOYEE) |
+urther, each relational algebra o i !
+: peration can be ¢ . . .
+example, o implement the precedin o€ executed using various algorithms. F
+EMPLOYEE file to retrieve the tupleg Se!e}ftlon’ We can do a linear search in tl? 2 |
+| available on the Salary attri S with Salary >= 5 . o B
+algorithms might h:‘l/irﬁ;ttnbute, we can use the index t 0?00. However, if an index
+B e 0 locate the tuples. Different 1
+NERRR

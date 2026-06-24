@@ -1,0 +1,45 @@
+POPULAR PUBLICATIONS
+Entropy (S) = Z p, log, p, where Pi is the proportion of instances in the dataset that take '
+g i=l , < A
+g i i different values
+the ith value of the target attribute, which has C ¢ _ ) . i
+In order to reduce the effect of the bias resultl(;lngrf)mRFl:; ‘11:?1 e?_fnzfaf%r;nt;t;ommn;
+i g ' n Ra
+variant known as Gain Ratio has been 1ntroduce. . Gal ’ s T i
+Gain Ratio = Information Gain/Split Information where Split Information s value
+based on the column sums.
+i i A? lllustrate this using smail example. .\
+2. How is CLARANS different from CLAR WBUT 201
+Answer: 3 : ) ;
+CLARA (Clustering Large Applications), is an 1mplemen}at10n of PAM in alsubset ofthe
+dataset. It draws multiple samples of the dataset, applies PAM on sampies, and then
+outputs the best clustering out of these samples. : . .
+' CLARANS (Clustering Large Applications based on Randomized Search), combme.s the
+sampling techniques with PAM. The clustering process can be presen.ted as semhmg a 43
+graph where every node is a potential solution, that is, a set of k medoids. The cluste;:lng_ -
+obtained after replacing a medoid is called the neighbour of the currer.lt cl.ustermg,
+CLARANS selects a node and compares it to a user-defined number of their neighbours 2
+searching for a local minimum. If a better neighbour is found (i.e., having lower-square
+error), CLARANS moves to the neighbour’s node and the process start again; otherwise
+the current clustering is a local optimum. If the local optimum is found, CLARANS starts
+with a new randomly selected node in search for a new local optimum. o
+Basically, CLARA draws multiple random samples of the input points, runs algorithm
+A {PAM} on each sample set, and outputs the clustering with the lowest clustering cost (in "
+terms of the sum of distances of the points to the closest medoid). Like CLARA the
+algorithm CLARANS is also a randomized version of PAM. In each local improvementf, 8
+step, CLARANS does not consider all possible swaps of one medoid and one non-medoid
+like {PAM} does, but it only considers a randomly chosen subset of all possible swaps.
+' (lleAIRAN'S computes a certain fixed number of local minima in this manner and outputs
+the clustering with the minimum clustering cost among all these local minima. y
+3. Explain temporal data mini i o pe gl -
+; data mining? % ata mining with an example. How is it different from spatid:“
+Answer: [WBUT 2015]
+Temporal data mining refers to th : O e g N
+A useful abstract information from la‘:gzxé:)aicl:n(ip of implicit, non-trivial, and potenndly.'-
+sequences of a primary data type, most ¢ ections of temporal data. Temporal data are
+sometimes multivariate or compo;ite info ommonly numerical or categorical values
+time series (e.g., stock ticks, EEG) evemfm?‘tlon. Examples of temporal data are regul r,
+medical records, weblog data) and tem ::lq;lences (e.g, sensor readings, packet traces: -
+tuples, databases with versioning). The [::(c))mm ata?ases (e.g., relations with time stampe¢
+total ordering of their elements. They differon actor of all these sequence types is 1.
+on the type of primary information, ! o

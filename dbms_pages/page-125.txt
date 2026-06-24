@@ -1,0 +1,38 @@
+DATABASE MANAGEMENT SYSTEMS
+After releasing a lock, a transaction must neve i :
+f‘;]led hrinking phase. I acquire any more locks. This phase is
+ice. a transaction normally holds ] o .
+In practice; Y holds locks until it terminates with ei
+» . ither a COMMIT
+or ROLLBACI?rztl?:f]mzztc'k[{tﬁlea;mg locks before the end of the transaction disallows
+the operation O g € changes whenever doing so would necessitate operati
+on rows to return them to an earlier state., s~
+The two-phase locking theorem
+ff all transactions ‘obey the two-phase locking protocol, then all possible interleaved
+schedules are serializable.
+b) Dead lock:
+Suppose t.hat a transaction T1 places an exclusive lock on item A. Transaction T2 places
+an exclusw? lock on item B. Transaction T1 attempts to place an exclusive lock on item
+. Transaction T1 is placed into a wait state.
+[ Transaction TZ'aIFempts to place an exclusive lock on item A. Transaction T2 moves into
+| a wait state. This is called as deadlock. Two main ways of dealing the dead locks are:
+| There are two main ways to deal with deadlock. They are:
+f Deadlock Prevention i.e. prevent deadlock in the first place by giving each transaction
+[ exclusive rights to acquire all locks needed before proceeding.
+| Deadlock Detection i.e., allow first the deadlock to occur, then break it by aborting one
+of the transactions. :
+¢) Transaction state diagram: -~ ’
+\_commmed
+¢ active
+G
+States of transaction
+j A transaction must be in one of the following states: A :
+| Active: the initial state, the transaction stays in this state while it is executing.
+Ir Paf‘tially committed: after the final statement has been executed.
+i Failed: when the normal execution can no longer proceed. ;
+' Aborted: after the transaction has been rolled back and the database has been restored to
+'g’ state prior to the start of the transaction.
+Ommitted: after successful completion.
+dR)Time stamp based protocol for concurrency protocol: i
+efer to Question No. 5 (Zmi part) of Short Answer Type Questions.
+| DBMSCS-125

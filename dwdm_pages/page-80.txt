@@ -1,0 +1,25 @@
+POPULAR PUBLICATIONS ' Lo '
+2. Ubiquitous Data Mining: : : . P
+This method involves the mining of data from rr.wbtl.e dev1cesdtlo asgito::: ,, tion
+individuals. In spite of having several chz;llepge_s in this type su o var:ri Xity, priy
+cost, etc. this method has a lot of 0pgortumt!es to be enormo .L
+especially in studying human-computer interactions. h ‘ "
+o B ; 3 SR *
+3. Distributed Data Mining: | . g e .
+This type of data mining is gaining popularity as it mvolvqs fffhe ntlm_mg 9f hm amg
+of information stored in different company locations or at fh eren lorga.mzau’ on v, High
+sophisticated algorithms are used to extract data from different locations and provi
+Vgl
+proper insights and reports based upon them. - | o i
+4. Spatial and Geographic Data Mining: i i : :
+" This is new trending type of data mining which includes extraqtlng mfox"mmq!
+'  environmental, astronomical, and geographical data whlcl} also includes images tak
+from outer space. This type of data mining can reveal various gspects such as f
+and topology which is mainly used in geographic information systems 2
+navigation applications. ’ a ;};;
+5. Time Series and Sequence Data Mining:
+The primary application of this type of data mining is study of cyclical and season:
+trends. This practice is also helpful in analyzing even random events which occur outsi
+the normal series of events. This method is mainly being use by retail comp a"”‘
+access customer's buying patterns and their behaviors. ' . ;
+, Y e

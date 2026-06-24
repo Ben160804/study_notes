@@ -1,0 +1,45 @@
+POPULAR PUBLICATIONS : DISTRIBUTED DATAB, g 285
+5. Consider the following PROJECT relation, Thi i machines send their graphs to the central coordinator, which
+fragments namely, P1 and P2 as given % s gmeied n two Bo.th e les and hence no deadlock. Now two events occur.
+given below: ODEL QUESTION] union. There are no cycles and hen T are sent (o
+IIIE.IEIE--EI-IIE{-I releases resource R and asks machine B for resource T. Two messages 10 the
+lm-lmammmm coordinator: g DY
+P |05 | DFVELOPWENT | prg | message | (o machine A): “reesing R
+POGS | EO014_ | DEVELOPMENT | Pro | message 2 (iom machine B): “vaitng or " i
+L — ( This should cause no problems (no deadlock). Howerer, i d et ded‘;eskuétclh:
+* Oprype=+ = P2 s : e { a deadlock.
+Show the correctness of the fragrrlontat‘i,c:m’.»E wermeet SOIECT coordinator would then construct thlt(: graph in Figure below and detec
+Answer: ' condition is known s false deadlock. -
+J S
+PL: Gprype-«peve opment (PROJE ° o
+-m--m_-rm_-mz- F
+-m--m-lmmm-m_ : :
+[P0 T EWS | DEVELOPVENT | roy 4]
+L P03 | EO0M | DEVELOPMENT | ros | :
+P2: Gprype- wainmenancer (PROJE . | °
+_P 004 -Zﬁ_.mm Proj4 A way to fix this i o use Lamport’s algorithm to impose global time ordering on all
+- machines. Alternatively, if the coordinator suspects deadlock, it can send a reliable
+:nw::..'s e Sanptl [MODEL QUESTION] message to every machine asking whether it has any release messages. Each machine will
+o ’ . then respond with either a release message or a negative acknowledgement to
+Sugpos.e machine A has a process P0, which holds the resource § and wants resource R, acmme[;ogc receipt of the message.
+which is held by P1. The local graph on A is shown in Figure below.
+e holds 7. Optimize the following query: [MODEL QUESTION]
+: E . List the flats that are for rent along with the corresponding branch details.
+8 Relations: BRANCH (Branch No., Street, Postcode) _
+2 PROPFORRENT(PNO., Rent Amount, Owner No., Type, Branch No.)
+Consider the following fragments:
+n P1: gBranch_no= “B003" * type = “House" (PROPFORRENT)
+2 P2: oBranch_no= “B003" A type = “Flat” (PROPFORRENT)
+2 P3: oBranch_nol= “B003" (PROPFORRENT)
+B1: oBranch_no= “B003” (BRANCH)
+o Bz:. oBranch_nol= “B003" (BRANCH)
+Another machine, machine B, has a process P2, which is holding resource T.and wants ::::It:\izt:zhfqt.e Write the corresponding relational algebraic expression. Then
+resource . Its local graph is shown below. ' et it [ JT-
+S SELECT * FROM BRANCH b, PROPERTY p / \
+; H ° WHERE b, Branch No. = p.Branch No. Oppetia v
+AND p.type = “Flat™, .
+: § A
+- V] B B,
+- /N
+PP B
+DDMS-38 ) DDMS-39

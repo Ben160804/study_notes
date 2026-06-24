@@ -1,0 +1,39 @@
+POPULAR PUBLICATIONS s |
+2 ture in a class is unrelated to the.px:es.ence of any otk
+S pli:m: uf]riritfer::liay be considered to be an apple if it is red, round, 5 a#
+feature. Ij"orhexafnpdi;m eter. Even if these features depend on each other or upon the
+ab'm':t 3el n:f :lslelr:)ther features, all of these properties independently contribute to the
+S : ’ i it is known as ‘Naive’. -
+ili b fruit is an apple and that 1S why 1t 1s R ]
+i}r;tz;b}gg;etsh?rggs is easy to build and particularly useful for very Iarr‘ge c:ata sets. Along
+with simplicity, Naive Bayes is known to outperform eve ghly sophisticateq
+classification methods. _ ¥ 2 A
+Bayes theorem provides a way of calculating posterior probability P(clx) from P(c), .11‘: |
+and P(x|c). Look at the equation below:
+Likehood Class Prior Probability g 2
+P(c]¥)=— (x1¢)P(c) |
+C|-% J = o ' &
+~ Posterior Probability . \ é ’ :
+: Predictor Prior Probability s :
+p(c|X)=P(x,|c)><P(x2|c)x....xP(xn{c)xP(c) |
+Above, i '&{-
+o P(clx) is the posterior probability of class (c, targer) given predictor -8
+(x, attributes). .
+o P(c)is the prior probability of class.
+e P(x|c) is the likelihood which is the probability of predictor given class.
+e P(x) is the prior probability of predictor.
+3. a) What are the uses of training data set and test data set for a decision wi
+: classification scheme? [WBUT 2010, 2012, 2018]
+b) Discuss the principle of FP- tree Growth algorithm. [WBUT 2010, 2013]
+OR, B
+Discuss the different phases of FP-tree growth algorithm. [WBUT 2012] :,7-'
+Define FP tree. Discuss the method of computing FP tree. [WBUT 2018] B
+Answer: ' . e
+;) Decision trees need two kinds of data: Training and Testing. e
+T;ammg data:, YVthh are usually the bigger part of data, are used for constructing trees.
+off] more tr.amm'g data collected, the higher the accuracy of the results. The other group
+| e ata, testing, is used to get the accuracy rate and misclassification rate of the decision
+KR quWt}} algorithm allows frequent itemset discovery without candidate Iite ik
+generation. It is a two step approach: . SR
+Step 1: gu{ld a compact data structure called the FP-tree ‘ : L
+uilt using 2 passes over the data-set. ' . ' 4 -ér

@@ -1,0 +1,44 @@
+POPULAR PUBLICATIONS
+For example, there have been reports on the discover%' of aflttweacr;lesmbl:i ,
+HIV-screening datasets by contrasting the support of frequent grap cen diffey
+CTI}?:::Sﬁave been studies on the use of frequent structures as feature§ to classify “T |
+h mining technique to study protein structural familjeg
+compounds, on the frequent grap g : o crabitic s,
+| on the detection of considerably large frequent S}prat!‘lways in m o Norks, 3 d
+on the use of frequent graph patterns for graph indexing and similarity search in grap ™
+databases.
+5. What are recent developments in distributed data warehouse[; %nglErEIAT’.E?, “ ‘
+Answer: b 8 _ 5
+Currently data warehouse is used as organizational repository 1o support business
+| decision making. Mostly the data warehouse systems US€ centrahzc-ed appl'oaﬂg 3
+Furthermore, the hierarchy of organization and classes of users is not considered in de
+warehousing systems. Before the iPhone and Xbox, prior to the first Tweet or Facebook -
+“Like,” and well in advance of tablets and the cloud, there was the data Wflrehouse. For
+30 years, businesses have centrally stored data for analysis apd da'ta Flrlven w:-_.:
+making. For all of that time, the data warehouse has been the business-insights workM‘
+of enterprise computing. The big trend in the mid 1990’s was the emergence of data
+warehouses that we:e a terabyte in size, which at the time was considered a huge amount
+of data. Today’s leading edge systems are a thousand times larger—measured in pa! K
+’ bytes. Data warehouses have had staying power because the concept of a central data
+repository—fed by dozens or hundreds of databases, applications, and other source.
+systems—continues to be the best, most efficient way for companies to get an enterprise't;_ %
+. wide view of their customers, supply chains, sales, and operations. ASMs support
+_ refinement method in developing a data warehouse and OLAP systems. of One strategy
+Abstract State Machines (ASMs) also be used to design a distributed data warel'muSGfﬁr
+also Abstract State Machines provide a meticulous mathematically tricks for high-le *'
+system design, validation and verification at earliest stage of system development.
+Wehrle et al (2007) also deal with a distributed, grid-aware environment. They apply :
+~Globus Toolkit together with a set of specialized services for grid based data ‘-;ﬂ
+4 Fact table data is partitioned and distributed across participant nodes. Grid computing has
+emerged as a new teghnology, whose main challenge is the complete integration of
+heterogeneous computing systems and data resources with the aim of providing a glob? S
+computing space. A new Dat.a Mir}ing Grid Architecture, named DMGA, which for thet !
+| .:;Jrn‘:ip;c;smon .1dn a lrea]lsgenarlo. Dimension tables data is replicated. A local data index -
+S s e da ]Z‘ihmfex service from the par.thlRant grid’s nodes to enable th F
+' node (using the ]sse g : Irst step In query execution is to search for data at the [0
+communication ervies - corice). Missing data s located by U SREEN
+NN e oo e canc[.access'ed rem(.)tely.. Blpdla et. al. (2012) A multi agent DaSE=
+disadvantage of muﬁ; agimlgiprp;raocc}ff "ll C.ilstrlbuted DWH and also' remove €
+Y placing an buffer, so that there will be no i€
+-~ DWM-78 . :‘;"-
+Lo

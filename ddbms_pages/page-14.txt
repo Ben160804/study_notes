@@ -1,0 +1,50 @@
+~
+a &g
+DISTRIBUTED DAT, § é
+POPULAR PUBLICATIONS '
+d) What | )
+at Is the most complex offect of update oporation in distributed database Y
+:ymm? Explain with the help of update subtreo, [MODEL QUESTION] ;\
+nswer:
+1) The level of lransp‘arency of !hc above transaction is'Fragmenlulion Iransparency. - ' EMP;
+Because, the transaction here hides the factfrom users haf the data are fragmented. This OOHX N
+is the highest level of distribution transparency. If a distributed system has fragmentation / } '
+transparency, then the user must pot he aware regarding the fragmentation of data, As ." — Um’%zm
+result, (!ulnbnse dccesses must be based on global schema and the user need not to specify A S B
+Uhe paricular fragment names or data locations h Sl
+b)"Dclermining anon rcd}lndunl final allocation is easier. The simplest method is a "bes(.
+tl,i: lappronch. a mca.:ure :15 associated with each possible allocation, and the site with the !
+St measure is- selected. Replication introduces f ity i i ' . .
+because; o b compledy in e daiy [n order to understand which data movement operations ar¢ nqu'mgo:Zi:r:zd;l:i::t:
+1, The dcprec of replication of each fragment becomes a variable of the problem. f:.gmcnuliOn attribute, it is useful to lfmk . ll-lc rmgmenm:lor‘:am;mﬁon The update
+2. Modeling read applications is complicated by the fact hat he applications can select . A which is used in a Sdmion. predicl g 8 horely ligrlln the ﬂb‘;"e horizontal
+fmong several alternative sites for decessing fragments, For determining (he subtree of 4 is the subtree having as rool the node rc;‘)-nsen : Eh e updte sube for
+'redundnnl a!location of fragments, either of the following two methods can be used: fragmentation. For example, we indicate in the abovgblgurc limited to the fragments
+!) Determine the set of all sites where the benefi of allocating one copy of the atribute DEPTNUM. The effects of a change of an attribute are .f B A
+fragment is higher than the cost, which are leaves of its update subtree. For example, a change of aftribul fe (change
+it) - For non replicated problem, introduce replicated copies starting from the most allects only EMP, EMP, and EMF, but not EMP,. A tuple can Tllf:updllt
+beneficial, fragments) between two of the three former fragments as a consequence of the uj | :
+
+In general, the update subtree of a atribute A can be more complex than the su;np . onr:
+¢) Directory file system provide the network transparency, Network transparency allows shown in Figure 1, and the effect of chang.ing a value of the attribute A. is th"::e s(:lr:\;:t)in
+applications to access remote resources through network without needing to know complex. For example, suppose that relation EMP,h” the fragm en({notrl: sineRdiits
+whether they are remote or local, In a distributed directory file system, network Figure 2.2 In this case the update subtree of atiibute DEPTNUM is fc i vt
+transparency involves three aspects: naming, performance, and failure resiliency, whole fragmentation tree. The effect of ghan_glﬂs the DEP_ INUM th’e °h :h:llpl;c ol eg
+Naming plays an important role in distributed file systems. A directory file system is said EMPNUM = 100 from 3 to 15 is shown in Figure 2.b. This upda}e is suc = t:en'
+0 provide name transparency if it satisfies the following three requirements, First, any originally stored in fragments belonging to the left subtree of Figure 2.2, : nl;:wcen
+fle s accessible from any location. Second, the same name is used at every location, And part of the right subtree. We sce that not only the data has been move
+third, file location is not reflected i the pame. fragments, but the tuple has also been composed in a different way.
+
+EMP
+d) In providing distribution transparency to update applications, there is another problem \ !
+Which is more complex than performing the updates on al copies of a data item. Consider
+or example what happens if the CITY attribute of a supplier is modified. Clearly, the o . X,
+er tuple must be moved from one fragmen to another, Moreover, in our example = o
+ tuples of the SUPPLY relation which refer o the same supplier also must
+because the SUPPLY relation has a derived fragmentation, It is EMP,  EMP,  EMP,  EMP
+g the value of an attribute which is used in the definition of P} TS Lowrread <W(EMP)
+ave rather complex effects, The degree o which these | ?&-»:Wumﬂn
+aclerizes the leve i i EMP; = PloanwnonanernunSLoarnan«
+the I (:t distribution transparency EMP,= Plnancsu oS Lasrnene o EMP)
+B (a) A different fragmentation and fragmentation tree for relation EMP
+i ' DDMS-27

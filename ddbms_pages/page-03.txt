@@ -1,0 +1,44 @@
+distributed database is which of the following 2" A multiprocessor systom where two or more processors share the same
+3 e - (MODEL QUESTION] primary memory Is callod e uplo(:‘ODEL QUESTION]
+same S is used at each a) homogeneous y €O
+et wedie ch location and data are not distributed o) tightly coupled d) all of these
+I b) the same DBMS is used at each location and data are distributed across all Answer: (€)
+X Rodes
+" ¢) a dﬂﬂ:um DBMS is used at each location and data are not distributed Short Answer Type Questions
+l d4 :“ Mnodu DBMS is used at each location and data are distributed across 1, What s Distributed Data Processing (DDP)? [MODEL QUESTION]
+i Answer: (b) Answer: . - .
+
+: Distributed data processing allows distribution of application programs and data among
+. 15. Which of the followi interconnected sites (0 satisfy the information needs 9[ the organization. Depending onts
+1 a) Replication mﬂ.:::':;' R ature of T;?::m muoﬂggf;‘.alﬁ:mm equirements, an organization may choose t0 centralize or decentralize its data processing
+1 ¢) Locking transparenc systems.
+| Answer: (¢) . S oa mesparency 1%1;;: are two types of Distributed Data Processing:
+
+16. Distributed database system do not hel ODEL QUESTIO Centralized data processing:
+A a) interconnection of existing dmmg i N In a centralized system, one machine controls all file access and updates. A centralized
+[ b) incremental growth of the organization system permits a high level of control over application programs and data.
+¢) reduction communication overhead of geographically ~distributed A centralized data processing system is useful when:
+l transactions o All datais shared across application programs.
+| d) reduction of the memory requirement of distributed data « Many end users need access (o the same data and also require the most current
+Auswer: (¢) data available.
+| ] ) «  Security has been established as the responsibility of the central site.
+17. Top-downdapp:on_:h to the design of data distribution is applicable when « Large volumes of data are involved. In this case, centralized control can help
+;; :t;’: 3 s o:tlj':)gn. :?:’g' fn:lm;:mch [MODEL QUESTION) ' handle the volume of data efficiently. .
+¢) both of 3'9;? GEaKNG daabeess In o centralized data processing environment, more altention typically is given (o direct-
+d) none of these access storage devices (that is, their cost and reliability) than to data transmission.
+Answer: () The following illustration shows how one machine controls all file access and updates in
+acentralized system.
+18. Distributed Systems should [MODEL QUESTION]
+a) meet prescribed time constraints b) aim better resource sharing e
+¢) aim better system utilization d) aim low system overhead .
+ost
+Answer: (b) Machine H
+19. What is data about data called? [MODEL QUESTION]
+a) Metadata b) Data catalog ¢) Information d) Database
+Answer: (a)
+20. Which of the following features(s) Is (are) important aspects of a distributed
+database? [MODEL QUESTION]
+a) Distribution b) Logical correlation
+¢) Distribution & logical correlation d) Disjointness
+Answer: (¢)
+. DDMS-4 DDMS-5

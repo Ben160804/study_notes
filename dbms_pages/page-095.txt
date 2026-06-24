@@ -1,0 +1,36 @@
+DATABASE MANAGEMENT SYSTEMS
+gxample of Sparse Index Files
+BENARASMUM
+BAIRANCHI
+A-317TBENARAS750A-
+201 DELHIS00A-21 ODELHIGOOA->
+315MUMBAI700A- & |
+202KOLKATA400A- ) }
+301KOLKATA900A- > i
+318KOLK ATA700A- = |
+| 333RANCHI700A-305RURKI350 |
+| P |
+| b) What are the causes of bucket overflow in a hash file organization? ;
+[WBUT 2011] |
+Answer: ‘
+Bucket Overflow:
+Open hashing occurs where records are stored in different buckets. Compute the hash |
+_ function and search the corresponding bucket to find a record. |
+Closed hashing occurs where all records are stored in one bucket. Hash function must be |
+' chosen at implementation time. |
+| e Number of buckets is fixed, but the database may grow. |
+’ e If number is too large, we waste space.
+_ e If number is too small, we get too many “collisions” resulting in records of many
+| search key values being in the same bucket.
+| e Choosing the number to be twice the number of search key values in the file
+5 gives a good space trade off.
+¢) Construct a B+ tree for the following set of key values: [WBUT 2011]
+(2,3,5,7,11,17, 19, 23, 29, 31)
+Assume that the tree is initially empty and values are added in ascending order.
+Construct B+ trees for the cases where the numbers
+of pointers that will fit in one node is as follows: |
+i) Four ii) Six iii) Eight
+{\nswer:
+- 1) With four pointers |
+IBIERIEN|
+DBMSCS-95

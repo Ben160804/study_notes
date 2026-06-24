@@ -1,0 +1,51 @@
+0
+ISTRIBUTED DAT. )
+AR PUBLICATIONS F
+PTIMIZA F
+Then the horizonta] fragmentation can be defined in the following way; DISTRIBUTED OUERY o
+: SUPPLIER, = SLery “swore SUPPLIER tions
+SUPPLIER= SLey Simogs SUPPLIER Multiple Choice Type Questio
+Vertical Fragmenta jop: hich of the following ¢
+, : i ttributes violets wi
+The Vertical f’agmenlahorf of a global relation s the subdivision of it attributes into 1. R'p"t::it:r’n"‘? PR wcﬁorooﬂ Que
+groups; fragm.ents. are obtained by Projecting the glob| relation over each group. This mgmg‘mpletonm p Roc: n;) and (c)
+can be usefu in dlstnbut.ed databases where each 8roup of attributes can coptajp data that :; Disjointness el
+have common geographical Properties. The fragmentation is correct;sif each attribute is wer: ()
+mapped into at Iga.m one attribute of the fragments; moreover, it must be possible (o s - operation, B = >binary
+:consul'uct the original relation byjoining the fragments together, 2. Idempotence of unary operation implies (U = >unary P[;‘o DEI: QUESTION]
+Xample: Consider a globa| relation .
+ration) URBU(S)
+ Averin e EMPNUMNAME, AL 2, g DEPTNUM) U1 V2R 6 L2 IR o 1L SR e
+A vertical fragmentation of this relation can be defines ag ¢)UReUIU2R i
+EMP;=pJ ENNUMNAME, MaRNUM, Dgpmvuy EMP Answer: (¢)
+EMP;=pJ EMPNUM, SALTAx EMP [MODEL QUESTION]
+hase commitment protocol is used for
+T 3. Two-pha b) integrity control
+b) F ragmentation: a) concurrency control d) redundancy
+Fragmentation is 3 process of dividing the whole o full database into varigys sub- c) recavery '
+tables or sub relations 5o that data can be stored in different systems. The small pieces Answer: (a)
+of sub relations are called fragments, These fragments are called logical data units anq is used for [MODEL QUESTION]
+are stored at various sites. It must pe made sure that the fragments are such that they 4. Time stamp '“‘ch‘"l::r':l . b) integrity control
+can be used to reconstruct the original relation, &) CONcIIITINCY 0o ¢) redundancy
+In the fragmentation process, let’s say, If a table T is fragmented and js divided into 4 o n_w)’m
+number of fragments say T, T2, T3...TN. The fragments  contain sufficient Ameri(s L QUESTION]
+information to allow the restoration of the original table T, This restoration can be done . ’ lled Hons
+4 data model, the columns are ca
+by the use of UNION or JoN operation on various fragments. This process is % I";::::i?:.l b) tuples ¢) degree d) attributes
+called data Jragmentation. AJ| of these fragments are independent which means these Answer: (b)
+fragments can not be derived from others, The users needn’t be logically concerneg ESTION]
+about fragmentation which means they should not concerned that the data is fragmented 6. Primary key never takes [MOD‘E,L T:NULL
+and this is called fragmentation Independence or we can say fragmentation a) date b) NULL SISt I
+fransparency, Answer: (b)
+Advantages; 71 how many weays m rows and n atributes can be reprosent[e"ngEL QUESTION]
+* As the data is stored cloge to the usage site, the efficiency of the database system ) d mi*n!
+will increase, 3 m*n b) nl*m e P
+* Local query optimization methods are sufficient for some queries as the data is Answer: (a)
+available locally, EL QUESTIO|
+*  Inorder to maintain the security and privacy of the database system, fragmentation 8. Spurious WP'“} may occur due to MO8 §
+is advantageous, :}ﬁ;‘:&"j’;‘l‘: shutlon
+, ing tables from join : . i
+Disadvantages: i ) :;)(:;’:‘:"ag : b (i) ]md (i) ¢) (i) and (iii) d) (i), (ii) and (iii)
+* Access speeds may be very high if data from different fragments are needed, Answer: (3)
+¢ Ifwe are using recursive fragmentation, then it will be very expensive, M DDMS-31
+I ) DDMS-30

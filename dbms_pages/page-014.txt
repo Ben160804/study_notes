@@ -1,0 +1,35 @@
+collections. E.g. Employees and Customers may be declared to be disjoint sub collections
+of Persons. Such that they can’t be both an employee and a customer. |
+10. What do you mean by degree, cardinality of relationship? [WBUT 2015]
+Answer: AT :
+The degree of relationship (also known as cardinality) is the number (?f occurrences in
+one entity which are associated (or linked) to the number of occurrences in another.
+. There are three degrees of relationship, known as:
+1. one-to-one (1:1)
+- 2. one-to-many (1:M)
+3. many-to-many (M:N)
+11. What do you mean by data abstraction? Explain three levels of data
+. abstraction? [WBUT 2015]
+Answer: '
+The database Management system provides users an abstract view of data. Fo_r users
+simplicity DBMS provides different levels of abstraction. The following are different
+levels of abstraction.
+1. Physical Level
+2. Logical Level
+3. View Level '
+Physical Level is the lowest level of abstraction and it defines the storage structure.
+Logical Level is the next higher level of abstraction which describes what data are stored
+in database, relation between data, types of data etc. View Level is the highest level of
+abstraction. It provides different view to different users. At the view level users see a set
+of application programs that hide details of data types.
+View level i
+- External Level ‘
+view view !
+Conceptual Level Conceptual |
+schema
+‘ | 4
+Internal Physical i
+Internal Level Py :.
+o Wl s
+Data Independence ( Logical/PhysicaI)
+DBMSCS-14

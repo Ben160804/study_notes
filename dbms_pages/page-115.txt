@@ -1,0 +1,58 @@
+r
+DATABASE MANAGEMENT SYSTEMS
+
+then B:=B+]
+write(B)
+unlock(A)
+unlock(B)
+
+T32: lock-S(B)
+read(B)
+lock-X(A)
+read(A)
+if B=0
+then A:=A+]
+write(A)
+unlock(B)
+unlock(A)
+
+Execution of these transactions can result in deadlock. For example, consider the
+
+following partial schedule:
+
+T31
+lock-S(A) lock-S(B) i
+read(A) read(B)
+
+The transactions are now deadlocked.
+
+5. What are the roles of the Analysis, Redo and Undo phases in the recovery
+
+algorithm ‘ARIES’? [WBUT 2010, 2011, 2013, 2014, 20
+
+Answer: ;
+
+The ARIES recovery procedure consists of three main steps:
+
+* Analysis: It identifies the dirty (updated) pages in the buffer and the set of
+transactions active at the time of crash. The appropriate point in the log where REDO
+operation should start is also determined.
+
+* REDO phase: It actually reapplies updates from the log to the database. Generally
+the REDO operation is applied to only committed transactions. However, in ARIES,
+this is not the case. Certain information in the ARIES log will provide the start point
+for REDO, from which REDO operations are applied until the end of the log is
+reached. Thus only the necessary REDO operations are applied during recovery.
+
+* UNDO phase: The log is scanned backwards and the operations of transactions that :
+were active at the time of the crash are undone in reverse order. The information
+
+' needed for ARIES to accomplish its recovery procedure includes the log, the
+transaction table, and the dirty page table. In addition, check pointing is used.
+
+tsh a) State Two-phase commit protocol and discuss the implications of a failure on
+
+e part of '
+i) the coordinator
+') a participant, during each of the two phases. [WBUT 2011, 2013, 2019]
+DBMSCS-115

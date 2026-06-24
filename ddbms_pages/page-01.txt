@@ -1,0 +1,35 @@
+/ POPULAR PUBLICATIONS
+2. Explain shell sort technique. [MODEL QUESTION]
+Answer:
+The shell sort, sometimes called the “diminishing increment sort,” improves on the DI STRIBUTED DATABASE
+insertion sort by breakmg the onglnal list into a number of smaller SUb-IlSlS, each of T —————— T T TR e e i £ T
+which is sorted using an insertion sort. The unique way that these sub-lists are chosen is :
+the key to the shell sort. Instead of breaking the list into sub-ists of contiguous items, the MANAGEIENT S YSTEM
+shell sort uses an increment i , sometimes called the gap, to create a sub-lists by choosing ———
+all items that are  items apart. This can be seen in figure. This list has nine items. If we
+use an increment of three, there are three sub-lists, each of which Ean be sorted by an
+insertion sort. After completing these sorts, we get the list shown in figure. Although this
+list is not completely sorted, something very interesting has happened. By sorting the Introduction 2
+sub-lists, we have moved the items closer to where they actually belong, Figure shows a
+final insertion sort using an increment of one, in other words, a standard insertion sort, Distributed Database Design 17
+Note that by performing the earlier sub-list sorts, we have now reduced the total number
+of shifting operations necessary to put the list in its final order. for this case, we need istributed Query Optimization 31
+’ only four more shifts to complete the process. In the way in which the increments are Dist Quen s
+4 chosen is the unique feature of the shell sort. The function shell sort shown below uses a - 67
+different set of increments. In this case, we begin with 2 sub-lists. On the next pass, 4 Transaction Management
+subdlists are sorted. Eventually, a single list is sorted with the basic inscrtion sort Figure
+shows the first sub-lists for our example using this increment. Parallel Database Systems 88
+unn 55 | 20 | sublst Advanced Topics 91
+e]o e [r]n ] [o]] e
+FlTe o r[a]uls o] . |
+uu 7|3 u 55 | 20 | sublst 1 soed
+[ I
+I'Iﬂﬁﬁﬁnﬁlll sublist 2 sorted
+e o HOTE:
+. - P I\III"II sublist 3 sorted n
+III“’II‘I MAKAUT course structure and syllabus of 6" semester has been changed from 2021
+ll lI DISTRIBUTED DATABASE MANAGEMENT SYSTEM has been introduced as a
+- n afler sorting sublists new subject in present curriculum. Taking special care of this matter we are providing
+1726 n 5 atincrement 3 chapterwise model questions & answer, so that students can get an idea about
+university questions patterns.
+b AGL-144

@@ -1,0 +1,44 @@
+" ,
+DATA WAREHOUSING AND DATA MINING
+Moreover, an operational database Supports the concurrent processing of several
+iransactions. An OLAP query often needs read-only access of data reco_rds fqr
+summarization and aggregation. .Concurrency control and recovery mechanisms, if
+applied for such OLAP operations, may jeopardi_ze the execution of concurrent
+yransactions and thus substantially reduce the throughput of an OLTP system.
+b) 4
+I. roll up from day to month to year .
+2. slice for year = *2008” y
+‘ 3. roll up on item from individual item to all
+4. slice for item = “all”
+5. get the list of total sales by each branch in 2008
+3.a) What is tree pruning? What are the different tree pruning techniques?
+[WBUT 2013, 2014]
+b) Evaluate Information Gain and Gain Ratio with suitable example. [WBUT 2013]
+u Answer:
+a) When a decision tree is built many of the branches will reflect anomalies in the
+training data due to noise or outliers. Tree pruning methods address this problem of over
+fitting the data. There are two common approaches to tree pruning,
+¢ Pre-pruning: In the pre-pruning approach, -a tree is “pruned” by halting its
+construction early. Upon halting, the node becomes leaf. The leaf may hold most :
+frequent class among the subsets tuples or the probability distribution of those tuples.
+: When constructing a tree, attribute selection measures such as statistical significance,
+information gain, gini index and so on can be used to access the goodness of a split.
+| If partitioning  the tuple at node would result in a split that falls below a pre-specified
+‘ threshold, then further partitioning of a given subset is halted. There are difficulties,
+' however in choosing an appropriate threshold. High threshold could result in
+= oversimplified trees; whereas low thresholds could result in very little simplification.
+' * Post-pruning: Post-pruning removes sub trees from a “fully grown™ tree. A sub tree
+' at a given node is pruned by removing its branches and replacing it with leaf. The
+leaf is labeled with the most frequent class among the sub tree being replaced. The
+“best” pruned tree is one that minimizes the encoding bits. This method adopts MDL
+(Minimum Description Length) principle. The basic idea is that the simplest solution
+1S preferred. Alternatively, pre-pruning and post-pruning may be interleaved for a
+, ombined approach. Post-pruning requires more computation than pre-pruning, yet
+generally leads to a more reliable tree. Although pruned tree tends to be more
+| compact than their unpruned counterparts, they may still be rather large and complex.
+Decision tree can suffer from repetition and replication.
+b lnformation gain (IG) is utilized by the ID3/C4.5/YaDT family of algorith
+measureofth ffecti ) is utilize Y E y gt msa§a
+Bain is o, ¢ ellectiveness of an attribute in classifying the training data. Information
+_ Mputed by measuring the difference between the entropy of the dataset betore
+DWM-53

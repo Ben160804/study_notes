@@ -1,0 +1,50 @@
+POPULAR PUBLICATIONS
+: ive in the same cities and on the sa
+(iii) Find all employees in the database who live in me
+streets as do their managers. I
+ary of all employee
+(iv) Find all employees who earn more than the average saiary ployees of
+their company. BUT
+(v) Find the company that has the smallest payroll. [WBUT 2015]
+Answer:
+i) SELECT employee-name
+FROM employee e, works w
+WHERE e. employee-name=w. employee-name and
+company-name="'XYZ"' ;
+ii) SELECT employee-name
+FROM employee, works
+WHERE employee.employee-name = works . employee-name AND
+works .companyname= company .company-name AND
+employee.city = company.city:
+iii) SELECT el.employee-name
+FROM employee el, employee eZ, manages
+-WHERE el .employee-name = manages . employee-name AND
+e2. employee-name = manages.manager-name AND
+el.street = e2.street AND el.city = e2.city;
+iv) SELECT employee-name
+FROM works wl,
+(SELECT AVG(salary) AS avg-salary, company-name
+FROM works GROUP BY company-name) w2 ;
+WHERE wl.company-name = w2.company-name AND
+wl.salary>w2.avg-salary;
+V) Select company-name
+From company
+Where min(salary)= SELECT sum(salary)
+FROM works :
+GROUP BY company-name;
+7. Consider the employee database:
+: BU
+Employee (emp_name, street, emp_id) [WBUT 2016, 2588
+Works (emp_name, company_name, salary)
+Company (company_name, city)
+yv:i'::s:zs (emp_name, manager_name)
+e appropriate SQL statemen i
+a) Find the names and cities of resitdoe?'nct:ge ?aslns of the above table:
+b) Find the names, street addresses and giti:s| el;nplo.yees bbbt
+4 \'n:viozk flc:r the UBI and earn more than Rs. 50 030 rasidence of all.employeetS.
+nd all employees in the b ~
+d) Find the 2nd high database who do not work for UBI
+. Ighest salary for emp| i p
+€) Find the company that has th Ployees in UBI. ;
+€ most employees_
+DBMSCS-52 3

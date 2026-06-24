@@ -1,0 +1,51 @@
+™~
+POPULAR PUBLICATIONS DISTRIBUTED DATABASE MANAGEMENT SYSTE
+|NTRODUCTION 7. Global Schema Fragmentation Schema and Allocation Schema reside in
+—RVUVVIIVIV [MODEL QUESTION]
+: a) one of the machine selected as a coordinator of the DDBMS
+Multiple Choice Type Ques b) the system virtually
+- Lo c)) all the machines of the DDBMS network
+1. Common problem of designing DDBMS and centralized DBMS are: g (o;these
+:(c
+: [MODEL QUESTION] Asswer:
+a) Design of conceptual schema and design of fragmentation ' i igni
+i DDBMS.
+b) Des.lgn of fragmentation and design of allocatiogn of fragments Ll e dm?l:lggﬂ QUESTION]
+Z) g:l'gn of allocation of fragments and design of physical database 2) Bottom-up b) Top-down ¢) Flat d) None of these
+) Design of conceptual schema and design of physical database
+Answer: (c) Aaswer: (b)
+S . The unit of data transfer to and from disk is [MODEL QUESTION]
+2. The data dlchonar'y tells the DBMS [MODEL QUESTION] : a)information  b) block ¢) pages d) file
+a) what files are in the database wer: (d)
+b) what attributes are possessed by the data Anpwes
+¢) what these files contain 10. Which of the following is not a feature of DDBMS? [MODEL QUESTION]
+d) all of these a) network transparency b) OS transparency
+Answer: (d) ¢) DBMS transparency d) hardware transparency
+: : Answer: (b)
+3. Which of the following models is used by distributed database system?
+a) Mainframe computing model [MODEL QUESTION] 11. A distributed database has which of the following advantages over a
+b) Disconnected, personal computing model centralized database? [MODEL QUESTION]
+c) Client / server computing model a) software cost b) software complexity
+d) None of these ¢) slow response d) modular growth
+Answer: (c) Answer: (d)
+4 Which of the following is not benefit of site autonomy? ~ [MODELQUESTION] [ 12 An autonomous homogenous environment is which of the '°3‘3é‘{'%?uesmm
+a) A global catalog is not necessary to access local data ! [M
+B a) the same DBMS is at each node and each DBMS works independently
+b) Node can upgrades software independently DBMS i M notiand tral DBMS coordinates databas
+c) Administrators can recover from isolated system failures independently b) :l::;::sme I8 at each node and a cen e
+d? No Zeed for Backp SEs oYYy c) adifferent DBMS is at each node and each DBMS works independently
+Answer: (d) d) adifferent DBMS is at each node and a central DBMS coordinates database
+N access F
+5. DDBMS provides better ............... over centralized DBMS. [MODEL QUESTION] Auswer: 3)
+a) decentralization b) tuning
+¢) security d) transparency 13. A heterogeneous distributed is which of the following? ~ [MODEL QUESTION]
+Answer: (d) a) the same DBMS is used at each location and data are not distributed
+) Noved. without Hocation across all nodes
+6. ‘“Fragmentation transparency cannot be achieve [Mgl')EEl:)UESTION] b) the same DBMS is used at each location and data are distributed across al!
+transparency.” nodes
+a) True b) False c) Unknown d) None of these ¢) a different DBMS is used at each location and data are not distributed
+Answer: (b) across all nodes
+d) adifferent DBMS is used at each at each location and data are distributed
+across all nodes
+Answer: (d)
+DDMS-2 DDMS-3

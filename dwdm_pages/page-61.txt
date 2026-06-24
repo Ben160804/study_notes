@@ -1,0 +1,43 @@
+J—
+DATA WAREHOUSING AND DATA MINING
+o scan database to collect support count for each candidate sequence
+o generate candidate length-(k+1) sequences from length-k frequent sequences
+using Apriori
+. repeat until no frequent sequence or no candidate can be found
+Jts major strength.: Candidate pr.uning by Apriori : ' :
+_ GPADE (Sequential Pattern Discovery using Equivalent Class) is a vertical forma
+sequential pattern mining method as outlined below: :
+« A sequence database is mapped to a large set of
+' o Item: <SID, EID>
+o Sequential pattern mining is performed by h
+o growing the subsequences (patterns) one item at a time by Apriori candidate
+generation . ;
+‘ SPADE uses only simple temporal join operation on id-lists. As the length of a frequent
+' sequence increases, the size of its id-list decreases, resulting in very fast joins. ;
+, No complicated hash-tree structure is used, and no overhead of generating and searching
+of subsequences is incurred. These structures typically have very poor locality. On the
+g other hand SPADE has excellent locality, since a join requires only a linear scan of two
+lists.
+| As the minimum support is lowered, more and larger frequent sequences are found. GSP
+makes a complete dataset scan for each iteration. SPADE on the other hand restricts itself
+to usually only three scans. It thus cuts down the 1/O costs. : '
+: d) Decision tree construction with presorting:
+,‘ SLIQ (Supervised Learning in Quest) developed by IBM's Quest project team, i1s a
+| decision tree classifier designed to classify large training data. It uses a pre-sorting
+| technique in the tree-growth phase. This helps avoid costly sorting at each node. SLIQ '
+_ keeps a separate sorted list for each continuous attribute and a separate list called class
+list. An entry in the class list corresponds to a data item, and has a class label and name of
+] the.node it belongs in the decision tree. An entry in the sorted attribute list has an
+attribute value and the index of data item in the class list. SLIQ grows the decision tree in
+_ breadth-first manner. For each attribute, it scans the corresponding sorted list and
+. Calt‘:u.lates entropy values of each distinct values of all the nodes in the frontier of the
+dec_lsmn tree simultaneously. After the entropy values have been calculated for each
+’ altribute, one attribute is chosen for a split for each nodes in the current frontier, and they
+| ;reerfzgaréded to have a new f.rontier. Then one more scan of the sorted attribute list is
+While Si | tohupdate th-e class.llst for the new nodes. .
+P infoQ apdles disk-resident data that are tqo large to ﬁ.t in memory, it still requires
+' ik Ofninatl_on to stay me_mory-remdgnt .Wthh grows in dlfefzt proportion to the
+Version Caller:iplsl;) records, putting a hardjllmlt on. the. size of training data. In a newer
+| stictions 1 RINT (Scalable Parallelizable Induction of decision Trees) the memory
+i ve been removed.
+DWM-61

@@ -1,0 +1,25 @@
+.-I-ﬁ:'ﬁ"-l?.' I . g : : .EJ
+~* One-to-one (1:1) Relationship: This is where one le. an employee is allge -
+: only one occurrence in another entity. For eXa-’“PlO;ee Therefore, there j Wﬂ F]
+At company car, which can only be driven by that emp b -
+y . € . K
+_ to-one relationship between employce and company 4
+. Al ‘ Is allocated "
+mployee L
+i : 15 assigned Lo b
+o *  One-to-many (1:M) Relationship: This is where one occurrence ;n an entity refates 3
+; 10 many occurrences in another entity. For example, takng the cmploy.ee and
+| department entities shown on the previous page, an employec works in gpa
+: department, but a department has many employees. Therefore. there is a one-10-mg
+| ' relationship between department and employee. -
+has - 1
+L ] - .. . . s . . .‘F-';
+Mlaltlytto many (M:N) Relationship: This is where many occurrences in an entity
+relate to ' : : ; .
+e many occurrences in a{lother entity. For example, an emplovee may work on
+e , Projects at the same time and a project has a team of many o B
+. Therefore, there is a many-to-maiy relationship bet Y CTpioi ;
+| p between employee and project, &
+Employee ~ wors oy ‘:,
+e = cmployes < Project T
+u b ] i u',-:“; . ': gl ; . 7'_;

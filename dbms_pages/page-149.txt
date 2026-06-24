@@ -1,0 +1,38 @@
+AL A
+vii) Which data type can store unstructured data? ‘%ﬁ;ﬁ;
+v'a) Raw BLEP ¢) Numeric AR
+: d) Varchar RAAI
+. | form in which every non-pri - ‘ AS AR
+viii) A nor':jn:l ‘/b)fg b prime attribute is fully dependent on prime attribute is > ‘-,("
+“ A
+: alizability of concurrent transaction i "§
+x) Seria s ensured by M}&
+a) locking b) time stamping ‘}:{i{
+¥'c) both (@) and (b) d) none of these s‘é’{i
+A
+| TRy
+X) Transaction follows 222 .‘ﬁ'
+v'a) ACID properties b) Starvation properties “%%Ji:
+[ c) Preemption properties d) Non-preemption properties : 23122;
+[ (Short Answer Type Questions) j"/)gjf‘
+» What is Data dictionary? What do you mean by unary operations in Relational algebra? Give - ,‘jj‘(ég‘
+example. %‘ég ﬁ
+1 part: See Topic: DATABASE SYSTEM ARCHITECTURE, Short Answer Type Question No. 8. X2 >
+2" part: See Topic: RELATIONAL MODEL, Short Answer Type Question No. 6. - o ‘éﬁj
+' . 2 -
+3. Explain two-phase locking protocol. AN 5
+See Topic: TRANSACTION PROCESSING, Short Answer Type Question No. 5. \?vﬂ
+4 Consider the relation R = {A, B,C,D,E.F,G,H, ],J} and the set of functional dependencies: 4 /
+| B
+Pw:{AB——>C,A—>DE,B—>F,F—>GH,D—>U} 5;
+v
+Decompose R into 3NF. ﬁ;
+See Topic: FUNCTIONAL DEPENDENCIES AND NORMALIZATION, Short Answer Type , 3};
+; Question No. 11. _ ) {
+' . Discuss the different level of views. 22X .%.',,,:_
+See Topic: SQL, Short Answer Type Question No. 6. ; jj)
+. AAA “1‘(;
+6. What is Weak entity set? Explain with suitable example. ot 5}55’\\ 353
+e ’ on o, . N NN
+Ses Topiés ENTFTY-RELATIONSHIP MODEL, Short Ans#er TyRE SECc R
+DBMSCS-149 X2

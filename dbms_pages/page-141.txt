@@ -1,0 +1,44 @@
+DATABASE MANAGEMENT SYSTEMS
+only oneé universal rCia[iU_“ C*""’S‘%F’Uﬂds 1o one fragment, Fragments are indicated by a
+‘ uni;/crsal relation namc'\wth an index (fragment index); for example, Ri indicates the ith
+fragment of global relation R.
+Fra'gmcms are logical portions ,O,t universal relations which are physically located at one
+, or several sites of the network. The allocation schema defines at which site(s) a fragment
+i located. Note 1.hat the lype of mapping defined in the allocation schema determines
+' whether the distributed database is redundant or non-redundant; in the former case the
+' mapping is one to many..while in the latter case the mapping is one to one. All the
+fragments which correspond to the same universai relation R and are located at the same
+site j constitute the physical image of global relation R at site j. Therefore a one to one
+mapping between a physical image and a pair (global relation, site); physical images can
+he indicated by a global relation name and a site index.
+Give a comparative study of the different levels of transparency in DDBMS.
+The example of the relationship between the object types defined above is shown. in
+fioure below. A global relation R is split into four fragments R1, R2, R3 and R4. These
+ur fragments are allocated redundantly at the three sites of a computer network, thus
+fo g i y p
+building three physical images R1, R2 and R3. :
+Let us refer to a copy of a fragment at a given site by the two indexes a fragment index
+and a site index respectively. E.g.. in figure below the notation R; indicates the copy of
+fragment R2 which is located at site 3. Finally the two physical images can be identical.
+1
+; :
+o e (R{) ,
+: ==s===-L R (site 1)
+R: \\ ‘
+=~=m=-==l R (site 2)
+“ (Rzz)
+]
+v 1 .
+[}
+I
+‘ : 3 3 Aastiley
+: T : (R3) R’ (site 3)
+f | '
+: ! : PR LRt
+! { ‘ (R5)
+: : (R})
+! 1 ¥
+| .
+' Global relation ! Fragments . Physical images
+- Fragments and physical images for global relation
+DBMSCS-141 |

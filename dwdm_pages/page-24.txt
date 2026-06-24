@@ -1,0 +1,18 @@
+POPULAR PUBLICATIONS .- r i
+5. Suppose that the data n?ining” tazruzetr:cluster the following ten points ( |
+(x,y)) representing location into two “
+X | 6 e "y
+The distance function is defined as [x,. —X j]+[ Yo j] - 8
+- Use k-means or k-medoid algorithm to determine the two clusters.  [WBUT 2012]
+~ Answer: : A»_E ,‘
+Step 1 i a , g
+, Initialize k centers. '
+Let us assume ¢; = (3,4) and ¢, = (7,4) -
+So here ¢, and ¢, are selected as medoids. "
+Costs to the nearest medoid are shown bold in the table. R
+- S T L
+X; distance - L
+; Data object . ‘ , }i h
+glllen the clusters become: : SRR » R
+. cnﬁzl A {(3,4)(2,6)(3,8)(4,7)} i
+2= {(7,4)(6,2)(6,4)(7,3)(8,5)(7,6)} _ P

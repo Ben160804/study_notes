@@ -1,0 +1,43 @@
+1
+POPULAR PUBLICATIONS -
+Therefore in traditional ﬁledp;o;:essli]ng evcl:.ry tlese:r will be defining their own constraints
+- s needed for the applications.
+?:cz;r;iir:?;t;ﬁffd single repositorp;pof data is maiptqined that is defined once and
+then accessed by many users. The fundamental characteristic Qf databasle ap[;rofz_lch Is that
+the database system not only contains data's byt it contains complete de mmgm_ or
+description of the database structure and cgnstramts. These dt:ﬁmtlonfj e;_re.s.tore in a
+system catalog, which contains the information al?out the structure and efinitions of the
+Jatabase. The information stored in the catalog is called the metadata, it describes the
+primary database. Hence this approach will work on any type of dzfltabase for examp.le,
+insurance database, Airlines, banking database, Finance details, and l'?,ntgrpns.e
+information database. But in traditional file processing system the application is
+developed for a specific purpose and they will access specific database. only.
+The other main characteristic of the database is that it will allow multiple users to' access
+the database at the same time and sharing of data is possible. The database must include
+concurrency control software to ensure that several users trying to update the same data at
+the same time, it should maintain in a controlled manner. In file system approacl} many -
+programmers will be creating files over a long period and various files have different
+format, in various application languages.
+Therefore there is possibility of information getting duplicated, this redundancy is storing
+" same data multiple times leads to higher costs and wastage of space. This may result in
+data inconsistency in the application, this is because update is done to some of the files
+only and not all the files. Moreover in database approach multiple views can be created
+which will not occupy any space. :
+A multi-user database whose users have variety of applications must provide facilities for
+defining multiple views. In traditional file system, if any changes are made to the
+structure of the files if will affect all the programs, so changes to the structure of a file
+may require changing of all programs that access the file. But in case of database
+approach the structure of the database is stored separately in the system catalog from the
+access of the application programs.
+Database can be used to provide persistent storage for program objects and data
+;;;l:ﬁt?r;e:eiﬁcr:ﬂgﬁaﬁ }:)bjricglZrientzddq?ft‘aba;se .approa‘ch.. Traditional sys.tem.s suff.ered
+in object oriented databaze S sr?e?: Dlat;Cbl;sty b accgssmg the data, e SR
+relationships among data's as \ilfell a.s to retr'e Cand i e cgmplex
+- efficiently, leve and update related data easily and
+It is i 3 . »
+failures. The backup and recol\)/ery subs ail gl recovering hardware and software
+application devel 2 subsystem tis responsible for recovery. It reduces the
+. cevelopment time considerably when compared to th
+- and availability of up-to-date information of all th Fate Lo.1he e Systelii S
+data’s stored in the database system. =~ - | &1 the users. It also provides sccurity to the
+DBMSCS-90

@@ -1,0 +1,45 @@
+MMAMM—M
+The following is a mixed fragmentation, which is obtained by applying the vertical Fach horizontal fragment must have all columns of the original base table. .
+fragmentation of the previous example, followed by a horizontal fragmentation on For example, in the student schema, if the detals of all students of Computer Scnenglcl
+s i czum needs to be maintained at the School of Computer Science, then the designer Wi
+:;,A{{: ! =;Lumuugo Pdisowune vase wmn ogervi EMP porizontally fragment the database as follows:
+2= SLrcoerrvonas PIpevin wasee worwins, errvon EMP CREATE COMP_STD AS
+EMP3= SLoeprainpz Pdessewuns nasee srvene oeprving EMP SELECT 'U:ZSM—ST‘;EI;!;:!: o Sclience®:
+EMP= Pl pwing nusc sur., tacEMP WHERE CO -
+; A . i tation
+i TR St . . . d tation, a combination of horizontal and vemca.l fra.gmen
+1‘{‘;"?:)‘;:' FI" agmentation: Hon;on.ml fragmentation consists of partitioning the tuples bn h)"bnd ::i-;;nn;s?; the most flexible fragmentation technique since it generates
+global relation into subsets; this is clearly useful in distributed databases, where each R | extraneous information. However, reconstruction of the original
+subsct can contan data that have common geographical properte. It can be defined b iy g mommi
+expressiog each fragment as a selection operation on the global relation, Y wable is often an expensive task.
+Example: let a global relation be " o
+of Fragmen :
+YRR AR A, Gy g:.cv:mc‘l'augéisfsloregr close to the site of usage, efficiency of the database system 1s
+Then the horizontal fragmentation can be defined in the followin, - increased. i jes since data is
+g Way: imization techniques are sufficient for most queries since data IS
+SUPPLIER, = SLrry - 4s0re- SUPPLIER . ;ﬁyii;qaﬁreummuon_ techniqu -
+SUPPLIER;= SLary s SUPPLIER o Since imelevant data is not available at the sites, security and privacy of the database
+;0 dExplain different types of fragmentation indicating their advantage and system can be maintained.
+AI:Saw:::ntage. [MODEL QUESTION] Dissdvantagesof Fragmentation . ’
+: mgmetr;l]ation can be of three types: horizontal, vertical, and hybrid (combination of + When data from different fragments are required, the access speeds may be very
+orizontal and vertical), high. ) — .
+In vertical fragmentation, the fields or columns of a table are grouped into fragments. o In case of recursive fragmemalion, the job of reconstruction will need expensive
+“In order to maintain re-constructiveness, each fi in i techniques. . ’
+field(s) of the table. T o Lack :f back-up copies of data in different sites may render the database ineffective
+Vertical fragmentation can be used to enforce privacy of data. in case of failure of a site.
+For example, let us consider that a University database keeps records of all registered Long Answer Type Questions i
+students in a Student table having the following schema,
+“ STUDENT ' 1. a) Consider the schema SUPPLIER (SNO, NAME, CITY) and SUPPLY (SNO, PNO,
+m DNO, QUAN) and the following transaction:
+Read (tty, $PNO)
+Now, the fees details are maintained in the accounts section. In this cas, the designer Select Name into sﬁ;’:tv
+will fragment the database as follows: From SUPPLIER, S
+CREATE TABLE STD_FEES AS Where SUPPLIER.SNO = SUPPLY.SNO
+P PNO = §PNo
+SELECT Regd_No, Fees c;:i[t)os(::P:NYa.me)
+g What is the level of transparency of the abov:| tra::sac:ion-an:l \;hyﬁ'; ?
+. A . g h for a non-replicated allocation of horizonta
+Horizontal fragmentation groups the tuples of a table in accordance to values of one or ?ng::ﬁ;’::ont_m‘ fit. spposc P
+ey fiea c) Does any directory file system provide the network transparency? If yes, explain
+Horizontal fragmentation should also confirm to the rule of re-constructiveness. ' how the transparency is achieved.
+~ DDMS4 DDMS-25

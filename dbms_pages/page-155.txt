@@ -1,0 +1,43 @@
+22955
+lause in SQL that specifies that th N G
+vi) The € € query result should be sorted in ' A
+descending order based on }he values of one or more column is o o 5 i)
+' b) order b B
+w
+e 4 €) group by d) having :‘*
+vil) Conflict serializability ca; be detected by _ §§§ ‘Sf,:
+s P) precedancegreg kg Spanning tree d) none of these %i\ﬁ
+” :
+AR
+yiii) According to the levels of abstractions the schema at the intermediate level is called Q&% >
+v'a) logical schema  b) physical schema ¢) subschema d) supér schema §§§ ,
+FLIGR NI
+{ ix) The operation which is not considered as basic operation in relational algebra ; W
+_ v'a) join F)) selections C) union d) cross product A2 %{C
+x) Itis an abstraction through which relationships are treated as higher level entities? \\;\égft
+a) generaiization b) specialization v C) aggregation d) inheritance v, {?j;.
+GROUP - B , ;‘3‘:
+(Short Answer Type Questions) A4 tg*\
+2. Describe different 2PL protocoi in brief. ' A ,_(,;;
+See Topic: TRANSACTION PROCESSING, Short Answer Type Question No. 1. %:;
+A A
+: . gl _ AR QAR
+3. Consider the following database with primary keys underlined 3{:%\;}5
+Project (P — No, P — Name, P — incharge) 23 WD
+Employee (E — no, E — Name) )\: e
+Assigned-To (E — no, P.— no) {
+Wirite relational algebra expression for the following: , , QA
+(a) List detail of employee working on all projects. N
+(b) List E — no, E — name of employee who do not work on project with P — no = DB2003 "%}
+See Topic: RELATIONAL MODEL, Short Answer Type Question No. 7. 2 K\QF‘:‘:\;
+. ﬁZg\. Q|
+; 4.What is partial functional dependency? Explain BCNF with a swtéble~exafnple ' ’S\C}\ﬁ\}
+;' See Topic: FUNCTIONAL DEPENDENCIES AND NORMALIZATION, Short Answer Type %‘t&}‘%‘%
+i' Question No. 14. : e ).:‘::%:1
+5 Consider the following two transactions: &\{;ﬁ
+T read (A); read (B); if A = 0, then B = B + 1, write (B) R
+T2 read (B); read (A); if B = 0, then A = A + 1; write (A); b stk e NI
+; AAAAN
+.. Add lock and unlock instructions to transaction T1 and T2. Is there an_y de‘ad ock observed? NN
+¢ Topie: TRANSACTION PROCESSING, Short Answer Type Question No. 10. <22
+| DBMSCS-155 ‘

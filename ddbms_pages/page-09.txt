@@ -1,0 +1,46 @@
+POPULAR PUBLICATIONS mmmmmww
+' fragments that can be stored on different computers and perhaps replicated is hidden from
+the user. The objective of the transparency is to make the dislribulgd system appear like a MA-B—AS—E—DEM
+centralized system. ;
+We can identify four main types of transparency in a DDBMS:
+» Distribution transparency
+a) Fragn!cnlmion {ransparency 1. Allocation problem is easier [MODEL QUESTION]
+b) Location transparency a) in redundant system b) in non-redundant system
+» Transaction transparency ¢) inreplicated (attributes) system d) both (a) and (c)
+¢) Performance transparency ) Answer: (a)
+d) DBMS transparency
+2, Clustering means [MODEL QUESTION]
+2™ Part: a) keeping a common data l:dont: :)ladc‘:h i
+. b) keeping different types of data in different places
+Networ_k (ransparency: s c)) kn:lnﬂ different types of data in one place
+According to this property, a distributed database must be network transparent. Network d) keeping in a common data in different places
+{ransparency means that a user must be unaware about the operational details of the Answer: (a)
+network. Network transparency is basically one of the properties of distributed database. :
+Actually in distributed databases when a user wants to access data and if that particular 3, The horizontal fragmentation of a relation cannot be based on a property of its
+data does not exist on user computer then it is the responsibility of DBMS to provide the own attributes, but is derived from the horizontal fragmentation of another relation
+data from any other computer where it exists. User does nol know about this thing as i6 Callod .ovevecrseesieeennss Fragmentation. [MODEL QUESTION]
+from where data is coming. Network transparency also means roaming transparency and a) horizontal b) vertical
+it ives the freedom of entering query from any workstation to a user. S0  user does no ¢) mixed d) derived horizontal fragmentation
+know from where the results of query are coming as results may be coming from user Answer: (d) .
+workstation or any other workstation. Here the term roaming means that if a user moves
+from one place to other then all other users does not know about this. 4. Which of the following conditions cannot satisfy vertical hg[:omb';ttogzlESTIONl
+Replication transparency: .
+A cI:)py of each fral:;mcmtzan be maintained at several siles. Data replication is the design "_ Disjointness b) Completeness ) Reconstruction ¢) Robulld
+process of deciding which fragments will be replicated. ADISTRIBUTED SYSTEM Auswer: (¢
+often employs DATA REPLICATION to ensure a fast response from databases and to
+enable lh[c) system (0 be resilient to hardware errors. Replication transparency s the term 5 Lm‘:::‘;‘:m’;:z ::Imlzo:(v;:tﬂl‘og;m folowing?  [MODEL QUESTION]
+used to describe the fact that the user should be unaware that data is replicated. b) programmers to treat the data as ifitis at one location
+¢) managors to treat the data as if it is at one location
+b) Heterogencous databases: d) all of these
+A heterogeneous DDBMS uses instead at least two different DBMSs. Heterogeneous Answer: (d)
+DDBMSs add the problem of translating between the different data models of the
+different local DBMSs to the complexity of homogeneous DDBMSs. For this reason, if 6. Storing a separate copy of the database at multiple locations is which of the
+the development of a distributed database is performed top-down without a preexisting following? [MODEL QUESTION]
+system, it is convenient to develop a homogencous sysiem. However, as it was stated in a) data replication b) horizontal partitioning
+the previous section, in some cases the motivation for crealing a distributed database is ¢) vertical partitioning d) horizontal and vertical partitioning
+the necessity of integrating several preexisting databases; in this case it is required to Answer: (a)
+develop a heterogeneous DDBMS, capable of building a global view of the databasc. .
+Although the problems of heterogeneous DDBMSs are very hard, and therefore really . Roplication should be used when which of the following oxlot?o .
+hetcrogeneous DpBMSs exist onl)‘f as research Prqlolypcs, ru Im‘usl be s}mcd that S FanestoaRiall B hcucky T 4 notwo?: p?ohl;.ltufnzluo:]l
+commercially available systems provide some degree of support for heterogeneily. rofreshing of large tables
+DDMS-16 DDMS-17

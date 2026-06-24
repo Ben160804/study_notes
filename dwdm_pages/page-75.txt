@@ -1,0 +1,44 @@
+| 'DATA WAREHOUSING AND DATA MINING
+,. Explain the concept of distributed data mining. [MODEL QUESTION]
+Answer: i
+| Traditional warehouse-based architectures for data mining suppose to have centralized
+| data repository. Such a c.cntralized approach is fundamentally inappropriate for most of
+-the distributed and ubiquitous data mining applications. In fact, the long response time,
+jack of proper use of distributed resource, and the fundamental characteristic of
+centralized data mining algorithms do not work well in distributed environments. A
+.. calable solution for distributed applications calls for distributed processing of data, '
+. controlled by the available resources and human factors. For example, let us suppose an :
+ad hoc wireless sensor network where the different sensor nodes are monitoring some
+- rime-critical events. Central collection of data from every sensor node may create traffic
+over the limited bandwidth wireless channels and this may also drain a log of power from
+the devices. A distributed architecture for data mining is likely aimed to reduce the
+communication load and also to reduce the battery power more evenly across the
+’ different nodes in the sensor network. -
+One can easily imagine similar needs for distributed computation of data mining
+‘ primitives in ad hoc wireless networks of mobile devices like PDAs, celiphones and
+wearable computers. The wireless domain is not the only example. In fact, most of the
+applications that deal with time-critical distributed data are likely to benefit by paying
+careful attention to the distributed resources for computation, storage, and the cost of
+: communication. As an other example, let us' consider the World Wide Webs: it contains :
+distributed data and computing resources. An increasing number of databases (e.g., X
+weather databases, oceanographic data, etc.) and data streams (e.g., financial data,
+: emerging disease information, etc.) are currently made on-line, and many of them change
+1 frequently. It is easy to think of many applications that require regular monitoring of
+these diverse and distributed sources of data. A distributed approach to analyze this data
+is likely to be more scalable and practical particularly when the application involves a
+- large number of data sites. Hence, in this case we need data mining architectures that pay
+; careful attention to the distribution of data, computing and communication, in order to
+" access and use them in a near optimal fashion. Distributed Data Mining (sometimes
+\ referred by the acronym DDM) consider data mining in this broader context. ‘
+D_DM may also be useful in environments with multiple compute nodes connect over
+high-speed networks. Even if the data can be quickly centralized using the relatively fast
+‘ network, proper balancing of computational load among a cluster of nodes may require a '
+dlstnb_uted approach. The privacy issue is playing an increasingly important role in the
+| E:fl:SgMg data mining applications. For example, let us suppose a consortium of different
+: i collaborating for detecting frauds. !f a antrallzed .solutlon was adopted, all the
+mininmm every bank should pe collected in a S{ngl_e location, to be processed by a data
+‘ < g fujrysltem' Never_theless, in such a case a Distributed Data Mmmg‘sys_ten} should be
+Withot ea ;‘echr}ologlcal choice: both it is able to lean? models from dlstrlbuteq data
+_ fraud by Xc anging the raw data between different repository, ar}d it allows detection of
+é Preserving the privacy of every bank’s customer transaction data.
+DWM-75 i .

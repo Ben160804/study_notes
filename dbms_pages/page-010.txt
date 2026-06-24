@@ -1,0 +1,48 @@
+e BRARARPUSLLA . xisting externa
+O < . ithout having to change existing ex
+& | ossible withou ternal scheme ma
+S conceptual schema Should‘ be Ptin application programs. The e‘j\tcnj Prvrerh y
+e schemas or having to rewrite ex]Sf thge logical scheme. This is especially desirable as the
+i 3 .
+stay unchanged for most Changesd to be modified or newly translated.
+, e ftware does not need 10
+SRy ith hiding the details of
+‘ . Is with hiding the details ¢
+) X al data independence dea =n .
+Physical data independence: Phys|liiations. The application should not be involved with
+the storage structure from user i‘gp ce in the operation carried out against the Qata. The
+these issues, since there is no differen _ hanging the logical schema is called
+0 he physical schema without changing .
+ability to change the phy he internal schema, such as using
+: independence. For example, a change to the I ; ;
+physical data indepen ’ .r storage structures, storage devices, or indexing strategy,
+different file organization o : J Ry
+should be possible without having to change the conceptual or external sc
+. : ' key, Foreign key and Super key.
+2. Explain the terms Candidate key, Primary key g [WBUT 2006, 2017]
+OR,
+in wi le super key, candidate key and primary key.
+Explain with examp p y [WBUT 2013, 2019]
+‘ OR, '
+Explain with examples the term super key, candidate key, primary key and
+~ alternate key. [WBUT 2015]
+Answer: ‘
+: Candidate key
+In the relational model of databases, a candidate key of arelationis a minimal
+| superkey for that relation; that is, a set of attributes such that
+1. the relation does not have two distinct tuples with the same values for these
+attributes (which means that the set of attributes is a superkey)
+2. there is o proper subset of these attributes for which (1) holds (which means that
+the set is minimal).
+Since a relation contains no duplicate tuples, the set .of all its attributes is a superkey if
+kNe[;LL values are not used. It follows that every relation will have at Jeast one candidate
+The candidate ke_ys of a relation tell us a] the possible ways we can identify its tuples. As
+such they are an important concept for the design database schema. )
+Superkey: Asuperkey is defined in the relational mode] of database or anizati
+a set of attributes of a relation variable (relvar) for which it holds a Lok
+assigned to that variable there are no two distinct typ| b AN all relations
+for the attributes i this set. Equivalently 3 UE  ca's) that have the same values
+attributes of a re|yar upon which all attribytes otl"J tpheer r:lyv' o o be defined as 5 set of
+:\}I‘ote tl}at i.f attribute set X is superkey of relvar g thif]az;te f:l?ctt'lonal!y d = Ve,
+: € Projection of R gver g has the same cardinality a5 g itself, o8 1L the case tha
+DBMSCS-]O

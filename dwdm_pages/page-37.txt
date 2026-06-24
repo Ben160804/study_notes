@@ -1,0 +1,44 @@
+DATA WAREHOUSING AND DATA MINING 1
+. Decision tree models are extremely robust to the effect of outliers. This is so because
+‘ the models are constructed in a frequency-based technique where one is counting the
+instances in a split. Outliers that occur in the independent variables do not affect the
+tree growing process because the values used to split each node are not likely to be
+on the outlier values. Outliers in the dependent variable go into their own nodes and
+: do not affect the rest of tree.
+: . Tree models offer several ways of dealing with missing values that can often 1
+, minimize or eliminate the effect of such values on model performance. In many other
+' methods the whole set of instances with missing values would be omitted from
+| analysis. This advantage is present in both the when training the tree model or when
+,' applying the model on new data for class prediction.
+pisadvantages of Decision Tree Models: '
+Decision trees are indeed powerful data mining tools, but they are not perfect and are
+; suited to certain types of problems. The main weaknesses in decision tree modeling are
+listed below:
+. Classification trees can be unstable and small variations in the data (such as that
+made by randomization) can cause very different looking trees being generated. This
+- is especially so in cases where the goodness of splits for the different variables are
+close to each other in value. In this case, a small variation in the data is enough to
+influence the picking of on split over another.
+o Many of these problems are dealt with by using stratified sampling when creating -
+testing and training datasets. In this case, the training and testing datasets have -
+the same class distribution. ,
+o Such problems are also a symptom of a dataset that is too small. In such cases, it
+is important to use the entire dataset to train and test the model. This is the idea '
+behind the cross-validation technique. Since the final model is built on the whole
+dataset, randomization of this same data will not cause too much instability.
+« Some the tree models generated may be very large and complex. This can make the
+model difficult to interpret, understand or justify.
+e Tree models really shine when applied to classification problems; unfortunately, they
+are not very good at estimation tasks(as in regression), i.e. having numerical
+dependent variable.
+« Decision tree models are computationally expensive to train ,
+j ¢) Most algorithms that have been developed for learning decision trees are variations on t
+‘ a core algorithm that employs a top-down, greedy search through the space of possible
+:. S:cmon trees. Decision tree programs construct a decision tree T from a set of training
+'. ses.
+E Constructing Decision Tree using ID3’
+function ID3 ‘
+Input: (R: a set of non-target attributes,
+C: the target attribute,
+S: a training set) returns a decision tree; ,
+, DWM-37 _

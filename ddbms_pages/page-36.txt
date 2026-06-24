@@ -1,0 +1,53 @@
+) .
+—— g : g Jf
+v v
+POPULAR PUBLICATIONS l {
+e ined in the loca
+' fion T is contained in the 106
+) ‘ ansaction of a transac tained in the
+The folowing figure shows the Unilateral Abort flow. : Ira ﬂ:ﬁ "olhcr b ransaction of T must be con
+Trisaction II g:;kpoinls at other sites.
+Manager Manager | [n the case of cold restart ool ]
+(ake the latest availa!alc local c|hfh p: int and re-establish the local states at
+A Paricipant may send ar take the COITCSPOﬂd’mg glb:]bahcclt;() lpﬂ(:
+b:f::imn;c sites according o this global ¢
+m R | Prepared message in Phase , ; . :
+‘ - il b Generaton ofgobal checkpoin be performed when there is no active transaction. The
+" ” The snapshol, the checkpoint must b¢ per hould wait for site B.
+ik xact solution needs a lot of idle time as site A §
+: ¢
+[y ™ e "
+Abort ized checkpoints: o en interval, Every checkpoi
+\ Loosely synchron heckpoint within a given interval. EVETY Ci
+An_by.mrmn. = X The 'sitzs can perform u'cb:n 1-,,30 TM should guarantee (hat'lf a T finishes before
+participant have voted identified by an order num | finishes beforethe local Ci.
+by =1 Lol el of s o bl o gobl hespins
+uArm m'.',ﬁ':. The following figure shows synz onization p Time
+Pt sl ——%
+T; y
+ite 2 \ 7
+2 Explain checkpoint and cold restart of a distributed database system. 4 R el
+[MODEL QUESTION] y
+Answer: Site3 T, G
+Check point: A checkpoint is a synchronization record placed in the log to note a point oy for 2-phase-commitment
+when all concluded transactions are safely on disk. It limits the log segment needed to T nd T, we buctions o et T, Tl’)‘mm 6 :
+recover from a failure, ‘ - 1,Cy, Cs welocal heckpoins(startedfrom sie
+Cold restart: After a fatal failure of the system, the actual consistent state of the DBMS is T Vi m— =READY, C=COMMIT)
+lost. An archived older consistent state is to be recovered. As a2 DDBMS has global == Mesagesof o commanent o (k = READY., .
+consistent state, a site cannot change their state independently from the other sites. Jf one Synchronization problems for global checkpoints
+site has to make cold restart then all of the other sites must make cold restart, QUESTION]
+For each transaction T, the state contains the updates performed by all subtransactions of 3. What i the flat transaction? Explain with example. [MODEL
+T atany site (T is contained in the global state), or it does not contain any of them. Men
+[fthe T transaction is contained in the global state, then all conflicting transactions which | Flat Transaction
+have preceded T in the serialization order, are also contained in the global state, Comsists of ) Bepnumston
+The duration in the ACID concept cannot be guaranteed as the effect of some transactions ~ Computation on local variables not seen by DBMS; hence wi '
+will be lost due to the fatal failure. But all of the transactions before a given point of time be ignored in most future discussion . i
+S it = Access to DBMS using call or statement leyel lnlﬂ"fiCC :
+The consistency requirements are met as recovery replies the earlier consistent o This is transaction schedule; commit applies to these e !
+transactions. . tions I
+The checkpoint de replication notes a point of time when a snapshot is taken about a ‘ ‘})Jp:li:tcml aciwe I
+consistent state of the database system. A global checkpoint is a set of local checkpoi.m ) asingle DBMS Commit
+;hﬁn ux performed at all sites of the system and are synchronized by the following i d: equate for simple applications
+DDMS-71
+DDMS-70
+k - 2

@@ -1,0 +1,42 @@
+DATABASE MANAGEMENT SYSTEM 2
+4 Explain with example su’per key, candidate key and primary key. &:gii
+Gee Topic: ENTITY-RELATIONSHIP MODEL, Short Answer Type Question No. 2. $§§§§
+5. Define BCNF. How does it differ from 3NF? Why is it considered a stronger than 3 NF? &&§§
+- Topic: FUNCTIONAL DEPENDENCIES AND I\'ORMALIZATIO.\', Short Answer Type §§{§§
+Question No- 2- A
+e | RARA
+6. What is the main difference between two-phase locking and the time stamping technique &%{%}
+' concurrency control? Explain briefly. - gsigs
+' See Topic: TRANSACTION PROCESSING, Short Answer Type Question No. 5. :ﬂ:m
+: | RO
+GROUP-C g)'%g
+(Long Answer Type Questions) 2
+7.a) What is mapping constraint ? Describe three-layer architecture of DBMS. q“ﬁ
+b) Draw the ER diagram for the system given as follows: S‘{m
+An organization has number of faculties who are expert in one or more subjects. For each subject, %giﬁ
+numbers of such experts are there, system will store faculty and subject information and must %gg'a
+support query on finding expertise on subjects. Students get enrolled to have training on one or &&%
+more subjects. System will keep student's information also. One faculty is allotted to teach one or ?ég{:is
+more subjects. For one subject only one faculty is assigned. System must keep the information §%§§
+| regarding such assignment. s§§§
+a) See Topic: ENTITY-RELATIONSHIP MODEL, Long Answer Type Question No. 7. 4 &§
+‘ b) See Topic: ENTITY-RELATIONSHIP MODEL, Long Answer Type Question No. 4(a). %ﬁ
+; | | ’w&i
+. 8. a) What is transaction? %’Q
+i b) What is ACID property? . :&
+| ¢) Explain with example serial and serializable schedule. ‘ > N
+l; d) What are the problems of concurrent execution of transaction? k\\ |
+i e) Explain with the help of precedence graph the conflict and non-conflict serializability. %:‘\ ‘
+a) See Topic: TRANSACTION PROCESSING, Long Answer Type Question No. 8(a). - m
+b) See Topic: TRANSACTION PROCESSING, Short Answer Type Question No. 2. ! \S\
+
+¢) See Topic: TRANSACTION PROCESSING, Long Answer Type Question No. §(b). %
+d) See Topic: TRANSACTION PROCESSING, Long Answer Type Question No. 8(c). "&\
+¢) See Topic: TRANSACTION PROCESSING, Long Answer Type Question No. §(d). %;:\
+vy A
+9. a) Explain the terms 'full functional dependency' and ‘multivalued gependency‘ o g %%
+b) Differentiate between 2NF and 3NF. What is lossless decomposition? RN
+©) What is closure? Explain with example. \Q\:\S
+d) What do you mean by integrity constraint? : \Q\\‘tx
+DBMSCS-159 | R
+J : A \ \_"\_H\

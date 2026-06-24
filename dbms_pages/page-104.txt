@@ -1,0 +1,56 @@
+.
+POPULAR PUBLICATIONS :
+Answer: Refer to Question No. 1 of Long Answer Type Questions.
+3. With suitable examples, show how recovery in a database system can be done
+using LOG files with — [WBUT 2010]
+a) immediate upd?tlon
+b) deferred updation.
+Answer:
+a) Immediate Update . A
+Iémediate update, or UNDO/REDO, is another algorithm to support ABORT and
+machine failure scenarios. . .
+
+« While a transaction runs, changes made by that transaction can be written to the
+database at any time. However, the original and the new data being written must
+both be stored in the log BEFORE storing it on the database disk.
+
+e Onacommit: ; .
+
+* « All the updates which has not yet been recorded on the disk is first stored in the
+log file and then flushed to disk. .
+
+« The new data is then recorded in the database itself.
+
+« On an abort, REDO all the changes which that transaction has made to the
+database disk using the log entries.
+
+e On asystem restart after a failure, REDO committed changes from log.
+
+Example
+
+Using immediate update, and the transaction TRANI again, the process is:
+
+Time [Action ___ [LOG |
+
+e |
+
+o i
+
+b) Deferred Update
+
+D§ferred updz'lte, or NO-UNDO/REDO, is an algorithm to support ABORT and machine
+failure scenarios. .
+
+o While a transaction runs, no changes made by that transaction are recorded in the
+
+database.
+On a commit: '
+* The new data %s recorded in a log file and flushed to disk
+, * The new data is then recorded in the database itself. .
+. .
+On an abort, do nothing (the database has not been changed). ‘
+
+® Onasystem restart after a failure, REDO the log.
+
+RS DBMSCS-104 ‘.
+e T gl T A ad v R b et R o fy R LA L KSR ..'.l.rftﬂlﬁl e 5 gj

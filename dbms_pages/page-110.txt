@@ -1,0 +1,69 @@
+|
+
+POPULAR PUBLICATIONS
+
+Answer: .
+
+1* Part: Refer to Question No. 2(a) of Long Answer Type Queslzf)ns.
+
+2™ Part: Refer to Question No. 8.d) of Long Answer Type Questions.
+
+Long Answer Type Questions ‘
+
+1. Discuss the ACID properties of a database transaction. [WBUT 2007)
+
+Answer:
+
+Properties of Transactions ' .
+
+With the help of the abbreviated word ACID the properties of a transaction can be
+
+explained as follows:
+
+1. Atomicity: A transaction is either performed in its entir_etx or not perff)rmed at
+all. The system guarantees this using logging, shadowing, distributed commit,
+
+2. Consistency (Preservation): The complete execution of a transaction takes the
+database from one consistent state to another. The application guarantees this by
+correctly marking transaction boundaries.
+
+3. Isolation: The execution of a transaction is not interfered with by any other
+(concurrent) transactions. It should not make its update values visible to other
+transactions until it is completed successfully. This is guaranteed through locking or
+timestamp-based concurrency control.
+
+4. Durability (Permanency): Changes applied to the database by a committed
+transaction must persist in the database even if the system crashes before all changes
+are reflected by writing updates to stable storage.
+
+2. a) What is a schedule? [WBUT 2007]
+
+Answer: '
+
+Schedule
+
+A schedple S of N transactions le T2, T3,......, Tn is an ordering of operations of the
+
+transactions ,subjec_F to the constraints that for each transaction T1 that participates in S,
+
+the operation of T1 in S must appear in the same order in which they occur in T1.
+
+For example;
+
+Let there be three transactions T1, T2 and T3
+
+T1:RI() [RI(y) | WI(x) [W1(y)|
+
+g : 232()0 I R2(y) | W2(x) [W2(y)|
+
+‘R3(X) [ R3(2) | W3(x)|W3(z)| R3(x)| W3
+Schedules will be | R3Ga) W)
+SI:RI(x), RI(y), WI(x) ,WI(
+
+W2(x),W2(y), R3(x), R3(z) , W3(x). W3 ’
+or
+S1:{T1},{T2}, (T3}
+S2: R1(x) ,R2(x), R3(x), R1(
+’ ’ » R1(y) ,R2(y), R3(2),
+W), W2(x) W3(x), Wi(y), wa(y),
+DBMSCS-110

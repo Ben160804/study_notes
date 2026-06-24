@@ -1,0 +1,36 @@
+POPULAR PUBLICATIONS
+. : B'c,D,E)withthesetofF={A—>C,B—)C,c_,n,
+i e Ss(:;he relation has been decomposed by the relations R1
+DC B) %zc(i_)B;\L?:s l(Jg pE) R4 (C, D, E), R5 (A, E). Is this decomposition lossy or
+fgéslt)ass? Ju’stify your answer. [WBUT 2009, 2010, 2012)
+Answer:
+B & B.oqC D fE |
+Ri{al [bi2_|b13]ad [bIS]
+IRf)rd:r1 to study the lossy or loss less decomposition, we tabulate the decompo§lt10ns
+itr:to a (5 x 5) matrix. Against each available decomposed component we fill with ‘a
+otherwise with ‘b’. Now we proceed to show any of the rows from R1 to RS should be
+converted with all ‘a’ to conclude that the decompositions are lossless. :
+; Step 1
+| B (DB ]
+R1|al |bl2 |3 |ad |DblS .
+4 s a->¢
+al | a2 b23 | b24 | b25 | a>c¢
+R2 a3 | a4 c=>d ;
+R3 | b31 | a2 b33 | b34 | a5 | b>c :
+a*
+D LT N e
+R5|al |[b52 |b53|b54]as
+a3 A
+Step 2 :
+R T R e O |
+) P e 7 T £ G|
+£ e P Y T
+al
+EI_ |
+The decomposition s lossy as none of the row operations leads to all ‘a’s.
+;_a) For a given Relvar R={4,B,C,D,E,F}and set of functional dependencies
+fin;{tlffir_)g,c-;A’BC—’DJACD%B, BE —»C, CE—> FA,CF -»BD,D—>EF},
+reducible set :
+b) Explain the follov::n: ::rnd'd? s kava, , ‘ ‘
+dependency’ with examplesms Partial functional dependency’ and ‘non-transitive
+DBMSCS-72

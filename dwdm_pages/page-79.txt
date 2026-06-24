@@ -1,0 +1,41 @@
+T — e R S ——— 1
+' DATA WAREHOUSING AND DATA MINING
+for client to C_O"P"—Ct at 3:}'\;23 time to get the results. Distributed systems provides support
+where optimization methods to data design and OLAP queries in the data warehouse
+' environ(nffm ShO_Uld be ]mplemented with an objective of supporting the decision makers
+by providing a single i of data. even though that data is physically distributed across
+. multiple data warehouses in multiple systems at different branches . Another work on
+. grid-aware data warehouses is presented in (Lawrence Rau-Chaplin 2006).The OLAP-
+Enabled Grid considers the scenario where the data of a single organization is distributed
+across a n_u'm_ber of OPeratlgnal databases at remote locations. Each operational database .
+has capabilities for answering OLAP queries, and access to a possible variety of other
+computational and storage resources which are located close by. Users who are interested
+~ indoing OLAP on these databases are distributed over the network.
+Below are some new trends and opportunities in data warehousing. '
+. o The “datafication” of the enterprise requires more capable data warehouses.
+o Physical and logical consolidation help reduce costs.
+~ « Hadoop optimizes data warehouse environments.
+-« Customer experience (CX) strategies use realtime analytics to improve marketing
+campaigns.
+o Engineered systems are becoming a preferred approach for large scale information '
+management.
+ « On-demand analytics environments meet the growing demand for rapid prototyping
+and information discovery '
+e Data compression enables higher-volume, higher value analytics
+o In-database analytics simplify analysis ' ‘ :
+. 6. What are recent trends in data mining? [MODEL QUESTION]
+Answer:
+Businesses which have been slow in adopting the process of data mining are now : !
+catching up with the others. Extracting important information through the process of data
+mining is widely used to make critical business decisions. In the coming decade, we can
+- expect data mining to become as ubiquitous as some of the more prevalent technologies
+. used today. -
+Some of the key data mining trends for the future include — o
+- L. Multimedia Data Mining:
+~ This is one of the latest methods which is catching up because of the growing ability to
+~ ¢apture useful data accurately. It involves the extraction of data from different kinds of
+- Mmultimedia sources such as audio, text, hypertext, video, images, etc. and the data is
+?:nvlerted.mto a numerical representation in dlffc.ere_nt fonnats. This method can pe us‘ed
+Clustering and classifications, performing similarity checks, and also to identify
+associations.
+| DWM-79 ‘

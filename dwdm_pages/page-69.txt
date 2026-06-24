@@ -1,0 +1,59 @@
+DATA WAREHOUSING AND DATA MINING
+~ ,nd when they are likely to buy certain products. This information is often used to
+Jetermine where to place certain products and when to put certain products on sale. ‘
+2. Write short notes on the following:
+a) web-Enabled Data Warehouse [WBUT 2011]
+~ p) Arbor Essbase Web [WBUT 2012, 2015, 2017
+c) Automatic Cla.ssllﬁcation of Web Documents [MODEL QUESTION]
+d) Web Usage Mining [MODEL QUESTION]
+Answer:
+
+' a) Web-Enabled Data Warehouse:
+
+Today’s data warehouses are no longer confined to a select group of internal users. Under
+
+: present conditions, corporations need to increase the productivity of all the members in
+
+. the corporation’s value chain. Useful information from the corporate data warehouse
+
+~ must be provided not only to the employees but also to customers, suppliers, and all other '
+| business partners. This new delivery method through the web helps the partners to
+~retrieve, analyze, and share information from the company’s data warehouse. When one
+
+_ web-enables the data warehouse, from the point of view of the users, the key
+requirements are: self-service data access, interactive analysis, high availability and
+
+_ performance, zero-administration client (thin client technology such as Java applets),
+
+: tight security, and unified metadata. Bringing the Web to the warehouse essentially - |
+
+involves capturing the clickstream of all the visitors to your company’s Web site and
+performing all the traditional data warehousing functions. : _
+The company’s effort now involves extraction, transformation, and loading of the
+clickstream data to the Webhouse repository. Clickstream data tracks how people
+proceeded through the company’s Web site, what triggers purchases, what attracts
+people, and what makes them come back.
+
+' b) Arbor Essbase Web:
+
+' ‘The Arbor Essbase Web Gateway is used to develop and deploy intranet and internet
+based Web-enabled applications such as ad-hoc analysis, management reporting,
+
+‘ enterprise information systems, budgeting, sales forecasting. Essbase allows corporations
+
+‘ to deliver OLAP applications directly from operational systems, or within an overall data
+warehousing architecture. Standard Web browsers can be used to access OLAP
+applications developed using the Essbase Web Gateway.
+
+Based upon a true, client/server architecture, Essbase supports multi-user read and write
+
+, access, large-scale data capacity, robust analytical calculations, flexible data navigation
+apd consistent, rapid response times. The Essbase server's open architecture supports
+%llrgct data access using standard spreadsheets or leading third-party query, reporting and
+
+tool.
+¢) Automatic Classification of Web Documents: :
+:n the automatic classification of Web documents, each document is assigned a class
+| E;bel.from a set of predefined topic categories, based on a set of examples of pre-
+Classified documents. For example, Yahoo's taxonomy and its associated documents can -
+| DWM-69

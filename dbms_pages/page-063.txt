@@ -1,0 +1,40 @@
+|
+DATABASE MANAGEMENT SYSTEMS
+And BCNF is 3NF. So i?'s done.
+(Note: If you apply a different set of FDs for the BCNF decomposition, you may get a
+different result.) : .
+[Remark: In case the question also requires the decomposition to be dependency-
+prese!’Vi“g- then: y
+The FDs in standard form above are already minimal cover.
+| Since FDs F—->G.F ——> H, D — 1 are not preserved by the above BCNF decomposition,
+we add FG, FH and DI into the final 3NF decomposition:
+ABCGHI. BF, AE, AD. FG, FH and DI.]
+12. What are the advantages of normalization? [WBUT 2016]
+Answer: :
+Advantages of normalization
+{_ Smaller database: By eliminating duplicate data, you will be able to reduce the overall
+size of the database. -
+2. Better performance:
+a. Narrow tables: Having more fine-tuned tables allows your tables to have less columns
+and allows you to fit more records per data page.
+b. Fewer indexes per table mean faster maintenance tasks such as index rebuilds.
+¢. Only join tables that you need.
+13. What is closure and minimal cover? What is inclusion dependency? ‘
+[WBUT 2017]
+Answer: ' )
+. B part: '
+Closure: Refer to Question No. 8 of Short Answer Type Questions.
+Minimal Cover: |
+R(ABCD), F={A—->BC,B—>C,AB->Dj} '
+A — BC
+AS>B, A—C, BSC, AB=D- ¥
+S moiosn: i)
+A" = ABCD B =BC
+A"=ACD .
+A' = ABCD
+A'=ABC A—D 4
+Thus minimal cover can be summarily defined as:
+a) RHS should not contain more than one attribute
+b) If LHS contains more than one attribute remove one extra attribute
+¢) Remove extra FD’s one by one
+DBMSCS-63

@@ -1,0 +1,50 @@
+DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+opex:liioFm"ng:er::':‘m' J\hee fragments that are obtalr!ed by the above fragmentation beginning of a sector, which simplifies organization and makes it easier o grow ﬁlef.
+P la |lons mselves, so that it is possible to apply the fragmentation Any space left over between the last byte of the file and the first byte of the next sector is
+The rcconsmmg:]v:a): &I‘(’)‘g:i?desh:t the Icorrecmess‘ conditions are satisfied each time, internal fragmentation.
+
+; ained by applying the reconstruction rules i reverse order.
+Example: Consider the same global relation ’ 3, What is data replication? Explain with example. [MODEL QUESTION]
+EMP (EMPNUM, NAME, SAL, TAX, MGRNUM, DEPTINUM) Answer:
+The following i o mi ) Data replication is the design process of deciding which fragments will be replicated.
+ﬁ: ollowing is a mlxed.fragmentauon, which is obtained by applying the vertical ADISTRIBUTED SYSTEM often employs DATA REPLICATIONto ensure a fast
+DEg;)nz;l;gm.)n of the previous example, followed by a horizontal fragmentation on response from databases and to enable the system to be resilient to hardware errors.
+M Replication transparency is the term used to describe the fact that the user should be
+EMP, = SLogpmvumse Pdeonin, vuse woron, oepmu EMP unaware that data is replicated. :
+EMP,=SLivcoermvunas PIseomung s s perma EMP A copy of each_ ﬁ_'agmen.t can be maintaiqed at scve;al sites. Da_ta rgplimtion is the @6|gn
+EMR=SE oo Pl sszisiianbantic ['wmu EMP process of deciding which fragments will be replicated. Replication, or the copying of
+EMP =P apmn xois su. rEMP " data in databases to multiple loc.:ttigns to support distn'blftcd applications, is an important
+new tool for businesses ir building competitive service advantages. New replicator
+Derived fragmentation: Since the process of fragmenting a si ot facilities from several vendors are making this technology much more useful and
+. : * nting a singl J gy
+is a considerable effort, the question is whether sucg;lna ﬁagrgnenmxgi:nm‘:: :: reliomlz practical than it's been in the past. In this article we will go into enough detail on
+further. In fact, there exists a good reason to do so when considering of how picall rplicaion for the reader to undertand the importance of repliction, it benefts and
+relational database schemas are constructed. In general, one finds i for:iyp key some of the related technical issues. While replication or data copying can clearly provide
+relationships., where one relation refers to another relatic;n by using it's piimaryg:ey a)s, B w“h local and therefore much quicker access (0 da t‘he challenge is to Provide
+refe@u. Since qme .relationships carry a specific meaning it is very likely, that this these copies to users so tbat the overa]l systems _op_eme with the same integrity and
+* foreign key relationship will also be used during accesses to the database, i.c. by managemnet ca;l)qcny&hamgvallablc mthamono!lthlc, central model. )
+gxecutingjoin operations over the two relations. This means that the conespondi;xg 'tu.ples ' e e RS e vk ret_:ords exist on two diffreat systems in two
+in the two relations will be jointly accessed. Thus it is of advantage to keep them at the dnﬂ'erent. locations, say New York and Chicago, the system needs to insure that the same
+;ame site in order to reduce communication cost. It is of advantage to "propagate” a I bty spet Ao
+orizontal fragmentation that has been obtained for one relation to other relations that are
+related via a foreign key relationship and to keep later the corresponding fragments at the ; av)‘hWh?t B !:-" advantage’and iadimmta R o ion?
+same site. We call fragments obtained in this way derived horizontal fragments A)nsw:t R i [MODEL QUESTION]
+2. Whatis the data fragmentation? [MODEL QUESTION] mfrﬁc;:: nm;sint}cl;asrzr:t:;iftrig:?fsrzglsgying dhajt?.mofﬁ-cnm lm s
+Answer: . in char f replication which make it appealing are:
+The database may be broken up into logical units called fragments which will be stored at G apliion s tmenton TR B (SOL)satemen.
+. ; . A Replicated transactions are applied in the same order as the rred on the pri
+different sites. The simplest logical units are the tables themselves 5 PP RSO Q0L SOETININAGY,
+. . : de
+Data fragmentation occurs when a piece of data in memory is broken up into man g : o .
+pieces. The de-fragmentation tool is to rearrange blocks on disk so that the bI%cks of eacﬁ The. T lo- detec} Whethﬂ: SR clonne?uon s temporarly
+file are contiguous, There are mainly two types of fragmentation. They are Extemal :)hmlnc]and when the component is available again. When a disruption like this occurs,
+: : : icati hould continue functioning without having to be adjusted
+Fragmentation and Intemnal Fragmentation. ¥ e ; EEAE MIIRE 500 W,
+In the external fragmentation, the free space, that is available for storage is divided into Although the replication server s povwerf and flexdble, i s not casy to sdminisrate
+many small pieces. The slorage space is of‘man Py s Another contributing factor is that the scope and complexity of the database
+e .mi i rgucftcd s YRCILL 'LI S'T:; n fynamlc memory administrator's job expands significantly when replication is involved. The previously
+are ten blocks of 300 E s ofetgree Spa;:e use :r;zglfugﬁsm&cd rea?o:)s'r:)en:p:'cl? Therel independent data servers are now closely related because data is replicated between them.
+allocat the requested block of 1000 byle;. P ¥ BLOnS, O Su1Lcanne :'I:;s l:;f«u:;lx means :.hal 0tbhe data servers have become one large system. Thus, making
+In Internal fragmentation, the space is wasted. it is ofien accepted in return for increased e nistvoy SRS TR
+efficiency or simplicity. For example, in many file systems, files always start at the
+DDMS-20 DDMS-21

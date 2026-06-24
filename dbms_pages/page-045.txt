@@ -1,0 +1,44 @@
+DATABASE MANAGEMENT SYSTEMS
+1. a) What is a trigger? [WBUT 2006, 2007, 2008, 2010, 2012]
+instead of allowing negative a/¢ balances, a bank.deals with overdrafts by setting
+the a/c balance to zero, and creating a loan in the amount of the overdraft (An
+overdraft is an event when a customer’s withdrawal amount exceeds the current
+alc balance of the customer). The bank gives this loan a loan number identical o
+the alc no. of the overdrawn a/c. ,
+Write the trigger in SQL for the above eveat. . [WBUT 2006, 2007, 2008]
+Answer:
+1* part: , _
+SQL trigger is an SQL statements or a set of SQL statements which is stored to be
+activated or fired when an event associating with a database table occurs. The event can
+be any event including INSERT, UPDATE and DELETE. .
+Sometimes a trigger is referred as a special kind of stored procedure in term of procedural
+code inside its body. The difference between a trigger and a stored procedure is that a
+trigger is activated or called when an event happens in a database table, a stored
+procedure must be called explicitly. For example you can have some business logic to do
+before or after inserting a new record in a database table.
+Triggers or stored procedures? It depends on the situation but it is practical that if you
+have no way to get the work done with stored procedure, think about triggers.
+2" Part: -
+Create trigger overdraft_loan on account 4
+for update |
+as
+if inserted.balance <0 , '
+begin
+insert into borrower . X
+- (Select customer ,account_no
+‘ from depositor, inserted where
+inserted.account no=depositor.account.no) ,
+insert into loan values , ,
+(inserted .account_no,inserted.branch name, - inserted.
+Balance) .
+Update account set balance = 0
+i ‘ . From account, inserted :
+Where account.account_no=inserted.account_no .
+End : :
+b) Consider the tables:
+Employee (Emp-code, Emp-Name, Designation, DOJ, BASIC-SAL, Dept-code and
+Dept (Dept-code, Dept-Name) |
+Suppose we want that the clerk in your office should not have access to the details
+of the salaries, but he needs such information as Emp-Name, Designation and
+Dept-Name. Create a view for this clerk. [WBUT 2006, 2008]
+DBMSCS-45

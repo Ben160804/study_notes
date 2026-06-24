@@ -1,0 +1,53 @@
+DATABASE MANAGEMENT SYSTEMS
+subject to other constraints. INSERT, UPDATE, and DELETE are not allowed on read-
+E only VIEWS, but car[_be changed their base tables.
+' An updatable VIEW is one that can have each of its rows associated with exactly one row
+‘ in an underlying base table. When the VIEW is changed, the changes pass through the
+VIEW to that underlying base table unambiguously. Updatable VIEWs in Standard SQL
+are defined only for queries that meet these criteria.
+
+| They are built on only one table
+
+7. No GROUP BY clause
+
+3. No HAVING clause
+
+4. No aggregate functions -
+
+5 No calculated columns ‘
+
+6. No UNION, INTERSECT or EXCEPT
+
+7. No SELECT DISTINCT clause :
+
+8. Any columns excluded from the VIEW must be NULL-able or have a
+DEFAULT clause in the base table, so that a whole row can be constructed for
+insertion.
+
+By implication, the VIEW must also contain a key of the table. In short. we are
+absolutely sure that each row in the VIEW maps back to one and only one row in the base
+table. The major advantage of this limited definition is that it is based on syntax and not _
+semantics. For example, these VIEWs are logically identical.
+¢) Specify the following constraints in SQL using accurate applicable command:
+i) All values of attribute mark in relation enrolment must be within 0 and 100.
+ii) If the value of attribute grade is ‘A’ then the mark must be more than or equal to
+80. If the value of attribute grade is ‘B’ then the mark must be less than 80 but
+greater than or equal to 70. [WBUT 2014]
+; Answer:
+i) SELECT mark
+FROM enrolment
+where mark between 0 and 100
+i) To display the grade for each student:
+Select student_id, (Case when score < 80 then ‘B’ :
+else ‘A’
+end) as grade from marks
+6. Consider the following employee database, primary keys are underlined.
+Employee(employee-name, street, city)
+Works(employee-name, company-name, salary)
+Company(company-name, city)
+Manages(employee-name, manager-name)
+:;r;:til:‘ c?CtJL’s for the queries given below: |
+i Findhe names of all employees who work for )SYZ._ T T
+o all empl_oyees in the database who live in the sam
+tes for which they work.
+DBMSCS-51

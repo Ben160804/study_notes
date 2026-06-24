@@ -1,0 +1,39 @@
+’ DATABASE MANAGEMENT SYSTEMS
+9i What7schema defines how and where the data are organized in a physical data
+storage? [WBUT 2010]
+% a) Exze;nal b) Internal c¢) Conceptual d) None of these
+
+nswer: (c
+10. In ER model () symbol is used for {WBUT 2012]
+» a) att(”t)’“te b) entity c) relation - d) none of these
+nswer: (a ;
+11. What is the cardinality of a table with 1000 rows & 10 columns? [WBUT 201 2]
+‘ p a) 10( ) b) 100 c) 1000 d) none of these
+nswer: (c .
+12. In the relational modes, cardinality is termed as [WBUT 2013, 2019]
+a) number of tuples b) number of attributes
+) number of tables d) number of constraints
+Answer: (a)
+13. The different levels of data abstraction are [WBUT 2015]
+a) physical level b) logical level C) view level d) all of these
+Answer: (d)
+14. Which key cannot be null? [WBUT 2016]
+a) Unique key b) Primary key - c) Super key d) Foreign key
+Answer: (b)
+15. In the E-R diagram the term ‘Cardinality’ is synonymous to [WBUT 2017]
+a) Attribute b) Degree c) Entities d) Cartesian
+Answer: (b)
+16. It is an abstraction through which relationships are treated as higher level
+entities? 4L [WBUT 2018]
+‘ a) generalization b) _specl.ahzatzon
+c) aggregation d) inheritance
+Answer: (¢) '
+_ Short Answer Type Questions
+1. What is the difference between logical data independence and physical data
+independence? iy [WBUT 2006]
+Défine physical data independence and logical data independence. [WBUT 2015]
+Answer: )
+Logical data independence: The ability to change the logxca}l (conceptual) schema
+without changing the External schema (User View) is callgd logical data. mdependence,
+For example, the addition or removal of new entities, attributes, or relationships to the
+' DBMSCS-9

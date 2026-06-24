@@ -1,0 +1,41 @@
+POPULAR PUBLICATIONS
+14. a) Prove or disprove the foll:\;ing_!
+i) if AB-C, A-»D, CD—EF then AB— BUT
+ii) if XW=Y, and XY—Z, then X—(Z-W) [WBUT 2014)
+' Answer: ) 1
+i) Given AB—C => AB->AC [Augmentation] s
+A—-D=>AC->CD - (2)
+By Transitivity from (1) & (2) | )
+AB->CD oo (3)
+Given CD — EF s {4)
+By Transitivity from (3) & (4) AB%I.SF
+==> AB->E, AB>F ---[By Decomposition] oo (3)
+Thus AB->F proved
+ii) if XW—Y, and XY—Z, then X—(Z-W)
+XW-oY => XW-HXY ' (1)
+Given XY—>Z ' S )
+By pseudo transitivity Xw = Z
+The inference X—(Z-W) is false
+b) A table R has attributes P, Q, R, S, T, U, V, W and satisfies the following
+functional dependencies:
+PQR-S, PQ-HU, Q5V, RHW
+‘ i) What are the candidate keys? '
+ii) Is this an irreducible set of functional dependencies? [WBUT 2014]
+Answer:
+PQ-U, Q-vV,
+Given PQR—S
+Augmented PQ—U as PQR->UR
+Augmented R>W as URSUW
+Hence PQRUW
+Thus PQR->SUW
+PQ-U
+Q-HV
+Are the candidate keys and the sets are irreducible
+¢) Consider the relat i
+BECSc, OB I3 Suppoas T»fﬁ'rz;t?’ O E) with the set of F = {A,C, BsC, CoD,
+D), R2(A, B), R3(B, E), R4(C, D E‘;nahzs been decomposed by the relations R1(A,
+lossless? Justify your answer, . >(A E) is this decomposition tonay S
+Answer: , [WBUT 2014]
+Refer to Question No. 9
+@ of Long Answer Type Questions,
+DBMSCS.-78 |

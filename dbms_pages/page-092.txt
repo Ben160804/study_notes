@@ -1,0 +1,40 @@
+POPULAR PUBLICATIONS
+block. There may be em
+; fers to the number of records per _ pty
+SBIZE: tir;gaf gf(t,g\ glgg)i;ean integral number of records do not fit in one block Spanned
+Rpecords* refer to records that exceed the size of one or more blocks and hence span a
+number of blocks. .
++
+: : : -Tree Are
+Difference between the B -Tree and B
+A B-tree of order m is an m-way tree (i.e., a tree where each node may have up to m
+children) in which: _ | 3
+I < The r)1umber of keys in each non-leaf node is one less than the number of its children
+and these keys partition the keys in the children in the fashion of a search tree
+2 All leaves are on the same level _
+3 All non-leaf nodes except the root have at least [ m / 2 | children
+4. The root is either a leaf node, or it has from two to 7 children
+5. A leaf node contains no more than m — 1 keys - ‘
+e The number m should always be odd.
+‘1. B-tree indices are similar to B +tree indices.
+_  Difference is that B-tree eliminates the redundant storage of search key
+values. ’ :
+— In B +-tree of some search key values appear twice.
+.~ — A corresponding B-tree allows search key values to appear only once.
+b PP o
+— Thus we can store the index in less space. :
+P K, P, Borllaelii ) Lok | IS
+‘ (a)
+P B., K" P, By K; o i B S MR S .
+' | (b)
+Leaf and non-leaf node of a B-tree. '
+An example of B-Tree
+A B-tree of order 5 '
+n containing 26 items
+h-‘
+5 T e g g 5
+7 - -
+T "mﬁnr‘rj Besmeviow
+~
+Note that all the leaves are a - """"’ m
+' DBMS(CS-92 '

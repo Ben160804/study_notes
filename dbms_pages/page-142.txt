@@ -1,0 +1,42 @@
+POPULAR PUBLICATIONS
+In this case we say that a physical image is a copy of another physical image, In the
+R1 is a copy of R2. : g :
+Egilresbsloi\"\/, Ly topthe figure of the reference architecture. It is described that the
+ey ol P t the top levels of this architecture. These levels ar
+relationships between the objects & e
+iy dent: therefore, they do not depend on the data model of local DBMSs. At 5
+site independent; eecesS;‘ry to map the physical images to the objects which are
+lowe_r lle\tle(li, blt tl}slenlocal DBMSs. This mapping is called a local mapping schema ang
+g:;nelr;l):ixsa:n th); type of local DBMS; therefore in a heterogeneous system we haye
+different types of local mappings at different sites.
+This architecture provides a very general concept.ual. framework for un.derstanding
+distributed databases. The three most important objectives are the separation of data
+fragmentation and allocation, the control of redundancy and the independence from local
+DBMS:s.
+1. Separating the concept of data fragmentation from the concept of data allocation. This
+sepaiation allows to distinguish two different levels of distribution transparency, namely
+fragmentation transparency and location transparency. Fragmentation transparencx 1s .the
+highest degree of transparency and consists of the fact that the user or application
+programmer works on global relations. Location transparency is a lower degree of
+transparency and requires the user or application programmer to work on fragments
+b instead of global relations; however, the fragment locations are unknown. The separation
+between the concept of fragmentation and allocation is very convenient in distributed
+database design, because the determination of relevant portions of the data is thus
+distinguished from the problem of optimal allocation.
+2. Explicit control of redundancy: The reference architecture provides explicit control of
+redundancy at the fragment level. In the 2nd figure the two physical images R2 and R3 '
+are overlapping; i.e., they contain common data. The definition of disjoint fragments as
+building blocks of physical images allows us to refer explicitly to this overlapping part;
+: the replicated fragment R2. As we shall see, the explicit control over redundancy is useful
+| in several aspects of distributed database management.
+3. Independence from local DBMSs: This feature is called local mapping transparency,
+allows us to study several problems of distributed database management without having
+to take into account the specific data models of local DBMSs. Clearly, in a homogeneous
+system it is possible that the site-independent schema are defined using the same -data
+model as the local DBMSs, thus reducing the complexity of this mapping.
+Ano.the.r type of transparenc.y \jvhich is strictly related to location transparency is
+replication transparency. Replication transparency implies that the user is unaware of the
+replication of fragment_s. Clea.rly, replication transparency is implied by location
+transparency; however In_certain cases it is possible that the user has no location
+transparency but has replication transparency implies use of one particular copy and the
+DBMSCS-142 J

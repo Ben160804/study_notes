@@ -1,0 +1,43 @@
+DISTRIBLTELD DATABASE MANAGEMENT SYSTEM
+o (IMI) .
+ARINUAE NAMEHSAT T YA — awerl
+mmlmml :)'Wo can group engineers into 2 groups according lo (holr salary
+L ' . - < 200,000 nd * 200000 The 2 fragments
+o E T, ", Ve, """—“!:—-- ‘ [ MPy and EMP; are defined:
+| INUM l NANI I DTN ] i T R b [MP, = EMP e PAY,
+WL 1 | "!:}M I l\tlAn'll I m { Mw,f,'w I where
+() et of dating DI TNUM of eployes wih EMPNUM 10p PAY; * o (PAY)
+Iy 2 PAY, = 05 s (PAY)
+2 Dincuss bost fit, all boneficlal Wl yond Energy Algorithim (BEA) has boen wsed for clustering of entiies A finds an
+allooation of fragments, 1o and addonal banetola ate Strategy for :r)stlnu ol onﬁlmu((ln our e tributes) such that the global affinity measure (AM) 1s
+Answor; (MODEL QuesTioN) maxlmized.
+’I';wi:' W’I""“"f AM -)r’z (affinity of A, and A, with their nefghbors)
+04 L
+& Ihis‘:‘h:' b evaluaed ho many accosses ae rquied from the applications ocated '
+B fiy fnput: The AA mairlx
+Where
+fthe frequency of application K at site | Output: The clustered aflinity matrix CA which is a perturbation of AA
+My the number of accesses from application k to fragment 1, Inftiatization: Place and fix one of the columns of AA in CA.
+The site with greatest B value by selected for the (i nm‘m.m | 2 Meration: Place the remaining n-h columns n the remaining 141 positions in the CA
+" matrix. For each column, choose the placement that makes the most contribution to
+All benefictal site approach; ' {he global affinity mensure.
+The goodness of a site Is measured by the benefit of the local read nccesses and {he costs 3. Row order: Order the rows according to the column ordering,
+ol remote update accesses; - '
+By = fun - € X L Lo fitig ¢) All beneficlal sites = In this approach the set of all sites where the benefit ol allocation
+where of one copy of the fragment is higher than the cost, and allocate a copy of the fragment to
+fiy the frequency of application k at site | cach element of this s,
+fi the number of read accesses from application k to fragment | Additional replication - Determine the soluton of the: non-eplicatedproblem.
+Uy the number of update accesses from application k o fragment | Progressively introduce replicated copies startng from the most beneficial; the process is
+Cupdate cost relative (o the read ferminated when no additional replication is beneficinl.
+Additional replica fon approach: 4, Writo short notes on the following: [MODEL QUESTION]
+Beside the costs involved in B, a 5o called reliability factor s contained in the measure 1) Vertical and dorived fragmentation
+{00, This factor increases with the increasing number of replications, b) Fragmontation
+Answer;
+3. a) Considor the two rolation schomas PAY = (TITLE, SAL) and EMP = (ENO, A) Vertical and derived fragmentation:
+ENAME, TITLE) and whoro ownor (L) = PAY and membor (L) = EMP and L Is the link Horizontal Fragmentation: Horizontal fragmentation consists of partitioning the tuples
+botwoon the two relation schemas, Define a dorived horizontal fragmentation on of o global relation into subsets; this is clearly useful in distributed databases, where each
+E"v'; with the prodicates SAL < = 200000 and SAL > 20000, subset can contain data that have common geographical properties. It can be defined by
+) Writo the BEA algorithm for vertical fragmentation, expressing each fragment as a selection operation on the global relation,
+¢) Discuss “all bonoficlal sitos” and “additional replication” mothods for replicated Example: let a global relation be
+allocation of horlzontal fragments, [MODEL QUESTION] SUPPLIER (SNUM, NAME, CITY)
+DDMS-28 DDMS-29

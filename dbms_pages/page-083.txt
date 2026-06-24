@@ -1,0 +1,40 @@
+DATABASE MANAGEMENT SYSTEMS
+swer:
+é]':) cure of (AD) |
+FD:{B_aCD.D—»E,B—)A.E—-)C,AB-—)B} |
+Given:
+AD)+=EDABC {By augmentation and E->C, AB->B}
+| EAB)*:BACDE
+| (A=A
+Closure of (AD)Y is [ABCDEL ciuicos s fanirh fra s st it it it
+There can be 24 Super keys, however,
+AD and AB are candidate keys. ... . coriirmne il
+| FZ{A_,C,AC-»D,E—»AD,E—)H}
+Closure of F'=(EH) considering E>H
+=(ACDEH) considering E2AD, A>C
+Similarly
+Closure of G'=(EAH) considering E>AH
+=(ACDEH) considering A>CD
+Thus F* and G™ are equivalent................ccoceveviieniieennnens. (€)
+19.a) If R=(4, B,C, D) and the FDs are {4B— CE,E— AB,C — D}.Why R isin
+2NF, but not in 3NF? Explain.
+b) Show that if a relation schema is in BCNF, then it is in 3NF but if a relation :
+schema is in 3NF then it is not necessary in BCNF. Give examples. [WBUT 2017]
+Answer:
+a) AB>CE, E>AB, C>D
+Applying Armstrong:
+- AB=2C (D)
+AB2E (2 ,
+E>AB g :
+C->D ) :
+Closure of (AB) is
+(AB)+=CEABD, which implies AB is a candidate key.
+No (4) shows transitive dependency exists between C and D.
+Thus it is in 2NF but not in 3NF
+b) Relations that are in 3NF are also in BCNF. But, a 3NF relation is not in BCNF.A
+SChC"}a R is in BCNF with respect to a setF of functional dependencies, if for all
+| tfx'\c;‘Onal.dEpendencies in F+ of the form a—p, where « SR and B & R, at least one of
+| q: ol!ow!ng hqlds:
+oy E I8 trivial (i.e..p Sa).
+Super key for R.
+DBMSCS-83

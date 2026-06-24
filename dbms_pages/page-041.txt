@@ -1,0 +1,43 @@
+DATABASE MANAGEMENT SYSTEMS
+13. What is the name of a trigger that triggers that triggers itself?
+: . : ‘ [WBUT 2014, 2017}
+\ a) Triggering trigger b) Cascading trigger
+c) Mutating trigger d) None of the above
+Answer: (b)
+14, DML stands'for ' [WBUT 2015]
+a) Data Manipulation Language b) Data Media Language
+c) both (a) & (b) d) none of these
+‘ Answer: (a)
+15. Which data type can store unstructured data? : WBuUT 2016]
+a) Raw b) Char ¢) Numeric d) Varchar
+Answer: (a) '
+16. The language that requires a user to specify the data to be retrieved without
+specifying how to get it is [WBUT 2018]
+L a) procedural DML b) non procedural DML
+l c) procedural DDL d) non-procedural DDL
+’ Answer: (b) y
+17. The rule that a value of a foreign key must appear as 2 value of some specific
+table is called a [WBUT 2018]
+a) referential constraint b) index
+c) integrity constraint d) functional dependency
+Answer: (a) ‘
+18. The clause in SQL that specifies that the query result should be sorted in
+ascending or descending order based on the values of one or more column is
+. [WBUT 2018]
+a) view b) order by c) group by d) having
+Answer: (b)
+Short Answer Type Questions
+1. Explain the terms View. [WBUT 2006, 2008, 2012]
+Answer:
+A view is a relation (virtual rather than base) and can be used in query expressions, that
+is, queries can be written-using the view as a relation. In other words, a view is a named
+table that is represented, not by its own physically separate stored data. but by its
+definition in terms of other named tables (base tables or views). The base relations on
+which a view is based are sometimes called the existing relations. The definition of a
+view in a create view statement is stored in the system catalog. The syntax to create a
+view is: ‘ A
+CREATE [OR REPLACE] VIEW <view_name> [(<aliases>) ] As
+<query> WITH {READ ONLY|CHECK OPTION [CONSTRAINT
+<constraint_name>] }
+DBMSCS-41
+. - L e e X b gl et s DRt b il gL T et - gt il

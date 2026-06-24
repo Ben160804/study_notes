@@ -1,0 +1,39 @@
+DATABASE MANAGEMENT SYSTEMS
+(supplier_no, part_no) - supplier name
+(supplier_name, part_no) => quantity
+(supplier_name, part_no) =2 supplier_no
+supplier_name -> supplier_no
+supplier_no -> supplier_name
+Although supplier_name — supplier_no (and vice versa), supplier_no is not a non-key
+column and is part of the primary key. Hence this relation tecEnically satisfies the
+definition(s) of 3NF.
+Decomposition (into BCNF):
+SUPPLIER_ID (supplier_no, supplier_name) ‘
+SUPPLIER_PARTS (supplier_no, part_no, quantity)
+5. What is lossless decomposition? [WBUT 2011, 2013]
+
+OR,
+Give an example of table decomposition which is not lossless. [WBUT 2014]
+Answer:
+Lossless decomposition: :
+Any relation when decomposed in to two or more relations the primary objective is to
+ensure that it should be Loss less. In order to do that the following functional
+dependencies are checked. Let us assume that the parent relation R be decomposed into
+R1 and R2. F be a set of functional dependencies in R. F is the closure of R holding any
+of the following functional dependencies:
+R1 M R2 2RI
+Rl M R2 2R2 ‘
+The relational expressions above ensures that the attributes participates in the natural
+join (R1MR2) is a candidate key for one of the two relations and the chance of .
+generating unwanted tuples is also ruled out. For example;
+-
+Let R={contractno, hotelno, location} : A
+Let R1={ Cntractno, Hotelno }, R2= {HotelNo, location}, where Cntractno and Hotelno
+are the primary keys of the decomposed relations R1 and R2 respectively.
+The closure F* is {R} above. :
+Let us apply the dependency rule above
+Rl M R2= {contractno, hotelno} (M {HotelNo, location}>R2-> Hotelno
+Is the primary key of R2. Finally the loss less decomposed relations are:
+ContractNoHoteINoC 1024 HotelNoLocationH25Delhi
+H25C1025H04R | HO4MumbaiR2
+t DBMSCS-59

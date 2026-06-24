@@ -1,0 +1,43 @@
+DATA WAREHOUSING AND DATA MINING
+are optimized for addition, updating and deletion of data in a real-time Online
+Transaction System.
+These dimensional and relational models have their unique way of data storage that has -
+specific advantages. . .
+For instance, in the relational mode, normalization and ER models reduce redundancy in '
+data. On the contrary, dimensional model arranges data in such a way that it is easier to
+retrieve information and generate reports. ]
+Hence, Dimensional models are used in data warehouse syétems and not a good fit for
+relational systems. ) _
+b) Generalized Association Rule: |
+In most real-life applications taxonomies (is-a hierarchies) over the items are available. |
+, In general, a taxonomy can be represented as a directed acyclic graph (DAG). Given a |
+set of transactions T each of which is a set of items, and a taxonomy Tax, the problem of ;
+mining generalized association rules is to discover all rules of the form X 2 Y, with the
+' user-specified minimum support and minimum confidence. X and Y can be sets of items
+at any level of the taxonomy, such that no item in Y is an ancestor of any item in X. For
+example, there might be a rule which says that "S0% of transactions that contain Soft
+drinks also contain Snacks; 5% of all transactions contain both these items"
+¢) PAM Clustering Technique: ‘
+PAM stands for “partition around medoids”. The algorithm is intended to find a sequence
+of objects called medoids that are centrally located in clusters. Objects that are tentatively ‘
+defined as medoids are placed into a set S of selected objects. ‘
+If O is the set of objects that the set U = O — S is the set of unselected objects. The goal of
+the algorithm is to minimize the average dissimilarity of objects to their closest selected
+object. Equivalently, we can minimize the sum of the dissimilarities between object and |
+‘ their closest selected object.
+The algorithm has two phases: :
+(i) In the first phase, BUILD, a collection of k objects are selected for an initial set S. ‘
+' (ii) In the second phase, SWAP, one tries to improve the quality of the clustering by ‘
+. exchanging selected objects with uniselected objects. j
+The goal of the algorithm is to minimize the average dissimilarity of objects to their
+closest selected object. Equivalently, we can minimize the sum of the dissimilarities
+E- between object and their closest selected object.
+, dTLgLA;_{ANS clust.erigg algorithm vis-ﬁ-\fis PAM and CLARA: - ,
+| poin?sle lOd]: searching in PAM or CLARA is abstracted as searching k subgra}phs from n
+CLA REEIS) ,Cand be_lsed on this unfier§tand1ng, a PAM-like clus-tering algorlt‘hm called
+While PAM( lustering Large Applications based upon RANdomized Search) is defined. :
+Eniik st searches the whole graph and CLARA searcheg some ra-ndo.m sub-graphs,
+e Crlajndomly samples a se-t and .select's k med01ds- in chmblpg sub-graph
+medoids, | ARANS selects the neighboring objects of medoids as capdxdates of new
+- It samples subsets to verify medoids in multiple times to avoid bad samples.
+| DWM-33

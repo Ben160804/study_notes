@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS E
+Answer:
+Create view E-view as : ‘
+select Emp-name, designation, Dept -name "
+from Employee, Dept : : . pept-code; :
+where Employee. Dept-coae = Depct - . .
+i database? )
+. G : introduced into the
+2. List two reasons why ‘null’ values might be int (wBUT mq
+PRSI . . : . value in a column is unknown q‘:‘
+A null value in a relational database is used when the vait time data types) N
+missing. A null is neither an empty string (for character of date U i 3
+zero value (for numeric data types). : own It ‘i
+NULL is often used in places where a value is optional or unknown. arbi .
+convenient way of omitting data without having 10 resort to strange or dnmyﬂ 4
+conventions, such as storing negative values in an integer field to represent omitte dm |
+While your system requirements may change over time. the connotation of NULL 13-‘
+always NULL.
+3. a) Consider the following relations and write queries in SQL: 3
+Flights (flno, from, to, distance, departs, arrives, price) o
+Aircraft (aid, aname, cruising_range) -
+Certified (eid, aid) ,
+Employees (eid, ename, salary) |
+i) Identify the flights that can be piloted by every pilot whose salary is more than
+$1,00,000. 1
+ii) Find the eids of employees who make the second highest salary.
+iii) Print the names.and salary of every non-pilot whose salary is more than the 3
+average salary for pilots.
+iv) For all aircraft with cruising_range over 1000 miles, find the name of the aircraft 1
+and the average salary of all pilots certified for this aircraft.
+miles but are n y g aircraft. [WBUT 2010, 2012]
+Answer: ; E
+) E
+SELECT E.ename :
+_ FROM Aircraft A, Certi_ed C, Employees E, Flights F .
+WHERE A.aid = C.aid AND E.eid = C.eid AND E
+distance<cruisingrange AND salary >100, 000 -
+ii) :
+SELECT E.eid . |
+FROM Employees E N
+WHERE E.salary = ( SelectMAX (E2.salary) g
+FROM Employees E2 ) ' _ -,
+| DBMSCS-46 E

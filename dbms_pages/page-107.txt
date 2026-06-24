@@ -1,0 +1,43 @@
+V EESET CLC AR T R T e aSege s
+DATABASE MANAGEMENT SYSTEMS
+.d phase starts. In this phase a t i
+;zlee ;I;:;S ; g’c acqgircd L p ransaction cannot demand for any lock but only
+Two phase locking has two P_haSCS_, one is growing; where all locks are being acquired by
+(ransaction and §econd one is shrinking, where locks held by the transaction are being
+released. To claim an exc1u§|ve (write) lock, a transaction must first acquire a shared
+‘ (read) lock and then upgrade it to exclusive lock.
+Time stamp based protocols
+The most com_monly used'concurrency protocol is time-stamp based protocol. This -
+protocol uses glther system time or logical counter to be used as a time-stamp.
+Every transaction has a time-stamp associated with it and the ordering is determined by
+the age of the transaction. A transaction created at 0004 clock time would be older than
+a1l other transaction, which come after it. For example, any transaction 'y' entering the
+| system at 000.6 is two seconds younger and priority may be given to the older one.
+| The major difference between 2PL and Time stamp is that in lock based protocols
+manage the order between conflicting pairs among transaction at the time of execution
+whereas time-stamp based protocols start working as soon as transaction is created.
+Besides, every data item is given the latest read and write-timestamp. This lets the system
+know, when last read was and write operation made on the data item.
+6. What do you mean by transaction? Explain the transaction states. [WBUT 2016]
+Answer:
+1 Part: Refer to Question No. 8(a) of Long Answer Type Questions.
+2" part: Refer to Question No. 13(c) of Long Answer Type Questions.
+7. Explain log based recovery and checkpoints. [WBUT 2016]
+Answer:
+Log based recovery: In this method, log of each transaction is maintained in some stable
+storage, so that in case of any failure, it can be recovered from there to recover the
+database. But storing the logs should be done before applying the actual transaction on
+the database.
+Every log in this case will have informations like what transaction is being executed,
+- which values have been modified to which value, and state of the transaction. All these -
+i log _information will be stored in the order of execution.
+' Checkpoints: Checkpoint acts like a bookmark. During the execution of transaction,
+i such checkpoints are marked and transaction 1s executed. The log files will be created as
+' usual with the steps of transactions. When it reaches the checkpoint, the transaction will
+be updated into database and all the logs (il that point will be removed from file. Log
+files then are updated with new steps of transaction till next checkpoint and so on. Here
+care should be taken to create a checkpoint because, if any checkpoints are created before
+any transaction is complete fully, and data is upd‘ated to database, it will not meet _the
+purpose of the log file and checkpoint. If checkpoints are c_reat.ed when each transaction
+is complete or where the database is at consistent state, then it will be useful.
+DBMSCS-107

@@ -1,0 +1,48 @@
+S ised vs. unsupervised learning: : _ _ 'I
+zup‘:rlr)'?i:cl:i: So, if yog are training your machine lea.mmg.tasbt f‘l’)‘i CVery Input wigp
+corresponding target, 1t1s - loorithm seeks's o target
+for any new input after sufficient training. Your learning a §°_ gt ﬂm‘} tion
+inputs' to the respective targets. If the targets are expfessse lirsl scontinuo uies’itn Is ca _ '
+classification problem. Alternatively, if the target spa M ed
+regression problem. ‘ % . . learning task only N 8
+Unsupervised: Contrary, if you are training your maghme i t% find thz
+inputs, it is called unsupervised learning, which ‘Wl” rt:Zn? Snsupel'ViS . -:»U“Ct}n-.
+relationships between different inputs. Most lmiz: id will be able topus s
+clustering, which will create different cluster of inputs a put any n
+input in appropriate cluster. e
+8. What is sequential pattern mining in data stream? [MODEL QUES
+Answer: : _
+Sequential pattern mining is tryiqg to find rf:latlonshlps between occurrences o
+sequential events, to find if there exists ar.ly.SpeCl.ﬁC order of the occurrences. 3_;1.7
+find the sequential patterns of specific individual items also we can find the sequential
+patterns across different items. i
+Application: - <
+« Sequential pattern mining is widely used in analyzing of DNA sequence. ©
+« Sequential pattern can be widely used in different areas, such as mining user
+access patterns for the web sites, using the history of symptoms to predict certain
+’ kind of disease, also by using sequential pattern mining, the retailers can make
+' the inventory control more efficient. .
+Challenges on Sequential pattern mining: il F
+e A hu.ge.: number of possible sequential patterns are hidden in databases. -;
+e A mining algorithm should find the complete set of patterns, be highly efficien
+scalable. o
+9. What is frequent pattern mining in data strea -3
+Answer: [MODEL QUE
+equent Pattern Mining (AKA Association Rule Mining) is an analytical process th
+finds frequent patterns, associations, or | Lo e
+: ) » Or causal structures from data sets found in varl
+kinds of databases such as relational datab '
+B0 i o s s cirt lal databases, transactional databases, and other &
+to predict the occurrence of :;1;:5;[;_100“?{ this process aims to find the.fules (SN
+iy item based on the occurrence of other items i
+Let’s look at an example of F . o L
+5 requent Pattern Mini : . pri
+the terminology used in this type of analysi Ml\r;;ng_ First, we will want to unders
+factors used in this technique, for this examyl 's. While there are numerous metiS
+Support and Confidence. ple, we will only consider two factors na
+Support: The su - S0
+: pport of a rule x -> } e
+defined as the proportion of tra ¥ (where x and y are each items/events @
+p ol transactions in the data set whi tai item s
+| ich contain the item §
+DWM64 L "“0 ,." -“’

@@ -1,0 +1,33 @@
+P
+
+POPULAR PUBLICATIONS R
+
+Strong rules are: ‘ L
+With the confidence threshold set to 70%, the Strong Association Rules are:
+1,21,(0.6, .75), .
+L2 1, (0.6, 0.75),
+2>1,(0.4,1) R
+I21,(0.4,1) k.
+b) CLS constructs a decision tree that attempts to minimize the cost of classifyine :.1".i
+object. This cost has components of two types: the measyremer.lt cost of determinip )
+value of property A exhibited by the object, and the misclassification cost of ¢ 2cidin
+that the object belongs to class J when its real class is K. CLS uses a look-.at.;ead
+similar to minimax. At each stage, CLS explores the space of possible decision trees f
+fixed depth, chooses an action to minimize cost in this limited space, then moves g
+
+level down in the tree. Depending on the depth of look-ahead chosen, CLS can reg uir
+substantial amount of computation, but has been able to unearth subtle patterns
+objects shown to it. S
+6. Explain Siicing, Dicing, Roll-up and Drill-down with a suitable example.
+Answer: pE
+Consider the following cube illustrating temperature of certain days recorded weekly:
+_ Slice performs a selection on one dimension of the given cube, thus resulting in
+subcube. » Sl
+In the cube example above, if we make the selection, temperature=cool we will obtain
+following cube: e
+
+o R X e "3
+
+' 'Cl;il:e::ic:nso?:ratlno‘n defines a .subcpbe by performing a selection on two OF
+- Applying the selection (time = day 3 OR time = day 4) AND (tempet
+DWM-58 o

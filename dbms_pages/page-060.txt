@@ -1,0 +1,37 @@
+6. Consider relation R (A, B, C) and a set of function dependencies [WBUT 201 1
+F = {A>BC, B-C, A-B, AB—C} Compute the canonical cover for F.
+Answer: '
+A canonical cover F, for F is a set of dependencies such that E: A
+Logically implies all dependencies in F. and F. logically implies all dependencies in F,
+moreover ‘ :
+— No functional dependency in F. contains an extrancous attribute.
+_ Each left side of a functional dependency in F is unique.
+R=(A,B,C) \
+F=A>BC,B=2C,A>B,AB>C
+Let us combine A BC and A 2 B into A —)-BC 4
+A is extraneous in AB > C because B> C logically lmp11§5 AB - C.
+C is extraneous in A>BC, since A>BC is logically implied by A>B and B->C.
+The canonical cover is:
+A->Band B>C i i
+7. Compare between 3NF and BCNF with example. WBUT 2012]
+Answer: :
+i) In case of 3NF all the determinant cannot | i) In case of BCNF all the determinant must
+be candidate key. be candidate key.
+iii) 3NF is normal form in which the table is | iii) BCNF is a normal form in which for
+in 2NF and every non-prime attribute is non- | every one of a table’s non-trivial functional
+transitively dependent on every key in the | dependencies, is a super key.
+table. '
+8. What do you mean by closure? : [WBUT 2013]
+Answer: ‘
+Thc? closu.re ot_‘ a set I of functional dependencies is the set of all functional dependencies
+logically implied by F. We denote the closure of F by F+.
+9. Suppose that we decompose the schema, :
+R=(4,B,C,D) into (4,B,C) and (4,D,F). [WBUT 2013]
+Show that this d ition i 9 . |
+i s B ecomposition is lossless decomposition, if the following set of F
+A—>BC,CD—>E,B—>D,E—> 4. e
+Answer: j
+-Iﬂm
+E P S e ey ’
+Using thg relation A>BC; implies A-B, A-)é3 s [8 ;
+DBMSCS-60 ﬁ

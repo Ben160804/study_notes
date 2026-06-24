@@ -1,0 +1,2840 @@
+DATA WAREHOUSING AND
+*NG :
+Introduction to Data Warehousing o
+~ (lassification and Prediction of Data Warehousing 20
+Mining Time Series Data 35
+~ Mining Data Streams | 48
+. Web Mining 66
+Recent Trends in Distributed Warehousing 72
+NOTE:
+MAKAUT course structure-and syllabus of 6" semester has been changed from 2021.
+Previously DATA WAREHOUSING AND DATA MINING was in 7" semester. This
+‘ | subject has been redesigned and shifted in 6" semester as per present curriculum.
+Subject organization has been changed slightly. Taking special care of this matter we
+| are providing the relevant MAKAUT university solutions and some model questions &
+answers for newly introduced topics, so that students can get an idea about university
+' Questions patterns. : " :
+R A TR
+POPULAR PUBLICATIONS ' _ “39;5;
+p »;;f’!'f“
+INTRODUCTION TO DATA WAREHOUSING
+Multiple Choice Type & uestions |
+1. A data warehouse is an integrated collection of data because [WBUT 2009, 2015
+a) Itisa collection of data of different types .
+b) Itisa collection of data derived from multiple sources
+c) ltisa relational database
+d) It contains summarized data
+Answer: (b) ‘ b
+is sai ' ‘subj ' * collection of data
+2. A data warehouse is said to contain a ‘subject oriented’ col i
+because [WBUT 2009, 2013]
+. a) Its contents have a common theme g
+b) Itis built fora specific application n
+c¢) It cannot support multiple subjects &
+d) Itis a generalization of ‘object-oriented’ | -
+Answer: (a) i |
+3. A Data warehouse is said to be contain in time-varying collection of data j
+because [WBUT 2010, 2013, 2015]
+| a) Its content vary automatically with time _ i
+b) Its life-span is very limited i
+¢) Every key structure of data warehouse contains either implicitly or
+: explicitly an element of time e
+d) Its content has explicit time-stamp : i
+Answer: (¢) g
+4. Data Wa.n_ahousing is used for : [WBUT 2010, 2012]
+a) Decision Supp.ort §ystem b) OLTP applications B
+' c) Database appiications d) Data Manipulation applications - ol
+. Answer: (a) PP , g
+5. Which of the following is TRUE? ‘ ! ’
+la); ED)a:a warehouse can be used for analytical processing omBUT 2010, 2012] | ;
+3 :;y‘:i’:;f?;::::si?:gbe used for information processing (query, report) and *‘
+c) Data warehouse can be used inin . o ??“
+d) Data warehouse can be use:jo;:ratiifr::z:gg o i port), "{
+_ " analytical processing and data‘mirin on processing (query, repotts -
+Answer: (d) , g .
+6. Data warehouse . L e ; ‘.‘H'l
+; data warehouse architecture is Just an over guideline. It is not a blueprint for !
+a) True 2 “wauT 2011]
+Answer: (b) b) False r\
+DM‘_AWARMM_A&QAIAM
+‘ The most distinguishing characteristic of DSS data is [(WBUT 2011]
+L a) Granularity b) Timespan c) Dimensionality d) Data currency
+» Answcr: (c) 5
+A data warehouse is built as a separate repository of data, different from the
+8. prational data of an enterprise because [WBUT 2012, 2013]
+o a) It is necessary to keep the operational data free of any warehouse
+operations ) ;
+p) Adata warehouse cannot afford to allow corrupted data within it
+c) A data warehouse contains summarized data whereas the operational
+database contains transactional data
+d) None of these : .
+Answer: (€) .
+9. Dimension data within a warehouse exhibits which one of the following
+properties? < [WBUT 2012, 2015]
+a) Dimension data consists of the minor part of the warehouse
+b) The aggregated information is actually dimension data
+‘ c) It contains historical data :
+d) Dimension data is the information that is used to analyze the elemental
+transaction
+Answer: (b) : '
+: 10. A data warehouse is said to contain a ‘time-varying’ collection of data because
+a) its content has explicit time-stamp [WBUT 2014, 2015, 2016, 2017]
+b) its life-span is very limited :
+c) it contains historical data
+d) it contents vary automatically with time
+Answer: (¢)
+1. The important aspect of the data warehouse environment is that data found
+within the data warehouse is [WBUT 2016, 2018]
+3) subject-oriented b) time-variant
+¢) integrated ~ d) all of these
+Answer: (a) :
+12. Data warehousing is used for - [WBUT 2016]
+, 2; geclsmn support system b) OLAP applications
+- Answ’eraza;)ase applications d) Data manipulation applications
++(a
+Collagge;oer 18 @ subject-oriented, integrated, time-variant, non-volatile
+on of data T 201 ,
+3) Data Mini | D
+ng si " :
+¢) Document Mini b) Data Warehousing ¥k
+| | DWM-3 L
+POPULAR PUBLICATIONS %
+ol
+1. Define Data Marts. wBuUT 23%91: gg;g’ gg: ;’ gg:: f’ mq '
+Define the types of Data Marts. _ w ' d » 4018 £
+Answer: !
+" t: -’ . ol
+}\ ;::; mart is a group of subjects that are organized in a way that allows them to assist |
+: : : fc le. the advertising department wij]
+departments in making specific decisions. For example, o haves detsanu 4
+; SEE .
+have its own data mart, while the finance department ‘Vlvll - a b oft 18 ]
+separate from it. In addition to this, each department Wil ave ? p the ' 3!']
+software, hardware, and other components that make up their data mart. i
+2" Part: . 5
+There are two types of Data Marts: -‘
+. Independe)l,llz data marts — sources from data.i capturf?d form OLTP system, extm
+providers or from data generated locally within a particular department or geographic
+area. . i
+e Dependent data mart — sources directly form enterprise data warehouses. *
+2. Define data mining. What is the advantages data mining over traditional j
+approaches? ' . [WBUT 2009] %
+Answer: i!
+1* Part: | ; 3
+Data mining, which is also known as knowledge discovery, is one of the most popular 4
+topics in information technology. It concerns the process of automatically extracting 4
+useful information and has the promise of discovering hidden relationships that existin
+large databases. These relationships represent valuable knowledge that is crucial for =
+many applications. Data mining is not confined to the analysis of data stored in data ]
+warchouses. It may analyze data existing at more detailed granularities than the
+| sutiarized data provided in a data warehouse. It may also analyze transactional, textual, i
+s'patial, and multimedia data which are difficult to model with current multidimensional
+dataha ¢ (echnology. i
+2* Part: g
+| l\7:’;ch t_f:?-hélcpb(l)ll:; :data rtnini?g, }cl)rganiz.ations are in a better position to predict the future ;;
+traditional approaéhes Svil ] ‘ ztmb t T) type of customers that could be approached. The g
+AP Ao O mar'm g able to generate §Uf:h accurate resp!ts as they U; 4
+BPDIOACHAS By abi (v 1rs ot {io-f-'guvam'aﬁi of data mining over a traditional statistical E
+The advartages of data mining helps the businecses oot cs o
+and help in a lot of other areas like gata oo grow heip (gl S bﬁwﬂ i
+management. e
+i
+
+3. what is the importance of Asaociatior:) I;ulu in Data mining? [WBUT 2009]
+
+gxplain support, confidence, frequent item set and give a formal definition of
+
+association rule. e [WBUT 2013]
+
+Wwhat is an Association Rule? Define Support, Confidence, Item set and Frequent
+
+item set in Association Rule Mining? ‘ / [WBUT 2017]
+
+- Answer:
+
+To illustrate the concepts, we use a small example from the supermarket domain. The set
+
+of items is I = {milk, bread, butter, beer} and a small database containing the items is
+
+shown in Table below.
+
+e
+:
+2 Bread, butter .
+' 3 Beer
+‘ 4 Milk, bread, butter
+5 Bread, butter
+, An example supermarket database with five transactions. '
+
+An example rule for the supermarket could be {milk, bread} =» {butter} meaning that if
+
+milk and bread is bought, customers also buy butter. To select interesting rules from the
+
+set of all possible rules, constraints on various measures of significance and interest can
+
+be used. The best-known constraints are minimum thresholds on support and confidence.
+
+The support supp(X) of an itemset X is defined as the proportion of transactions in the
+
+data set which contain the itemset. In the example database in Table 1, the itemset {milk,
+
+bread} has a support of 2/5 = 0.4 since it occurs in 40% of all transactions (2 out of 5
+
+transactions).
+
+The confidence of a rule is defined conf(X ) Y) = supp(X [ Y)/supp(X). For example, the
+
+rule {milk, bread}) {butter} has a confidence of 0.2/0.4 = 0.5 in the database in the Table,
+
+which means that for 50% of the transactions containing milk and bread the rule is -
+
+correct. Confidence can be interpreted as an estimate of the probability P(Y [X), the
+
+probability of finding the RHS of the rule in transactions under the condition that these
+
+- transactions also contain the LHS. ,
+
+In many (but not all) situations, we only care about association rules or causalities :
+
+involving sets of items that appear frequently in baskets. For example, we cannot run a
+
+gqod marketing strategy involving items that no one buys anyway. Thus, much data
+
+mining starts with the assumption that we only care about sets of items with high support; .
+
+Le., t_hey appear together in many baskets. We then find association rules or causalities
+
+only involving a high-support set of items must appear in at least a certain percent of the
+
+baskets, .called the support threshold. We use the term frequent itemset for “a set S that
+
+gpglears ]1; at least fraction s of the baskets," where s is some chosen constant, typically
+
+V10r 1%, '
+
+/grslzouatlon rules are statements of the form {X,X,, ...,Xa} Y , meaning that ifwc :
+, a“,O_thxz,...x,, in the market basket, then we have a good chance of nding Y . The
+_t l\Jvrobabxhty of finding Y for us to accept this rule is the condence of the rule. T
+ould search only for rules that had confidence above a certz ,ﬁ- eshol
+4. State the differences between Data Mart & Warehouse. [WBUT 2010, 2015]
+Answer: - , .
+A data warehouse has a structure which is separate from a data mart, even tl‘lm@ ey
+may look similar. Because of this, it is difﬁculttq coordinate the data across r ult ;
+departments. Each department will have its own view of how a data mart shou.dq ook,
+The data mart that they use will be specific to them. In 'contrast, a data warehouse is
+designed around the organization as a whole. Instead of being owned by one departme; .,
+a data warehouse will generally be owned by the entire company. While ,;
+contained in data warehouses are granular, the information contained in data marts is n *
+ve anular at all. ; i
+Argtﬁrer thing that separates data warehouses from d_ata marts is that data warehous "i*
+contain larger amounts of information. The information that is helq by data marts e
+often summarized. Data warehouses will not contain infonnatlop that 1s b_lased on the p
+of the department. Instead, it will demonstrate the infom'xatmn t.hat is analyzed an
+processed by the organization. Much of the information that is he!d in data warehouses is 2
+historical in nature, and they are designed to process this information.
+. 5. When is a Data Mart appropriate? [WBUT m :
+Answer: : : : ~ M
+Data Marts are created for: : e
+' a) Speeding up queries by reducing the volume of data to be scanned Sl
+b) Structuring data in a form suitable for user access tools i
+' ¢) Partitioning data to impose access control strategies ) 1A
+. d) Segmenting data into different hardware platforms. o
+Data marts should not be used in other cases as the operational costs of data marting can
+be high and once a strategy in place, it can be difficult to change it without incurring
+substantial cost. e
+6. What is sequence mining? [WBUT 2011]
+Answer: ’ _ o
+Sequence mining is a type of structured data mining in which the database ar
+administrator look for sequences or trends in the data. This data mining is split into two
+fields. Itemset sequence mining typically is used in marketing, and string sequence
+mining is used in biology research. Sequence mining is different from regular trend
+: mining, because the data are more specific, which makes building an effective databa e
+difficult for database designers, and it can sometimes go awry if the sequence is an)
+different from the common sequence. ' : e
+7. Differenfnate among Enterprise Warehouse, Data mart and Virtual warehouse.
+' Answer: : S
+Enterprise warehouse - o tha § . 4 '
+r ki house - collects all of the mfomguonm subjects spanning the
+pata Mart - a subset of corporate-wide data that is of value to specific groups of users.
+lts scope is confined to specific, selected groups, such as marketing data mart.
+virtual warehouse - A set of views over operational databases. Only some of the
+| possible summary views may be materialized. X
+| 8. How is data warehouse different from a database? ~ [WBUT 2013, 2016, 2018]
+Answer: ; . )
+A database is used to store data while a data warechouse is mostly used to facilitate
+reporting and analysis. Basically, database is just where the data is stored; in order to
+access this data or analyze it a database management system is required. However, a data
+warehouse does not necessarilyl require a DBMS. The purpose of a data warehouse is for _
+‘ easy access to the data for a user. The data warehouse may also be used to analyze the '
+data; however the actual process of analysis is called data mining.
+Some differences between a database and a data warehouse: : :
+- o A database is used for Online Transactional Processing (OLTP) but can be used
+for other purposes such as Data Warehousing. ' :
+e A data warehouse is used for Online Analytical Processing (OLAP). This reads
+the historical data for the Users for business decisions.
+o In a database the tables and joins are complex since they are normalized for
+RDMS. This reduces redundant data and saves storage space.
+o In data warehouse, the tables and joins are simple since they are de-normalized.-
+‘ This is done to reduce the response time for analytical queries.
+¢ Relational modeling techniques are used for RDMS database design, whereas ;
+modeling techniques are used for the Data Warehouse design. .
+o A database is optimized for write operation, while a data warehouse is optimized =
+for read operations. ‘ RR
+e In a database, the performance is low for analysis queries, while in a data
+' warehouse, there is high performance for analytical queries.
+. o A data warehouse is a step ahead of a database. It includes a database in its
+structure. ok :
+9. What are the issues relating to the diversity of database types? [WBUT 2016]
+‘ Answer: '
+‘ * Handling of relational and complex types of data — The database may contain :
+’ complex data objects, multimedia data objects, spatial data, temporal data ete. It is |
+» not possible for one system to mine all these kind of data. : ,
+* Mining information from heterogeneous databases and global information
+Systems — The data is available at different data sources which may be structured, -
+‘. semi structured or unstructured. Therefore mining the knowledge from them adds
+challenges to data mining. . s o
+::'K'::wlet:’ce the idea of Data Mining with example(s). What are the steps in e s
+ge discovery in Database (KDD) proces ;xful-,' e
+. DWMET. e
+POPULAR PUBLICATIONS
+i j 2(1* Part) of Short Answer Type Questions,
+Data Mining: Refer to Question No. 2( -
+Data mining example: .. and Business Intelligence to o
+_ b ‘o use Data MIning _ o
+Mobile phone and L0 EC compz}nlre when a customer |eaves their company to get theijr
+' B e i oty oo ovider. They collate billing information, customer
+DhOlje/qu/broadpand from ano_thcter :r:d othe; et cach customer 3 probal
+services interactions, website VISIS o ners whom they nerceive 1o be atis hightel k-
+score, then target offers and incentives t0 € a2
+risk of churning. g
+Steps involved in KDD process , e ectivé. _ ‘._;;-
+1. Identify the goal of the KDD process lfro(rjn trfllg :1:1125;3]21‘6:1 Sd%e tEat'S ok i
+:cation domains involved anc : ! . -
+g. lsjegizzsﬁlzfg?t)%l;a set or subset of data samples on which discovery 1S be performed. b
+4 Cleanse and pre-process data by deciding strategies to handle missing fields and alter
+the data as per the requirements. : ;
+5. Simplify the data sets by removing unwanted variables. Then, analyze useful features g
+that can be used to represent the data, depending on the ggal or task. by,
+6. Match KDD goals with data mining methods to suggest hidden pattemns. .
+7 Choose data mining algorithms to discover hidden patterns. This process includes 3
+deciding which models and parameters might be appropriate for the overall KDD ’5
+process. T
+8. Search for patterns of interest in a particular representational form, which include .
+classification rules or trees, regression and clustering. i
+9. Interpret essential knowledge from the mined patterns. b
+10. Use the knowledge and incorporate it into another system for further action. v
+11. Document it and make reports for interested parties.
+| 11. Does a data warehouse involve a transaction? Explain. i [WBUT 2018] 5
+Answer: - B
+A data warehouse is a relational database that is designed for query and analysis rather
+than for transaction processing. It usually contains historical data derived from
+;ransactlon data, but it can include data from other sources. It separates analysis workload
+SgouTc;;ansactlon workload and enables an organization to consolidate data from several
+Long Answer Type Questions e
+1. Define Da .  scdal vl
+| ata Warehouse and briefly describe its characteristics. i
+Answer: [WBUT 2009, 20181
+: A data warehouse consj o
+storage of information for agfea.f.omp“te{ database responsible for the collection an
+used to manage information Eﬁc'l Ic organization. This collection of information is theft
+iciently and analyze the collected data. Although datd
+B — e i ',.n'.""'lr ifys
+DATA WAREHOUSING AND DATA MINING
+warehouses vary in' e all design, majority of them are subject oriented, meaning that
+the stored information 1s connected to Objf!CtS or events that occur in reality. The data
+provided by the data warehouse for analysis provides information on a specific subject,
+rather than the functions of the company and is collected from varying sources into one
+‘ unit having tlme-v.arlant.. : ‘ : : .
+A data warehouse has mgmﬁcant]y different features from other enterprise-wide systems,
+particularly in how data 1s sto.rec_i, managed and manipulated.
+v There are four key characteristics which separate the data warehouse from other major
+l Operational systems: : :
+‘ 1. Subject Orientation: Data organized by subject '
+R 2. Integration: Consistency of defining parameters }
+3. Non-volatility: Stable data storage medium - ;
+4. Time-variance: Timeliness of data and access terms '
+2. a) What are the different tiers in a typical 3-tier data warehousing architecture?
+b) What do you mean by warehousing schema? Explain. ‘ [WBUT 2009] .
+Answer: ' | :
+a) The bottom tier is a warehouse database server which is almost always a relational
+database system. '
+The middle tier is an OLAP server which is typically implemented using either (1) a
+Relational. OLAP (ROLAP) model, i.e., an extended relational DBMS that maps
+operations on multidimensional data to standard relational operations; or (2) a
+Multidimensional OLAP (MOLAP) model, i.e., a special purpose server that directly - :
+implements multidimensional data and operations. : :
+The top tier is a client, which contains query and reporting tools, analysis tools, and/or
+data mining tools (e.g., trend analysis, prediction, and so on).
+b) The entity-relationship data model is commonly used in the design of relational
+databases, where a database schema consists of a set of entities. or objects, and the
+relationships between them. Such a data model is appropriate for online transaction
+processing. Data warehouses, however, require a concise, subject-oriented schema which
+_ facilitates on-line data analysis. - _ :
+3.3) Introduce the concept of data mining and cite two application areas. : |
+b) What : o [WBUT 2010, 2012]
+&5 at are the different steps_ of a datg mining task? : [W.BUT 20-10, 201_2]
+oy I::ose tha.t the dat_a mining task is to cluster the following eight points (with
+| ’ Presenting location) into 3 clusters.
+o A(200),4,(25),4,(8,4),B,(5.8).8,(7.5). B, (6.4).C,(12),C,(49)
+c::td'shnce function is Euclidian distance. Initially we assign 4, B, and C, as the .
+ré of each cluster. Use k-means algorithm to determine the three clusters. '
+. Part: Regey I st A
+i 0 of Question No. 2(1** Part) of Short Ama{ pe Que
+2" Part: : , Lo
+An application of data mining is market segmentation. With market segmentatic
+company will be able to find behaviors that are common among its C“sm,
+look for patterns among customers that seem to purchase the same ;émducts at the-
+time. Another application of data mining is called customer cfhum. ust .
+allow a company to estimate which customers are the most likely to stop purch sing
+products or services and go to one of its competitors. ‘ ==
+b) The Following Steps Are Usually Followed In Data Mining. These steps are
+with the process moving backward whenever needed. . e
+1. Develop an understanding of the application, of the relevant prior knowledge, nd o
+the end user's goals. ' | e ;-
+2. Create a target data set to be used for discovery. -
+3. Clean and preprocess data (including handling missing data fields, noise in the
+* accounting for time series, and known changes). fay 5 3
+4 Reduce the number of variables and find invariant representations of data if possible.
+' 5. Choose the data-mining task (classification, regression, clustering, etc.). P
+6. Choose the data-mining algorithm. i
+7. Search for patterns of interest (this is the actual data mining). : e
+' 8. Interpret the pattern mined. If necessary, iterate through any of steps 1 through7.
+9. Consolidate knowledge discovered and prepare a report. ' ' i
+¢) The given eight points were: ‘ : S
+Al:(2,10) e
+A3:(8,4) 7
+BI: (5, 8) ' T e
+B3: (6,4) | : o e
+EEfT) - ‘ T el R
+1 C2:(4,9) ' | | i
+The points Al, B2, and C1 were assumed to be the initial three cluster centres.
+two possible ways of clustering the given points using the k-means algorithm, depen din
+on to which cluster we assign the point B1: : T A
+The first way: ’ i e
+1.1. Round One: ; S _'*
+— Compute for each of the eight points its distance from eac oentm‘ | , i
+= 'll‘thteoctll:;:fcelrlil,s‘te;g)er’:‘hicz it is most similar. bl Sl o
+ClugteF B Bi i € first round execution is: o " ‘3'
+- Cluster 2: B2, A3, B3 | e
+il SR L ™
+DATA WAREHOUSING AND DATA MINING
+. update the cluster centres: .
+! The new centre of Cluster 1: (3.67, 9) ,
+The new centre of Cluster 2: (7, 4.33) : _
+The new centre of Cluster 3: (1.5, 3.5)
+| 1.2. Round Two: .
+| - No changes \ . :
+The second way: _ :
+2.1. Round One: ‘ '
+' _ Compute for each of the eight points its distance from each cluster centre, and assign it
+to the cluster to which it is most similar. :
+: —> The clustering after the first round execution is: ' i : ‘
+: Cluster 1: A1, C2 ' .
+| Cluster 2: B2, A3, B1,B3 .
+Cluster 3: C1, A2 ‘ g 3 R gl
+- update the cluster centres: ‘ B
+The new centre of Cluster 1: (3, 9.5) '
+The new centre of Cluster 2: (6.5, 5.25)
+' The new centre of Cluster 3: (1.5, 3.5) :
+| 2.2. Round Two:
+- recompute for each of the eight points its distance from each cluster centre, and assign it
+to the cluster to which it is most similar. :
+‘ => The clustering after the second round execution is: _ :
+, Cluster 1: Al, B1, C2 . :
+Cluster 2: B2, A3, B3 ~
+' Cluster 3: C1, A2 , ]
+' - update the cluster centres: _ '
+The new centre of Cluster 1: (3.67, 9) A ‘
+The new centre of Cluster 2: (7, 4.33) . .
+' The new centre of Cluster 3: (1.5, 3.5) W
+2.3. Round Three: '
+' - No changes ‘_ "
+. 4. a) Write down the design steps for a typical data warehouse. [WBUT 2015]
+b) Explain the flowchart for KDD process. '
+¢) Define Roll-up and Drill-down process with a suitable example..
+Answer: "
+2) In general, building any data warehouse consists of the following steps: - :
+: 1. Extracting the transactional data from the data sources into a staging area - The
+Extract step covers the data extraction from the source system and makes it
+_ accessible for further processing. The main objective of the extract step is to retrieve
+_ all the required data from the source system with as little resources as possible. The :
+’ extract step should be designed in a way that it does not negatively affect the source
+System in terms or performance, response time or any kind of locking.
+POPULAR PUBLICATIONS ‘
+: . : orm step applies a set of rules l
+2. Transforming the transac;nonal datat ’l;ll:: ttr:llrngsef; ol gnclzdes phowdss q .
+the data from the source 1O . 4 : ) H
+tran.sform dimension (i.e. conformed dimension) using the same
+measured data to the same . ten also requicRaa
+. lafer be joined. The transformation Step quires joining -
+units so that they can later b€ J : o SO og
+ting aggregates, generating > g Ys, sorting,
+data from several sources, genera . , idation Al L8
+Vi d values, and applying advanced validati les.
+deriving new calculated values; . D the | k-
+3. Loading the transformed data into a dimensional database - During the load step,
+' it is necessary to ensure that the load is performed correctly andlw1th as litle
+resources as possible. The target of the Load process is often a datapase. In Order o
+: efficient, it is helpful to disable any constraints and indexes
+make the load process etticient, it letes. The o8 ot
+before the load and enable them back only after the loa C:omp . emm :
+integrity needs to be maintained by ETL tool to ensure consistency. o E :
+b) An Outline of the Steps of the KDD Process , E
+Interpretation/ Knowledge e
+Evaluation ' :
+< Patterns i _ i b
+i Transformed ; e .
+3 + Preprocessed | : ! A
+a i Data | : : s '
+b °, Target ' i ; ; i3
+Data ' Data i : i E
+Th ]l h.—_—---_-----.'-—-—--‘-—-------“--_----___---_’.‘------'---—'* -!. '_'
+e overall process of finding and interpreting patterns from data i e re 44
+e 2 : a involves the re g
+application of the following steps: pmted
+1. Developing an understanding of : it
+o the application domain ; :
+o therelevant prior knowledge . ' -
+. o tl}e goals of the end-user , | ~ d
+. Crgatmg a target data set: selecting a data set, or focusine on-a sﬁbsetf‘
+' variables, or data samples, on which di S & o
+3. D ; ) ch discovery is to be performed L
+: - Data cleaning and preprocessing. a -
+o gemoval of noise or outliers. . 23
+o Collecting necessary i i s o
+. y information to mo ! -
+~ o itrategles for handling missing data ﬁelccli:l o S
+© Accounting for time se - S, ; i
+A quence informa : : i
+4. Data; feccilt.lctnon and projection. ; tion and anW,n changes. o
+© Finding useful featyr ) o
+P ek €S to represent the data depending on the goal of t
+‘ bt G o e S ST (i RSN O
+DATA WAREHOUSING AND DATA MINING
+o Uf;ing dimensionality reduction or transformation methods to reduce the
+G r}umber of variables under consideration or to find invariant
+representations for the data. nvarar
+_ 5. Choosing the data mining task. ~
+o Deciding whether the goal of the KDD ks : - ]
+clusterimt oe t process is classnﬁcgtlon, regression, :
+6. Choosing the data mining algorithm(s). i 3
+o _Se_lectmg method(s) to be used for searching for patterns in the data.
+| o De01d1.ng which models and parameters may be appropriate.
+, o Matching a particular data mining method with the overall criteria of the
+. KDD process. A .
+7. Data mining.
+; o Searching for patterns of interest in a particular representational form or a set
+; of such representations as classification rules or trees, regression, clustering, ‘
+; and so forth. » :
+| 8. Interpreting mined patterns.
+9. Consolidating discovered knowledge. »
+¢) Roll-up
+‘ Roll-up performs aggregation on a data cube in any of the following ways:
+‘ ¢ By climbing up a concept hierarchy for a dimension '
+1 o By dimension reduction ‘
+‘ The following diagram illustrates how roll-up works.
+I ‘ oo" d,\
+: 3 S & )
+:_ E ua Jo 7 S S
+- \® Canada "'g‘ '
+o] [ ,’
+1 | TR
+» 3l i it '
+R
+‘ Mobile Modem Phone Security .
+‘., [ roll-up onlocation kem{types)
+k (from citiesto
+.- countries)
+| < i
+': P& Chiog S S 7 S /S
+i P g (1 g
+: Vancouve ’ :
+, cafsTel Tt T
+. J2L T TS gt
+4 o e s |
+' Mobile Modem Phone Security it TN T, , k.
+« Roll-up is performed by climbing up a concept hierarchy for the dimen
+location. ] ] 5 EE .
+e Initially the concept hierarchy was "street < City < province _
+« On rolling up, the data is aggregated by ascending the location hierarchy fre _v
+level of city to the level of countr:". s - i e
+‘o The data is grouped into cities rat er than countries. S
+e  When roll-up is performed, one or more dimensions from the data cut
+removed. E
+Drill-down ) : .
+Drill-down is the reverse operation of roll-up. It is performed by either of the foll J
+ways: : i _ ; , f
+e By stepping down a concept hierarchy for a dimension :
+« By introducing a new dimension. -
+The following diagram illustrates how drill-down works: +3
+o NS e | 2
+& New York m.." ! -
+Toronte s /7 7./ " B
+. Vancouver ""’"' sl
+L nmnn,m -4
+- o . .
+1 S (RN NN SRR it vty 3
+Mobile Modem PhoneSecurty . .
+[ 0 o
+e Newvork L7 72
+| ¥ Toronto m.q’f e
+| Vancouver ""’ / ’ ; E
+Y —— 78
+| | G V%7788
+R e e e 77777 B
+| . Mobile Modem Phone Security Ky
+¢ Drill- i , item(types) . ' E
+. ;e. down is performed by stepping down a concept hierarchy for the dimer
+* Initially the concept hierarch " 4
++ 'On%Hrilling down, the i c)i’ir::\spay'< month < quarter < year." e
+the level of month. ‘on is descended from the level of qua
+*  When drill-down i : e
+added. 's performed, on or more dimensions from the data eu
+» v :.".1-‘—.”"-*".
+T T ———
+DATA WAREHOUSING AND DATA MINING
+5. Write short notes on the following: ,
+o) Sivatagic IrFIIEISREE o [WBUT 2014, 2016]
+poataMart _ 2 [WBUT 2017]
+b) 'sil:ens,i:?:gc allenges in data mining [WBUT 2009]
+c) o515 vis.a-vis Data Mining o i T
+Answer: PR
+) Strategic inforl_nati‘on: :
+' Strategic information is needed for the day to day operations, meeting of government
+' requirements as well long and short range planning. Strategic information systems are
+‘ used by organizations to achieve a competitive advantage for the organization.
+A Strategic Information System (SIS) is a system that helps companies change or
+. otherwise alter their business strategy and/or structure. It is typically utilized to
+streamline and quicken the reaction time to environmental changes and aid it in achieving
+i a competitive advantage. Strategic information systems relies on data gathered at all
+- organizational levels and from all information systems whether it was transaction
+{ processing systems, management information systems, decision support systems or i
+i executive information systems. :
+i Key features of the Strategic Information Systems are the following:
+i- i) Decision support systems that enable to develop a strategic approach to align
+! Information Systems (IS) or Information Technologies (IT) with an organization's
+business strategies ‘
+;n iij) Primarily Enterprise resource planning solutions that integrate/link the business
+3 processes to meet the enterprise objectives for the optimization of the enterprise resources ;
+iii) Database systems with the "data mining" capabilities to make the best use of available -
+1 corporate information for marketing, production, promotion and innovation. The SIS
+systems also facilitate identification of the data collection strategies to help optimize '
+database marketing opportunities. | 3
+iv) The real-time information Systems that intend to maintain a rapid-response and the T
+f quality indicators. :
+| <
+: b) Data Mart: Refer to Question No. 1 of Short Answer Type Questions.
+! ¢) Issues and challenges in data mining:
+, One of the key issues raised by data mining technology is not a business or technological
+one, but a social one. It is the issue of individual privacy. Data mining makes it possible _
+P analyze routine business transactions and glean a significant amount of information
+about md'ividuals buying habits and preferences. o
+dA;;Zt:\;r Issue is that of data integr.ity. Clearly, .data analysis can only t.)e as goqd as the
+redundzt Is being analy-zed. A key implementation challenge is integrating conﬂu;tmg or
+. P nt data from q:t"ferent sources. For example, a bank may maintain credit gards ; ,
+UIS on several different databases. The addresses (or even the names) of a single
+' DWM-15 . .
+cardholder may be different in each. Software must translate data from one ystem
+another and select the address most recently entered. ; ey
+A hotly debated technical issue is whether it is better 10 S€t Up @ relational database
+structure or a multidimensional one. In a relational structure, data is stored in ta les,
+permitting ad hoc queries. In a multidimensional structure, on the other hand, 15 of
+cubes are arranged in arrays, with subsets created accorfllflg to category. Whi
+multidimensional structures facilitate multidimensional data mining, !ehuond tructures
+thus far have performed better in client/server environments. And, with the explosion of
+the Internet, the world is becoming one big client/server environment. g .
+
+" Finally, there is the issue of cost. While system hardware costs have dre pped
+dramatically within the past five years, data mining and'data warehousing ‘3“‘! W > &
+reinforcing. The more powerful the data mining queries, the greater the u.tlllty of the
+information being gleaned from the data, and the greater the pressure to increase the
+amount of data being collected and maintained, which increases the pressure for
+more powerful data mining queries. This increases pressure for larger, faster systems,
+which are more expensive. T
+d) Text mining: ) e
+Text Mining is the discovery by computer of new, previously unknown information, by
+automatically extracting information from different written resources. A key element is
+the linking together of the extracted information together to form new facts or new
+hypotheses to be explored further by more conventional means of experimentation.
+
+' text mining, the goal is to discover heretofore unknown information, something that no
+one yet knows and so could not have yet written down. - o
+The difference between regular data mining and text mining is that in text mining the
+patterns are extracted from natural language text rather than from structured databases o .
+facts. Databases are designed for programs to process automatically; text is written for
+people to read. We do not have programs that can "read" text and will not have such for
+
+ the forseeable future. Many researchers think it will require a full simulation of how the
+
+mind works before we can write programs that read the way people do. S
+¢) DBMS vis-a-vis Data Mining: | i
+DBMS and data mining answer different queries. Data mining helps in predicting future
+whereas DBMS gives reports. _ "
+Example DBMS Reports s o
+
+* Last months sales for each service type L
+
+. Sa'lles per service grouped by customer sex or age bracket i
+
+*  Listof customers who lapsed their policy i
+Questions answered using Data Mining S
+
+e What characte.ristics do customers that lapse their policy have in common
+
+. l&c;rvlv do they differ from customers who renew their policy? _
+
+ich motor insurance policy holders would be potential customers for
+~ House Content Insurance policy? ol i R
+- DATA WAREHOUSING AND DATA
+6. What are data mining primitives?
+Answer: [MODEL QUESTION]
+Data mining primitives
+‘ project __, attribute pre.
+weighing processing
+10N —— 5 knn join k- nearest
+, neighbor
+standard neural :
+networks
+Data mining Seph clustering » n table Data mining
+primitives on , classifier scan algorithm . :
+SQL association systems
+select blgck whitg .
+] P \ association >
+rules
+) cluster decision "
+split 4’//: froes i e :
+count by group functional i
+functional / dependencies
+dependencies '
+Fig: Data mining primitives in SQL
+Contrary to current belief, data mining is first and foremost a server technology. Until
+~ recently, most data mining tools operated on flat files and in-memory databases. With the
+shift of attention to larger databases, the need for implementing data mining algorithms
+on top of relational databases has been recognized. However, current relational ,
+. technology, with its emphasis on efficient updates and exact identification of records, is
+’ ill-suited to the support of data mining algorithms.
+’ Data mining algorithms require:
+o efficient sampling methods ' .
+| e storage of intermediate results during execution of queries ;
+* capacity to handle large amounts of data - .
+» geometric indexes that allow users to search in the neighborhood of record and
+, bit-mapped operations. . o
+Data mining is supported by client/server technology, with the server.technolo_gy being o
+great importance when working with large databases. All these functions can in prmcu;:e
+be realized on top of existing implementations, as they are based on generalizations of the :
+, Same mathematical structure, that is, first-order logic and algebra. G
+Can these ideas be brought into a general framework for the revnslon.o_f the re ‘?1 ;S ¥
+mode]? Following figure describes a number of fundamental data mining edro'mtlo
+relation to SQL primitives. In general, data mining routines can be divided into four
+groups: ) |
+. b it i values into :
+‘ L Pre-processing: Routines in this group take samples, QOHfPfeSS . ; (that s, k"
+1 clusters, and code tables into appropriate input formats f“’ T e
+POPULAR PUBLICATIONS ‘ “
+i
+transform historical files into time series, multi-valued attributes mto.seu of bin "
+attributes, tables into bitmaps, etc.). d 2 .
+2. Nearest neighbor search: Neighbor sear;::l :gil:i:ren a1lr1]1:(<:;r)§;reted as a generalizat)
+i ification of records by means OI i . . O
+k4 :{i(:bllie:éﬁnc algorithms: This is a class of algorithms th‘? _need tf)blacccss ata
+several times during execution. It is not yet.clear whether ;1 1S Pf’sglde to
+the database performance of thhese algorithms, although enriche
+ions may prove to be of help here. _ -
+4. fi};‘(fltl:or;ian yalpgorithms: This is a group of algc_mthms lth{‘t 31150 a;::s a
+repeatedly, but in this case it is clear that an adaptation of relational tec
+‘ improve the speed of execution dramatically- These.algor}thms zoom into inte
+, sub-parts of the database during their execution. This baSlC?.lly mvolj/es the -peated
+execution of SQL statements that access similar or oveflappmg selections of re ords.
+This short overview clearly indicates that it is already possible to draw a rough outlir e of
+an enriched relational model. A number of details still have to be wque.d out, however,
+both from a formal perspective (neighborhood topologies, tabular p.rOJectlons, zoom scan
+queries, etc.) and from an implementational view (that is, how to implement this model
+on a parallel database server capable of handling billions of records). Data mining and
+data warehousing represent radical technological advances which will necessarily alter
+our fundamental approach to database technology. -
+' 7. Explain scalable methods for mining sequential patterns. -
+‘ [MODEL QUESTION}
+Answer: S
+Sequential pattern mining is computationally challenging because such mining may
+generate and/or test a combinatorically explosive number of intermediate subsequences '
+; mining?,‘,‘How can we develop efficient and scalable methods for sequential pattern
+Recent developments have made progress in two directions: (1) efficient methods
+~ mining the ful set of sequential patterns, and (2) efficient methods for mining only the set
+of closed sequential patterns, where a sequential pattern s is closed if there exists ne
+sequential pattern s “where s “where s “is a proper super-sequence of s, and s “has the sam
+(frequency) support as s. because all of the subsequences of a frequent sequenoé
+frequent, mining the set of closed sequential patterns may avoid the ge aration
+;ﬁﬁ;z;s?z :ub§eguences and thus lead ?o more compact results as well as more € ;‘;;7
+s studml}:gl:vg tthhe full set. We will first examine methods for mining the ful :
+di Cy ow they can be extended for mining the closed set. In addition, '
+Iscuss modifications for mining multilevel, multidimensional E al pattetne
+\v?\;th multiple levels of granularity). i THO SR M'“
+€ can give )
+by the alggoﬁte}f;l:iég ;f tshl:‘ie [;Ed; :gp;oatc_:hes for sequential pattern mining, repre e
+- generate-and-test appro’ach using’ horizg:,e uchpan,frespecnvely. GSP adopts a cand
+as <sequence ID : ge e 2 gal data format (where the. data are repress
+SPADE adopts a candidate i emsels>, as usual, where each itemset is an €
+POPULAR PUBLICATIONS qg
+CLASSIFICATION AND PREDICTION OF
+| Multiple Choice 1yp€ Questions |
+1. Which of the following techniques are appropriate for dﬁ;\sv;l.’a;ezl‘a%;slznoa'g ol d
+a) Hashing on primary keys ! ’ 8]
+b) Indexing on foreign keys of the fact table | |
+c) Bit-map indexing .
+d) Join indexing |
+Answer: (¢)
+2. ......is an-example of predictive type of data mining whereas .....- is an example
+of descriptive type of data mining. - [WBUT 2010, 2012
+a) Association Rule, Clustering b) Assomgtuon Rule,. Clas_SIficatnon '
+c) Classification, Clustering ~ d) Clustering, Classification ;
+Answer: (C) ;
+3. What is Metadata? ! [WBUT 2017] ,
+a) Summarized data b) Operational data :
+c) Data about data d) None of these -
+b Answer: (¢) '_
+4. The full form of OLAP is [WBUT 2017] 5
+a) Online Analytical Processing b) Online Advanced Processing e
+c¢) Online Advanced preparation d) Online Analytical Performance i
+Answer: (2) ¥
+5. The apriori algorithm is a [WBUT 2017]
+a) top — down search b) breadth first search 3
+c) depth first search d) bottom-up search u
+Answer: (d) :
+6. Classification rules are extracted from [WBUT 2017]
+A a) Rog)node b) Decision tree c) Siblings d) Branches o
+nswer: H
+"‘;;J'”
+7. Which of the following is a predictive model? £
+a) Clustering 4 i . [WBUT 2017] 5
+¢) Summarization b) Regrogcian |
+Answer: (b) .d? Association rules é
+8. All set of items whose support i A o
+pport is greater than the user-specified mi jmum
+support pecified min
+pport are called as uT 20171
+DWM-20 = F
+a) Border set b) Frequent set
+¢) Maximal frequent set d) Lattice
+Answer: (b) . '
+. | Short Answer Type Questions
+; 1. Explain the use of Dynamic itemset counting algorithm. [WBUT 2009]
+OR,
+| pescribe the principle of Dynamic Itemset Counting technique for Frequent Itemset
+E generation. : [WBUT 2010]
+| Answer: i
+- Dynamic Itemset Counting is an alternative to Apriori Itemset Generation. Here Itemsets
+‘ are dynamically added and deleted as transactions are read and it relies on the fact that for
+‘ an itemset to be frequent, all of its subsets must also be frequent, so we only examine
+those itemsets whose subsets are all frequent. '
+Algorithm stops after every M transactions to add more itemsets.
+o Train analogy: There are stations every M transactions. The passengers are itemsets. ‘
+Itemsets can get on at any stop as long as they get off at the same stop in the next
+| pass around the database. Only itemsets on the train are counted when they occur in
+transactions. At the very beginning we can start counting I-itemsets, at the first
+station we can start counting some of the 2-itemsets. At the second station we can
+’ start counting 3-itemsets as well as any more 2-itemsets that can be counted and so
+! 0] 7 Ml :
+Itemsets are marked in four different ways as they are counted:
+, * Solid box: D confirmed frequent itemset - an itemset we have finished counting
+and exceeds the support threshold minsupp
+.+ Solid circle: O confirmed infrequent itemset - we have finished counting and it is
+below minsupp
+* Dashed box: :_ | suspected frequent itemset - an itemset we are still counting that
+| exceeds minsupp
+* Dashed circle: . suspected infrequent itemset - an itemset we are still counting
+that is below minsupp
+: DIC Algorithm '
+I 1\fiark the empty itemset with a solid square. Mark all the 1-itemsets with dashed
+‘ ; circles. Leave all other itemsets unmarked. .
+- While any dashed itemsets remain:
+_‘ . Va) iead M trgnsactions (if we reach the end of the transaction file, continue from
+| ite beginning). For each transaction, increment the respective counters for the
+. femzets that appear in the transaction and are marked with dashes. | ,
+, : ima a§hed circle's count exceeds minsupp, turn it into a dashed s quarc- i sy =
+- mediate Superset of it has all of its subsets as solid or dashed squares, T
+- “W counter for it and make it a dashed circle. Fﬁf T iy
+. DWM-21 i e
+POPULAR PUBLICATIONS
+Once a dashed itemset has been counted through all the transaction;, make it“.
+stop counting it. L
+. . ur M
+2. State Apriori Algorithm for frequent item set generation. ‘ le
+Answer: . ; , e A
+The Apriori Algorithm is an influential algorithm for mining frequent itemse s
+boolean association rules. -
+Key Concepts: i |
+o Frequent Itemsets: The sets of item which has minimum support (denoted by i fi
+ith-Itemset). : T
+e Apriori Property: Any subset of frequent itemset must be frequent. "y li_ll .
+e Join Operation: To find L, a set of candidate k-itemsets is generated by
+with itself. : : ' .
+' Algorithm - | " 3
+e Find the frequent itemsets: the sets of items that have minimum support T
+o A subset of a frequent itemset must also be a frequent itemset i.e., if {Aﬁ) a
+frequent itemset, both {4} and {B} should be a frequent itemset . ‘
+‘ o Iteratively find frequent itemsets with cardinality from 1 to k (k-itemset)
+» Use the frequent itemsets to generate association rules. T
+Pseudo code b S
+e Join Step: Cy is generated by joining L, with itself _ 1
+* Prune Step: Any (k-1)-itemset that is not frequent cannot be a subset of a frequ l‘_'
+itemset ‘ oo
+Pseudo-code: ' ; w
+Cy: Candidate itemset of size k ‘ r _f‘,»
+Ly: frequent itemset of size k 3 3‘” 4
+L= {frequent itemis}; ; e i
+_For (k='1; L,!=@; k++) do begin : '
+Cu1= candidates generated from L; e
+' for each transaction tin database do ) L
+' kg increment the count of gll candidates in Cy,, that are contained int
+end. w1 = candidates in Cy,; with min_support | -
+return U,Ly; | ‘ ‘ 3 u |
+' :n goscrlbo the principle of partitioning technique for Frequent itemset generatio
+‘ Justify how it improves the efficiency of F et generatio
+compared : cy requent item set ¢ T
+pared to a priori Algorithm, 3 2010,
+Answer: wseut it
+A () . 3 ) f L, Ig_’;“..' s
+ﬁ.eqpamugmng technique can be used that requires just two database scans to mine |
+Pquent itemsets. It consists of two phases. ase L. the aloorithm subdivides
+DATA WAREHOUSING AND DATA MINING |
+ransactions of D into » nonoverlapping partitions. If the minimum support threshold for
+jransactions 1n D s R B .then the minimum support count for a partition is minsup,
+the number of transactions in that partition. For each partition, all frequent itemsets
+within the partition are found. Th.ese are referred to as local frequent itemsets. In Phase I,
+a second scan of D is conducted in which the actual support of each candidate is assessed
+, in order t0 determine the global frequent itemsets. Partition size and the number of
+partitions are set so that each partit.ion can fit into main memory and therefore be read
+only once in each phase. The following figure describes the phases. .
+Phase | ' Phase II
+DivideD | = | Findthe - Combine all Find global
+: : frequent Frequent
+f : -' :
+| local to form among -
+A . each . candidate candidates
+partition itemsets )
+Apriori algorithm needs many database scans and for each scan, frequent itemsets are
+| searched by pattern matching, which is especially time-consuming for large frequent
+‘ itemsets with long patterns. Partition algorithm uses the intersection of transaction ids
+‘ (tids) to determine the support count. Because it performs a breadth-first search, it
+partitions the database into blocks in which local frequent itemsets are found to overcome
+the memory limitations. An extra database scan is needed to determine the global
+frequency of local frequent itemsets.
+4. What is clustering? Discuss two main methods of clustering. [WBUT 2010]
+Answer: _
+1" Part: Refer to Question No. 1(a) (1 * Part) of Long Answer Type Questions.
+E 2"Part:
+The non-hierarchical techniques in general are faster to create from the historical
+database but require that the user make some decision about the number of clusters
+desired or the minimum “nearness”. required for two records to be within the same
+cluster. These non-hierarchical techniques are often run multiple times starting off with
+Some arbitrary or even random clustering and then iteratively improving the clustering by
+Zlg:ftﬂmg some records around. These techniques sometimes create clusters that are :
+the; :j(i:?th only one pass through the database .ad_dmg rccord-s to existing c{usters_ when
+S recoigd gre‘atmg new clus!e_rs when no existing cluster is a good candidate for the
+b Choic. efcausg the de_ﬁnlllon of which clusters are formed can depend on these -
+| e technies of which starting clusters should be cho_sen or even how. mgny clusters _
+‘ SOMetimes cgelzfs c'at? be less repeatable than the hierarchical techniques and can ;
+. Predeterm: ¢ either too many or too few clusters because the numt.m‘ of clusters is iy
+| ined by the user not determined solely by the patterns inherent in the database. |
+3 - » S 7 i AL *;
+POPULAR PUBLICATIONS .- r i
+5. Suppose that the data n?ining” tazruzetr:cluster the following ten points ( |
+(x,y)) representing location into two “
+X | 6 e "y
+The distance function is defined as [x,. —X j]+[ Yo j] - 8
+- Use k-means or k-medoid algorithm to determine the two clusters.  [WBUT 2012]
+~ Answer: : A»_E ,‘
+Step 1 i a , g
+, Initialize k centers. '
+Let us assume ¢; = (3,4) and ¢, = (7,4) -
+So here ¢, and ¢, are selected as medoids. "
+Costs to the nearest medoid are shown bold in the table. R
+- S T L
+X; distance - L
+; Data object . ‘ , }i h
+glllen the clusters become: : SRR » R
+. cnﬁzl A {(3,4)(2,6)(3,8)(4,7)} i
+2= {(7,4)(6,2)(6,4)(7,3)(8,5)(7,6)} _ P
+| DATA WAREHOUSING AND DATA MINING
+Since the points (2,6) (3,8) and (4,7) are closer to c, h.ence they form one cluster whilst
+remaining points form another cluster. ,
+So the total cost involved is 20.
+. Where cost between any two points is found using formula
+d
+L cost(re)=2 ¢ .
+i=l .
+where x is any data object, ¢ is the medoid, and d is the dimension of the object which in
+, this case is 2. _ .
+, Total cost is the summation of the cost of data object from its medoid in its cluster so
+here: !
+Total cost = {cost((3,4), (2,6)) + cost((3,4), (3,8)) + cost((3,4), (4,7))}
+| + {cost((7,4), (6,2)) + cost((7,4), (6,4)) + cost((7,4), (7,3))
+» +cost((7,4), (8,5)) + cost((7,4), (7,6))}
+=(B+4+4)+(B+1+1+2+2)
+=20
+Select one of the nonmedoids O’ .
+Let us assume O’ = (7,3)
+So now the medoids are c,(3,4) and O'(7,3)
+Ifcl and O' are new medoids, calculate the total cost involved
+By using the formula in the step 1 ‘
+, I i
+T T T N R T
+. EE R ENE R
+a3 e e i e S -
+' e [ 3 |4 o] ve o AT
+B TREE R AL AIE .
+X; distance
+j B Mo it e i e lle Bt 4.1
+S O e |
+7
+FTREETIA AN R A e . |
+n--_
+N O T i B e |
+0 ey 0 Ol O i e B B
+344+4+2+2+1+343=22
+\ DWM-25
+POPULAR PUBLICATIONS | k-
+So cost of swapping medoid from ¢ tO Qig = |
+S = current total cost — past total cost =22 —-20= 2.> 0 , e
+So moving to O’ would be a bad idea, so the previous choice was good. So we try o
+nonmedoids and found that our first chonce was the b;st. Sc? thl(: conglg}u'atm "
+change and algorithm terminates here (i.e. there is no change in the me oids). :
+6. What is metadata in Data warehousing? What is metadata catalog? Dis ""
+different categories of metadata used in od':ta warehouse. [WBUT 2 ]
+- a) What is metadata? ' el | [WBUT “ )
+b) What is the typical content of metadata Rof a data warehouse? [WBUT 201
+: What is Metadata? Explain-different types of Metadata. [WBUT 20177
+Answer: b
+Metadata is simply defined as data about data. The data that is used to represent othey
+data is known as metadata. In terms of data warehouse, we can define metadata as
+follows. e
+e Metadata is the road-map to a data warehouse. il
+e Metadata in a data warehouse defines the warehouse objects. - -
+e Metadata acts as a directory. This directory helps the decision support system to
+locate the contents of a data warehouse. e '»:'In ¥
+A collection of metadata records combined with data management and search tools “
+a data catalogue. The architecture of these data catalogues can vary from tightly helc
+internal data indexes to widely accessible distributed catalogues spread across the
+Internet. ¥
+’ Metadata can be broadly categorized into three categories: R
+o . Business Metadata: It has the data ownership information, business definition, and
+changing policies. : . - A
+o Techpical Metadata: It includes database system names, table and column
+fmd sizes, data types apd allowed values. Technical metadata also includes structu
+mforma'tlon such as primary and foreign Key attributes and indices. ' -
+° (?peratlopal Metadata: It includes currency of data and data lineage. Currency of
+h:clta means whet}.ler the data is active, archived, or purged. Lineage of data means the
+istory of data migrated and transformation applied on it.
+Long Answer Type Questions
+1. a) What is clusterinc it diffi |
+g? Why is it difficult to h A A
+olisdt . : _ andle categorical data 10
+ering? Distinguish between partition clustering and hierarchical clustering.
+What is clustering? Wt OR, T LS v?i-li‘
+hierarchical clustgring '::::I:r': th_O?_antures of qpod cluster? WHELES TSI
+que [WBUT 2013, 2014, 2016, 2U1°
+’ ”
+DATA WAREHOUSING AND DATA MINING
+
+Answer:
+1* Part: i d
+
+‘ Clustering is a data mining (machine learning) technique used to place data elements into
+clated groups w1th_out advance knowledge of the group definitions.
+There are two main types of clustering techniques, those that create a hierarchy of
+clusters and non-hierarchy of clusters. The hierarchical clustering techniques create a
+hierarchy of clusters from small to big. With a hierarchy of clusters defined it is possible
+
+| to choose the number of clusters that are desired. At the extreme it is possible to have as
+many clusters as there are records in the database. In this case the records within the
+cluster are optimally similar to each other (since there is only one) and certainly different :
+from the other clusters. The advantage of hierarchical clustering methods is that they
+
+| allow the end user to choose from either many clusters or only a few.
+9% Part:
+Since, the process of grouping a set of physical or abstract objects into classes of similar
+
+' objects is clustering, similarity metric is important here because it is used for outlier
+detection. The clustering algorithm which is main memory based can operate only on the
+
+- following two data structures namely,
+
+a) Data Matrix .
+
+: b) Dissimilarity Matrix '
+
+_ So it is difficult to handle categorical data.
+In partition clustering, every data sample is initially assigned to a cluster in some
+
+' (possibly random) way. Samples are then iteratively transferred from cluster to cluster
+until some criterion function is minimized. Once the process is complete, the samples
+will have been partitioned into separate compact clusters. Examples of partition
+clustering methods are k-means and Lloyd's method. )
+In hierarchical clustering, each sample is initially considered a member of its own cluster,
+after which clusters are recursively combined in pairs according to some predetermined
+condition until eventually every point belongs to a single cluster. The resulting
+hierarchical structure may be represented by a binary tree or "dendrogram", from which
+the desired clusters may be extracted. Examples of hierarchical clustering methods are
+the single-link, Ward's, centroid, complete-link, group average, median, and parametric
+Lance Williams methods. ‘
+b) Describe the working of the PAM algorithm. Compare its performance with
+CLARA and CLARANS. [WBUT 2009]
+Answer: |
+
+3 ;r::siEANcll k-medoids cluste_:ring glgorithm, for example, evalu.ate_s a set of k objects
+e nosw lto be representative objects (_medonds) of. B cluste.rs \a./lt.hm T object§ sych that
+- ilsletected objects are.cluste‘red with the .medmd to which it is the most Slml‘lar (ie.
+of the mede{lgs of the provided dlst_ance .metn.c). The process operates by swapping one
+“On-selectegl s with one of the objects iteratively such that the total distance between
+follows. objects and their medoid is reduced. The algorithm can be depicted as '
+
+' DWM-27
+POPULAR PUBLICATIONS : i" ‘_
+Step I: Initialization - choose k medoids from T o?jects randomly. ' 2
+Step 2: Evaluation - calculate the cost Dy — D, for each swap of one medoiqg ‘
+object, where D, is the total distance before the swap and D', is the total distance 4 Wy
+swap. , , o
+Ste; 3: Selection - accept the swap with the best cost and if the cost is negative, go o
+step 2; otherwise record the medoids and terminate the program.
+The computational complexity of the PAM algorithm is O((1 + B)k(T ~ ky?) y L;_vg.fi
+based on the number of partitions per object, wherezﬁ is the number of successfu] s _,, ,_r
+It can also be expressed as O'((1 + Pk’ (T — k)") based on the number of distanee
+calculations, i.e., one partition per object is equivalent to k dlstaqces calcu]aﬁ“‘ v
+Clearly, this is time consuming even for the moderate number of objects and a sman
+number of medoids. ‘ : ] y
+The computational complexity of the CLARA algor|2tl12m is O(q(ks” + (ZTZ— K)) + Ps?)
+based on the number of partitions per object or O'(q(k’s” + k(T —k)) + Bk’s”) based on
+number of distance calculations, where q, s, k, p and T are the number of samples, object
+size per sample, number of medoids, the number of successful swaps for all sa
+tested and the total number of objects, respectively. Clearly, the CLARA algorithm can
+deal with a larger number objects than can PAM algorithm if s < T. o
+The computational complexity of CLARANS is O((B + numlocal (T - k)) based on
+number of partitions per object or O'((B + numlocal)k(T — k)) based on the number of
+: distance calculations, where B is the number of test moves between nodes.
+2. a) What is Clustering? Why is it.reduired for data warehousing and data
+~What are the differences between partitioning clustering and Hierarch cal
+clustering? R
+b) Suppose the following table shows the distances between different cities.
+Construct a hierarchical tree using Hierarchical clustering method. f ’
+BA [ 0 | 662 | 877 | 255 | 412 | 996 | b
+- ¢) Discuss K-mean algorithm with a suitable example. - [WBUT 20171
+Answer: s
+a) 1% Part: Refer to Question No. | (a) (I' Pari) of Long Answer Type Ques -
+2" Part: | “
+- Clustering 1s required for data warehousing and data mining for the following ree
+: * Scalability — We need highly scalable clustering algorithms to deal
+databases. : SN
+| DWIEAR o ool it
+ne :u.||".a.-|:'l""’:'_—: r.'- H . -y L. . e ‘
+-
+DATA WAREHOUSING AND DATA MINING
+, Abilityto deal with different kinds of attributes — Algorithms should be capable to be
+applied on any kind of data such as interval-based (numerical) data, categorical, and
+_ pinary data. : '
+, Discovery of clusters with attribute shape — The clustering algorithm ‘should be
+capable of detecting clusters of arbitrary shape. They should not be bounded to only
+| distance measures that tend to find spherical cluster of small sizes. ,
+. High dimensionality — The clustering algorithm should not only be able to handle
+|ow-dimensional data but also the high dimensional space.
+. Ability to deal with noisy data — Databases contain noisy, missing or erroneous data.
+Some algorithms are sensitive to such data and may lead to poor quality clusters.
+[nterpretability — The clustering results should be interpretable, comprehensible, and
+. usable. '
+3 part: Refer to Question No. 1(a) (2" Part) of Long Answer Type Questions.
+b) The nearest pair of cities is MI and TO, at distance 138. These are merged into a single
+. cluster called "MI/TO". T he level of the new cluster is LIMI/TO) = 138 and the new
+sequence number is m = 1.
+Then we compute the distance from this new compound object to all other objects. In
+. single link clustering the rule is that the distance from the compound object to another
+object is equal to the shortest distance from any member of the cluster to the outside ;
+. object. So the distance from "MI/TO" to RM is chosen to be 564, which is the distance
+~ fromMItoRM, and so on.
+After merging MI with TO we obtain the following matrix: ‘
+T ] BA [ ¥ |MuTo] NAWE NGRS
+- TBA | 0 | 662 | 87 [ 055 il A |
+| Rl 662 | 0 | 2967k A4GE i NG ‘
+-
+: o - S R e T
+| Fma ) 412 | 268 | so4 | 210aiiict i
+min d(i,j) = d(NA,RM) = 219 => merge NA and RM into a new cluster called NA/RM
+. LINARM)=219 |
+‘ [ | BA [ FI_[MUTO| NARM |
+| o7 S Sl O Sl Tl k.~
+LOEL [Tv66 [Tl 0. G55 T TRIEEE
+| | MUTO | 877 | 29571 B cjiaSae |
+iy g AN 255 268 et 0 ]
+BA/NA’}RM (BA,NA/RM) =255 => merge BA and NA/RM into a new cluster called
+=3 : :
+| - T BANARME | i
+1 DWM-29
+POPULAR PUBLICATIONS
+BA/NA/RM and FI into a new -'_I
+called BA/FI/NA/RM i
+- L(BA/FI/NA/RM) = 268 : | L
+Finally, we merge the last two clusters at Ievel_ 295. ' o
+The process is summarized by the following hierarchical tree: B
+IJA NiA i ]I Mi TIO
+¢) K-means is an unsupervised learning algorithms that solve the clustering problem. The
+; procedure follows a simple and easy way to classify a given data set through a certa
+number of clusters (assume k clusters) fixed a priori. The algorithm is composed o e
+following steps: t
+1. Place K points into the space represented by the objects that are being clustered
+These points represent initial group centroids. : 8
+2. Assign each object to the group that has the closest centroid. -
+3. When all objects have been assigned, recalculate the positions of the K centroids.
+4. Repeat Steps 2 and 3 until the centroids no longer move. This produces a separatic
+of the objects into groups from which the metric to be minimized can be calculat ;
+Suppose that we have n sample feature’ vectors X1, X2, <.y X all from the same dl&l
+we know that they fall into k compact clusters, k < n. Let mi be the mean of the ve¢ ors
+‘ cluster i. If the clusters are well separated, we can use a minimum-distance classifi
+separate them. That is, we can say that X is in cluster i if || x - m, || is the minimum of
+~ thek dxstapc.e:s. This suggests the following procedure for finding the k means: ‘ E
+* Make initial guesses for the means m;, my, ..., my S
+’ *  Until there are no changes in any mean il
+©  Use the estimated means to classify the samples i -
+. S Int Fi
+, o Forifrom I tok j g i i s
+* Replace mi with the mean of all of t ] i e
+o end for _ he samples for cluster i A
+¢ end_until ‘ B
+J— .
+DATA WAREHOUSING AND DATA MINING
+" Here is an example showing how the means m1 and m2 move into the centers of two
+clusters. A
+. % Final : |
+‘e f : Boundary :
+) Start m X -
+' 3. a) Introduce the concept of Support, Confidence and Frequent Itemset and then
+ﬂ give a formal definition of Association Rule.
+b) Generate all Frequent Itemsets from the following transaction data given
+.' minimum support = 0.3.
+~ TID | fems | TD | items | '
+1 | ABGE | 6.7 |
+1 — 2 | BO0E | T DI SR
+'- 3 | 8¢ |8 [TUANEEE
+- —a_ [ —ABD | 0 0 TR
+i 5 1 A&C | A0 e
+¢) Find the Association Rules from the above Frequent sets at min. 50%
+3 confidence. _ [(WBUT 2010]
+' Answer: , v
+a) Refer to Question No. 2 of Short Answer Type Questions. :
+{ b) Passl -
+P e (w0 | |
+, {E 5/10
+Pass2
+B [(AB} (410 | | ‘
+B [{AC} |50
+B ((AD} (110 ] |
+Nio%, M 17, Y |
+i v DWBSAT . v ddiabi i 1
+POPULAR PUBLICATIONS , |
+5/10 o
+4/10 o
+
+Pass3 Lo
+
+Pass3 \ ! .
+Therefore frequent itemsets are {A,B,C} and {A,C,E} with min_support 0.3.
+¢) Association Rules: R 8
+{A,B} =C, confidence(c) = o(A,B,C}/o(A,B) = 3/4=0.75 i
+{B,C}>A, confidence(c) =c(A,B,C)/o(B,C)=3/5=0.6 "8 3
+{A,C}>B, confidence(c) =0(A,B,C)/o(A,C)=3/5=0.6 ' ‘ Sy
+{A,C}E, confidence(c) =o(A,C,E)/o(A,C)=3/5=0.6 e
+{A,E}>C, confidence(c) =o(A,C,E)/c(A,E)=3/3=1 . $
+{C,E}>A, confidence(c) =o(A,C,E)/o(C,E)=3/4=0.75 -
+4i \II)Vrite‘short notes on the following: aliny 1 4 ,)
+a) Dimensional Modelin ‘ BUT 2018]
+b) Generalized Assqciat?on Rule : %3; 2010]
+c) PAM Clustering Technique , [wBUT 2010
+d) CLARANS clustering algorithm vis-a-vis PAM and CLARA [WBUT 20°
+e) K-Medoid Algorithm : [WBUT 2017]
+Answer: ' g
+a) Dimensional Modeling: | L ACE
+A dimensional model is a data structure technique optimized for Data warehousing toc 7';;?: g
+
+' The concept of Dimensional Modelling was developed by Ralph Kimball and is
+comprised of "fact” and "dimension" tables. e
+A Dlmensmnal’ model is designed to read, summarize, analyze numeric
+
+- values, balances, counts, weights, etc. in a data warehouse. In contrast, relation models
+DATA WAREHOUSING AND DATA MINING
+are optimized for addition, updating and deletion of data in a real-time Online
+Transaction System.
+These dimensional and relational models have their unique way of data storage that has -
+specific advantages. . .
+For instance, in the relational mode, normalization and ER models reduce redundancy in '
+data. On the contrary, dimensional model arranges data in such a way that it is easier to
+retrieve information and generate reports. ]
+Hence, Dimensional models are used in data warehouse syétems and not a good fit for
+relational systems. ) _
+b) Generalized Association Rule: |
+In most real-life applications taxonomies (is-a hierarchies) over the items are available. |
+, In general, a taxonomy can be represented as a directed acyclic graph (DAG). Given a |
+set of transactions T each of which is a set of items, and a taxonomy Tax, the problem of ;
+mining generalized association rules is to discover all rules of the form X 2 Y, with the
+' user-specified minimum support and minimum confidence. X and Y can be sets of items
+at any level of the taxonomy, such that no item in Y is an ancestor of any item in X. For
+example, there might be a rule which says that "S0% of transactions that contain Soft
+drinks also contain Snacks; 5% of all transactions contain both these items"
+¢) PAM Clustering Technique: ‘
+PAM stands for “partition around medoids”. The algorithm is intended to find a sequence
+of objects called medoids that are centrally located in clusters. Objects that are tentatively ‘
+defined as medoids are placed into a set S of selected objects. ‘
+If O is the set of objects that the set U = O — S is the set of unselected objects. The goal of
+the algorithm is to minimize the average dissimilarity of objects to their closest selected
+object. Equivalently, we can minimize the sum of the dissimilarities between object and |
+‘ their closest selected object.
+The algorithm has two phases: :
+(i) In the first phase, BUILD, a collection of k objects are selected for an initial set S. ‘
+' (ii) In the second phase, SWAP, one tries to improve the quality of the clustering by ‘
+. exchanging selected objects with uniselected objects. j
+The goal of the algorithm is to minimize the average dissimilarity of objects to their
+closest selected object. Equivalently, we can minimize the sum of the dissimilarities
+E- between object and their closest selected object.
+, dTLgLA;_{ANS clust.erigg algorithm vis-ﬁ-\fis PAM and CLARA: - ,
+| poin?sle lOd]: searching in PAM or CLARA is abstracted as searching k subgra}phs from n
+CLA REEIS) ,Cand be_lsed on this unfier§tand1ng, a PAM-like clus-tering algorlt‘hm called
+While PAM( lustering Large Applications based upon RANdomized Search) is defined. :
+Eniik st searches the whole graph and CLARA searcheg some ra-ndo.m sub-graphs,
+e Crlajndomly samples a se-t and .select's k med01ds- in chmblpg sub-graph
+medoids, | ARANS selects the neighboring objects of medoids as capdxdates of new
+- It samples subsets to verify medoids in multiple times to avoid bad samples.
+| DWM-33
+DATA WAREHOUSING AND DATA MINING
+Multiple Choice Type Questions
+1. To optimize data warehouse design, which one is done? [WBUT 2011]
+a) Normalization of fact tables and demoralization of dimension tables
+b) Normalization of fact tables and dimension tables
+¢) Demoralization of fact tables and dimension tables
+d) Normalization of dimension tables and demoralization of fact tables
+Answer: (d)
+is the value of an attribute is examined as it varies over time.
+2. -
+“a)Time series Analysis b) Classification [MODEL QUESTION]
+c) Association d) Prediction
+Answer: (d)
+Long Answer Type Questions
+1. a) Define decision tree. [WBUT 2009, 2010]
+b) What are the advantages and disadvantages of the decision tree approach over
+
+i other approaches for data mining? [WBUT 2009]
+
+: ¢) Discuss briefly the tree construction principle. [WBUT 2009]
+
+: OR,
+
+‘ Describe the basic algorithm for decision tree induction. [WBUT 2013]
+d) What is a classification problem? What is the difference between supervised
+and unsupervised classification? [WBUT 2009]
+
+' Answer: -
+
+' a) Decision trees are powerful and popular tools for classification and prediction. The
+attractiveness of decision trees is due to the fact that, in contrast to neural networks,
+decision trees represent rules. ‘
+
+Decision tree is a classifier in the form of a tree structure (see Figure 1), where each node
+is either:
+
+: o aleaf node - indicates the value of the target attribute (class) of examples, or-
+
+' * adecision node - specifies some test to be carried out on a single attribute-value,
+
+: ‘wilh one branch and sub-tree for each possible outcome of the test.
+A de.cmon tree can be used to classify an example by starting at the root of the tree and
+
+‘ ;“(f)vmg t_hrough it until a leaf node, which provides the classification of the instance.
+
+‘ ef"(aormauon gain, is simply the expected reduction in entropy caused by partitioning the
+a‘n ::tp.lss accordlng to this attribute. More precisely, the information gain, Gain (S, A) of
+
+ribute A, relative to a collection of examples S, is defined as :
+
+. Ga - T g &
+
+Wher ! : veValue( A)
+for w;i\éﬁluesgA) is the set of all possible values for attribute A, and S, is the subset of S
+| attribute A has value v (i.e., S, = {s € S | A(s) = v}). Note the first term in the
+DWM-35
+i
+POPULAR PUBLICATIONS
+equation for Gain is just the entropy of the original cczlllec?lorla?t r?gﬂt;hj\ Seﬁc\)nd term is
+the expected value of the entropy after S is partitione us'ff'gh sosal il e CXpecteq
+entropy -described by this second term is simply the sum of the en ropies of t_.each Subs
+Sv, weighted by the fraction of examples [S,|/|S| that belong to S,. Gain (S,A) is therefore
+the expected reduction in entropy caused by knowing the value of attribute A. Put angpg, ¥
+i i i i rovided about the target attribute value, given
+way, Gain(S,A) is the information p _ ‘ ber of bi the s
+value of some other attribute A. The value of Gain(S,A) is the number of bits saved Whﬂn
+encoding the target value of an arbitrary member of S, by knowing the value of attribqu
+A decision tree can be constructed top-down using the information gain in the foll. Wi .
+way: i
+1. begin at the root node ' . P i
+2. determine the attribute with the highest information gain which is not already
+used as an ancestor node . &
+3. add a child node for each possible value of that attribute e
+4. attach all examples to the child node where the attribute values of the examples .
+are identical to the attribute value attached to the node :
+5. .if all examples attached to the child node can be classified uniquely add that g
+classification to that node and mark it as leaf node 3
+6. go back to step two if there are unused attributes left, otherwise add the
+. classification of most of the examples attached to the child node T
+b) Advantages of Decision Tree model : ¥
+' ¢ Decision tree methods tend to produce models that are easy to interpret. At each no s'-_."
+terminal node, a decision is based upon just one predictor variable and this makes it
+easy to follow. For example, to explain particular classification one need only look at
+the series of simple decisions that led to it. The final tree model can in-fact be cast
+into a set of rules one can follow to classify a given case. In comparison, general‘»_
+linear models use linear combinations of variables that can be difficult to interpret or
+explain.
+* Tree models make no assumptions about the distribution of the underlying data and
+- they are thus a non-parametric procedure. This. can be especially useful if the
+- distribution of the data is indeed unknown, something that happens a lot in practice.
+* Decision tree methods are easily able to handle both categorical and continue s
+variables. i
+* Decision tree methods have a built-in feature selection method that makes hem
+iImmune to the presence of useless variables. Such variables are ignored and they do
+no affect the tree building process. This is a common problem with over-parametized
+. datasets. . o
+: gi; g‘r‘;izl; :tfe :’ef)’ adf‘apt'at.rev_ealing comple.x ipteractions betwegn \Z:
+S :a rren? can r::ontam d.lffe_rent combinations of variab-les and ﬂi@-_ v
+et %p ore than once m. dlfferent pa.rts of the tree. This can IM L
+€ can depend on another and in what specific context this dependency € iy
+' DWM-36 | o
+DATA WAREHOUSING AND DATA MINING 1
+. Decision tree models are extremely robust to the effect of outliers. This is so because
+‘ the models are constructed in a frequency-based technique where one is counting the
+instances in a split. Outliers that occur in the independent variables do not affect the
+tree growing process because the values used to split each node are not likely to be
+on the outlier values. Outliers in the dependent variable go into their own nodes and
+: do not affect the rest of tree.
+: . Tree models offer several ways of dealing with missing values that can often 1
+, minimize or eliminate the effect of such values on model performance. In many other
+' methods the whole set of instances with missing values would be omitted from
+| analysis. This advantage is present in both the when training the tree model or when
+,' applying the model on new data for class prediction.
+pisadvantages of Decision Tree Models: '
+Decision trees are indeed powerful data mining tools, but they are not perfect and are
+; suited to certain types of problems. The main weaknesses in decision tree modeling are
+listed below:
+. Classification trees can be unstable and small variations in the data (such as that
+made by randomization) can cause very different looking trees being generated. This
+- is especially so in cases where the goodness of splits for the different variables are
+close to each other in value. In this case, a small variation in the data is enough to
+influence the picking of on split over another.
+o Many of these problems are dealt with by using stratified sampling when creating -
+testing and training datasets. In this case, the training and testing datasets have -
+the same class distribution. ,
+o Such problems are also a symptom of a dataset that is too small. In such cases, it
+is important to use the entire dataset to train and test the model. This is the idea '
+behind the cross-validation technique. Since the final model is built on the whole
+dataset, randomization of this same data will not cause too much instability.
+« Some the tree models generated may be very large and complex. This can make the
+model difficult to interpret, understand or justify.
+e Tree models really shine when applied to classification problems; unfortunately, they
+are not very good at estimation tasks(as in regression), i.e. having numerical
+dependent variable.
+« Decision tree models are computationally expensive to train ,
+j ¢) Most algorithms that have been developed for learning decision trees are variations on t
+‘ a core algorithm that employs a top-down, greedy search through the space of possible
+:. S:cmon trees. Decision tree programs construct a decision tree T from a set of training
+'. ses.
+E Constructing Decision Tree using ID3’
+function ID3 ‘
+Input: (R: a set of non-target attributes,
+C: the target attribute,
+S: a training set) returns a decision tree; ,
+, DWM-37 _
+POPULAR PUBLICATIONS k.-
+begin : i B
+If S is empty, return a single node with e
+value Failure; i &
+ If S consists of records all with the same . k.
+value for the target attribute, i
+: return a single leaf node with that value; ) 7{#
+If R is empty, then return a single node B
+with the value of the most frequent of the i?ﬁ
+values of the target attribute that are B
+found in records of §; [in that case . | =
+. there may be be errors, examples . fﬁi
+that will be improperly classified]; o
+Let A be the attribute with largest N
+Gain(A,S8) among attributes in R; _fgf
+L Let {aj| j=1,2, .., m} be the values -of . ?HT
+attribute A; 9
+Let {Sj| j=1,2, .., m)} be the subsets of ks
+S consisting respectively of records o
+s with value aj for A;  j}
+Return a tree with root labeled A and arcs o
+labeled al, a2, .., am going respectively .
+to the trees (ID3(R-{A}, C, S1), ID3(R-{A}, Cy N ‘
+’ erv i EDI(R=(AS .0 Bm)y , :
+Recursively apply ID3 to subsets {Sj| j=1,2, .., m} o
+: until they are empty o _i'}'
+end .
+d) Classification is the process of dividing a dataset into mutually exclusive groups such
+that the members of each group are as "close" as possible to one another, and different
+groups are as "far" as possible from one another, where distance is measured with respect
+to specific variable(s) one is trying to predict. For example, a typical classification
+problem is to divide a database of companies into groups that are as homogeneous as
+possible with respect to a creditworthiness variable with values "Good" and "Bad." " "
+With supervised classification, we identify examples of the Information classes (i.e., land |
+cover type) of interest in an image(say). These are called "training sites". The image
+processing software system is then used to develop a statistical characterization of the
+reflectance for each information class. This stage is often called "signature analysis" ant
+| may involve developing a characterization as simple as the mean or the rage of
+reflectance on each bands, or as complex as detailed analyses of the mean, variances and
+covariance over all bands. Once a statistical characterization has been achieved for each
+information class, the image is then classified by examining the reflectance for each pixel
+and making a dec:si_on about which of the signatures it resembles most. -
+
+. [{nsupeW1seg! classification is a method which examines a large number of unknown
+pixels and divides into a number of classed based o natural groupings present in the
+image values. unlike Supervised classification, unsupervised classification does not
+require analyst-specified training data. The basic premise is that values within a givel
+
+: s
+' o o LR
+POPULAR PUBLICATIONS s |
+2 ture in a class is unrelated to the.px:es.ence of any otk
+S pli:m: uf]riritfer::liay be considered to be an apple if it is red, round, 5 a#
+feature. Ij"orhexafnpdi;m eter. Even if these features depend on each other or upon the
+ab'm':t 3el n:f :lslelr:)ther features, all of these properties independently contribute to the
+S : ’ i it is known as ‘Naive’. -
+ili b fruit is an apple and that 1S why 1t 1s R ]
+i}r;tz;b}gg;etsh?rggs is easy to build and particularly useful for very Iarr‘ge c:ata sets. Along
+with simplicity, Naive Bayes is known to outperform eve ghly sophisticateq
+classification methods. _ ¥ 2 A
+Bayes theorem provides a way of calculating posterior probability P(clx) from P(c), .11‘: |
+and P(x|c). Look at the equation below:
+Likehood Class Prior Probability g 2
+P(c]¥)=— (x1¢)P(c) |
+C|-% J = o ' &
+~ Posterior Probability . \ é ’ :
+: Predictor Prior Probability s :
+p(c|X)=P(x,|c)><P(x2|c)x....xP(xn{c)xP(c) |
+Above, i '&{-
+o P(clx) is the posterior probability of class (c, targer) given predictor -8
+(x, attributes). .
+o P(c)is the prior probability of class.
+e P(x|c) is the likelihood which is the probability of predictor given class.
+e P(x) is the prior probability of predictor.
+3. a) What are the uses of training data set and test data set for a decision wi
+: classification scheme? [WBUT 2010, 2012, 2018]
+b) Discuss the principle of FP- tree Growth algorithm. [WBUT 2010, 2013]
+OR, B
+Discuss the different phases of FP-tree growth algorithm. [WBUT 2012] :,7-'
+Define FP tree. Discuss the method of computing FP tree. [WBUT 2018] B
+Answer: ' . e
+;) Decision trees need two kinds of data: Training and Testing. e
+T;ammg data:, YVthh are usually the bigger part of data, are used for constructing trees.
+off] more tr.amm'g data collected, the higher the accuracy of the results. The other group
+| e ata, testing, is used to get the accuracy rate and misclassification rate of the decision
+KR quWt}} algorithm allows frequent itemset discovery without candidate Iite ik
+generation. It is a two step approach: . SR
+Step 1: gu{ld a compact data structure called the FP-tree ‘ : L
+uilt using 2 passes over the data-set. ' . ' 4 -ér
+Method: call FP—growth(FP'tfe{e’ null). e
+FP-growth(Tree, a) i
+(Por]o)ciefd';jrreee contgains a s(ingle prefix path then // Mining single prefix-path FP-tree { sfh
+(02) let P be the single preﬁx-pat}} part of Tree; : , R i
+(03) let Q be the multipath part with the top branchmg_node replaced by a null rg ot;
+(04) for each combination (denoted as B) of .th'e nodes in the path P do. ! v- i
+(05) generate pattern 3 ? a with support = minimum support of nodes in B; o
+(06) let freq pattern set(P) be the set of patterns so generated;
+(}07) else let Q be Tree; _ | S
+(08) for each item ai in Q do { // Mining multipath FP-tree B
+(09) generate pattern 8 = ai ? a with support = ai .support; i
+(10) construct B’s conditional pattern-base and then s conditional FP-tree Tree g
+(11) if Tree B = O then :
+(12) call FP-growth(Tree 3, B); 4
+(13) let freq pattern set(Q) be the set of patterns so generated; y -
+214) return(freq pattern set(P) ? freq pattern set(Q) ? (freq pattern set(P) x freq pattem
+set(Q))) : ‘ : ng
+' 4. What is time series data mining? [MODEL QUESTION]
+_ Answer: :
+A time series is a sequence of data points recorded at specific time points - most often in
+regular time intervals (seconds, hours, days, months etc.). Every organization generates a
+high volume of data every single day — be it sales figure, revenue, traffic, or operating
+cost. Time series data mining can generate valuable information for long-term business
+decisions, yet they are underutilized in most organizations. Below is a list of few possiblé
+' ways to take advantage of time series datasets: ! H“'
+Trend analysis: Just plotting data against time can generate very powerful insights. One.
+very basic use of time-series data is just understanding temporal pattern/trend in what is
+being measured. In businesses it can even give an early indication on the overall direction
+of a typical business cycle. ol
+Outlier/anomaly detection: An outlier in a temporal dataset represents an anomaly
+Whether desired (e.g. profit margin) or not (e.g. cost), outliers detected in a dataset can
+help prevent unintended consequences.
+Examining - shocks/unexpected variation: Time-series data can identify variation:
+(expec.teq or unexpected) and abnormalities, detect signals in the noise. 3
+| Association analysis: By plotting bivariate/multivariate temporal data it is easy (%
+wsua!ly? to identify associa.tions between any two features (e.g., profit vs sales).
+association may or may not imply causation, but this is a good starting point in selet
+input features that impact output variables in more advanced statistical analysis. ”.n-" i
+POPULAR PUBLICATIONS
+Mining partial, categorical, and asynchronous _peflOdlC pattEs PlosteS
+problems in regards to the development of efﬁc;ent data mining 5‘; utions. 1his is be, al
+most statistical methods or those relying on time-to-frequency domain transformag,
+
+‘ are either inapplicable or expensive at handlir}g such problerr.lsl. & o .
+Take mining partial periodicity as an example;. Because partia Pe: ICIty miXes perigg,
+events and non-periodic events together the same period, @ tlme-to-f '€qQuenc,
+transformation method, such as FFT, becomes lpc?ffectlve l?ecause it treats the time serjg
+as an inseparable flow of values. Certain period}CIty detection metl.mc_is can _
+partial periodic patterns, but only if the period, length, and timing of the' Segment
+(subsequence of interest) in the partial patterns have certain behqvnors and are ¢ it
+specified. For the newspaper reading example, we need to explicitly specify det.a[b'
+as “Find the regular activities of Sandy during the half-hour -after 7:.00.for a period of 24
+hours.” A naive adaptation of such methods to the partlal .pel:lodl(.} pattern u».glr_,;
+problem would be prohibitively expensive, requiring t.helr application Fo a l_mge : 1..]‘
+of possible combinations of the three parameters of period, length, and timing. k.
+Most of the studies on mining partial periodic patterns apply the Apriori property
+heuristic and adopt some variations of Apriori-like mining methods. Constraints can also
+be pushed deep into the mining process. Studies have also been performed on the
+efficient mining of partially periodic events patterns or asynchronous periodic ;n.r:"
+with unknown or with approximate periods. .. :
+Mining partial periodicity may lead to the discovery of cyclic or periodic association
+rules, which are rules that associate a set of events that occur periodically. An examp e of
+a periodic association rule is “Based on day-to-day transactions, if afternoon tea is well
+received between 3:00 to 5:00 p.m., dinner will sell well between 7:00 to 9:00 p.m.
+weekends.” =
+Due to the diversity of applications of time-related sequence data, further developnmf
+(eiﬂif:ie(rilt algorithms for mining various kinds of periodic patterns in sequence data bases is
+
+esired. ‘
+i. What are applications of data mining? ' [MODEL QUESTIC
+nswer: , e
+Dflté} mining is wic.iely used in diverse areas. There are a number of commercial dat
+e
+i i rend of data mining. : "y
+Data Mining Applications: o
+Here is the list of areas where data mining is widely used — ":-
+* Financial Data Analysis | i
+* Retail Industry g
+
+* Telecommunication Industry | L
+
+* Biological Data Analysis 8
+
+*  Other Scientific Applications
+
+e Intrusion Dete(?tion _ E .
+
+- DWM-44 . A
+. DATA WAREHOUSING AND DATA MINING
+Financial Data Analysis ,
+The ﬁnanc'ial datz.l_m banking anfi financial industry is generally reliable and of high
+qualit)’ which facilitates systematic data analysis and data mining. Some of the typical
+cases are as follows =
+o Design anc! cfonstruction of data warehouses for multidimensional data analysis '
+and data mining. L
+« Loan payment prediction and customer credit policy analysis.
+o Classification and clustering of customers for targeted marketing. ‘ ‘
+« Detection of money laundering and other financial crimes.
+. Retail Industry . :
+‘ Data Mining has its great application in Retail Industry because it collects large amount
+of data from on sales, customer purchasing history, goods transportation, consumption
+and services. It is natural that the quantity of data collected will continue to expand
+. rapidly because of the increasing ease, availability and popularity of the web.
+‘ Data mining in retail industry helps in identifying customer buying patterns and trends
+that lead to improved quality of customer service and good customer retention and
+. satisfaction. Here is the list of examples of data mining in the retail industry — '
+o Design and Construction of data warehouses based on the benefits of data
+| mining. '
+« Multidimensional analysis of sales, customers, products, time and region.
+o Analysis of effectiveness of sales campaigns.
+o Customer Retention.
+e Product recommendation and cross-referencing of items. '
+Telecommunication Industry
+- - Today the telecommunication industry is one of the most emerging industries providing
+| various services such as fax, pager, cellular phone, internet messenger, images, e-mail, '
+. web data transmission, etc. Due to the development of new computer and communication
+: technologies, the telecommunication industry is rapidly expanding. This is the reason '
+why data mining is become very important to help and understand the business.
+' Data mining in telecommunication industry helps in identifying the telecommunication
+patterns, catch fraudulent activities, make better use of resource, and improve quality of
+serv@ce. Here is the list of examples for which data mining improves telecommunication
+services — :
+* Multidimensional Analysis of Telecommunication data.
+* Fraudulent pattern analysis. '
+* Identification of unusual patterns.
+* Multidimensional association and sequential patterns analysis.
+* Mobile Telecommunication services.
+*  Use of visualization tools in telecommunication data analysis.
+DWM-45
+POPULAR PUBLICATIONS
+Biological Data Analysis ' ; , - T b
+In recent times, we have seen a tremendous grov»fth in 'thT ﬁf;‘; r‘:{‘ bll?.oilo(;% :auleh lp—: \
+genomics, proteomics, functional Genomics anfi biomedica r:rc o .aspects ~ Q
+mining is a very important part of Bioinformatics. Following m
+data mining contributes for biological data analysis = \ N
+e Semantic integration of heterogeneous, distributed genomic and proteom; f
+databases. ' : y . .
+e Alignment, indexing, similarity search and. comparative analysis multiple v
+nucleotide sequences. _ . .
+e« Discovery of structural patterns and analysis of genetic _networks and protein
+pathways. =" g : _ 3
+e Association and path analys'ls. .
+
+e Visualization tools in genetic data analysis. E
+Other Scientific Applications : -~ O
+The applications discussed above tend to handle relatively small and homogeneous dg‘
+sets for which the statistical techniques are appropriate. Huge amount of data’have been .
+collected from scientific domains such as geosciences, astron(?my, e.tc. A'large ._amount of»_;_;:
+data sets is being generated because of the fast numerical 51mulatlons_ in various fields
+such as climate and ecosystem modeling, chemical engineering, fluid c'lynamlcs, ete.
+Following are the applications of data mining in the field of Scientific Applications —
+
+e Data Warehouses and data preprocessing. ' A
+
+e Graph-based mining. : i
+
+' o Visualization and domain specific knowledge. 38
+Intrusion Detection i
+Intr}lsiqn refers to any kind of action that threatens integrity, confidentiality, or
+availability of qetvyork resources. In this world of connectivity, security has become the
+major issue. With mc.reased usage of internet and availability of the tools and tricks for
+
+- intruding and attacking network prompted intrusion detection to become a
+component of .network.admlmstration. Here is the list of areas in which data mining £
+technology may be applied for intrusion detection —
+' ° gevel9pment oz data mining algorithm for intrusion detection il
+
+* Association and correlation analysis, a : ; | :
+
+discriminating attributes, dme iy .to help select and
+
+e Analysis of Stream data. : _'5]
+
+* Distributed data mining, b
+
+* Visualization and query tools. 5
+’ll?]?gel\’{ai:l;ng SYSte(tin Products : .
+
+. many data minj I
+applications. The new data lrr;lginisglstem products and domain specific data mining
+previous systems. Also, efforts are bgeii)g:relms ;tmd applications are being added t0
+
+? a e (8} s e . » ‘L
+tandardize data mining languages. i
+| DATA WAREHOUSING AND DATA MINING
+. Choosing 2 Data Mining System : _
+The selection of a data mining system depends on the following features —
+pata Types — The data mining system may handle formatted text, record-based data,
+
+' y and relational data. The data could also be in ASCII text, relational database da.ta_ or
+data warehouse data. Therefore, we should check what exact format the data mining
+system can handle. Rt h
+
+. System Issues — We must consider the compatibility of a data mining system Wit
+
+1 different operating systems. One data mining system may run on only one operating
+system or on several. There are also data mining systems that provide web-based user
+interfaces and allow XML data as input. : A
+
+o Data Sources — Data sources refer to the data formats in which data mining system
+will operate. Some data mining system may work only on ASCII text files while
+.others on multiple relational sources. Data mining system should also support ODBC
+connections or OLE DB for ODBC connections.
+
+i o Data Mining functions and methodologies — There are some data mining systems
+that provide only one data mining function such as classification while some provides
+multiple data mining functions such as concept description, discovery-driven OLAP
+
+, analysis, association mining, linkage analysis, statistical analysis, classification,
+prediction, clustering, outlier analysis, similarity search, etc.
+o Coupling data mining with databases or data warehouse systems — Data mining
+
+5 systems need to be coupled with a database or a data warehouse system. The coupled
+
+.~ components are integrated into a uniform information processing environment. Here
+
+- are the types of coupling listed below —
+
+- No coupling '
+- Loose Coupling ’
+
+\ — Semi tight Coupling :
+
+1 - — Tight Coupling
+
+: * Scalability — There are two scalability issues in data mining —
+
+j - Row (Database size) Scalability — A data mining system is considered as row y
+scalable when the number or rows are enlarged 10 times. It takes no more than 10
+times to execute a query.
+
+= Column (Dimension) Salability — A data mining system is considered as column
+
+1 scalable if the mining query execution time increases linearly with the number of
+
+columns.
+* Visualization Tools — Visualization in data mining can be categorized as follows —
+‘ — Data Visualization ‘
+- Minﬁng Results Visualization
+= Mining process visualization '
+
+E . ;)at:‘;l;'fll data mining ' |
+i llmng query la.m.guage and graphical user .mteliface ~ An easy-to-use
+Unlike? lUS_er }nterface s important to promote user-guided, interactive data mining,
+
+| v €lational database systems, data mining systems do not share underlying data
+€ query language.
+DWM-47
+POPULAR PUBLICATIONS
+MINING DATA STREAM
+Multiple Choice Type Questions
+1. The ‘Dice’ operation is concerned with [WBUT 2009, .
+a) Multiple runs of slice . i
+b) slice on more than one dimensio _ o
+i - dimension e
+c) selecting certain cells of more than one ¢l e
+d)) two consecutive slice operations in two different dimensions
+Answer: (d) i
+2. The major drawback of CLARANS algorithﬂ;; i:a [WBUT 200s,
+< a) it cannot handle very large volumes of dat. ..
+b)) it assumes that all objects fit into the main memory, and the result is v
+sensitive to input order ) K f
+c) it cannot find the best clustering if any sampled medoit p not among e
+best k methods @*‘7
+Answer: (b)
+3. A drill-down operation is concerned with _[WBUT 2009, 2016, 201 h
+a) which merges cells of two dimension ’ X
+b) which merges cells of any one dimension based on the characteristics of
+the dimension 78
+’ c) which splits cells of two dimensions ‘i
+d) which splits cells of any one dimension based on the characteristics of the
+dimension
+Answer: (d)
+4. Parameters used for association Rule Mining are (WBUT 2010, 2
+a) Confidence and Support b) Confidence and Itemcount
+c) Support and Itemcount d) Support, Confidence and Itemco
+Answer: (a)
+5. Two main types of clustering techniques in data mini I
+. a w8
+a) Serial clustering and parallel cluc;tering R UT
+b) :uararchlcal clusterinq and partitioning clustering . T
+:; k‘i’:&g"'_‘:“? clustering and heterogeneous clustering b
+Asaar: (b) oids clustering and K -means clustering iy
+) end
+6. The algorithm which uses | E
+seaociations of ems in dat the concept of a train running over data 10 °
+ata mining known as m
+‘; Spfioﬁty Algorithm N by
+¢) Dynamic Item-set C on Algorithm e
+Answer: (c) ounting Algorithm d) FP-Tree growth Algorithm
+DWM-48 | Lo
+DATA WAREHOUSING AND DATA MINING
+ffice, but if
+7. If we know exactly what information we need then...............would suU UT 2012]
+) we vaguely know the possible patterns then..............are useful. ws
+a) Data Warehouse, Data Mining techniques
+b) DBMS Query, Data Mining techniques
+' ¢) DBMS Query, Data Warehouse applications
+d) Data Warehouse applications, Data Mining techniques :
+| Answer: (b) i
+4. Association analysis is used for (WBUT 2014]
+a) transaction data analysis b) olap c) molap d) none of thesg
+Answer: (a) ,
+9. Which one is not a data mining task? [WBUT 2014, 2015]
+a) indexing b) classification c) clustering d) regression |
+‘ Answer: (a)
+10. An example of hierarchical clustering algorithm is [WBUT 2014, 2018]
+, a) clarans b) C4.5 c) average linkage d) rock ‘
+- Answer: (d)
+11. Which frequent pattern mining technique mines without candidate generation?
+a) Partitioning b) Apriori [WBUT 2018]
+¢) FP-growth d) Dynamic intensive counting
+- Answer: (¢) .
+1. What are the different methods of computing the best split? What are entropy
+gain and gain ratio? [WBUT 2012]
+Answer: :
+A Various measures are available to determine which test condition provides the best split.
+These are: -
+— Gini Index
+, — Entropy / Information Gain
+— Classification Error
+A measure used from Information Theory in the ID3 algorithm and many others used in
+decision tree construction is that of Entropy. Informally, the entropy of a dataset can be
+| f:onsidered to be how disordered it is. It has been shown that entropy is related to
+. Information, in the sense that the higher the entropy, or uncertainty, of some data, then
+the more information is required in order to completely describe that data. In building a
+R deC}SlOn tree, we aim to decrease the entropy of the dataset until we reach leaf nodes at
+, ?:’:‘:Ch point the subset that we are left with is pure, or has zero entropy and represents
+Wsearr:;es all of one class (all instances have t}le same value for the t.arget a.ttribt.lte).
+‘ o a;Sl_Jre the entropy of a 'dataset, 8, .w1th respect to one attribute, in this case the
+ribute, with the following calculation:
+. | DWM-49 ; . :
+POPULAR PUBLICATIONS
+Entropy (S) = Z p, log, p, where Pi is the proportion of instances in the dataset that take '
+g i=l , < A
+g i i different values
+the ith value of the target attribute, which has C ¢ _ ) . i
+In order to reduce the effect of the bias resultl(;lngrf)mRFl:; ‘11:?1 e?_fnzfaf%r;nt;t;ommn;
+i g ' n Ra
+variant known as Gain Ratio has been 1ntroduce. . Gal ’ s T i
+Gain Ratio = Information Gain/Split Information where Split Information s value
+based on the column sums.
+i i A? lllustrate this using smail example. .\
+2. How is CLARANS different from CLAR WBUT 201
+Answer: 3 : ) ;
+CLARA (Clustering Large Applications), is an 1mplemen}at10n of PAM in alsubset ofthe
+dataset. It draws multiple samples of the dataset, applies PAM on sampies, and then
+outputs the best clustering out of these samples. : . .
+' CLARANS (Clustering Large Applications based on Randomized Search), combme.s the
+sampling techniques with PAM. The clustering process can be presen.ted as semhmg a 43
+graph where every node is a potential solution, that is, a set of k medoids. The cluste;:lng_ -
+obtained after replacing a medoid is called the neighbour of the currer.lt cl.ustermg,
+CLARANS selects a node and compares it to a user-defined number of their neighbours 2
+searching for a local minimum. If a better neighbour is found (i.e., having lower-square
+error), CLARANS moves to the neighbour’s node and the process start again; otherwise
+the current clustering is a local optimum. If the local optimum is found, CLARANS starts
+with a new randomly selected node in search for a new local optimum. o
+Basically, CLARA draws multiple random samples of the input points, runs algorithm
+A {PAM} on each sample set, and outputs the clustering with the lowest clustering cost (in "
+terms of the sum of distances of the points to the closest medoid). Like CLARA the
+algorithm CLARANS is also a randomized version of PAM. In each local improvementf, 8
+step, CLARANS does not consider all possible swaps of one medoid and one non-medoid
+like {PAM} does, but it only considers a randomly chosen subset of all possible swaps.
+' (lleAIRAN'S computes a certain fixed number of local minima in this manner and outputs
+the clustering with the minimum clustering cost among all these local minima. y
+3. Explain temporal data mini i o pe gl -
+; data mining? % ata mining with an example. How is it different from spatid:“
+Answer: [WBUT 2015]
+Temporal data mining refers to th : O e g N
+A useful abstract information from la‘:gzxé:)aicl:n(ip of implicit, non-trivial, and potenndly.'-
+sequences of a primary data type, most ¢ ections of temporal data. Temporal data are
+sometimes multivariate or compo;ite info ommonly numerical or categorical values
+time series (e.g., stock ticks, EEG) evemfm?‘tlon. Examples of temporal data are regul r,
+medical records, weblog data) and tem ::lq;lences (e.g, sensor readings, packet traces: -
+tuples, databases with versioning). The [::(c))mm ata?ases (e.g., relations with time stampe¢
+total ordering of their elements. They differon actor of all these sequence types is 1.
+on the type of primary information, ! o
+POPULAR PUBLICATIONS --"-f.:_l.l :
+1. In data warehouse technology explain ROLAP, MOLAP and HOLAP techniqye,
+of implementing a multidimensional view(r).R WBUT 2
+Compare between HOLAP, ROLAP and MOLAP. [WBUT 2013
+ﬁ:ls::ieornal OLAP (ROLAP) servers: These are the intermediate servers that """
+between a relational back-end server and client front-end tools. They use a relm or
+extended-relational DBMS to store and manage wareho-USﬁf da.ta, and OLAP midd Cware
+to support missing pieces. ROLAP servers include optimization for each DBMS
+end, implementation of aggregation navigation logic, and additional tools and ser
+ROLAP technology tends to have greater scalability than MOLAP technolog.y.. B
+Multidimensional OLAP (MOLAP) servers: These servers support _multldlm sional
+views of data through array-based multidimensional storage engines. They map
+multidimensional views directly to data cube array structures. For example,
+Arbor is a MOLAP server. The advantage of using a data cube is that it allows
+indexing to precomputed summarized data. Notice that with multidimensional data
+stores, the storage utilization may be low if the data set is sparse. In such cases, sparse
+matrix compression techniques should be explored. Many OLAP servers adopt a
+level storage representation to handle sparse and dense data sets: the dense subcubes are
+identified and stored as array structures, while the sparse subcubes employ compressior
+technology for efficient storage utilization. b
+Hybrid OLAP (HOLAP) servers: The hybrid OLAP approach combines ROLAP an
+MOLAP technology, benefiting from the greater scalability of ROLAP and the faster
+| computation of MOLAP. For example, a HOLAP server may allow large volumes of
+detail data to be stored in a relational database, while aggregations are kept in a separate
+MOLAP store. The Microsoft SQL Server 7.0 OLAP Services supports a hybrid G "‘KY,‘
+. server. < ol
+2. a) Why do we need to have separate Data Warehouse for OLAP applications?
+b) Start.mg with_ the base cuboid [day, item, branch] what specific OLAP operations
+(e.g. slice fon: time = ‘year’) should be performed in order to list the total sales ©
+each branch in the year 20087 , [WBUT 2010]
+Answer: : ol
+- 4) A major reason for using a data warehouse in OLAP is 1o help promote the high
+perfoml‘ance of both systems. An operational database is designed and tuned from know
+tasks and workloads, such as indexing and hashi i i ~arching fi
+particular records, and optimizing o lINg using primary keys, searching I
+oo e lp imizing “canned" queries. On the other hand, data warehous
+are often complex. They involve the computation of large groups of da
+summarized levels, and may require the use of special dat izati cess,
+implementation methods based on multidi i i A, OTgARLZACININES M,' e
+operational databases would i Ao six Riasies Processing OLAR ques
+uld substantially degrade the performance of oper ational task
+‘ DWM-52 e
+" ,
+DATA WAREHOUSING AND DATA MINING
+Moreover, an operational database Supports the concurrent processing of several
+iransactions. An OLAP query often needs read-only access of data reco_rds fqr
+summarization and aggregation. .Concurrency control and recovery mechanisms, if
+applied for such OLAP operations, may jeopardi_ze the execution of concurrent
+yransactions and thus substantially reduce the throughput of an OLTP system.
+b) 4
+I. roll up from day to month to year .
+2. slice for year = *2008” y
+‘ 3. roll up on item from individual item to all
+4. slice for item = “all”
+5. get the list of total sales by each branch in 2008
+3.a) What is tree pruning? What are the different tree pruning techniques?
+[WBUT 2013, 2014]
+b) Evaluate Information Gain and Gain Ratio with suitable example. [WBUT 2013]
+u Answer:
+a) When a decision tree is built many of the branches will reflect anomalies in the
+training data due to noise or outliers. Tree pruning methods address this problem of over
+fitting the data. There are two common approaches to tree pruning,
+¢ Pre-pruning: In the pre-pruning approach, -a tree is “pruned” by halting its
+construction early. Upon halting, the node becomes leaf. The leaf may hold most :
+frequent class among the subsets tuples or the probability distribution of those tuples.
+: When constructing a tree, attribute selection measures such as statistical significance,
+information gain, gini index and so on can be used to access the goodness of a split.
+| If partitioning  the tuple at node would result in a split that falls below a pre-specified
+‘ threshold, then further partitioning of a given subset is halted. There are difficulties,
+' however in choosing an appropriate threshold. High threshold could result in
+= oversimplified trees; whereas low thresholds could result in very little simplification.
+' * Post-pruning: Post-pruning removes sub trees from a “fully grown™ tree. A sub tree
+' at a given node is pruned by removing its branches and replacing it with leaf. The
+leaf is labeled with the most frequent class among the sub tree being replaced. The
+“best” pruned tree is one that minimizes the encoding bits. This method adopts MDL
+(Minimum Description Length) principle. The basic idea is that the simplest solution
+1S preferred. Alternatively, pre-pruning and post-pruning may be interleaved for a
+, ombined approach. Post-pruning requires more computation than pre-pruning, yet
+generally leads to a more reliable tree. Although pruned tree tends to be more
+| compact than their unpruned counterparts, they may still be rather large and complex.
+Decision tree can suffer from repetition and replication.
+b lnformation gain (IG) is utilized by the ID3/C4.5/YaDT family of algorith
+measureofth ffecti ) is utilize Y E y gt msa§a
+Bain is o, ¢ ellectiveness of an attribute in classifying the training data. Information
+_ Mputed by measuring the difference between the entropy of the dataset betore
+DWM-53
+‘ Frequent Sets
+) ab .
+; ac be ad bd cd
+AT T
+o gt
+\% o |
+abed
+Border Sets .
+| 2" Part: '
+‘ An itemset is a border set if it is not a frequent set, but all its proper subsets are frequent
+sets.
+One can-see that if X is an infrequent itemset, then it must have a subset (not necessarily
+' a proper subset) that is a border set. It is easy to derive a proof for this. Since X is not
+‘ frequent, it is possible that it is a border set. In that case, the proof is done. Let us assume
+. that X is not a border set too. Hence, there exists at least one proper subset of cardinality
+|X| - 1that is not frequent, say X'.If X"is a border set, then the proof is complete. Let '
+us, hence, assume that X' is not a border set. We recursively construct X, X", X",..., and
+‘ s0 on, having the common property that neither of these is a frequent set nor a border set
+and this construction process terminates when we get a set which is a border. This
+construction process must terminates in a finite number of steps as we are decreasing the
+size of the sets by 1 in every step. In most peculiar case, we may land up in a singleton
+itemset (the empty itemset is always considered to be a frequent set).
+' Note that if we know the set of all maximal frequent sets of a given T with respect to a o,
+then we can find the set of all frequent sets without any extra scan of the database. Thus,
+1 the set of all maximal frequent sets can act as a compact representation of the set of all
+' frequent sets. However, if we require the frequent sets together with their respective ‘
+support values in T, then we have to make one more database pass to derive the support ‘
+values when the set of all maximal frequent sets is known. It is thus easy to characterize
+_ Lhee class of frequent sets and the class of infrequent sets in terms of the boundary sets
+; tween these two classes. Note that some maximal frequent sets are proper subsets of : {
+c‘;":_: border sets. Similarly, it is possible that a proper subset of a border. set, of ‘
+*dinality one less than the border set, is not necessarily always maximal.
+) . |
+: DWM-55
+“» L:_I‘ 1..‘_';‘,["."“ 'l.."u",‘ \' Ti__ _ T SR I O it v J ]
+Thus, we cannot establish a definite relationship betweden 'thets set (c:;ftrl?aXiTalfi;:l
+and the set of border sets. However, the set of all bOTb efdse 3;" 'o'ﬁt]se 0 »"d macim;
+frequent, which are not proper subsets of any of the border sets, jointly provide a
+representation of the set of frequent sets. ] i ;,_
+b) The support supp(X) of an emset X is defined as the prgportion of transactions
+data set which contain the itemset. In the example qatabilse in Table 1, the itemset {milk,
+bread) has a support of 2/5 = 0.4 since it occurs in 40% of all transactions (2 out of §
+transactions). : B
+The confidence of a rule is defined conf(X ) Y) = supp(X [ Y)/ SUPP(X)-bFOf
+rule {milk, bread}) {butter} has a confidence of 0.2/0.4.='.O.5 m'the database in the ;,_
+which means that for 50% of the transactions containing milk and .b.read the
+correct. Confidence can be interpreted as an estimate of the probablht)_/.P(Y 1X),
+~ probability of finding the RHS of the rule in transactions under the condition that these
+transactions also contain the LHS. ‘ i ;.___
+In many (but not all) situations, we only care about association rule;s or causaj.__
+involving sets of items that appear frequently in baskets. For example, we cannot _ 2
+good marketing strategy involving items that no one buys anyway. 'I:hus,- muchb,.k_
+mining starts with the assumption that we only care about sets of items with high suppo
+i.e., they appear together in many baskets. We then find association rules or ca
+only involving a high-support set of items must appear in at least a certain percent of th
+baskets, called the support threshold. We use the term frequent itemset for “a set S tha
+p oo
+appears in at least fraction s of the baskets," where s is some chosen constant, typicall
+0.01 or 1%. _ a‘
+;)\Th; item count for the transactions for different passes given below: 3
+ass 1: .
+- Since ¢ = ?O%" we discard item 1 and 9. e L
+So our setis L1 :={2, 3,4, 5, 6,7, 8) | 98
+Pass 2: .
+generate candidate for k=2 ] e
+ C2=({2,3},{2.4},{2.5),2.6) L3 -
+61{4.7},{4,8 {2.7},{2.8},(3,4},(3,5}.{3,6},{3,7}.{3.8). {4,5 . {4
+| DATA WAREHOUSING AND DATA MINING
+| The table below shows only those for which ¢ = 20%. holds. -
+| [ item 1d | Count
+:
+. ‘
+‘
+‘
+|
+) )
+. Pass3: ‘
+~ (Generate Candidate for k: =3 '
+b 03={{2,34},{2.3,5}, {2,3,6}, {2,3,7}, {2.4,6}, {2, 4, T}, {2, 5, 6}, {2, 5, 7}, {3.4.6}, |
+(3,57}, {4.5,6}, {4,5,7},{5,6,7}}
+~ Finally we see that for {3,5,7} 6 = 20%. holds.
+. 5. a) What is strong rule? Derive strong rules from the following transaction. '
+~ database considering minimum support as 40% and minimum confidence as 70%.
+f TID [item ID |
+' e
+, b) Explain CLS algorithm to construct a decision tree. [WBUT 2017]
+, Answer: :
+~ a)1¥part:
+- Astrong rule is one that satisfies both minimum support and minimum confidence.
+2" part:
+- For support of 40%, threshold is at least 2 transaction.
+R E—
+b (K (14, 5452 =L I 12, T =
+- {Ii, L}(3), {L;, I}(1), {11, [e}(2), {la1s }(2), | {Li, o}, {1y, Is} {1y, Lg}
+| ' L, Le} (1), {13, 16}(0)
+| A“
+: cquent itemsets: {1, I}, {I, I;}{Li, Le}, L1, 1o, 15,16
+; ?ISS(;ciation rules:
+{Il; Izi would generate: I,>1,(3/5, 3/4)and,~> 1,(3/5, 3/4)
+" ) 13 would generate: L2>15(2/5, 214)1;2>1,(2/5, 2/2) :
+1 e} would generate: 1> 14(2/5, 2/4)162>1,(2/5, 2/2)
+' DWM-57 .
+P
+
+POPULAR PUBLICATIONS R
+
+Strong rules are: ‘ L
+With the confidence threshold set to 70%, the Strong Association Rules are:
+1,21,(0.6, .75), .
+L2 1, (0.6, 0.75),
+2>1,(0.4,1) R
+I21,(0.4,1) k.
+b) CLS constructs a decision tree that attempts to minimize the cost of classifyine :.1".i
+object. This cost has components of two types: the measyremer.lt cost of determinip )
+value of property A exhibited by the object, and the misclassification cost of ¢ 2cidin
+that the object belongs to class J when its real class is K. CLS uses a look-.at.;ead
+similar to minimax. At each stage, CLS explores the space of possible decision trees f
+fixed depth, chooses an action to minimize cost in this limited space, then moves g
+
+level down in the tree. Depending on the depth of look-ahead chosen, CLS can reg uir
+substantial amount of computation, but has been able to unearth subtle patterns
+objects shown to it. S
+6. Explain Siicing, Dicing, Roll-up and Drill-down with a suitable example.
+Answer: pE
+Consider the following cube illustrating temperature of certain days recorded weekly:
+_ Slice performs a selection on one dimension of the given cube, thus resulting in
+subcube. » Sl
+In the cube example above, if we make the selection, temperature=cool we will obtain
+following cube: e
+
+o R X e "3
+
+' 'Cl;il:e::ic:nso?:ratlno‘n defines a .subcpbe by performing a selection on two OF
+- Applying the selection (time = day 3 OR time = day 4) AND (tempet
+DWM-58 o
+POPULAR PUBLICATIONS
+h) Backpropagation algontpm . [WBUT 201
+i) Supervised vs. unsupervised learning i
+Answer: : k-
+_a) GSP algorithm: _ 1 od below: B
+The GSP algorithm consists of two phases and 1s described 3
+Phase 1: . i n i i
+« Scan over the database to identify all the frequent items, 1.€-, 1-element sequm{l;_{
+hase 2: ;
+i ? aIterertively scan over the database to discover all frequent sequences. Each ite
+' discovers all the sequences with the same length. -‘ 3 ;ﬂ;
++ In the iteration to generate all k-sequences T P
+_ Generate the set of all candidate k-sequences, Ck, by joining two (k-1)-sequen ces
+~ if only their first and last items are different : . s
+_ Prune the candidate sequence if any of its k-1 contiguous subsequence is
+frequent . A 4 o
+_ Scan over the database to determine the support of the remaining cand
+sequences | ;
+' « Terminate when no more frequent sequences can be found -
+e
+- b) ROCK vs. CACTUS: | _ .
+The ROCK (Robust Clustering using links) algorithm is based on the principle o
+hierarchical clustering. First, a random sample of objects is chosen. These objects are
+clustering to the desired number of clusters, and then the remaining objects are assigned
+to the created clusters. The method uses a graph concept, whose main terms are neighbors
+and links. A neighbor of a certain object is such an object to which similarity with the
+investigated object is equal to or greater than a predefined threshold. A link between tw
+objects is the number of common neighbors of these objects. The principle of the ROCI
+4 methods lie§ in maximizatif)n of the function which takes into account both maximizatio
+of sums of links for the objects from the same cluster, and minimization of sums of li s
+for the objects from different clusters. e
+Algorithm CACTUS (Categorical Clustering Using Summaries) is based on the idea ¢
+the common occurrences of certain categories of different variables. If the differenc |
+the number of occurrences for the categories vkt and vlu of the k-th and 1-th variable. an
+the expected frequency (on the i : A o
+5 . y ne assumption of uniform distribution in the frame of #
+certain categories of the remaining variables, and the assumption of the independenc o
+greater than a user-defined threshol : i
+o i an P °t<_i, thei categories are strongly connected. ]
+) : marization, ¢ : e T
+ the candidates for clusters are chosen from w;:'St;nEg and verification. During luster
+verification phase. , ich the final clusters are determ ai | r
+¢) GSP vs. SPADE: | |
+GSP (Generalized Sequential P i 2t ’
+Initially, every item in DB is a candicza:tsezlfpl:r:;tghaigoﬂthm which is outlined below
+. e for each level (i.e., sequences of length-k) do , : H ,‘ ‘
+J—
+DATA WAREHOUSING AND DATA MINING
+o scan database to collect support count for each candidate sequence
+o generate candidate length-(k+1) sequences from length-k frequent sequences
+using Apriori
+. repeat until no frequent sequence or no candidate can be found
+Jts major strength.: Candidate pr.uning by Apriori : ' :
+_ GPADE (Sequential Pattern Discovery using Equivalent Class) is a vertical forma
+sequential pattern mining method as outlined below: :
+« A sequence database is mapped to a large set of
+' o Item: <SID, EID>
+o Sequential pattern mining is performed by h
+o growing the subsequences (patterns) one item at a time by Apriori candidate
+generation . ;
+‘ SPADE uses only simple temporal join operation on id-lists. As the length of a frequent
+' sequence increases, the size of its id-list decreases, resulting in very fast joins. ;
+, No complicated hash-tree structure is used, and no overhead of generating and searching
+of subsequences is incurred. These structures typically have very poor locality. On the
+g other hand SPADE has excellent locality, since a join requires only a linear scan of two
+lists.
+| As the minimum support is lowered, more and larger frequent sequences are found. GSP
+makes a complete dataset scan for each iteration. SPADE on the other hand restricts itself
+to usually only three scans. It thus cuts down the 1/O costs. : '
+: d) Decision tree construction with presorting:
+,‘ SLIQ (Supervised Learning in Quest) developed by IBM's Quest project team, i1s a
+| decision tree classifier designed to classify large training data. It uses a pre-sorting
+| technique in the tree-growth phase. This helps avoid costly sorting at each node. SLIQ '
+_ keeps a separate sorted list for each continuous attribute and a separate list called class
+list. An entry in the class list corresponds to a data item, and has a class label and name of
+] the.node it belongs in the decision tree. An entry in the sorted attribute list has an
+attribute value and the index of data item in the class list. SLIQ grows the decision tree in
+_ breadth-first manner. For each attribute, it scans the corresponding sorted list and
+. Calt‘:u.lates entropy values of each distinct values of all the nodes in the frontier of the
+dec_lsmn tree simultaneously. After the entropy values have been calculated for each
+’ altribute, one attribute is chosen for a split for each nodes in the current frontier, and they
+| ;reerfzgaréded to have a new f.rontier. Then one more scan of the sorted attribute list is
+While Si | tohupdate th-e class.llst for the new nodes. .
+P infoQ apdles disk-resident data that are tqo large to ﬁ.t in memory, it still requires
+' ik Ofninatl_on to stay me_mory-remdgnt .Wthh grows in dlfefzt proportion to the
+Version Caller:iplsl;) records, putting a hardjllmlt on. the. size of training data. In a newer
+| stictions 1 RINT (Scalable Parallelizable Induction of decision Trees) the memory
+i ve been removed.
+DWM-61
+POPULAR PUBLICATIONS : L
+e) WUM: : ' i tions can be carried out over the Webhag
+speed with which business transac : . i .
+I::neisi:; ddripving force in the rapid growﬂ.n of electronic c;mr?f'?EZit fe%e(;“ﬁ?:x}'_.rg 8
+commerce activity that involves the end user 18 u’ndt?rggm% ;‘1 ougsr; clicks has il ht n‘r 8
+ability to track users' browsing behavior dowrtl) t?olrr;dll\fcl isanow ocsibleong vendof‘ﬁ' 3
+n ever betore. :
+vendor and end customer closer ;hafor . dividual customers at a massive scale, 3
+personalize his product messag customization. The scenario described |
+phenomenon that is being referred to as mass o & mining (WUM), which is the i
+above is one of many possible applications of Web : sag f usnge patterns from WM
+process of applying data mining techniques to the c.hS:COVCg’ s associated it Weh, -
+data, targeted towards various applications. Data mining erforts e. content mining o
+called Web mining, can be broadly divided into three classes, 1.€. ll&agmr 5
+mining, and structure mining. . e
+. -
+24.5 builds decision trees from a set of training datf«.l in the saTe Wlay ;5 1D3, lt{s:llrge:e A
+concept of information entropy. The training data. is a §et § = {8l 51,- )22 a dy a
+} classified samples. Each sample si consists of a p-dlmensmnal vector (x1,1, oL ...,)fp,l)! ;—"
+where the xj represent attributes or features of the sample, as well as the class in which st
+falls. , : "
+At each node of the tree, C4.5 chooses the attribute of the data that most fef'fectlv-ely §pl§s i
+its set of samples into subsets enriched in one class or the other. Tl_le‘splltt}ng criterionis
+" the normalized information gain (difference in entropy). The attribute with tl}e highest
+normalized information gain is chosen to make the decision. The C4.5 algorithm then
+recurs on the smailer sublists. ' .
+This algorithm has a few base cases: '
+e All the samples in the list belong to the same class. When this happens, it simply
+creates a leaf node for the decision tree saying to choose that class. : 14 :
+e None of the features provide any information gain. In this case, C4.5 creates '
+decision node higher up the tree using the expected value of the class. )
+° Instancie of previously-unseen class encountered. Again, C4.5 creates a decision
+EOS node higher up the tree using the expected value. | vt
+Pseudocode | | ‘1
+In pseudocode, the general algorithm for building decision trees is: '
+1. Check for base cases ‘ . _ 5o
+2. For each attribute a 0 AR
+* Find the normalized infi ' " " 4l
+3. Leta_best be the attribute vvoifcrl??ltlle:ofrlligﬁg}stritm frc;{n sp! g H
+4. Create a decision node that splits on a_best S o %
+5. Recur on the sublists obtaj STitt: e
+ained : wor
+children of node by splitting on a_best, and add those ne ’ j‘
+: DWM-62 o
+"
+DATA WAREHOUSING AND DATA MINING
+2) Top-down approach: .
+At op-down melhod approaches a problem from the high level view a system.
+For example, in a bottom-up business example a company will look at sales and customer
+data to extract any patterns. _ b
+A top-down approach could model a corporation and its strategy and ask the .followmg.
+who are the target 'cqstomers? What is the supply chain? What is the marketing? How are A
+the departments divided? What are the corporate sales policies? How are sales team
+incentivized? i
+There are external factors that also need to be considered in this example such as
+competition from other companies and the overall economy. If all the divisions of the
+company are not aligned with the corporate strategy then it will be easy to understand »
+that the target sales and customer reach will not be optimal. By starting from the top and
+then deconstructing the parts and understanding the interactions between the parts one
+| can gain an understanding of what type of customers can be reached and attracted.
+I h) Backpropagation algorithm: ,
+f Backpropagation, is a common method of training artificial neural networks and used in
+| conjunction with an optimization method such as gradient descent. The algorithm repeats ;
+2 a two phase cycle, propagation and weight update. When an input vector is presented to
+{ the network, it is propagated forward through the network, layer by layer, until it reaches
+: the output layer. The output of the network is then compared to the desired output, using
+aloss function, and an error value is calculated for each of the neurons in the output
+layer. The error values are then propagated backwards, starting from the output, until
+each neuron has an associated error value which roughly represents its contribution to the
+- original output. _
+_ Backpropagation uses these error values to calculate the gradient of the loss function with X
+- respect to the weights in the network. In the second phase, this gradient is fed to the
+i optimization method, which in turn uses it to update the weights, in an attempt to
+minimize the loss function.
+The importance of this process is that, as the network is trained, the neurons in the
+' Intermediate layers organize themselves in such a way that the different neurcns learn to
+- recognize different characteristics of the total input space. After training, when an
+' afbltrary input pattern is present which contains noise or is incomplete, neurons in the
+hidden layer of the network will respond with an active output if the new input contains a
+- Patiern that resembles a feature that the individual neurons have learned to recognize
+durmg their training. '
+CB;cctﬁ’;;P:l}igatlion requi'res a kqown, .d_esired output for each .input value in order to
+‘ learning b :hos.s function gradle.nt 2 it is therefore. usually consnderec‘i to be a supervised
+% aUtoencgd od; nqnetheless, lt' is also used in some unsuper.vnse,d networks such
+etworks. :gs. It is a gene_rahzatlon pf the de!ta n.Jle to multl-layereq feedforward
+b laye, B,a % e POSSlPle by using the chain rule to lt.eratlvely compute gradients for each
+- eurong (q "Propag"atlon requires that the activation functionused by the artificial
+I "nodes") be differentiable. ‘
+‘ DWM-63 ' ' ‘
+S ised vs. unsupervised learning: : _ _ 'I
+zup‘:rlr)'?i:cl:i: So, if yog are training your machine lea.mmg.tasbt f‘l’)‘i CVery Input wigp
+corresponding target, 1t1s - loorithm seeks's o target
+for any new input after sufficient training. Your learning a §°_ gt ﬂm‘} tion
+inputs' to the respective targets. If the targets are expfessse lirsl scontinuo uies’itn Is ca _ '
+classification problem. Alternatively, if the target spa M ed
+regression problem. ‘ % . . learning task only N 8
+Unsupervised: Contrary, if you are training your maghme i t% find thz
+inputs, it is called unsupervised learning, which ‘Wl” rt:Zn? Snsupel'ViS . -:»U“Ct}n-.
+relationships between different inputs. Most lmiz: id will be able topus s
+clustering, which will create different cluster of inputs a put any n
+input in appropriate cluster. e
+8. What is sequential pattern mining in data stream? [MODEL QUES
+Answer: : _
+Sequential pattern mining is tryiqg to find rf:latlonshlps between occurrences o
+sequential events, to find if there exists ar.ly.SpeCl.ﬁC order of the occurrences. 3_;1.7
+find the sequential patterns of specific individual items also we can find the sequential
+patterns across different items. i
+Application: - <
+« Sequential pattern mining is widely used in analyzing of DNA sequence. ©
+« Sequential pattern can be widely used in different areas, such as mining user
+access patterns for the web sites, using the history of symptoms to predict certain
+’ kind of disease, also by using sequential pattern mining, the retailers can make
+' the inventory control more efficient. .
+Challenges on Sequential pattern mining: il F
+e A hu.ge.: number of possible sequential patterns are hidden in databases. -;
+e A mining algorithm should find the complete set of patterns, be highly efficien
+scalable. o
+9. What is frequent pattern mining in data strea -3
+Answer: [MODEL QUE
+equent Pattern Mining (AKA Association Rule Mining) is an analytical process th
+finds frequent patterns, associations, or | Lo e
+: ) » Or causal structures from data sets found in varl
+kinds of databases such as relational datab '
+B0 i o s s cirt lal databases, transactional databases, and other &
+to predict the occurrence of :;1;:5;[;_100“?{ this process aims to find the.fules (SN
+iy item based on the occurrence of other items i
+Let’s look at an example of F . o L
+5 requent Pattern Mini : . pri
+the terminology used in this type of analysi Ml\r;;ng_ First, we will want to unders
+factors used in this technique, for this examyl 's. While there are numerous metiS
+Support and Confidence. ple, we will only consider two factors na
+Support: The su - S0
+: pport of a rule x -> } e
+defined as the proportion of tra ¥ (where x and y are each items/events @
+p ol transactions in the data set whi tai item s
+| ich contain the item §
+DWM64 L "“0 ,." -“’
+FUPULAR PUBLICATIONS "
+WEB MINING . 5
+¥
+1. The mining activity which mines web log records to dlsc[svvaermu;;‘ : ,
+patterns of web pages is P » 201, 1
+a) web content mining b) web usage mining ) o
+c) web structure mining | d) web search mining -
+Answer: (b) _ o
+2. K-means is based on _ [WBUT 2011, 2014, 201 B
+a) Euclidian distance b) Hamming distance 5
+¢) RMS d) None of these ; *
+Answer: (a) : 1
+3. is the application of data mining techniques to discover m
+from the Web. ~ [MODEL QUESTION
+a) Text Mining b) Multimedia Mining 3
+c) Web Mining d) Link Mining #
+Answer: (c) , A8
+1. What do you understand by Web Mining? Compare Web Mining with Data
+Mining. , [WBUT 2( W
+Answer: ' k.
+Web Mining is the use of the data mining techniques to automatically discover and
+extract information from web documents/services. It is used for discovering useft
+information from the World-Wide Web and its usage patterns. In web mining we use data
+mining techniques to make the web more useful and more profitable (for some) and to
+increase the efficiency of our interaction with the web. ' e
+Web mining can involve all of the traditional data mining processes of classification,
+segmentation, clustering, association, prediction, and modeling the only difference is
+the analyzes result in immediate action. Unlike data mining, web mining is dependent ol
+the use of software agent to trigger targeted offers as events take place in real time. Wed
+' mining unlike data mining which existed prior the Internet explosion involves a
+paradigrp of .data collection, integration and analysis. Web mining involves patterm
+recognition via a seamless stream of activity taking place over a decision network and'
+a static warehouse. Web mining works by performing data analysis via networks, e
+sof"cware agents to mine, collaborate and discover conditions and features which can ’
+{0 Increases in sales, cross-selling Opportunities and the targeting of specific prodt .l
+services, . -
+' : \:411#::!-’11;.:' il
+POPULAR PUBLICATIONS B
+> MODEL QUESTIAs
+3. What is Web Structure Mining? ' L . gl
+Answer: : ' . . (i
+Web structure mining is the application c?f discovering structur:‘:)cl LllfO:":t;lon Tom
+web. The structure of the web graph consists of web pages as NOTES, anc Ayperiinkey
+' : ‘ine basically shows the structured summan.
+edges connecting related pages. Structure mining : d Summa,
+i e S .o nchip between web pages linked by informgg.
+of a particular website. It identifies relationship o e Matig
+or direct link connection. To determine the connection O comm
+websites, Web structure mining can be very useful. - o
+Long Answer Type Questions :QJ'
+1. Discuss about mining multimedia data on the web. [MODEL QUESTY ., ‘
+Answer: : ¢ mulsimedia infa 7
+Multimedia data mining refers to the analysis of large amounts of mu timedia .v.‘_f-_ 0
+in order to find patterns or statistical relationships. Once data is collfac?ed, computer
+programs are used to analyze it and look for meaningful connections. Thl.s. info ation i
+often used by governments to improve social systems. It can also be used in market;
+discover consumer habits. i
+Multimedia data mining requires the collection of huge amounts of data. The sampl‘e
+is important when analyzing data because predicted trends and patterns are more likely te
+be inaccurate with a smaller sample. This data can be collected from a number of
+, different media, including videos, sound files, and images. Some experts also consider
+l A spatial data and text to be multimedia. Information from one or more of these media i
+, the focus of data collection.
+| Whereas an analysis of numerical data can be straightforward, multimedia data analysis
+requires sophisticated computer programs which can turn it into useful numerical data
+There are a number of computer programs available that make sense of the info ui
+gathered from multimedia data mining. These computer programs are used to search for
+relationships that may not be apparent or logically obvious. B
+_When multimedia‘is mined for information, one of the most common uses for this
+information is to anticipate behavior patterns or trends. Information can be divided into
+classes as well, which allows different groups, such as men and women or Sundays anc
+Mlon_days,. to be? analyzed separately. Data can be clustered, or grouped by u,,;‘\_;f;'
+::( :;gxl]:hlp, which can help track consumer affinity for a certain brand over
+Vhf"l:;m;di; data mining has a number of uses in today’s society. An example of thi
+: ould be the us . : My
+S 1S 1 Jols . . ra
+T e i} reets, expanding exnstlr!g streets, or diverting tratt
+ganizations and city planners can use the inf . ffic flo
+more smoothly and quickly 5¢ the Information to help tra
+While the term'data minj | . il
+n * I 4 LR
+for & long time, Groceryg ;:orr eelsat“f'ely new, the practice of mining data has been arou
+censumer behavior by collectine ¢ or example, have long used data mining to U
+: y collecting data from their regi : i
+sales information can be . _ egisters. The numerical data re iny
+Y @ computer program to learn what people are bt
+DWM-68 :
+DATA WAREHOUSING AND DATA MINING
+~ ,nd when they are likely to buy certain products. This information is often used to
+Jetermine where to place certain products and when to put certain products on sale. ‘
+2. Write short notes on the following:
+a) web-Enabled Data Warehouse [WBUT 2011]
+~ p) Arbor Essbase Web [WBUT 2012, 2015, 2017
+c) Automatic Cla.ssllﬁcation of Web Documents [MODEL QUESTION]
+d) Web Usage Mining [MODEL QUESTION]
+Answer:
+
+' a) Web-Enabled Data Warehouse:
+
+Today’s data warehouses are no longer confined to a select group of internal users. Under
+
+: present conditions, corporations need to increase the productivity of all the members in
+
+. the corporation’s value chain. Useful information from the corporate data warehouse
+
+~ must be provided not only to the employees but also to customers, suppliers, and all other '
+| business partners. This new delivery method through the web helps the partners to
+~retrieve, analyze, and share information from the company’s data warehouse. When one
+
+_ web-enables the data warehouse, from the point of view of the users, the key
+requirements are: self-service data access, interactive analysis, high availability and
+
+_ performance, zero-administration client (thin client technology such as Java applets),
+
+: tight security, and unified metadata. Bringing the Web to the warehouse essentially - |
+
+involves capturing the clickstream of all the visitors to your company’s Web site and
+performing all the traditional data warehousing functions. : _
+The company’s effort now involves extraction, transformation, and loading of the
+clickstream data to the Webhouse repository. Clickstream data tracks how people
+proceeded through the company’s Web site, what triggers purchases, what attracts
+people, and what makes them come back.
+
+' b) Arbor Essbase Web:
+
+' ‘The Arbor Essbase Web Gateway is used to develop and deploy intranet and internet
+based Web-enabled applications such as ad-hoc analysis, management reporting,
+
+‘ enterprise information systems, budgeting, sales forecasting. Essbase allows corporations
+
+‘ to deliver OLAP applications directly from operational systems, or within an overall data
+warehousing architecture. Standard Web browsers can be used to access OLAP
+applications developed using the Essbase Web Gateway.
+
+Based upon a true, client/server architecture, Essbase supports multi-user read and write
+
+, access, large-scale data capacity, robust analytical calculations, flexible data navigation
+apd consistent, rapid response times. The Essbase server's open architecture supports
+%llrgct data access using standard spreadsheets or leading third-party query, reporting and
+
+tool.
+¢) Automatic Classification of Web Documents: :
+:n the automatic classification of Web documents, each document is assigned a class
+| E;bel.from a set of predefined topic categories, based on a set of examples of pre-
+Classified documents. For example, Yahoo's taxonomy and its associated documents can -
+| DWM-69
+POPULAR PUBLICATIONS A!
+RECENT TRENDS IN DISTRIBUTED
+Multiple Choice 1yp€ Questions g
+) istributed database is which of the following? 5
+1. A heterogeneous distribu [MODEL QUESTlo"] :
+a) The same DBMS is used at each location and data are not distributeq ,» |
+across all nodes . A ' o
+b) The same DBMS is used at each location and data are distributed across aj
+nodes : o ‘
+c) The different DBMS is used at each location and data are not distributed
+across all nodes - =
+d) The different DBMS is used at each location and data are distributed across
+all nodes %
+Answer: (d) k)
+2. An autonomous homogeneous environment is which of the following?
+[MODEL QUESTION]
+a) The same DBMS is at each node and each DBMS works independently
+b) The same DBMS is at each node and a central DBMS coordinates database
+access i
+c) The different DBMS is at each node and each DBMS works independently 3
+d) The different DBMS is at each node and a central DBMS coordinates
+database access :
+Answer: (a) e
+Short Answer Type Questions o
+1. Explain class imbalance problem. [MODEL QUESTION]
+Answer: p .
+!t is the problem in machine learning where the total number of a class of data (positive)
+is far less than the'total number of another class of data (negative). This problem is i
+‘ Zthe"}ely common in praf:tice and can be observed in various disciplines including fraud
+efgectlon, anomaly detection, medical diagnosis, oil spillage detection, facial recognition, h
+Ans‘::::does Reclal Netuork Analysle (SNK) tengit [MODEL QUESTION]
+Social network analysi 3 i
+Se S a?iiy :’T:Z (ST?hA) s a process of quantitative analysis of a social network. |
+knowledge i maps the flow of relationships and relationship changes betwee
+animal i -possessing entities. Simple and complex entities include websites, computer ok
+als, humans, groups, organizations and nations. ) |
+DWM-72 i
+DATA WAREHOUSING AND DATA MINING ‘
+The SNA structure is made up of node entities, such as humans. and ties, such as ‘
+relationships. The gdvent of modern thought and computing facilitated a gradual
+evolution of the social networking concept in the form of highly complex, graph-based
+networks Wlth_maHY_tYPCS of nodes and ties, These networks are the key ;o procedures
+and initiatives involving problem solving, administration and operations. ‘
+' 3. What is distributed data mining? [MODEL QUESTION]
+Answer: A
+This type of data mining is gaining popularity as it involves analyzing the information
+stored in different company locations or at different organizations. Highly sophisticated
+algorithms are used to extract data from different locations and provide detailed insights
+" to aid decision making.
+. 4. What are recent trends in data mining? [MODEL QUESTION]
+Answer: :
+| Trends in Data Mining
+Data mining concepts are still evolving and here are the latest trends that we get to see
+in this field —
+« Application Exploration.
+o Scalable and interactive data mining methods. '
+. o Integration of data mining with database systems, data warehouse systems and
+web database systems. ’ : ,
+« Standardization of data mining query language. -
+j » Visual data mining. :
+. o New methods for mining complex types of data. -
+» Biological data mining. : :
+| o Data mining and software engineering,.
+* Web mining.
+ Distributed data mining. ‘
+, » Real time data mining.
+i » Multi database data mining.
+¢ Privacy protection and information security in data mining.
+1. Explain the concept of distributed data warehouse. List some of its advantages
+and disadvantages. [MODEL QUESTION]
+Answer; i .
+A distributed data warehouse is just like the name if implies. That is, the data are shared
+::::roestf multiple data repositories, for the purpose of OLAP and where each data
+‘ Warehouse may belong to one or more organization. It cgns.lsts of many local dgta
+'. COversouses with one centr_allzed global data warehouse. Plstrlbuted data warehousu}g
+Separatei complete enterprise data warehouse but have tiny data stores that are built
+y. These data stores are connected physically over a network to provide users
+DWM-73
+access to the relevant reports without affecting performa;c;. ilﬁ:z:::vg, a distributeq
+warehouse is said to be the core of all enterprise data xlv Ic phedberi mation van
+to individual data marts. Bu doing so, users can €astly ac e ©quire
+billing, sales analysis and other reporting funes .
+order management, customer OIINg, SAE3 DS o types, which e s S |
+Distributed data warehouses can be categorized into three types, ws:
+« In this type, there is a local data warehq ‘
+= Local and global data warehouse: ’ , ite and. otk
+which represents the data unique to the local .ogeratmg site and, zlobal g
+' a rt of data which s integrated across the busine
+warehouse which represents that part 0 , o catly thi
+= Technologically distributed data warehouse: In this type, 10gi€ h'yh reIs a sin
+data warehouse but physically there are many data warehouses which are all
+and distributed over multiple processors. . S
+» Independently evolving distributed data ware!louse: In this ty;?e, data archoy
+: environment builds in an uncoordinated envnronment..That |s,.ﬁrst one g
+warehouse appears, then second and so on. Therefo.re, it results in polm ‘
+organizational differences due to the lack of coordination among different d;
+| warehouses. | b
+W . l;
+The advantages of using distributed data warehouse are as follows: '
+« It is faster to achieve as each local site can control over its design and resources.
+» There is no limit for placing the data into each local or global -data we
+' However, additional processors can be added if the volume of data exceeds the
+of distributed processors. . o
+» The entry cost is much less than with centralized structure. The requirement ¢
+1 hardware and software is much less when loaded initially on distributed technology.
+The distributed data warehouse has some disadvantages also. These are as follows:
+= [ssues like metadata, data transfer makes the environment complex and results
+more overhead , R
+* Managing multiple development efforts on local sites is an unmanageable task |
+data warehouse architect. ¥
+- ® Inadistributed environment, the roles and responsibilities are not clearly defined.
+" Major technological problems could arise by transfer of data and multiple tab
+queries. . ; i
+" When the warehouse is distributed over multiple servers, excessive network trafl
+_ gartsdt.o flow from source to destination. i
+* Coordinatin vk o] L
+| iy g development across the distributed locations becomes complex
+* Interconnectivity between the diffe ' : o
+| AL rent local sites of distributed d house ¢
+' be problematic in case of traffic congestion. A | a.t ity = :'%_‘
+| 'DATA WAREHOUSING AND DATA MINING
+,. Explain the concept of distributed data mining. [MODEL QUESTION]
+Answer: i
+| Traditional warehouse-based architectures for data mining suppose to have centralized
+| data repository. Such a c.cntralized approach is fundamentally inappropriate for most of
+-the distributed and ubiquitous data mining applications. In fact, the long response time,
+jack of proper use of distributed resource, and the fundamental characteristic of
+centralized data mining algorithms do not work well in distributed environments. A
+.. calable solution for distributed applications calls for distributed processing of data, '
+. controlled by the available resources and human factors. For example, let us suppose an :
+ad hoc wireless sensor network where the different sensor nodes are monitoring some
+- rime-critical events. Central collection of data from every sensor node may create traffic
+over the limited bandwidth wireless channels and this may also drain a log of power from
+the devices. A distributed architecture for data mining is likely aimed to reduce the
+communication load and also to reduce the battery power more evenly across the
+’ different nodes in the sensor network. -
+One can easily imagine similar needs for distributed computation of data mining
+‘ primitives in ad hoc wireless networks of mobile devices like PDAs, celiphones and
+wearable computers. The wireless domain is not the only example. In fact, most of the
+applications that deal with time-critical distributed data are likely to benefit by paying
+careful attention to the distributed resources for computation, storage, and the cost of
+: communication. As an other example, let us' consider the World Wide Webs: it contains :
+distributed data and computing resources. An increasing number of databases (e.g., X
+weather databases, oceanographic data, etc.) and data streams (e.g., financial data,
+: emerging disease information, etc.) are currently made on-line, and many of them change
+1 frequently. It is easy to think of many applications that require regular monitoring of
+these diverse and distributed sources of data. A distributed approach to analyze this data
+is likely to be more scalable and practical particularly when the application involves a
+- large number of data sites. Hence, in this case we need data mining architectures that pay
+; careful attention to the distribution of data, computing and communication, in order to
+" access and use them in a near optimal fashion. Distributed Data Mining (sometimes
+\ referred by the acronym DDM) consider data mining in this broader context. ‘
+D_DM may also be useful in environments with multiple compute nodes connect over
+high-speed networks. Even if the data can be quickly centralized using the relatively fast
+‘ network, proper balancing of computational load among a cluster of nodes may require a '
+dlstnb_uted approach. The privacy issue is playing an increasingly important role in the
+| E:fl:SgMg data mining applications. For example, let us suppose a consortium of different
+: i collaborating for detecting frauds. !f a antrallzed .solutlon was adopted, all the
+mininmm every bank should pe collected in a S{ngl_e location, to be processed by a data
+‘ < g fujrysltem' Never_theless, in such a case a Distributed Data Mmmg‘sys_ten} should be
+Withot ea ;‘echr}ologlcal choice: both it is able to lean? models from dlstrlbuteq data
+_ fraud by Xc anging the raw data between different repository, ar}d it allows detection of
+é Preserving the privacy of every bank’s customer transaction data.
+DWM-75 i .
+DATA WAREHOQUSING AND DATA MINING
+‘ 3. Why Class Imbalance is a problem? , [MODEL QUESTION]
+ARG - . .
+Most machine learning algorithms and works best when the number of instances of each
+classes are roughly equa.l, When the number of instances of one class far exceeds the
+j other, problems arise. This is best illustrated below with an example. ‘
+Given a dataset pf transaction data, we would like to find out which are fraudulent and
+which are genuine ones. Now, it is highly cost to the e-commerce company if a
+fraudulent transaction goes through as this impacts our customers trust in us, and costs us
+
+: money. SO we want to catch as many fraudulent transactions as possible.
+
+' If there is a dataset consisting of 10000 genuine and 10 fraudulent transactions, the
+classifier will tend to classify fraudulent transactions as genuine transactions. The reason
+
+i can be easily explained by the numbers. Suppose the machine learning algorithm has two
+
+? possibly outputs as follows:
+
+' 1. Model 1 classified 7 out of 10 fraudulent transactions as genuine transactions and
+
+10 out of 10000 genuine transactions as fraudulent transactions.
+2. Model 2 classified 2 out of 10 fraudulent transactions as genuine transactions and
+100 out of 10000 genuine transactions as fraudulent transactions.
+If the classifier’s performance is determined by the number of mistakes, then clearly
+Model 1 is better as it makes only a total of 17 mistakes while Model 2 made 102
+mistakes. However, as we want to minimize the number of fraudulent transactions
+happening, we should pick Model 2 instead which only made 2 mistakes classifying the
+fraudulent transactions. Of course, this could come at the expense of more genuine
+transactions being classified as fraudulent transactions, but will be a cost we can bear for
+now. Anyhow, a general machine learning algorithm will just pick Model 1 than Model
+2, which is a problem. In practice, this means we will let a lot of fraudulent transactions
+
+_ go through although we could have stopped them by using Model 2. This translates to
+unhappy customers and money lost for the company.
+
+4. What do you understand by the term ‘Graph Mining’? [MODEL QUESTION]
+
+- Answer: J ‘
+
+' Graphs become increasingly important in modeling complicated structures, such as
+circuits, images, chemical compounds, protein structures, biological networks, social
+networks, the Web, workflows, and XML documents. Many graph search algorithms
+
+' have been developed in chemical informatics, computer vision, video indexing, and text
+
+' retrieval. With the increasing demand on the analysis of large amounts of structured data,
+
+. graph mining has become an active and important theme in data mining. Among the
+
+. vario-us kinds of graph patterns, frequent substructures are the very basic patterns that can
+
+: be discovered in a collection of graphs. They are useful for characterizing graph sets,
+dlscrm_linating different groups of graphs, classifying and clustering graphs, building
+
+, i%:/ph Indices, and facilitating similarity search in graph databases. Recent studies have
+
+cloped several graph mining methods and applied them to the discovery of interesting
+| Patterns in varigys applications. |
+DWM-77
+POPULAR PUBLICATIONS
+For example, there have been reports on the discover%' of aflttweacr;lesmbl:i ,
+HIV-screening datasets by contrasting the support of frequent grap cen diffey
+CTI}?:::Sﬁave been studies on the use of frequent structures as feature§ to classify “T |
+h mining technique to study protein structural familjeg
+compounds, on the frequent grap g : o crabitic s,
+| on the detection of considerably large frequent S}prat!‘lways in m o Norks, 3 d
+on the use of frequent graph patterns for graph indexing and similarity search in grap ™
+databases.
+5. What are recent developments in distributed data warehouse[; %nglErEIAT’.E?, “ ‘
+Answer: b 8 _ 5
+Currently data warehouse is used as organizational repository 1o support business
+| decision making. Mostly the data warehouse systems US€ centrahzc-ed appl'oaﬂg 3
+Furthermore, the hierarchy of organization and classes of users is not considered in de
+warehousing systems. Before the iPhone and Xbox, prior to the first Tweet or Facebook -
+“Like,” and well in advance of tablets and the cloud, there was the data Wflrehouse. For
+30 years, businesses have centrally stored data for analysis apd da'ta Flrlven w:-_.:
+making. For all of that time, the data warehouse has been the business-insights workM‘
+of enterprise computing. The big trend in the mid 1990’s was the emergence of data
+warehouses that we:e a terabyte in size, which at the time was considered a huge amount
+of data. Today’s leading edge systems are a thousand times larger—measured in pa! K
+’ bytes. Data warehouses have had staying power because the concept of a central data
+repository—fed by dozens or hundreds of databases, applications, and other source.
+systems—continues to be the best, most efficient way for companies to get an enterprise't;_ %
+. wide view of their customers, supply chains, sales, and operations. ASMs support
+_ refinement method in developing a data warehouse and OLAP systems. of One strategy
+Abstract State Machines (ASMs) also be used to design a distributed data warel'muSGfﬁr
+also Abstract State Machines provide a meticulous mathematically tricks for high-le *'
+system design, validation and verification at earliest stage of system development.
+Wehrle et al (2007) also deal with a distributed, grid-aware environment. They apply :
+~Globus Toolkit together with a set of specialized services for grid based data ‘-;ﬂ
+4 Fact table data is partitioned and distributed across participant nodes. Grid computing has
+emerged as a new teghnology, whose main challenge is the complete integration of
+heterogeneous computing systems and data resources with the aim of providing a glob? S
+computing space. A new Dat.a Mir}ing Grid Architecture, named DMGA, which for thet !
+| .:;Jrn‘:ip;c;smon .1dn a lrea]lsgenarlo. Dimension tables data is replicated. A local data index -
+S s e da ]Z‘ihmfex service from the par.thlRant grid’s nodes to enable th F
+' node (using the ]sse g : Irst step In query execution is to search for data at the [0
+communication ervies - corice). Missing data s located by U SREEN
+NN e oo e canc[.access'ed rem(.)tely.. Blpdla et. al. (2012) A multi agent DaSE=
+disadvantage of muﬁ; agimlgiprp;raocc}ff "ll C.ilstrlbuted DWH and also' remove €
+Y placing an buffer, so that there will be no i€
+-~ DWM-78 . :‘;"-
+Lo
+T — e R S ——— 1
+' DATA WAREHOUSING AND DATA MINING
+for client to C_O"P"—Ct at 3:}'\;23 time to get the results. Distributed systems provides support
+where optimization methods to data design and OLAP queries in the data warehouse
+' environ(nffm ShO_Uld be ]mplemented with an objective of supporting the decision makers
+by providing a single i of data. even though that data is physically distributed across
+. multiple data warehouses in multiple systems at different branches . Another work on
+. grid-aware data warehouses is presented in (Lawrence Rau-Chaplin 2006).The OLAP-
+Enabled Grid considers the scenario where the data of a single organization is distributed
+across a n_u'm_ber of OPeratlgnal databases at remote locations. Each operational database .
+has capabilities for answering OLAP queries, and access to a possible variety of other
+computational and storage resources which are located close by. Users who are interested
+~ indoing OLAP on these databases are distributed over the network.
+Below are some new trends and opportunities in data warehousing. '
+. o The “datafication” of the enterprise requires more capable data warehouses.
+o Physical and logical consolidation help reduce costs.
+~ « Hadoop optimizes data warehouse environments.
+-« Customer experience (CX) strategies use realtime analytics to improve marketing
+campaigns.
+o Engineered systems are becoming a preferred approach for large scale information '
+management.
+ « On-demand analytics environments meet the growing demand for rapid prototyping
+and information discovery '
+e Data compression enables higher-volume, higher value analytics
+o In-database analytics simplify analysis ' ‘ :
+. 6. What are recent trends in data mining? [MODEL QUESTION]
+Answer:
+Businesses which have been slow in adopting the process of data mining are now : !
+catching up with the others. Extracting important information through the process of data
+mining is widely used to make critical business decisions. In the coming decade, we can
+- expect data mining to become as ubiquitous as some of the more prevalent technologies
+. used today. -
+Some of the key data mining trends for the future include — o
+- L. Multimedia Data Mining:
+~ This is one of the latest methods which is catching up because of the growing ability to
+~ ¢apture useful data accurately. It involves the extraction of data from different kinds of
+- Mmultimedia sources such as audio, text, hypertext, video, images, etc. and the data is
+?:nvlerted.mto a numerical representation in dlffc.ere_nt fonnats. This method can pe us‘ed
+Clustering and classifications, performing similarity checks, and also to identify
+associations.
+| DWM-79 ‘
+POPULAR PUBLICATIONS ' Lo '
+2. Ubiquitous Data Mining: : : . P
+This method involves the mining of data from rr.wbtl.e dev1cesdtlo asgito::: ,, tion
+individuals. In spite of having several chz;llepge_s in this type su o var:ri Xity, priy
+cost, etc. this method has a lot of 0pgortumt!es to be enormo .L
+especially in studying human-computer interactions. h ‘ "
+o B ; 3 SR *
+3. Distributed Data Mining: | . g e .
+This type of data mining is gaining popularity as it mvolvqs fffhe ntlm_mg 9f hm amg
+of information stored in different company locations or at fh eren lorga.mzau’ on v, High
+sophisticated algorithms are used to extract data from different locations and provi
+Vgl
+proper insights and reports based upon them. - | o i
+4. Spatial and Geographic Data Mining: i i : :
+" This is new trending type of data mining which includes extraqtlng mfox"mmq!
+'  environmental, astronomical, and geographical data whlcl} also includes images tak
+from outer space. This type of data mining can reveal various gspects such as f
+and topology which is mainly used in geographic information systems 2
+navigation applications. ’ a ;};;
+5. Time Series and Sequence Data Mining:
+The primary application of this type of data mining is study of cyclical and season:
+trends. This practice is also helpful in analyzing even random events which occur outsi
+the normal series of events. This method is mainly being use by retail comp a"”‘
+access customer's buying patterns and their behaviors. ' . ;
+, Y e

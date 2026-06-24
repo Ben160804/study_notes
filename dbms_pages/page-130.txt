@@ -1,0 +1,40 @@
+POPULAR PUBLICATIONS
+ADVANCED TOFICS
+Multiple Choice Type Questions
+ing a data in distributed DBMS, ... . &
+1. There are two approaches to storing [MODEL QUESTION)
+fragmentation. v c) transparency d) aliases
+a) availability b) replication )
+Answer: (b)
+Lk L ODEL QUESTION]
+ing is (M
+2. Tha first phase of quary processing b) restructuring
+a) decomposition d) none of these
+c) analysis
+Answer: (a)
+; ing is a function of a Distribution Database Management
+R S e % [MODEL QUESTION]
+Ys:i Distributed query processing b) Replicated data management
+c) Distributed data recovery d) All of the above
+Answer: (d)
+4, Block-interleaved distributed parity is RAID level [MODEL QUESTION]
+a) 2 - b) 3 c) 4 d)S
+Answer: (¢) :
+5. A distributed database is a [MODEL QUESTION]
+a) database that is distributed among a network of geographically separated
+locations
+b) collection of locations, each of which is operated as a local database
+system while accessing data at several locations
+¢) user program which interacts with the DDBMSs
+d) process which cooperates in completing transactions
+e) software that manages the collection of storage locations and data
+structures
+Answer: (a)
+Short Answer ype Questions
+Discuss the advantages of centralized and distributed databases.
+Answer: [MODEL QUESTION]
+Centralized database
+Early data Processing systems W . . :
+Smaller local systems Started to Otrked real qosingle centralized database. i
+Move to central database distrib:jtgc;etlolcall L praeses as well 2 do local data P
+Accurate updating of data © 1ocal processors as long as:

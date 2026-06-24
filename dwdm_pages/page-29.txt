@@ -1,0 +1,41 @@
+-
+DATA WAREHOUSING AND DATA MINING
+, Abilityto deal with different kinds of attributes — Algorithms should be capable to be
+applied on any kind of data such as interval-based (numerical) data, categorical, and
+_ pinary data. : '
+, Discovery of clusters with attribute shape — The clustering algorithm ‘should be
+capable of detecting clusters of arbitrary shape. They should not be bounded to only
+| distance measures that tend to find spherical cluster of small sizes. ,
+. High dimensionality — The clustering algorithm should not only be able to handle
+|ow-dimensional data but also the high dimensional space.
+. Ability to deal with noisy data — Databases contain noisy, missing or erroneous data.
+Some algorithms are sensitive to such data and may lead to poor quality clusters.
+[nterpretability — The clustering results should be interpretable, comprehensible, and
+. usable. '
+3 part: Refer to Question No. 1(a) (2" Part) of Long Answer Type Questions.
+b) The nearest pair of cities is MI and TO, at distance 138. These are merged into a single
+. cluster called "MI/TO". T he level of the new cluster is LIMI/TO) = 138 and the new
+sequence number is m = 1.
+Then we compute the distance from this new compound object to all other objects. In
+. single link clustering the rule is that the distance from the compound object to another
+object is equal to the shortest distance from any member of the cluster to the outside ;
+. object. So the distance from "MI/TO" to RM is chosen to be 564, which is the distance
+~ fromMItoRM, and so on.
+After merging MI with TO we obtain the following matrix: ‘
+T ] BA [ ¥ |MuTo] NAWE NGRS
+- TBA | 0 | 662 | 87 [ 055 il A |
+| Rl 662 | 0 | 2967k A4GE i NG ‘
+-
+: o - S R e T
+| Fma ) 412 | 268 | so4 | 210aiiict i
+min d(i,j) = d(NA,RM) = 219 => merge NA and RM into a new cluster called NA/RM
+. LINARM)=219 |
+‘ [ | BA [ FI_[MUTO| NARM |
+| o7 S Sl O Sl Tl k.~
+LOEL [Tv66 [Tl 0. G55 T TRIEEE
+| | MUTO | 877 | 29571 B cjiaSae |
+iy g AN 255 268 et 0 ]
+BA/NA’}RM (BA,NA/RM) =255 => merge BA and NA/RM into a new cluster called
+=3 : :
+| - T BANARME | i
+1 DWM-29

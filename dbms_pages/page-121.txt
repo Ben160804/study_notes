@@ -1,0 +1,44 @@
+V D e SR o e e
+DATABASE MANAGEMENT SYSTEMS
+in 7 Yy committing changes to all other
+database. Why not? [WBUT 2014]
+Answer: ]
+it doesn't allow a given transaction to commit changes to files on an individual basis
+hecause it must .makc sure that the system remains in a consistent state before and after a
+gransaction. So 1t .ha.ts to make sure that the system as a whole is reliable before making
+changes on an individual basis.
+10. a) Explain the purpose of the checkpoint mechanism. How often should
+' checkpoints be performed?
+i b) How does ‘strict two-phase’ and ‘consecutive two-phase’ locking protocol differ.
+| [WBUT 2015]
+! Answer:
+ﬁ a) Checkpointing is done with log-based recovery schemes to reduce the amount of
+| searching that needs to be done after a crash. If there is no checkpointing, then the entire
+‘ log must be searched after a crash, and all transactions “redone” from the log. If
+checkpointing is used, then most of the log can be discarded. Since checkpoints are very
+expensive, how often they should be taken depends upon how reliable the system is. The
+more reliable the system, the less often a checkpoint should be taken.
+b) According to the two-phase locking protocol a transaction handles its locks in two
+distinct, consecutive phases during the transaction's execution:
+e Expanding phase (aka Growing phase): locks are acquired and no locks are
+released (the number of locks can only increase).
+e Shrinking phase: locks are released and no locks are acquired.
+The two phase locking (2PL) rule can be summarized as: never acquire a lock after a lock :
+has been released. The serializability property is guaranteed for a schedule with
+transactions that obey this rule. '
+Typically, without explicit knowledge in a transaction on end of phase-1, it is safely
+determined only when a transaction has completed processing and requested commit. In
+this case all the locks can be released at once (phase-2).
+To comply with the Strict two phase locking protocol a transaction needs to comply with
+2PL, and release its write (exclusive) locks only after it has ended, i.e., being either
+committed or aborted. On the other hand, read (shared) locks are released regularly
+during phase 2. This protocol is not appropriate in B-trees because it causes Bottleneck
+| (While B-trees always starts searching from the parent root).
+| :); -Ca) W_hat are the various states of a transaction? Explain with a state diagram.
+o lf)znsclzder the following schedule: T Y iyt
+(B) v 2((A))’ r2 (B), w2 (B), r3 (B), r3 (C), r1 (A), w1 (A), w3 (B), ; ; ;
+l )
+cs) mz:tc.hedule Sonniizahing : del f schedule desired?
+) Expy IS cascadeless schedule? Why is cascadeless O e
+Plain log based recovery. G ]
+DBMSCS-121

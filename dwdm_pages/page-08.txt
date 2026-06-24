@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS
+i j 2(1* Part) of Short Answer Type Questions,
+Data Mining: Refer to Question No. 2( -
+Data mining example: .. and Business Intelligence to o
+_ b ‘o use Data MIning _ o
+Mobile phone and L0 EC compz}nlre when a customer |eaves their company to get theijr
+' B e i oty oo ovider. They collate billing information, customer
+DhOlje/qu/broadpand from ano_thcter :r:d othe; et cach customer 3 probal
+services interactions, website VISIS o ners whom they nerceive 1o be atis hightel k-
+score, then target offers and incentives t0 € a2
+risk of churning. g
+Steps involved in KDD process , e ectivé. _ ‘._;;-
+1. Identify the goal of the KDD process lfro(rjn trfllg :1:1125;3]21‘6:1 Sd%e tEat'S ok i
+:cation domains involved anc : ! . -
+g. lsjegizzsﬁlzfg?t)%l;a set or subset of data samples on which discovery 1S be performed. b
+4 Cleanse and pre-process data by deciding strategies to handle missing fields and alter
+the data as per the requirements. : ;
+5. Simplify the data sets by removing unwanted variables. Then, analyze useful features g
+that can be used to represent the data, depending on the ggal or task. by,
+6. Match KDD goals with data mining methods to suggest hidden pattemns. .
+7 Choose data mining algorithms to discover hidden patterns. This process includes 3
+deciding which models and parameters might be appropriate for the overall KDD ’5
+process. T
+8. Search for patterns of interest in a particular representational form, which include .
+classification rules or trees, regression and clustering. i
+9. Interpret essential knowledge from the mined patterns. b
+10. Use the knowledge and incorporate it into another system for further action. v
+11. Document it and make reports for interested parties.
+| 11. Does a data warehouse involve a transaction? Explain. i [WBUT 2018] 5
+Answer: - B
+A data warehouse is a relational database that is designed for query and analysis rather
+than for transaction processing. It usually contains historical data derived from
+;ransactlon data, but it can include data from other sources. It separates analysis workload
+SgouTc;;ansactlon workload and enables an organization to consolidate data from several
+Long Answer Type Questions e
+1. Define Da .  scdal vl
+| ata Warehouse and briefly describe its characteristics. i
+Answer: [WBUT 2009, 20181
+: A data warehouse consj o
+storage of information for agfea.f.omp“te{ database responsible for the collection an
+used to manage information Eﬁc'l Ic organization. This collection of information is theft
+iciently and analyze the collected data. Although datd
+B — e i ',.n'.""'lr ifys

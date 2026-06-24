@@ -1,0 +1,41 @@
+DATA WAREHOUSING AND DATA MINING ‘
+The SNA structure is made up of node entities, such as humans. and ties, such as ‘
+relationships. The gdvent of modern thought and computing facilitated a gradual
+evolution of the social networking concept in the form of highly complex, graph-based
+networks Wlth_maHY_tYPCS of nodes and ties, These networks are the key ;o procedures
+and initiatives involving problem solving, administration and operations. ‘
+' 3. What is distributed data mining? [MODEL QUESTION]
+Answer: A
+This type of data mining is gaining popularity as it involves analyzing the information
+stored in different company locations or at different organizations. Highly sophisticated
+algorithms are used to extract data from different locations and provide detailed insights
+" to aid decision making.
+. 4. What are recent trends in data mining? [MODEL QUESTION]
+Answer: :
+| Trends in Data Mining
+Data mining concepts are still evolving and here are the latest trends that we get to see
+in this field —
+« Application Exploration.
+o Scalable and interactive data mining methods. '
+. o Integration of data mining with database systems, data warehouse systems and
+web database systems. ’ : ,
+« Standardization of data mining query language. -
+j » Visual data mining. :
+. o New methods for mining complex types of data. -
+» Biological data mining. : :
+| o Data mining and software engineering,.
+* Web mining.
+ Distributed data mining. ‘
+, » Real time data mining.
+i » Multi database data mining.
+¢ Privacy protection and information security in data mining.
+1. Explain the concept of distributed data warehouse. List some of its advantages
+and disadvantages. [MODEL QUESTION]
+Answer; i .
+A distributed data warehouse is just like the name if implies. That is, the data are shared
+::::roestf multiple data repositories, for the purpose of OLAP and where each data
+‘ Warehouse may belong to one or more organization. It cgns.lsts of many local dgta
+'. COversouses with one centr_allzed global data warehouse. Plstrlbuted data warehousu}g
+Separatei complete enterprise data warehouse but have tiny data stores that are built
+y. These data stores are connected physically over a network to provide users
+DWM-73

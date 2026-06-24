@@ -1,0 +1,42 @@
+DATABASE MANAGEMENT SYSTEMS
+The graph forms 8 Eycle between'thel nodes T S 17 il s e il B
+conflict seralizable.
+7. What do you mean by integrity constraint? [WBUT 2013, 2019]
+Answer: ' i A . )
+An integrity constraint defines a business ryle for a table column. When enabled. the rule
+will be enforced by oracle ( and so will always be trye. ) To create an integrity constraint
+all existing table data must satisfy the constraint -
+Default valuc‘s are also subject to integrity constraint checking (defaults are included as
+part of an INSERT statement before the statement js parsed.)
+If the results of an INSERT or UPDATE statement violate an integrity constraint, the
+statement will be rolled back.
+Integrity constraints are stored as part of the table definition, (in the data dictionary.)
+If multiple applications access the same table they will all adhere to the same rule.
+| 8. a) What is transaction? [WBUT 2013, 2019]
+' Answer:
+A transaction is a set of changes that must all be made together. Transaction is executed
+as a single unit. If the database was in consistent state before a transaction, then after
+execution of the transaction also, the database must be in a consisted.
+b) Explain with exémple serial and serializable schedule. [WBUT 2013, 2019]
+Answer: :
+A schedule S is said to be a serial if for every participating transaction T in the schedule,
+executes consecutively. Here in the example S1 is a serial schedule but not S2. A
+schedule S of n transactions is serializable, if is equivalent to some serial schedule of the
+same n transactions.
+c) What are the problems of concurrent execution of iransaction?
+[WBUT 2013, 2019]
+Answer: ,
+If locking is not available and several users access a database concurrently, problems may
+occur if their transactions use the same data at the same time. Concurrency problems
+include;
+* Lost or buried updates.
+*  Uncommitted dependency (dirty read).
+* Inconsistent analysis (non-repeatable read). '
+' * Phantom reads
+Lost Updates .
+Lost updates occur when twoormotetmgsactlmsselectmesa.mel:owarﬂﬂmwdate
+the row based on the value originally selected. Each transaction is unaware of other
+ransactions. The last update overwrites updates made by the other transactions, which
+results in lost data., |
+R Ll ; :: ‘;f.“/-_‘i' .,‘::1’,-._";_‘[ ] .'I '-‘”:-J::‘ . ‘\J-
+' |

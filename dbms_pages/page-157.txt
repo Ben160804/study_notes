@@ -1,0 +1,72 @@
+| 10. Answer the following queries in SQL using given database schema: ‘;é
+
+: EMP (E no, E name, E add, B date, super-no) %V
+
+DEPT (D no, D name, mgrno) ::
+
+PROJECT (P no, P name, D no, P location) §’{§g v,
+
+Work-on (E no, D no, Hours) f‘
+
+a) List E no, E name, E add, mgrno of all employee who work in “Research” department. § Ag
+
+b) For all project in "Kolkata” list p-no, controlling department name, manager name, address and &?
+
+birth date. % ;
+
+c) List all project number, project name, manager name which belongs to “Product” department. %*g v
+
+d) List all employee name who works more than 40 hours in “Research” department. '}: )
+
+See Topic: SQL, Long Answer Type Question No. 8. K \%
+
+11. Answer any three questions: &z&%
+
+a) Time stamp based protocol for concurrency control : %
+
+- b) B+ tree file organization § m
+
+" c) Primary Index and Secondary Index , , &%
+
+; ~ d) Anomalies in concurrent execution of transaction R ]
+, e) BCNF | %
+
+It a) See Topic: TRANSACTION PROCESSING, Long Answer Type Question No. 13(d). 4 \%
+
+[ b) See Topic: STORAGE STRATEGIES, Long Answer Type Question No. 7(c). 20282
+
+'F ¢) See Topic: STORAGE STRATEGIES, Long Answer Type Question No. 7(e). Wx:"
+
+g d) See Topic: TRANSACTION PROCESSING, Long Answer Type Question No. 13(f). A“\i“\‘
+
+;, ¢) See Topic: FUNCTIONAL DEPENDENCIES AND NORMALIZATION, Long Answer Type Q2222
+
+EF Question No. 24(c). L 3) 3
+
+r ' 202
+
+| QUESTION 2019 %
+
+. GROUP - A “1:%*
+
+‘ (Multiple Choice Type Questions) »\_)ﬁg
+
+1. Choose the correct alternatives for the following: { _f;\'-,\
+
+‘ i) In the relational modes, cardinality is termed as 222
+
+‘ v'a) number of tuples b) number of attributes % )\
+
+c) number of tables d) number of constraints '\%g
+
+ii) Which of the following operations is used if we are interested in only certain columns of a table? Q ;
+
+] v'a) PROJECTION  b) SELECTION - QUNION ' d) JOIN R '
+
+iii) The strategy for processing a query is improved by : NN
+
+‘ a) query evaluation o b) decomposition 1\
+
+ﬁ v'¢) query optimization ' d) none of these \
+
+ DBMSCS-157 R

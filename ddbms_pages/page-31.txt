@@ -1,0 +1,49 @@
+POPULAR PUBLICATIONS EMWM@LW—W
+ing rule 7, i 12. Consider the following global, fragmentation and allocation schema:
+i “"P'ﬁ:ﬁem,\eﬂ.p:;f,"(l:m" P Slobal schema:  STUDENT (STUDAD, DEPT, NAME)
+3 P P Fragmentation schema: STUDENT;= SLoepre -ee- STUDENT
+By applying the same rule, we get i STUDENT,=SLogpre-cs* STUDENT
+, (false A false) V ps (Assume that EE and CS are only possible value for DEPT).
+Which is equivalent to ps by rule 4. (Allocation schema: STUDENT, at sites 1, 2 and STUDENT; atsites 3,4.)
+So the simplified SQL is Wite a query that moves the student having number 802 from department “EE” to
+Select ENO from ASG where ENAME = ‘Sachin’. department “CS", at fevels 1, 2 and 3 of transparency. [MODEL QUESTION]
+Answer: ;
+11. Assume the fragmentation of a global relation R (AB,C) is destribed by the Fragmentation Transparency (Level 1
+following predicates: Update STUDENT
+Pl:(1<=A<=4) Set DEPT="CS”
+P2:(5<=A<=T)AND (1 <=B<=5) Where STUD-ID =802;
+P3:(5<=A<=7)AND(6<=BN<=10)
+P4:(8<=A<=10)AND (1<=C<=5) tion Transparency (ievel2)
+P5:(8<=A<=10) AND(6<=C<=10) . Loc‘Sel(:::t NAM‘EaimocSyNﬂAWME fz'om STUDENT
+Introduce the CUT operation in the following parametric queries: Where STUD-ID=802;
+) SLusx o sarR [nsert into STUDENT (STUD-ID, DEPT, NAME)
+i) Slesy ao sasrR Values (802, ‘CS’, SNAME);
+STUD-ID=802;
+i) SLooe on cark (HODEL QUESTION] DELETE from STUDENT where
+Answer: Local Mapping Transparency (Level 3)
+o cur $r=A Select NAME into SNAME from STUDENT at SITE
+And sy:c Where STUD-ID=802;
+. 5B  [nsert into STUDENT, AT SITE 3 (STUD-ID, DEPT, NAME)
+$x=C , Values (802, ‘CS’, SNAME);
+And L DELETE from STUDENT at SITE | where STUD-ID=802; :
+b D $xA or8y=C DELETE from STUDENT at SITE 2 where STUD-ID=802;
+Sx=A And $y>B o
+§=C AndSy=B 13, Write sort notes on the following: [MODEL QUESTION]
+a) Primary copy locking
+pil P21 P PALPSI b) Weight-majority locking
+pil RI P3P sl c) Write-locks-all
+i d) Quorum based protocol in distributed concurrency control
+¢) Wound wait protocol
+pii P21 DL P BSI f) Conservative timestamp ordering protocol
+Where g) Relation between database integrity and database security
+Pl:(1<=A<=4) Answer:
+P2:(5<=A<=T)AND(1<=B<=)) ' a) Primary copy locking:
+P3:(5<=A<=T)AND(6< =_BN 5" 10) In the primary copy locking approach, all locks for a data item x are requested at the site
+P4:(8<=A<=10)AND (I <=C <: 5) - of the primary copy. We will assume first that also all the read and write operations are
+PS:(8<=A<=10)AND (6 <= C<=10) performed on this copy; however, writes are then propagated to all other copies.
+Considering a database, if we choose x1, yl, and 22 as primary copies, then the
+avgilabili(y of the database for the 12 transactions is the same as in the majority approach
+(Figure), because the assignment of votes which we had applied determined a primary
+DD
+DDMS-60 s
+. '

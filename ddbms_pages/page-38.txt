@@ -1,0 +1,47 @@
+- h
+POPULAR PUBLICATIONS "’ 5/
+:)Bv:":d lhcddlﬂmlncdo“ I:mmn contralizod and distibuted DBMS with respect to
+\ redundancy, indexing, rellabllity and performance. [MODEL QUESTIO!
+Answer: . | NI Writo down the 2-phase commitment protocol. What are different communication
+The features which characterize the traditional database approach are centralized control, 1irucluf' for this protocol? What is log write-ahead protocol? [MODEL QUESTION)
+data "‘fkl’fm_lcncc. reduction of redundancy, complex physical structures for efficient : qwer:
+access, 'll_lcgflly- fecovery, coneurrency conirol, privacy, and security. A“n Part: .
+* The possibiliy of providing centralzed contral oves the information resources of ':'hc {wo-phase comilt protocol provides an automatic recovery mechanism in case a
+a Whole enterprise or organization was considered 05 one of the strongest stem or media failure occurs during execution of the transaction. The two-phase
+motivations for introducing databases; they were developed as the evolution of symmil protocol ensures that all participating database servers receive and implement the
+information systems in which each application had its own private fies. The - ¢ action (either to commit or to roll back a transaction), regardless of local or network
+fundamental function of database administrator (DBA) was to guarantee the ;a{rum
+safety of data; the data itself was recognized to be important investinent of the I?I ny database server is unable to commit it portion of the transaction, all database
+enterprise which required a centralized responsibility, r:'crs participating in the transaction must be prevented from committing their work,
+i distributed databases, e idea ofcentaized control is much less emphasized, ;cmh a two-phase commit protocol, the distributed transaction manager employs a
+¢ In distributed databases, data independence has the same importance as in coordinator 10 manage the individual resource managers.
+traditional databases; however, & new aspect is added (0 the usual notion of data
+independence, namely, distribuion Iransparency, ‘The commit process proceeds as follows:
+. Reductlon_oj redundancy In traditional databases, redundancy was reduced as o Phasel
+far a5 possiblefor two ressons: i, nconssences among several copies of the o Each participating resource manager coordinates local operations and forces all
+same logical data are automatically avoided by having only one copy, and log records out:
+second, storage space is saved by eliminating redundancy. Reduction of o Ifsuccessful, respond "OK"
+redundancy was obtained by data sharing, i.e,, by allowing several applications to o Ifunsuccessful, cither allow a time-out or respond "OOPS"
+access the same files and records. In distributed databases, however, there are o Phase?
+several reasons for considering data redundancy as a desirable feature: first, the o Ifall participants respond "OK":
+locality of applications can be increased if the data is replicated at all sites where * Coordinator instructs participating resource managers to "COMMIT"
+. applications need it, and second, the availability of the system can be increased, *  Participants complete operation writing the log record for the commit
+because a site failure does not stop the execution of applications at other sites if o Otherwise:
+the data is replicated. * Coordinator instructs participating resource managers to "ROLLBACK"
+¢ Integrity, recovery, and concurrency control In databases the issues of integrity, * Participants complete their respective local undos
+recovery, and concurrency control, although they refer to different problems, are
+strongly interrelated. To a large extent, the solution of these problems consists of In-order for the scheme to work reliably, both the coordinator and the participating
+providing transactions. resource managers independently must be able to guarantee proper completion, including
+*  Privacy and security In traditional databases, the database administrator, having any necessary restart/redo operations. The following figure describes the basic protocol.
+centralized control, can ensure that only authorized access to the data is
+performed. Note, however, that the centralized database approach in itself,
+without specialized control procedures, is more vulnerable to privacy and
+security violations than the older approaches based on separate files.
+In distributed databases, local administrators are faced essentially with the same problem
+as database administrators in a traditional database, However, two peculiar aspects of
+distributed databases are worth mentioning: first, in a distributed database with a very
+high degree of site autonomy, the owners of local data feel more protected because they
+can enforce their own protections instead of depending on a central database
+administrator; second, security problems are intrinsic to distributed systems in general,
+because communication networks can represent a weak poirit with respect to protection.
+DDMS-74 DDMS-75

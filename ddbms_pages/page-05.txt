@@ -1,0 +1,46 @@
+. POPULAR PUBLICATIONS
+read(terminal "
+s::: mﬂ. SNAME DDBMS | iy : Replication transparency . . e )
+from SUPPLIER m Site | A copy of cach fragment can be maintained at several sites. Data replication is the design
+where SNUM = SSNUM, o Eo process 0f deciding which fragments will be replicated. A DISTRIBUTED SYSTEM
+b i m Site2 often employs DATA REPLICATION to ensure a fast response from databases and to
+(a) Fragmentation transparency (level 1) e enable the system (0 be rcsili;nl o ha:‘dw;;e l):rrors. Reptllical;:n uanSplarcncg is the term
+X ‘ ibe the fact that the user should be unaware that data is replicated.
+read(terminal, SSNUM), W = used o descr y i
+mﬁmgmms 6. “High reliability does not ensure correctness of the distributed system.”
+where SNUM = SSNUM, Comment critically. [MODEL QUESTION]
+if not #FOUND then DDBMS - Answer:
+mﬁmmﬁ w ol High Reliability: Distributed applications often require substantial.cﬂjon to achigve
+Where SNUM = SSNUM, citker () Jevels of reliability equivalent to those expected from stand-alone applications. Detecting
+el SNAME) W See ervice failures in a stand-alone application is relatively straightforward.
+(b) Location transparency (level 2) e === When the failed site recovers or is repaired, tpeghanisms must be available to integrate it
+W 2 smoothly back into the system. Data transmission costs are also reduced here since all
+e sers at all sites are not accessing one centralized database. Distributed reliability
+from suppug:,w :#;#E, protocols maintain the atomicity and durability properties by
+where SNUM = $SNUM, o (1) ensuring that either all of the actions of a transaction that is executing at different sites
+ifnot KFOUND then i
+Seect NAME i SNAME ﬁ oy complete successfully (called commit) or none of them complete successfully (called
+from SUPPLIER, AT SITE 3 : abor), and L ; -
+where SNUM = SSNUM, (2) ensuring that the modifications made to the database by committed transactions
+wrie(ermina, SNAME) m Site2 curvive failures. The first requires atomic commit protocols (see Commit Protocols),
+(c) Local mapping transparency (level 3) while the second requires recovery protocols. s
+Comectness conditions are not satisfied by reliability factors each time.
+: 5. What are the fragmentation, replication and location transparencies? 7. What are the components which are necessary for building a distributed ‘
+[MODEL QUESTION] database? [MODEL QUESTION]
+Answer: Answer: c
+Fragmentation fransparency The basic components are as follows:
+Fragmentation transparency hides the fact from users that the data are fragmented. This is ¢ Local data management system (DM): This module is responsible for accessing
+the highest level of distribution transparency. If a distributed system has fragmentation - data stored at the site.
+transparency, then the user must not be aware regarding the fragmentation of data. As a o The data dictionary: The information regarding distribution of data (i.c. fragments)
+result, database accesses must be based on global schema and the user need not to specify is stored in the data dictionary.
+the particular fragment names or data locations. + The transaction Module: This module creates the global plan for execution of a
+query based on the information stored in the data dictionary. TM translates global
+chatlan t(ansparemy . _ query into queries on fragments stored at different sites. TM also ensures
+With location transparency, the user is aware how the data are fragmented but still does concurrency control, access planning, query optimization and distributed query
+not have any idea regarding the location of the fragments. Location transparency is the execution,
+middle level of distribution transparency. To relrieve data from a distributed database ¢ The data communication module (DC): This module is responsible for reliable
+with location transparency, the end user or programmer has to specify the database inter-site communication using the links.
+fragment names but need not specify where these fragments are located in the distributed
+system. 8._Describe the reference architecture of Distributed Database Management system
+with proper diagram. [MODEL QUESTION]
+DDMS-8 DDMS-9

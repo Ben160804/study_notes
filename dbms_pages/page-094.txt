@@ -1,0 +1,37 @@
+POPULAR PUBLICATI
+In an ordered index, index entries are stored sorted on the search key value. E.g., author
+talog in library. . i
+. ;’ii;c;gr; indexl:yin a sequentially ordered file, the index whose search key 'spcuﬁg the
+sequential order of the file also called clustering index. The search key of a primary
+ex is usually but not necessarily the primary _ i ‘
+.Isl‘]eci-ondary im}llex: an index whose search key specifies an order different from the
+sequential order of the file. It is also called non-clustering index. Imlt'x-'.s'eqwmllal Sile:
+Ordered sequential file with a primary index. This is also called ISAM - indexed
+sequential access method.
+Dense Index Files ) . _ ,
+Dense index — Index record appears for every search-key value in the file (in this
+example we have clustering index).
+BENARASDELH
+IMUMBAIKOLK
+ATARANCHIRU
+RKI
+A-317BENARAS750A- >
+201DELHIS00A-210DELHI600A-
+315SMUMBAI700A- =
+202KOLKATA400A- -
+301KOLKATA900A- ?
+318KOLKATA700A- b
+' : 333RANCHI700A-305RURKI350 )
+
+Sparse Index Fil ins i %" i
+a;) 5 g iles contains mde)f records for only some search-key values. It is
+p when records are sequentially ordered on search-ke (L.e., onl licabl
+clustering inde T . y (1.e., only applicable to
+
+Ay dg xesd). 0 locate a record with search-key value K we:
+index record with lar J A : .
+secing X the 5 gest search-key value <= K. Then search file sequentially
+L l'eilor dt;) which the index record points. It involves less space and less
+verhead for inserti ' el :
+Bt e b, lons and deletions. Generally slower than dense index for
+DBMSCS-94 i

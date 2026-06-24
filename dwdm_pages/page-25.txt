@@ -1,0 +1,38 @@
+| DATA WAREHOUSING AND DATA MINING
+Since the points (2,6) (3,8) and (4,7) are closer to c, h.ence they form one cluster whilst
+remaining points form another cluster. ,
+So the total cost involved is 20.
+. Where cost between any two points is found using formula
+d
+L cost(re)=2 ¢ .
+i=l .
+where x is any data object, ¢ is the medoid, and d is the dimension of the object which in
+, this case is 2. _ .
+, Total cost is the summation of the cost of data object from its medoid in its cluster so
+here: !
+Total cost = {cost((3,4), (2,6)) + cost((3,4), (3,8)) + cost((3,4), (4,7))}
+| + {cost((7,4), (6,2)) + cost((7,4), (6,4)) + cost((7,4), (7,3))
+» +cost((7,4), (8,5)) + cost((7,4), (7,6))}
+=(B+4+4)+(B+1+1+2+2)
+=20
+Select one of the nonmedoids O’ .
+Let us assume O’ = (7,3)
+So now the medoids are c,(3,4) and O'(7,3)
+Ifcl and O' are new medoids, calculate the total cost involved
+By using the formula in the step 1 ‘
+, I i
+T T T N R T
+. EE R ENE R
+a3 e e i e S -
+' e [ 3 |4 o] ve o AT
+B TREE R AL AIE .
+X; distance
+j B Mo it e i e lle Bt 4.1
+S O e |
+7
+FTREETIA AN R A e . |
+n--_
+N O T i B e |
+0 ey 0 Ol O i e B B
+344+4+2+2+1+343=22
+\ DWM-25

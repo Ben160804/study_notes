@@ -1,0 +1,42 @@
+V
+DATABASE MANAGEMENT SYSTEMS
+_ d) If '’ be the set of attributes then write the algorithm to compute ‘a+’, (Closure of
+sttribute set). [WBUT 2014]
+AnsWCl’i 5
+[nitialise 0 <current> — &
+Repeat until .
+O <current> — O <new>
+For all X — Y in a such that X < a
+o coews € @ <cumen> XY /* Return the closure of a */
+’ e.g., |
+{ Legt x= {BCD} and the following functional dependencies holds in a
+F {A—>BC,CD— E, E-»C, D»>AEH, ABH—BD, DH—BC}
+| compute the closure a” of X undera
+Initialise @ <curene> = {BCD}
+From the relation CD > Ein a st E C o' yrene
+X" <qew> = {BCDE}
+From the relation D>AEH in F s.t AEH € X" c.urene>
+X wew> = {ABCDEH}
+Thus X™ is {ABCDEH}
+15. a) Why do we normalize a relation? Describe the anomalies. [WBUT 2014]
+Answer:
+1* Part:
+Normalization is a technique for producing a set of relations with desirable properties,
+given the data requirements of an enterprise. The process of normalization is a formal
+method that identifies relations based on their primary or candidate keys and the
+functional dependencies among their attributes.
+2" Part: Refer to Question No. 1 of Long Answer Type Questions.
+b) Consider each order has unique order_id for each order, following information
+are stored: |
+order_id, order dt, customer_name, customer_address, salesman_name,
+salesman_address and for each requested item store item_code, item_name,
+quantity and rate.
+Further assume, following functional dependencies:
+salesman_name—» salesman_address
+customer_name—» customer_address
+order_id—order_dt, salesman_name, customer_name
+order_id, item_code—»quantity :
+item_code—item_name, rate
+' Normalize the database up to 3NF showing the steps. Indicate PRIMARY &
+, FOREIGN KEYS. [WBUT 2014]
+l DBMSCS-79

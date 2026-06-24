@@ -1,0 +1,49 @@
+D
+DISTRIBUTED DATABAS é%% F g
+POPULAR PUBLICATIONS o, @ 2
+is listed below:
+. The optimized query tree for the above query &
+Step 3: Construct a set of beneficial semijoin operations (BS) as follows: flousnas
+BS = For each semijoin SJi BS « BS Sliif cost(S)j ) < benefit(SJi) T
+Iterative Process ) ] ENOMSGIN » PROINO
+Step 4: Remove the most beneficial SJi from BS and append it to ES DB « A
+Step 5: Modify the database profile accordingly / T \
+Step 6: Modify BS appropriaely ~ compute new benefitcost values - check ifanynew | Mowowe Nnoows  Moono
+semijoin need o be included in BS | l
+Step 7: 1fBS # 0, £0 back to Step 4, " PROJ ASG
+Assembly Site Selection IR N
+Step 8: Find the site where the largest amount of data resides and select it as the assembly T
+site EMP
+rules:
+Postprocessing b) Simplify the following query by using the idempotency [MODEL QUESTION]
+Step 9: For each Ri at the assembly site, find the semijoins of the type Ri Rj where the not(TITLE = ‘programmer’)
+total cost of ES without this semijoin is smaller than the cost with i and remove the il "":‘:,‘m‘fe = ‘Elect.eng’)
+38 and mTLE = programme ' 0
+semijoin from ES, and not (TITLE = ‘Elect.eng’) or ENAME = ‘Sachin’.
+Step 10: Permute the order of semijoins if doing so would improve the total cost of ES, Answer:
+i les:
+10. ) Consider the following schema: [MODEL QUESTION] “‘l'd’mp,f"':";m“
+EMP = (ENO, ENAME, TITLE) ' pvP= i
+ASG = (ENO, PNO, RESP, DUR) ZEPVEEE)
+PROJ = (PNO, PNAME, BIDGET, LOC) i 0L
+Consider the following query: 4. pVialse=p
+SELECT ENAME, PNAME 5. pAfalse=false
+FROM EMP, ASG, PRO.J 6. pVtrue=true
+WHERE EMP.ENO = ASG.ENO _ 7. pA-p=false ‘
+AND ASG.PNO = PROJ.PNO 8. pV-p=true
+AND (TITIE = ‘ELECT.ENG'OR ASG.PNO<' P3) 9, mAGNDIED
+Draw the canonical tree and then transform it to an optimised tree, 10. pyV(piAp) =Py
+Answer: 5 ' : Let the simplification proceeds as follows:
+The canonical tree for the above query is as follows: Let p beTITLE = “Programmer”,
+TNowe mue p2 be TITLE = “Elect. Eng.”, and
+‘ ps be ENAME = “Sachin”,
+The query qualification is:
+OTITLE = ELECENG VASONO< 71" CPAPAPR) APV
+T Elimination of Redundancy S ‘ .
+DEMP N0~ ASGENOAASGINO ~ PROINO Ty The disjunctive normal form for this qualification is obtained by applying rule 5 which
+yields:
+/ T \ CPAGEAP)Y APV s
+. and then rule 3 yields:
+EMP PROJ AsG CPAPAR)VCPARAP) VP
+DPMS-59
+DDMS-58

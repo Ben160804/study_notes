@@ -1,0 +1,43 @@
+r'
+DATABASE MANAGEMENT SYSTEMS
+onsider the following two sets of functional de ies:
+;(5‘—_' ?)A i & AC_»D, E->AD, E->H) and Y = {A_*CD'E*A&a}?dencles. [WBUT 2015]
+check whether or not they are equivalent.
+b) consider R = (A, B, C, D, E) and set of functional dependencies
+f = {A-BC, CD-E, B—D, E-»A} to answer the following questions:
+' (i) List the candidate ke)(s for R. I ;
+, (i) Show that the followmg decqn)posu_tlon of the schema R into (A,B,C) and (A, D,
+E) is lossless-join decomposition if the above given set F of functional
+dependencies holds. _
+(iii) Compute the can9n|cal cover'Fc.
+¢) What normal form is the following relation in? Discuss stuff (D, O, N, T,C, R, Y)
+FD's are DONTCRY, CR—-D, D-N. ! ~
+Answer:
+a) It is to be proved that X is covered by Y
+{/\}‘:{A.C.D} (wrtto Y). Since {C} cA', A>C can be inferred from Y.
+(AC}'={A,C,D} (wrtto Y). Since {D} € {AC}", AC>D is covered by Y.
+(E}'={E,AH,C,D} (wrt Y), Since {AD}c {E}", EAD is covered by Y.
+Since {H}c {E}", E->H is covered by Y. | '
+Prove that Y is covered by X:
+« {A}={A,C.D} (wrt X),
+Since {CD}c {A} ", A>CD is covered by X.
+« {E}'={E,A,D,H,C} (with respect to X)
+{AH}c{E}", EAH is covered by X.
+Since X covers Y and Y covers X, X and Y are equivalent
+b) i) Since, A > BC, So, A—> Band 4 —>C ‘
+* Again B> D
+So, A->D
+A—> BCD
+Again CD - E & A—>CD
+So A E.
+..4—> ABCDE
+~.So A is a Candidate Key.
+i) RINR2 = A; (A - BC)
+Implies (A — ABC)
+Implies (R1 N R2 - R1)
+' Imples this is lossless-join decomposition.
+“ i) Starting with 4 — BC, we can conclude: 4 — Band 4 — C.
+Since 4 — B and B — D, A — D (decomposition is transitive)
+Since 4 » CD and CD - E. A ~ E (union, decomposition, transitive)
+Since 4 — 4, we have (reflexive) ]
+DBMSCS-81

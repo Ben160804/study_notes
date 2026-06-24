@@ -1,0 +1,49 @@
+e ——— ey ‘ \9! -
+DISTRIBUTED DATABASE MANAGEMEN Sy \
+POPULAR PUBLICATIONS S \
+- ADVANCED TOPICS
+| RUVAINLVEY S~
+When breaking down a single task into number of parallel small asks, it is very hard to Questions
+Make ther equal in size. Hence, the performance of the system depends on the slowest Short Answer 1ype &
+CPU which processes the larger sub-task, This type of uneven distribution of a job is d tight! led
+. u - ) 5 5 y coup
+called skew. For example, if a task of size 100 15 divided into 10 parts, and the division is hat do you mean by fodorated database? What lr:'::).t;l'o.lz:l:m?ﬂ
+she ‘.‘f\" there may be some tasks of size less than 10 and some tasks of size more than \. V;I :‘. in reforonce with distributed database manag [MODEL QUESTION]
+10, if even ane task happens to be of size 20, the speedup obtained by running the tasks sysie
+tn parallel s only five, instead of ten as we would have hoped, Answer:
+' i !
+: — W Part: : ; sparently access
+!)) Different types of d!u partitioning techniques in parallel databases 'lrh: :;lrposc of federated database systems is to provide mf“"si::)1‘:::;£‘ " m‘)‘lnnc,_ A
+i) Round Robfn: The simplest portioning strategy distributes tuples among the fragments d modify data dispersed over heterogencous database systems in { A system (DBMS)
+i a round-robin fashion. This is the partitioned version of the classic entry-sequence file, ::dmtcd database system is a type of mc[a.da!abasc managcn}lc\lwrk) : and may be
+Assume that there are n disks. D,.D,,,D,, among which the data are to be partitioned, The constituent databases are interconncc_led via c::mp:lcrte:‘cs mma.in s
+This strategy scans the relation in some order and sends the ith tuple to disk number geographically decentralized. Since the consituent d{m memcyssomclimcs daunting) task
+D, sy - The round-robin scheme ensures an even distribution of tuples across disks. a federated database system is a ?onlmuble altcmall\:\c l:')cdem(led database, or virtual
+Round-robin partitioning is excellen for applications that wish to read the entire relation of merging together several disparate dﬂ}""”“z £ 211 cootimen danibeser iy &
+sequentially for each query. The problem with round-robin partitioning is that it is very database, is the fully integrated, logical composite o
+diffcult to process point queries and range queries, federated database system.
+Global _ Global
+ii) Hash partitioning: This strategy choose one or more attributes from the given P
+relational schema as the partitioning attributes. A hash function is chosen whose range is
+within Oton - 1, ifﬂmmndisks.ﬁachmplc of the original relation is hashed based ——
+on the pattoning attributes. f the has function retums i then th tuple i placed on disk o
+D,
+.. . . . . . . -. J
+Hash Partitioning is ideally suited for applications that want only sequential and m (ﬂ::'
+associative accesses to the data, Tuples are stored by applying a hashing function to an
+» . . 0 . L“.l
+attribute. The hash function specifies the placement of the tuple on a particular disk. = F = q e, =
+. o - sien il picin J7 cOS) [ || | onMS |t ppcaion
+ii) Range Partitioning: Range portioning clusters together tuples with similar attribute ' :
+values in the same partition. This strategy distributes contiguous attribute-value ranges to <8 - i
+each disk. It chooses a partitioning attribute as a partitioning vector, Using range- Local m m
+partitioning technique, a relation s partitioned in the following way. Let {v,,v,v, ,} At i
+dmotemepnmmveaorofﬂlepa'unonmgmnbuusuchﬂmnfl<j,men V<), d e
+Consider a tuple f such that ([A]=x. If x<v, then  goes on disk D, and if x>v, ,,
+then  goes on disk D, ,. If v, <x <, then f goes on disk D
+Range portioning is good for sequential and associative access, and is also good for 2 Part: -
+clustering date. A Tightly coupled system has a global schema and translation is between local and global
+schema. This means that more work has to happen on the database administrator and less
+work on the user: query is written based on a global schema.
+DDMS-90 DDMS-91
+1

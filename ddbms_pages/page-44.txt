@@ -1,0 +1,53 @@
+i
+POPULAR PUBLICATIONS DISTRIBUTED DATAB )
+8. Write shorts notes on the following; [MODEL QUESTIO ; nted by replicating the same information on several disks with independee,
+
+;} m:m ™ i ;zﬂ:em:lwa aﬁ:fsing the so-called careful replacement strategy: at every updae
+
+; ion, first one copy of the information is updated, then the correctness of the
+
+¢) Wait-Die and Wound-Wait algorithm operation, P is updated
+
+Answer: update is verified, and finally the second copy is updated. f filure:
+
+:))n Network partitioning: Having introduced stable storage, we can introduce a new type of failure: -
+
+e of the most difficult failures in a distributeq system is network partitioning (whe ilures with loss of stable storage: In these failures, some information ; in
+set of computers are networked together byt they are isolated m molhger( s'e'("oaf 4 ft::,ll:”s:omge is los{because of several, simultaneous failures of the thfrd type. ‘
+o hal are inerconnected). When network partitioning happens, there is 3 danger Although we can make the probabiliy of failures of stable storage arbitrarily small
+;hﬁal WW in each pmitiop unilaterally decide to commit or abort the transaction, [f by using more replication and careful replacement strategies, it is impossible to
+
+¢ o partitions do not dec!de on the same action (either both committing or both reduce this probability to zero.
+aborting the transaction), the ntegity of the database willbe lost. Therfor, e gig,
+:mmmr:a Qu0mm~based commit protocol that deals with network partitioning, ¢) Wait-Die and Wound-Wait algorithm: ' ;
+etwork partitioning can completely destroy mutual consistency in the worst case, and Wait/Die and Wound/Wait are deadlock avoidance algorithms which use a symmetry-
+this fact has led 10 a cerain amount of restrctiveness, vagueness, and even nervousness breaking technique. In both these algorithms there exists an older process (0) and a
+in plstdlsumon.s, of how it may be handled, In some environments it is desirable or ounger process (Y). Process age can be determined by a timestamp at process creation
+flecessary to pemmit users to continue modifying resources such as files when the network ﬂme_ Smaller timestamps are older processes, while larger timestamps represent younger
+'S partitioned. A “‘_“"0*' operating system would be 3 good example. In such processes.
+environments mutual inconsistency becomes a fact of lfe which must be dealt with. Once The Wait-Die algorithm:
+e 18 deected, some reconcilaton steps are needed. In thog cases where the «  Allow wait only if waiting process is older.
+semantics of the operations involved are straightforward, automatic reconciliation may be Since timestamps increase in any chain of waiting processes, cvcles are impossible.
+possible. m the younger process restarts and requests the resource again, it may be killed once
+b) Site Failure: sl - two algorithms.
+From the viewpoint of local recovery, the most important characteristic of failures is the e i
+amount mfommjon which is lost because of the failure, Therefore, in the classification of The Wound-Wait algorithm:
+failures We consider essentially the memory component. From this viewpoint failures can =~ ¢ Otherwise allow wait only if waiting process is younger.
+be ClﬂSSl.ﬁed as fgllows: Here timestamps decrease in any chain of waiting process, so cycles are again
+L Fnlure.s without loss of information: In these failures, all the information impossible. It is wiser to give older processes priority. When the younger process re-
+ stored in memory is available for the recovery. These failures include, for requests resource, it has to wait for older process to finish. This is the better of the two
+example, the abort of transactions because an_eror condition is discovered algorithms.
+like an arithmetic overflow or a division by zero,
+2. Failures with loss of volatile storage: In these failures, the content of main
+memory is lost; however, all the information which is recorded on disks is not
+| affected by the failure, Typical failures of this kind are system crashes,
+3. Failures with loss of nonvolatile storage: In these failures, called media failures,
+also the content of disk storage is lost. Typical failures of this kind are head crashes.
+Thembabilityoffailmuofthetlﬁrdtypeis less than that of the other two types.
+- Moreover, it is possible to make the probability of the failures of the third type
+arbitrarily small by replicating the information on several disks having independent
+failure modes. Two disks have independent failure modes if the probability of
+Mdﬂndosnotdependonmeopnﬁomlsmtusoﬂheotherone.
+idea is the basis for the development of stable storage. Stable storage is the
+resilient storage medium available in the system. Stable storage is typically
+DDMS-86 DDMS-87

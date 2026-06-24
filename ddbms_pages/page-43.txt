@@ -1,0 +1,47 @@
+MMMMAE&EMAMWM
+1. Centralized: violate no reliance on a central si
+/ ESTI
+2. Fully repliated: 1o of ocal autonomy % b) Wht s allocation? puissLares
+3, Partioned: nonlcal oprationsar very Anser: . location
+4. Combination of (1) and (3): m'v:y mm ceotral si Data allocation describes the process of deciding where 10 locate data. Data &
+ona sile. iralegies are 4 follows: : R
+The distributed database ' e ’ o With centralized data allocation, the entire dalabasc’ poeo s .
+/ in addiion 10 data in :ﬂu,,mmwm“"“-mn el b e slcaon, e b is G o 0 € T
+partitioning and repli in a centrlised DBMS. Because of data disiointed parts (fragments) and stored at two or more SIEs.
+ng and replication, this extra information is needed. There ) AT e database fragments &r¢
+approaches to implementing a distributed database catalog, are a number of » With replcated data allocation, copies of one or m
++ Centralised - Keep one master copy of the ! stored at several sites.
+« Fully replicated - Keep one copy o the catalog .
+o at each site nd explain it with proper example.
+- Partiti : Wite the horizontal Algorithm a 0
+v MM‘\:’ Partiion and replicae the catlog as usagepatensdemand ) [MODEL QUESTION]
+““""“’f“m m horizontal fragmens are defined using seletions on_ global reatons; (e
+. protocol PSS WPy conmimen celected in one and only one fragment. Thus, determining the primary fragmentation of &
+Amm-' global relation requires determining 3 s¢t of disjoint and complete selection predlcau;
+i h The property that we require for cach fragment is that the clements of them must
+phase commitment protocol overcome limitation of 2-phase commitment protocol: referenced homogeneously by all the applications. ; :
+A Two-phase commit protocol cannot dependably recover from a failure of both the The horizontal fragmentation function distributes a relation based on selection predicates.
+coprdmntot and a cohort member during the Commit phase. If only the coordinator had The following example is used in subsequent discussions.
+failed, and no cohort members had received a commit message, it could safely be inferred EMP
+that no commit had happened. If, however, both the coordinator and a cohort member ﬁmmm-’ﬂﬂ!
+failed, it is possible that the failed cohort member was the first to be notified, and had Bl |J.Doc | Elec.Eng
+actually done the commit. Even if a new coordinator is selected, it cannot confidently E2 | M. Smith | Syst Anal.
+proceed with the operation until it has received an agreement from all cohort members ... : B3 |AlLe Mech. Eng.
+and hence must block until all cohort members respond. E4 | ). Miller Pm&';’n“:“
+The Three-phase commit protocol eliminates this problem by introducing the Prepared to Eg E' ‘(:I:sey ZIY:; ey
+commit state. If the coordinator fails before sending preCommit messages, the cohort will 57 R Da:is Mech Engg'
+unanimously agree that the operation was aborted. The coordinator will not send out 2 S e Anal.
+g::r:l?n'?:n 'lll'h;:&:lsi:ngi:latu:ﬂlh‘clIpfo‘s):‘i%riilitl;edr?at:?nymc:;oﬁcnlf:;bl:rmacl:]:alyl;rzo;rpel[::idd:z Rel.ation EMP(ENO, ENAME, TITLE) of the ::ve fLaltl)le can be split into three
+ransaction before all cohort members were aware of the decision to do so (an ambiguity horizontal fragments EMPE;rP" and EMP,, defined as follovs:
+that necessitated indefinie blocking in the Two-phase commit protocol). EMP, = Gawcer | )
+how network paritioning is handied in replicated databases EMP, =015 goves (M)
+1. lownol'onnlanenroca )
+s : y [MODEL QUESTION] EMP, = 00,55 (EMP)
+Answer: The localization program for an horizontally fragmented relation is the union of the
+Network partitions separate replica managers into two or more subgroups, in such a way fragments. In our example we have
+that the members of a subgroup can communicate with one another but members of EMP = EMP, UEMP, UEMP,
+different subgroups cannot communicate, There are (o approaches ior this - 1) Thus the localized form of any query specified on EMP is obtained by replacing it by
+Optimistic approaches use available copies with validation and 2) Pessimistic approaches EMP, UEMP, UEMP,.
+which use Quorum consensus.
+DDMS-84 DDMS-85
+.

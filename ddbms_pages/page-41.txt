@@ -1,0 +1,43 @@
+< =
+Y
+' POPULAR PUSLICATIONS : any
+There s 2 great variety of possible fai . -
+o veive e acknowledgment with message might be out of order, X might 1) Coardinator -receives a ransaction equest :
+acknowiedgment without the '*‘.'thﬁmd.xmm“, Mm&mamCmﬂMwﬁmﬂlmdlm.
+————— : message being delivered, and. 50 on. Most communication The finit state automation o the rotol is shown below-
+',XN\. \RWO‘dﬂM“dhm”h‘umh Corlomr o
+L 1fa mesage from X'to Fis delivered at ¥, then the message is comect and :
+[ ﬁ.?”“f““‘*‘mhﬁnm ol -y
+messages and partitions. Cobemti (1= 8.0 : il
+When a site X does not receive an acknowledgment of o ol ,"s-ln---
+X 3 . . .. _‘ ' ‘h
+sefined ime i Xis - .mﬁmamrma g e 4 0 %)
+1. Dida failure, occur atall, or is the system simply slow? - T e B e e
+2 ifa failure occurred, was it a communication failure, or a crash of site 17 sha S
+3. Hasthe message been delivesed at Yo not? O 0 P -
+The anwer fo question 3 does ot depend o the answer to question 2, because e e - (<)
+commumication failure or the crash can have happened before or after the delivery of the Tiad Mot =
+message. g Coed recened o
+Therefore, several levels of reliability algorithms can be designed, which are capable of O < Tt e
+deafing with the following failures, in order of increasing difficulty: ot F e Trmen
+Class1.  Site failures caly. F'T:l T ET
+Class2  Site failures and lost messages, but no partitions. ' B
+Class3.  Site aifures, lost messages, and pertitions. &)
+the system behaves'in an crroncous way. We will call catastrophic failures for a . m«z:’:mﬁﬂhﬁghmﬁnoﬁkm
+r&dﬁynﬂﬂiﬂndlhﬁﬂuﬁﬂiﬁmﬁkhﬁwﬁhbyiLAm hﬁldaisﬂﬂl!futlbemilpwwlhg's.dlhsiuninmq.lfh
+pﬁionisamopi‘icfa’hnfmd\edgxit}mo(dmlmdl Wﬁbwﬂehmql.dlheﬂhpﬁnh”mﬁhh
+mumummm.uwmumm
+Unfornmately failures do not occur one at a time. A system which can tolerate K failures Phase [
+SdiedKiuﬂiallndmhlcddsziscaup(Bq)pliedmsﬁeﬁilusMw Dligdtﬁmﬂns,ﬂtwadimu‘isinsttwl,wdlmlmisdﬂn’hml
+partitions. (mwtkhasﬂxiuhahudymmabmmmmemﬁm)awaq
+With respect o site falurcs, an algorithm is said t0 be Koresilient if it works properly depending on whether it has received the Commit_Request message or not. [ cohart
+even if K sites are down. lﬁtbmdmpuﬁﬁas.l(—rufﬁarymfuswlhenunberof Ek.ﬂzm&mﬁnmﬂwﬁrgfahwmﬁmhﬁiuwhlh
+sub partitions which have been gencrated. An extreme case of multiple failure is a total umummmmmmmmmﬂu
+ﬁilm-hmdlskﬁmdowanyalgaiﬂmd)mdnlwilhthisw:,ashis cohorts.
+Phase II
+4 3) Briefly discuss 3-phase commitment protocol. hhmmhmdmm:hmmbmhwilh
+unsﬂcmumdnﬁumwdmdwmmwa MmmehMLMhmﬁwﬂd-
+algorithm that works in case of partition. [MODEL QUESTION] Abort message 10 all the coborts. On receiving a Prepare message,  cohort sends an
+wmmum.unmmsmnﬁm
+DDMS80 DR
+y

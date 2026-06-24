@@ -1,0 +1,48 @@
+DISTRIBUTED DAT; 3 gy
+q - )
+=l BLIVATIONS %
+] s Let us assign votes for the copies of data items in the following way: g é’ ;é
+€Opy situation. This wil] always happen if we apply weighted voting o items having only Vi) =V()=V()=3 1
+tWo copies, Howev?r, this is a particylar case; if many copies exist, so that different Y=Vl =r(@2)=1 )
+majorities can be bul, then the o ©opy approach by a particular assignment of votes, V(2)=V(3)=V(3)=1 ) ‘
+Severa_l enhancements of the primary copy approach exist Which make it more attractive. With this assignment we can now consider the availability'of the system in Ihe
+ITheK:;nuPal e are: . _ partitions. We choose the read and write quorums to be 2 for all data items,
+) :w't:g cctlmslent '“ds a d'ffﬁ'ﬂ\‘ copies than the primary, even if read locks are availability for the 12 transactions is shown in Figure. Thg fol'lqmng can be observed:'
+3 :ﬁozn t(;‘ney . the.pnmary, this enhances the locality of reads 1. Transactions 1, 2, 3,4, 7, and 10 have all the same avallablht)!. They are cl!n.raclenud \
+g céan;:Liglrpuon ofthe primary copy ifa site crash makes it unavailable; this by the fact that they access all three data items either for reading or for writing or for
+4. Allowing the mi 0. P e : both. Since the read quorum is equal o the write quorum, it makes no difference whether
+: enhancef the |Mgl;mlm e primary copy dependmg On s usage pattemn. This also the data item is read or written from the viewpoint of availability. For the same reason,
+Nt transactions 5, 6, 8, and 11, which access only data itemls ;Iand ,;/.thha\lfe the same
+i fort . ilability. Also, transactions 9 and 12 have the same availability of the latter group,
+. Welght-majonty bocking ;:::sbel tgtl: copy with highest weight for data item x resides at the same site as the copy
+o with highest weight for y. -
+12 3456 3 0ulue U 2lw v g 2. The availability for update transactions is greater with the weighlgd majority approach
+= : ] - 12 (1 than with write-locks-all, while the availability for read-only tramacuons is smaller.
+uthions & ma g g '2 3. With this method, read-only transactions increase their availability if they can read an
+> n.-I:I_-I ) inconsistent database, i.e.,if they do not need to lock items; in fact, columns 10/, 11 and
+Weightd mjoiy, it 12" are the same for the majority approach as for the write-locks-all approach
+V)=V ()= () =2.anq ¢) Write-locks-all:
+V()= (3)=F ()2 A
+1134567890 u_nfw y
+mm 12 (I
+Weight-majority locking: The pure majority locking approach is not very suitable for Putiions Aa -__m ; 22 12
+our example, because two copies of each data item exist; hence to lock a majority wie ] S B I S N N
+_must lock both. We will therefore consider a weighted majority approach, or quorum ’ ==
+approach, which adopts the same rules which has been used for quorum-based '
+commitment and termination protocols. Write-locks-all: The Figure shows, for each transaction and for each type of partition,
+These rules, applied to the locking problem, consist of assigning to each data item x the group, if any, in which the transaction can be executed, The read-only transactions
+total number of votes V), and assigning votes ¥(x) to each €opy 2, in such a way that 10, 11" and 12" are the same as 10, 11 and 12, except that consistency is not required for
+V(%) is the sum of all Vix). A read quorum V,{x) and a write quorum ¥,(x) are then them; hence, no locks are used. The values of Figure confirm the intuition: For
+determined, such that: transactions with a small write-set and especially for read-only transactions, the system is
+V,(x)+¥, (x)> V() much more available than for transactions with a large write-set For read-only
+transactions it makes no difference whether consistency is required or not, because the
+V. (x)>¥ ()2 copy which is locked is required anyway for reading. Note that read-only transactions
+A transaction can read (write) x if it obtains read (write) locks on 50 many copies of x that sometimes can run in more than one roup, because ifa data item has two copies in two
+the sum of their votes is greater than or equal to ¥,(x)(V,). Due o the first condition, different groups, then no update transaction can write on it and read-only transactions can
+all conflicts between read and write operations are determined, because two transactions use each copy consistently,
+which perform a read and a write operation on x cannot reach the read and write quorum If we make the assumption that no partitions occur, but only site crashes, then the same
+using two disjoint subsets of copes. Likewise, because of the second condition, al approach can be used as with a non-redundant database; .c., the updates of non-available
+conflcts between write operations are determined. Notice that the second condition can copies of data items can be spooled. In this case, the availability of the database for
+be omitted if transactions read all data items which are written, _ update transactions increases very much. In fact, since only the read-set matters in this
+: DDMS-63
+. ‘ DDMS-62

@@ -1,0 +1,42 @@
+DATABASE MANAGEMENT SYSTEMS
+the Primary Key is the core of the entity integrity. If one defines a primary key fon: each
+entity, they follow the entity integrity rule. Entity integrity §pec1ﬁes that the Primary
+Keys on every instance of an entity must be kept, must be unique and n'1ust have \{alugs
+other than NULL. Entity Integrity is the mechanism the system provides to maintain
+primary keys. The primary key serves as a unique identifier for rows in the table.
+
+The system enforces Entity Integrity by not allowing operations (INSERT, UPDATE) to
+| produce an invalid primary key. Any operation that creates a duplicate primary key or
+one containing nulls is rejected.
+' Referential Integrity: It is a database management safeguard that ensures every foreign
+‘ key matches a primary key. For example, customer numbers in a customer file are the
+primary keys, and customer numbers in the order file are the foreign keys. If a customer
+record is deleted, the order records must also be deleted; otherwise they are left without a
+' primary reference. If the DBMS does not test for this, it must be programmed into the
+applications.
+Referential integrity in a relational database is consistency between coupled tables.
+Referential integrity is usually enforced by the combination of a primary key(candidate
+key) and a foreign key. For referential integrity to hold, any field in a table that is
+declared a foreign key can contain only values from a parent table's primary key or a
+candidate kev. ror instance, deleting a record that contains a value referred to by a
+foreign key in another table would break referential integrity. The RDBMS enforces
+' referential integrity, normally either by deleting the foreign key rows as well to maintain
+integrity, or by returning an error and not performing the delete. Which method is used
+would be defined by the definition of the referential integrity constraint.
+Example: An employee database stores the department in which each employee works.
+The field "DepartmentNumber" in the Employee table is declared a foreign key, and it
+refers to the field "Index" in the Department table which is declared a primary key.
+Referential integrity would be broken by deleting a department from the Department
+table if employees listed in the Employee table are listed as working for that department,
+unless those employees are moved to a different department at the same time.
+3. Why are entity integrity and referential integrity important in a database?
+[WBUT 2009, 2011]
+| Answer:
+; Refer io Question No. 2(1° Part) of Short Answer Type Questions.
+t 4. consider the following “sailors” and “reserves” relations: [WBUT 2012, 2014]
+i R (sid, bid, day) |
+S (sid, sname, rating, age)
+Formulate the following queries using relational algebra”
+a) Find names of sailors who have reserved boat # XXX.
+b) Find names and ages of sailors who have reserved a boat
+l . DBMSCS-27

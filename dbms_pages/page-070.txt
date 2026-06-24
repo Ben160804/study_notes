@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS
+Consider a relation student having prime key attribute (Roll) and non-prime key
+attributes(Name, semester, hostel) where for each semester there is a different hoste],
+Here Name is non-transitively dependent on Roll.
+BUT 2008 2011)
+6. What is MVDs? i - 8,
+ean by lossless (or non-additive) join property of decomposition?
+What do you m y [WBUT 2008]
+Answer: ]
+1* Part: Refer to Question No. 2(a) of Long Answer T ype Questions.
+2" part:
+Lossless Decomposition: _ ,
+Let R having the decompositions R1 and R2 With given set of FD’s say F, thgn R1 and
+R2 to become lossless then at least one of the following functional dependencies should .
+hold in F* |
+R1 N R2—R]
+R1 N R2—R2
+7. Use the definition of functional dependency to argue that each of Armstrong’s
+axioms (reflexivity, augmentation, transitivity, union and decomposition) is sound.
+[WBUT 2008, 2010, 2012]
+Answer:
+A set of inference rule is said to be sound if Wwe cannot obtain any dependency that is not
+in F*
+Let us consider a relation, R={A, A,, Az .o.c...., Ay} andletrbea instance of R
+Reflexivity
+Let Y ¢ X ¢ R. Then'for any two tuples t, and t, or r
+ti[x] = t;[x] and we can also say t;[Y] = t,[Y] hence X>Y
+- Augmentation
+Let us suppose that r satisfies X->Y and let Z ¢ VW R.
+Then for any two tuples t; and t; or r such that t[xW] = t,[xW] :
+Since r satisfies XY and X values of t; and t, are equal t,[Y] = t,[Y].
+Also W values of t, and t, being t,[Z] = t,[Z]
+Therefore, XW->Y7 holds in r.
+Union
+To prove that: if ¢ — Band a — Y then o, — By
+We derive:
+a - f given ;
+aa — aff augmentation rule
+&= af union of identical sets
+a = y given :
+af — 3B augmentation rule -
+= By transitivity rule and set union commutativity
+DBMSCS-70

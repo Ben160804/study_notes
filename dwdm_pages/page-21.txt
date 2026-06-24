@@ -1,0 +1,41 @@
+a) Border set b) Frequent set
+¢) Maximal frequent set d) Lattice
+Answer: (b) . '
+. | Short Answer Type Questions
+; 1. Explain the use of Dynamic itemset counting algorithm. [WBUT 2009]
+OR,
+| pescribe the principle of Dynamic Itemset Counting technique for Frequent Itemset
+E generation. : [WBUT 2010]
+| Answer: i
+- Dynamic Itemset Counting is an alternative to Apriori Itemset Generation. Here Itemsets
+‘ are dynamically added and deleted as transactions are read and it relies on the fact that for
+‘ an itemset to be frequent, all of its subsets must also be frequent, so we only examine
+those itemsets whose subsets are all frequent. '
+Algorithm stops after every M transactions to add more itemsets.
+o Train analogy: There are stations every M transactions. The passengers are itemsets. ‘
+Itemsets can get on at any stop as long as they get off at the same stop in the next
+| pass around the database. Only itemsets on the train are counted when they occur in
+transactions. At the very beginning we can start counting I-itemsets, at the first
+station we can start counting some of the 2-itemsets. At the second station we can
+’ start counting 3-itemsets as well as any more 2-itemsets that can be counted and so
+! 0] 7 Ml :
+Itemsets are marked in four different ways as they are counted:
+, * Solid box: D confirmed frequent itemset - an itemset we have finished counting
+and exceeds the support threshold minsupp
+.+ Solid circle: O confirmed infrequent itemset - we have finished counting and it is
+below minsupp
+* Dashed box: :_ | suspected frequent itemset - an itemset we are still counting that
+| exceeds minsupp
+* Dashed circle: . suspected infrequent itemset - an itemset we are still counting
+that is below minsupp
+: DIC Algorithm '
+I 1\fiark the empty itemset with a solid square. Mark all the 1-itemsets with dashed
+‘ ; circles. Leave all other itemsets unmarked. .
+- While any dashed itemsets remain:
+_‘ . Va) iead M trgnsactions (if we reach the end of the transaction file, continue from
+| ite beginning). For each transaction, increment the respective counters for the
+. femzets that appear in the transaction and are marked with dashes. | ,
+, : ima a§hed circle's count exceeds minsupp, turn it into a dashed s quarc- i sy =
+- mediate Superset of it has all of its subsets as solid or dashed squares, T
+- “W counter for it and make it a dashed circle. Fﬁf T iy
+. DWM-21 i e

@@ -1,0 +1,52 @@
+TULAR PUBLICATIONS Yy Q-
+™
+B §7 g3
+Answer: oy
+i) Performing the join at the si i e -
+oo e site of R using semi-join reduction, at a cost Answer: , :
+o +Cy xsize(B) xval (B(S)) =0 +1x3x 50 =150 ) Having long-running queries nol only consumes sysem resources that
+- / erver and application run slowly, but also may lead to table Ioch:g ;nd ud‘::
+W Performing the join at the site of § using semi-ioi i ‘<sues, S0, query optimization (QO) becomes an important fask. As are many
+; -0 ) 1ssues. y q ry Pt p 3
+Co +C, xsize(R)xcard (R)=0+1x 50 I?)O = S(;O(l)n b s equivalent transformations of same highlevel query, aim of QO s choose 0% lhl
+minimizes resource usage. In general it also reduces {otal execution time of query. Since
+i) Performing the join at the site of R wi = ] the problem is computationally intractable with large number of relations, so strategy
+Let, R=R S, ,§ Of R without semi-join reduction at null cost; adopted is reduced to finding near optimum solution.
+'
+iv) Performi ! ' . ' b) The distributed cost model includes cost functions to predict th_e cost of operators,
+Tl:c :;;:lrlrlcrfs:};:'joln at the site of s without semi-join reduction at null cost; database Statistics, base data and formulas to calculate the sizes of intermediate resuls.
+2xC,4C x(sk .B Two different types of ¢ost functions can be used- they are reduce total time and reduce
+o 0y x(size(B)xval (BS]) + size(R)xcard (R") response time
+=2X0+|*(3XS0+50x100) =(|SO+5M) =5150
+Reduce total time
+4.3) Why are distributed deadlocks occ o Reduce each cost component (in terms of time) individually, i.c., do as little for
+) po y, Loy
+b) What are distributed « NODEL aUEsTION] i
+byt walt-for graph and local wait-for graph? How wait-for graph euh oost comp?r.wn t.'s possicle -
+- detection? o Optimize the utilization of the resources (i.c., increase system throughput)
+) istibuted deadlocks can occur i disributed ystems when i The fotal time is i ime of ol indiv
+icks ¢ systems when distributed : ¢ total time is given by the Sum of the time of all individual components. These are
+concurrency control is being used, R local processing time given by CPU time + /O time and Communication time: fixed time
+N g to initiate a message + time to transmit the data
+wait-for graph is a directed used for dead : y Total time =TCPU _ #instructions + TI/O _#1/Os + TMSG _ #imessages + TTR _#b
+.l;;c ps:dlocnl oy s graph used for deadlock detection where each site Reckoa rewense e i - messig - Foytes
+cu n ; s of thergnph correspond to all the processes that are currently either holding or Do many thiagei parallel as possibie
+requesting any o }he resources local to that site, A global wai-for graph is maintained in ¢ May increase total time because of increased total activity
+aA snllgll:l lcoon:dmnuon process; this graph is the union of all local wait-for graphs. .
+glo waul-for-;;nph an be reconstructed under the following conditions: The response time is the clapsed time between the initiation and the completion of a
+* On removing or inserting new edge in local wait for graph . 1
+f l‘;;'r‘nodxullr); when number change occurs in locl wait-for graph Em"“ﬂ"m"’b;rcp U _ fiseq instructions + TVO _ #seq /Os + TMSG _ #seq messages
+¢ When coordinator invokes detection algorithm, g
+Centralized Apmh may be used for dis(ribzled dendlock detection Hom K deadlocth wh_em flseq x (x in inslmclilons. 1/0, messages, bytes) is the maximum number of x
+d'etuﬁon coordinator constructs gl_obal waltfor graph, detects deadlock, and selects }vhlcrlldmusl be done sequentially. Any processing and communication done in parallel is
+vietim process to roIIb‘ack. Due to incomplete or delayed information, the coordinator's 'Eg::m : :Q ite 3 with : v
+constructed global-wait-for graph may not exactly match the real sitation. False ple: Queey atste 3 with dotafrom sites | and 2,
+&la/dcadlocks might be incorrectly detected with unnecessary processes being rolled (e Dy
+D,
+. a) What s query optimization? DEL QUESTIO (G 2)
+xplain distributed cost model with an example. e N Assume that only the communication cost i:uc':nsidered
+You mean by the cardinality of selection? Total time = TMSG _2+TIR _(x+y)
+Itr query optimization, Response time = max(TMSG + TTR _x, TMSG + TTR _y)
+¥
+DDMS-50
+DDMS-51

@@ -1,0 +1,47 @@
+7 4
+POPULAR PUBLICATIONS
+e in site 82, The log is not serial
+Both local schedules are verial; however, there fs p obal " is no conflict in site S1. But in site 82,
+; A serial ¢ ,  does not T
+of both transactions because T, <7 in Serial (Sl)und"T <7 hm"flmm B;oniugmcwulordmng All the operations of T, precedes T; .
+warinioe the seralzabity of gins Wissn. o Paccution
+fui.u-ubimy o locl scheduls i.':nwbiur:d R g ot k) 5&“”,‘:“‘(2, W) () "
+. ¥ , : W (1) R (w J X ¢
+The exection of transactions Ty, is comeat if: ummbolh [‘h‘c)wlwdulﬂ are um}. Here is a l'°b:‘ ’:u'":s';?':“m:f Sovs il
+- Bach loal schedue Sk i ez e arsactions, Because T, <, in both seials (31) and (52). 50,
+2. There exists a tota) ordering of Byl such thas, if T<T, in the total Serializable.
+derl . 4 All possible total orders,
+ordeting, then ther i 4 seial chedule. SK' such that Sk is eqivatent 15 Sy §1 2R, (1) W, (0 R, (5)
+a0 7, <1, in Serial ( Sk ),f“WhlileWhlimuaimlnvemmed 52 Ry () Wy (w) W, 2) Ry (w) '
+some action, Or,
+, §1:Ry(9) R () W) 0
+b) In st two-phase locking a transaction cannot write ino the database until it pa §2: R (w) W, (2) R (w) W, (w)
+'W}wmmhwimmmmmmwmmmm R
+*ﬁtmzmﬂnmmwnmmmwmmm [MODEL QUESTION)
+e locking s wed for concunecy cono, e e rematy oy s gy ol gty o .
+e o other cansctions during the tomic commit protco aough s B rete’adio i $0L, baood o0 the i DS IR
+m:aionrelmaiulochaﬂaphuelomupmml. Mﬂmmmgﬁmmﬁ
+ﬂudvmgumﬁmMonmdonlyvalucwfcommiuedeimmdlhm %m
+are 1o cascaded aborts, The disadvantages are that there is fimited concurrency and From ASG
+deadlocks may occur, Where RESP = “Analyst” S5
+I all sites use strict two-phase locking and participate in 4 two-phase commit protocol, And NOT (PNO = “P2" or DUR =
+the transactions are globally Serializable and hence corect b) What are the different laysrs/steps of query processing?
+¢) Execution I; a) The relation is:  Tlenols wesesmbyr . o o5 o (ASG)).
+S1: R () R (1) W (x) W, (x) I
+52: R, (w) Ry (2) W, (w) W, (w) The query graph: ™
+In case of above execution, it is not Serializable, Because there is a conflict between \ ]
+(x) and W, (x), P
+Here in T, and T, both transactions, write operation is being performed on same site §1 / \
+and on same object ‘x’. And the same conflict is continued in site $2 as Write operation
+is being performed on same object ‘w' by T,and T, c:m--w o"“"’"" DUR=12
+Execution 2:
+812 R (x) R (x) W, ()W, (y) [ I
+52:W,(z) ASG ASG
+In case of above execution, it is not Serializable, Because there is a conflict between W,
+(y) and W, (y) ;
+Hth;m‘l]bothnmiom,wrilcopmion is being performed on same site S|
+and on same object ‘y',
+'T_ 1R, ) R ) W, )W, )
+SRR () Wi (2) Wi (w)
+B DDMS-47
+- DDMS-46

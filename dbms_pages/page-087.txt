@@ -1,0 +1,32 @@
+DATABASE MANAGEMENT SYSTEMS
+L
+’ (hash join) .
+p-name = “ASSEMBLY" and p-no = “p|” (merge join)
+_ employee i’ % proj—assig'n, prfo = project. p-no
+eployde eno = proj-assign.eno
+proj-assign
+project
+23. a) Explain the terms 'full functional dependency’ and ‘multivalued dependency’
+; with example. [WBUT 2019]
+b) Differentiate between 2NF and 3NF. What is lossless decomposition?
+Answer:
+- a) 1 Part: Refer to Question No. 5 of Long Answer Type Questions.
+2™ Part: Refer to Question No. 2(a) of Long Answer Type Questions.
+b) 1% Part: Refer to Question No. 3(b) 2" & 3" Part) of Long Answer Type
+Questions.
+2 Part: Refer to Question No. 10 [2" Part] of Short Answer Type Questions.
+c) What is closure? Explain with example.
+Answer: :
+1" Part: Refer to Question No. 8 of Short Answer Type Questions.
+2" Part: Refer to Question No. 3 of Short Answer Type Questions.
+Rest Part:
+A—BC,CD—-E,B—D,E— A
+24. Write short notes on the following:
+a) Armstrong’s axioms [WBUT 2009, 2017]
+b) Functional dependency ' [WBUT 2013]
+¢) BCNF [WBUT 2018]
+Answer
+‘. ;) Ar mstrong’s Axioms (Inference Rules for FDs):
+5 or any given relation, there can be many FDs. Let us denote F as the set of FDs of a
+;{ Elven relation R. There can be many other FDs that can be derived (or, inferred) from F.
+} DBMSCS-87

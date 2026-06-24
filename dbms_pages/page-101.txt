@@ -1,0 +1,43 @@
+DATABASE MANAGEMENT SYSTEMS
+TRANSACTION PROCESSING
+Multi s
+ultiple Choice Type Questions
+1. In 2-phase locking a transaction must:
+2) release all its locks at the same time [WBUT 2006, 2007, 2008, 2019]
+b) NOT obtain any new locks once it has started releasing locks
+c) Only obtain locks on items not used by any other transacti
+d) Ensure that deadlocks will never occur e
+Answer: (d)
+2. Transaction follows
+2) ACID properties ) wBuT 2007, 2015, 2016]
+o ) Non-preemption property
+c) Preemption property d) Starvation property
+Answer: (a)
+]
+F 3. The concurrency control has the problem of [WBUT 2010]
+a) lost updates b) dirty read
+c) unrepeatable read d) all of these
+Answer: (d) | : |
+E 4. Advantage of locking algorithms in concurrent execution of DB transaction is
+'[ ‘ [WBUT 2011]
+| a) deadlock b) concurrency c) consistency d) none of these
+% Answer: (b) .
+? 5. Which phase is not part of a two phase locking protocol? [WBUT 2012]
+‘ a) Growing phase b) Shrinking phase
+i c) Stabilization phase d) None of these
+! Answer: (c)
+l.
+6. Which is not an ACID property? _ [WBUT 2012]
+a) Atomicity b) Integrity c¢) Consistency d) Durability
+Answer: (b) | ‘ |
+7. Three transactions attempt to book seats on a flight that has 12 seats available.
+The transactions are transaction T1 for 3 seats, transaction T2 for 5 seats and
+transaction T3 for 7 seats. If a schedule that is serializable is executed, the number ‘
+of seats sold cannot be [WBUT 2014]
+Answer: (b) ' T
+8. Which of the following is the size of the data item chosen as tg% 19231 d?]f ‘
+protection by a concurrency control program? : P j
+a) Lock b) Blocking factor 1
+¢) Granularity d) none of these ‘
+ Answer; (c) :
+pPBMSCS-101 '

@@ -1,0 +1,32 @@
+Thus, we cannot establish a definite relationship betweden 'thets set (c:;ftrl?aXiTalfi;:l
+and the set of border sets. However, the set of all bOTb efdse 3;" 'o'ﬁt]se 0 »"d macim;
+frequent, which are not proper subsets of any of the border sets, jointly provide a
+representation of the set of frequent sets. ] i ;,_
+b) The support supp(X) of an emset X is defined as the prgportion of transactions
+data set which contain the itemset. In the example qatabilse in Table 1, the itemset {milk,
+bread) has a support of 2/5 = 0.4 since it occurs in 40% of all transactions (2 out of §
+transactions). : B
+The confidence of a rule is defined conf(X ) Y) = supp(X [ Y)/ SUPP(X)-bFOf
+rule {milk, bread}) {butter} has a confidence of 0.2/0.4.='.O.5 m'the database in the ;,_
+which means that for 50% of the transactions containing milk and .b.read the
+correct. Confidence can be interpreted as an estimate of the probablht)_/.P(Y 1X),
+~ probability of finding the RHS of the rule in transactions under the condition that these
+transactions also contain the LHS. ‘ i ;.___
+In many (but not all) situations, we only care about association rule;s or causaj.__
+involving sets of items that appear frequently in baskets. For example, we cannot _ 2
+good marketing strategy involving items that no one buys anyway. 'I:hus,- muchb,.k_
+mining starts with the assumption that we only care about sets of items with high suppo
+i.e., they appear together in many baskets. We then find association rules or ca
+only involving a high-support set of items must appear in at least a certain percent of th
+baskets, called the support threshold. We use the term frequent itemset for “a set S tha
+p oo
+appears in at least fraction s of the baskets," where s is some chosen constant, typicall
+0.01 or 1%. _ a‘
+;)\Th; item count for the transactions for different passes given below: 3
+ass 1: .
+- Since ¢ = ?O%" we discard item 1 and 9. e L
+So our setis L1 :={2, 3,4, 5, 6,7, 8) | 98
+Pass 2: .
+generate candidate for k=2 ] e
+ C2=({2,3},{2.4},{2.5),2.6) L3 -
+61{4.7},{4,8 {2.7},{2.8},(3,4},(3,5}.{3,6},{3,7}.{3.8). {4,5 . {4

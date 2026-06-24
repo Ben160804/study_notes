@@ -1,0 +1,46 @@
+| 4 I i i W i i ey o]
+DATABASE MANAGEMENT SYSTEMS
+g+ -Tree File Organization_ |
+{. The B +-tree structure is used not only as an index but i {
+i o B also as an organizer for
+
+2. Ina B +-tree file organization, the leaf nodes of the tree store records instead of
+storing pointers to chords. Since records are usually larger than pointers, the
+maximum number of records that can be stored in a leaf node is less than the
+
+g maximum number of pointers in a non-leaf node. '
+
+3. However, the leaf node are still required to be at least half full. ‘
+
+4. Insertion and delethn from a B +-tree file organization are handled in the same way
+as that in a B +-tree index. :
+
+5, When a B +-tree Is used for file organization, space utilization is particularly
+important. We can improve the space uilization by involving more sibling nodes in
+redistribution during splits and merges.
+
+6. In general, if m nodes are involved in redistribution, each node can be guaranteed to
+contain at least [(m—l)n/m] entries. However, the cost of update becomes higher as
+more siblings are involved in redistribution. '
+
+B -tree File Organization Example
+
+1
+, [T T
+| Lellel] ] del] |
+o[os] [b{cilea] Tpoelwsed]
+
+* Records are much bigger than pointers, so good space usage is important
+* To improve space usage, involve more sibling nodes in redistribution during splits
+
+and merges (to avoid split/merge when possible)
+* involving one sibling guarantees 50% space use
+. involvin_g two guarantees at least 2/3 space use, elc.
+3. a) State the difference between the following in brief:
+Primary Index versus Secondary Index. [WBUT 2011]
+Answer: :
+An index file consists of records (called index entries) of the form
+index files are typically much smaller than the original file.
+
+DBMSCS-93
+[

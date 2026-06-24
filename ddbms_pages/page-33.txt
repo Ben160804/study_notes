@@ -1,0 +1,47 @@
+case, transactions 1, 4, and 7 have the same availabili . Qﬁmmﬂmwmﬁ“wbblthl
+mdhsmmactionII:MWMJY?wlg:m!mm‘wmu' _ : :
+cxample must be careully interprted. The fuct that a tion 12. Obviously, the The first rule ensures that a data item is not read and written by two (ransactions
+group means now that it can be run f all athe sites are do""m‘m:: can run in a given concurrently. The second rule ensures that two wrile operations from (WO (ransactions
+groups. The high increase in availabiliy is obtained at m:“'sk‘ Ofb\ll_ldlngseplme cannot oceur concurrently on the same data item. The two rules ensure that one-copy
+of catastrophic partitions. ceralizabilit is maintained.
+:) Quorum-based protocol: ’ o :
+worum is the mini Rember . ¢) Wound wait protocol:
+m:ducl the business :jlrl: gz;beor,gmb, this f{ . df"b_m“" body necessary to O)nc of the problems of locking_ mechanisms is the 'p_otcnlial for deadlock. Deadlock
+be there, although many bodies may have a lower p- ’: majority of the people expected to occurs when (o or more transactions are mutually waiting for each other's resources. To
+igher quorum. ~* avoid such deadlocks, some dalabase management systems give priority to older
+uorum-based voti . transactions. That is, if an older {ransaction requires access (0 data item that is locked
+gmd o mv;;:d?; ::: 5 'd:pl'“ control method, as well as a commit by a younger transaction, the younger transaction is forced to release all of its data items,
+ty in the presence of network partitioning. is activities are rolled back (based on the log), the older transaction is given access (0 the
+: . data item, and the younger transaction is forced to start again. 1fa younger transaction is
+gu:m voting in am ; - . repeatedly preempted, it will grow older in the process and qltimalcly become one of the
+e sk Simmalomicity . “'““cmdi could be executing it operations at older transactions. This protocol, known as the wound-wait protocol (old transactions
+Sy ’f:q Ies every stributed lmslc_uon ‘to be atomic, the wound young transactions, young transactions wait for old ones), assures that every
+saction must have the same fate (commit or abor) at every site. In case of network ransaction will ultimately be allowed to complete its task.
+P"c:“f‘:':& sites are partitioned and the partitions may not be able to communicate with
+::m a° - This ‘iss“’lﬂ;:d qmmw technique comes in. The fundamental idea is f) Conservative timestamp ordering protocol:
+B fransaction is executed it majority of sites vote to execulte i [tis a timestamp ordering scheme for every site (i.c, a transaction manager, TM) in the
+very site in the system is assigned a vote Vi. Let us assume that the total number of system. There is scheduler process that keeps track of all the transaction requests
+votes in the system is V, and the abort and commit quorums are Va and Vc, respectively. arriving at a certain data manager (DM). This scheduler also maintains two internal queue
+Then the following rules must be obeyed in the implementation of the commit protocol: l data structures for each TM, namely a READ and a WRITE queue. These queues, as the
+1. Va+Ve>V, where 0 Va, Ve v. ‘ name suggests, hold READ and WRITE requests for a TM and are ordered by using the
+9. Before a transaction commits, it must obtain a commit quorum Vc. f {imestamp ordering scheme previously mentioned.
+3. Before a transaction aborts, it must obtain an abort quorum Va. When a TM wants to perform a READ or a WRITE operation to a certain DM, it sends :
+T_'hc first rule ensures that a transaction cannot be committed and aborted at the same request to the scheduler responsible for that DM. A request consists of a READ/WRITE
+time. The next two rules indicate the votes that 2 transaction has to obtain before it can command, a variable-value pair to be read/written (value is NIL in case of a READ-op),
+terminate one way or the other. and timestamp (TS). The scheduler is then responsible for cither allowing the request
+execution or for buffering the request in case of a potential conflict (we will define
+Quorum-based voting for replica control “potential" later, don't worry). The scheduler is also responsible for making sure that each
+In replicated databases, a data object has copies present at several sites. To ensure request is processed by the algorithm when it comes in, and for testing if any of the
+serializability, no two transactions should be allowed to read or write a data item | buffered requests can be executed.
+concurrently. In case of replicated databases, a quorum-based replica control protocol can Whenever a read or write request is buffered or executed, buffered requests are tested (o
+be used o ensure that no two copies of a data item are read or written by two transactions ‘ see if any of them can be executed, by running the algorithm for each one of them.
+concurrently. The algorithm guarantees serialization simply by ordering every action, be it conflictant
+In the quorum-based voting for replica, each copy of a replicated data item is assigned a ’ or not. That's why it's called conservative ordering algorithm, by the way. As an example,
+vote, Each operation then has to obtain a read quorum (V) or a write quorum (Vw) to assume the following ordering of requests arriving to a DM-scheduler:
+read or write a data item, respectively. If a given data item has a total of V votes, the Istto arrive, w/ TS=1 : REQ READ (TM_I, DM_1, x, 1);
+quorums have to obey the following rules: | 2nd to arrive, w/ TS=2 : REQ_READ(TM 2, DM_I, x, 2);
+LVr+Vw>V 3rd to arrive, w/ TS=3 : REQ_READ (TM_2, DM:I, Y, 3);
+2. Vw> V2 dth o arrive, w/ TS=4 : REQ_WRITE(TM_1, DM_L, y, 4);
+DDMS-64
+DDMS-65
+-

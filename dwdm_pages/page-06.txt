@@ -1,0 +1,39 @@
+4. State the differences between Data Mart & Warehouse. [WBUT 2010, 2015]
+Answer: - , .
+A data warehouse has a structure which is separate from a data mart, even tl‘lm@ ey
+may look similar. Because of this, it is difﬁculttq coordinate the data across r ult ;
+departments. Each department will have its own view of how a data mart shou.dq ook,
+The data mart that they use will be specific to them. In 'contrast, a data warehouse is
+designed around the organization as a whole. Instead of being owned by one departme; .,
+a data warehouse will generally be owned by the entire company. While ,;
+contained in data warehouses are granular, the information contained in data marts is n *
+ve anular at all. ; i
+Argtﬁrer thing that separates data warehouses from d_ata marts is that data warehous "i*
+contain larger amounts of information. The information that is helq by data marts e
+often summarized. Data warehouses will not contain infonnatlop that 1s b_lased on the p
+of the department. Instead, it will demonstrate the infom'xatmn t.hat is analyzed an
+processed by the organization. Much of the information that is he!d in data warehouses is 2
+historical in nature, and they are designed to process this information.
+. 5. When is a Data Mart appropriate? [WBUT m :
+Answer: : : : ~ M
+Data Marts are created for: : e
+' a) Speeding up queries by reducing the volume of data to be scanned Sl
+b) Structuring data in a form suitable for user access tools i
+' ¢) Partitioning data to impose access control strategies ) 1A
+. d) Segmenting data into different hardware platforms. o
+Data marts should not be used in other cases as the operational costs of data marting can
+be high and once a strategy in place, it can be difficult to change it without incurring
+substantial cost. e
+6. What is sequence mining? [WBUT 2011]
+Answer: ’ _ o
+Sequence mining is a type of structured data mining in which the database ar
+administrator look for sequences or trends in the data. This data mining is split into two
+fields. Itemset sequence mining typically is used in marketing, and string sequence
+mining is used in biology research. Sequence mining is different from regular trend
+: mining, because the data are more specific, which makes building an effective databa e
+difficult for database designers, and it can sometimes go awry if the sequence is an)
+different from the common sequence. ' : e
+7. Differenfnate among Enterprise Warehouse, Data mart and Virtual warehouse.
+' Answer: : S
+Enterprise warehouse - o tha § . 4 '
+r ki house - collects all of the mfomguonm subjects spanning the

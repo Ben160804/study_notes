@@ -1,0 +1,78 @@
+i
+
+3. what is the importance of Asaociatior:) I;ulu in Data mining? [WBUT 2009]
+
+gxplain support, confidence, frequent item set and give a formal definition of
+
+association rule. e [WBUT 2013]
+
+Wwhat is an Association Rule? Define Support, Confidence, Item set and Frequent
+
+item set in Association Rule Mining? ‘ / [WBUT 2017]
+
+- Answer:
+
+To illustrate the concepts, we use a small example from the supermarket domain. The set
+
+of items is I = {milk, bread, butter, beer} and a small database containing the items is
+
+shown in Table below.
+
+e
+:
+2 Bread, butter .
+' 3 Beer
+‘ 4 Milk, bread, butter
+5 Bread, butter
+, An example supermarket database with five transactions. '
+
+An example rule for the supermarket could be {milk, bread} =» {butter} meaning that if
+
+milk and bread is bought, customers also buy butter. To select interesting rules from the
+
+set of all possible rules, constraints on various measures of significance and interest can
+
+be used. The best-known constraints are minimum thresholds on support and confidence.
+
+The support supp(X) of an itemset X is defined as the proportion of transactions in the
+
+data set which contain the itemset. In the example database in Table 1, the itemset {milk,
+
+bread} has a support of 2/5 = 0.4 since it occurs in 40% of all transactions (2 out of 5
+
+transactions).
+
+The confidence of a rule is defined conf(X ) Y) = supp(X [ Y)/supp(X). For example, the
+
+rule {milk, bread}) {butter} has a confidence of 0.2/0.4 = 0.5 in the database in the Table,
+
+which means that for 50% of the transactions containing milk and bread the rule is -
+
+correct. Confidence can be interpreted as an estimate of the probability P(Y [X), the
+
+probability of finding the RHS of the rule in transactions under the condition that these
+
+- transactions also contain the LHS. ,
+
+In many (but not all) situations, we only care about association rules or causalities :
+
+involving sets of items that appear frequently in baskets. For example, we cannot run a
+
+gqod marketing strategy involving items that no one buys anyway. Thus, much data
+
+mining starts with the assumption that we only care about sets of items with high support; .
+
+Le., t_hey appear together in many baskets. We then find association rules or causalities
+
+only involving a high-support set of items must appear in at least a certain percent of the
+
+baskets, .called the support threshold. We use the term frequent itemset for “a set S that
+
+gpglears ]1; at least fraction s of the baskets," where s is some chosen constant, typically
+
+V10r 1%, '
+
+/grslzouatlon rules are statements of the form {X,X,, ...,Xa} Y , meaning that ifwc :
+, a“,O_thxz,...x,, in the market basket, then we have a good chance of nding Y . The
+_t l\Jvrobabxhty of finding Y for us to accept this rule is the condence of the rule. T
+ould search only for rules that had confidence above a certz ,ﬁ- eshol

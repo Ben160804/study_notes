@@ -1,0 +1,41 @@
+DATABASE MANAGEMENT SYSTEMS
+]ntcgfi‘." of Data
+gharing of D212
+tcntfal Administrative contr.ols_
+Could all be assured and maintained.
+. For advantages of distr.ibuted da.ti.ll’.)ase:
+! Enriched Modeling Capabilities.
+9, Extensibility.
+3. Removal of Impedance Mismatch.
+4, More Expressive Query Language.
+5. Support for Schema Evolution.
+6. Support for Long Duration Transactions.
+7. Applicability to Advanced Database applications.
+8. Improved Performance -
+| 9. Discuss the advantages of distributed and centralized databases.
+[ [MODEL QUESTION]
+l Answer: ;
+: For advantages of centralized database
+Refer to Question No. 1 of Short Answer Type Questions.
+? Disadvantages of centralized database are, '
+l 1. When the central system fails, then the database system fails totaliy. .
+' 2. Data is not easy to get when user at remote sites, '
+3. The cost of data communication may more high than the distributed database
+| 3. Discuss the differences between DDBMS and OODBMS. [MODEL QUESTION]
+~ Answer: -
+| Differences between DDBMS and OODBMS:
+' [S. [Distributed DBMS_________ | Object Oriented DBMS |
+i Local Autonomy
+i No reliance on a centralized site Object identity must be supported. ;
+Continuous operation Encapsulation must be supported
+l. Types or Classes must be supported |
+Replication independence
+from their ancestors _
+m Fragmentation independence
+e N 3
+m o complete. :
+| Ditbted wansacion management | The st of data types mus b exersble
+.
+N F - Al
+managing very large databases
+DPBMSCS-131

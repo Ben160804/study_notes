@@ -1,0 +1,42 @@
+DM‘_AWARMM_A&QAIAM
+‘ The most distinguishing characteristic of DSS data is [(WBUT 2011]
+L a) Granularity b) Timespan c) Dimensionality d) Data currency
+» Answcr: (c) 5
+A data warehouse is built as a separate repository of data, different from the
+8. prational data of an enterprise because [WBUT 2012, 2013]
+o a) It is necessary to keep the operational data free of any warehouse
+operations ) ;
+p) Adata warehouse cannot afford to allow corrupted data within it
+c) A data warehouse contains summarized data whereas the operational
+database contains transactional data
+d) None of these : .
+Answer: (€) .
+9. Dimension data within a warehouse exhibits which one of the following
+properties? < [WBUT 2012, 2015]
+a) Dimension data consists of the minor part of the warehouse
+b) The aggregated information is actually dimension data
+‘ c) It contains historical data :
+d) Dimension data is the information that is used to analyze the elemental
+transaction
+Answer: (b) : '
+: 10. A data warehouse is said to contain a ‘time-varying’ collection of data because
+a) its content has explicit time-stamp [WBUT 2014, 2015, 2016, 2017]
+b) its life-span is very limited :
+c) it contains historical data
+d) it contents vary automatically with time
+Answer: (¢)
+1. The important aspect of the data warehouse environment is that data found
+within the data warehouse is [WBUT 2016, 2018]
+3) subject-oriented b) time-variant
+¢) integrated ~ d) all of these
+Answer: (a) :
+12. Data warehousing is used for - [WBUT 2016]
+, 2; geclsmn support system b) OLAP applications
+- Answ’eraza;)ase applications d) Data manipulation applications
++(a
+Collagge;oer 18 @ subject-oriented, integrated, time-variant, non-volatile
+on of data T 201 ,
+3) Data Mini | D
+ng si " :
+¢) Document Mini b) Data Warehousing ¥k
+| | DWM-3 L

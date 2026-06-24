@@ -1,0 +1,56 @@
+’ ”
+DATA WAREHOUSING AND DATA MINING
+
+Answer:
+1* Part: i d
+
+‘ Clustering is a data mining (machine learning) technique used to place data elements into
+clated groups w1th_out advance knowledge of the group definitions.
+There are two main types of clustering techniques, those that create a hierarchy of
+clusters and non-hierarchy of clusters. The hierarchical clustering techniques create a
+hierarchy of clusters from small to big. With a hierarchy of clusters defined it is possible
+
+| to choose the number of clusters that are desired. At the extreme it is possible to have as
+many clusters as there are records in the database. In this case the records within the
+cluster are optimally similar to each other (since there is only one) and certainly different :
+from the other clusters. The advantage of hierarchical clustering methods is that they
+
+| allow the end user to choose from either many clusters or only a few.
+9% Part:
+Since, the process of grouping a set of physical or abstract objects into classes of similar
+
+' objects is clustering, similarity metric is important here because it is used for outlier
+detection. The clustering algorithm which is main memory based can operate only on the
+
+- following two data structures namely,
+
+a) Data Matrix .
+
+: b) Dissimilarity Matrix '
+
+_ So it is difficult to handle categorical data.
+In partition clustering, every data sample is initially assigned to a cluster in some
+
+' (possibly random) way. Samples are then iteratively transferred from cluster to cluster
+until some criterion function is minimized. Once the process is complete, the samples
+will have been partitioned into separate compact clusters. Examples of partition
+clustering methods are k-means and Lloyd's method. )
+In hierarchical clustering, each sample is initially considered a member of its own cluster,
+after which clusters are recursively combined in pairs according to some predetermined
+condition until eventually every point belongs to a single cluster. The resulting
+hierarchical structure may be represented by a binary tree or "dendrogram", from which
+the desired clusters may be extracted. Examples of hierarchical clustering methods are
+the single-link, Ward's, centroid, complete-link, group average, median, and parametric
+Lance Williams methods. ‘
+b) Describe the working of the PAM algorithm. Compare its performance with
+CLARA and CLARANS. [WBUT 2009]
+Answer: |
+
+3 ;r::siEANcll k-medoids cluste_:ring glgorithm, for example, evalu.ate_s a set of k objects
+e nosw lto be representative objects (_medonds) of. B cluste.rs \a./lt.hm T object§ sych that
+- ilsletected objects are.cluste‘red with the .medmd to which it is the most Slml‘lar (ie.
+of the mede{lgs of the provided dlst_ance .metn.c). The process operates by swapping one
+“On-selectegl s with one of the objects iteratively such that the total distance between
+follows. objects and their medoid is reduced. The algorithm can be depicted as '
+
+' DWM-27

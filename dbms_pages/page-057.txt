@@ -1,0 +1,43 @@
+DATABASE MANAGEMENT SYSTEMS
+15. 2 NF is based on [WBUT 2016]
+a) full dependency b) transitive dependency
+c) functional dependency d) partial dependency
+Answer: (€)
+16. A normal form in which every non-prime attribute is fully dependent on prime
+attribute 1S [WBUT 2016]
+a) 1 NF b) 2 NF c) 3 NF d) BCNF
+Answer: (b)
+17. tht is the highest normal form for the relational schema Bank? [WBUT 2017]
+a) First b) Second c) Third d) Boyce code
+Answer: (d)
+18. Transitive dependency is removed in [WBUT 2019]
+. a) 1 NF b) 2NF c) 3NF d) 4NF
+; Answer: (C)
+: Short Answer Type Questions
+1. Find out closure of attribute set (AG) i.e. (AG) * in the relational schema R and
+set of functional dependencies F as given blow: [WBUT 2007, 2012]
+R=(A B, C,G,.H,I : .
+F= {A—>B, A—> C, CG—>H ,CG—>|, B—>H}
+Answer:
+Let AG= {AB} the functional dependencies A—>B Given in F compute the closure AG™
+under F.
+Initialise AG <currens={AB]}
+From the relation A —C in F 5.t C € AG” <currenc>
+AG’ en>={ABC}
+From the relation B—>H in F s.t H 2 AG" <currenc>
+AG “ews={ABCH }
+Thus AG * is {ABCH }
+2. Define BCNF. How does it differ from 3NF? Why is it considered a stronger from
+3 NF? [WBUT 2007, 2009, 2010, 2011, 2012, 2019]
+OR,
+Explain with example “BCNF is stricter than 3NF”. [WBUT 2015] 1
+OR, \
+How does BCNF differ from 3rd normal form? , [WBUT 2016]
+Answer: 1
+| Boyce-Codd normal form (or BCNF or 3.5NF) is a normal form used in database ‘
+| normalization. It is a slightly stronger version of the third normal form (3NF). A table is
+; i BOyC_e-Codd normal form if and only if for every one of its nontrivial dependencies X' |
+‘i — Y, Xis a super key—that is, X is either a candidate key or a superset thereof. i
+r
+} DBMSCS-57
+¥ e ——————

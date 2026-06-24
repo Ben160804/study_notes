@@ -1,0 +1,40 @@
+WE
+: .mployees in the database ' NN
+5:::); ind all employ e who live in the same Cities aas the companies for which they :i)
+- -4 all employees in the database w ' 3 ’j“f';jf_j;_.’;
+:;2‘ : ;::nagers ho 'hve In the same cities and on the same streets as do ; é’g}é
+(iv) Find al employees who earm more than the average salary of all employees of their com ?é::t;
+' (v) Find the company that has the smallest payroll. pany. 5:
+; Gee Topic: SQL, Long Answer Type Question No. 6. :i:%v
+g, a) Consider the following two sets of functional dependencies )‘%ﬁ,
+X = {A-C, AC—-D, E-»AD, E»H}and Y = {A‘aCD,E»,AH}A %«?{
+Check whether or not they are equivalent. }fﬂ'\ﬁ{:‘
+b) Consider R = (A, B, C, D, E) and set of functional dependencies \eéxﬁﬁg;
+F = {(A-BC, CD~E, B-D, E—A} to answer the following questions: ’“5’;,3«:“:?
+(i) List the candidate keys for R. é‘é\};‘@
+(i) Show that the following decomposition of the schema R into (A,B,C) and (A, D, E) is lossless- lé\‘gﬁé
+join decomposition if the above given set F of functional dependencies holds. *vifjj:’\
+(iii) Compute the canonical cover FC. };‘%3&:;
+‘ c) What normal form is the following relation in? Discuss stuff (D, O, N, T, C, R, Y) 153111‘
+FO's are DO>NTCRY, CR-D, D-N. FIBIY
+See Topic: FUNCTIONAL DEPENDENCIES AND NORMALIZATION, Long Answer Type Question  FONSNN
+No. 16. Ifa“»f“
+9. Supreme products manufacture products like pressure cookers, cook wares, water purifiers, food Eibii
+processors etc. The company markets its product to wholesalers all over the country and dealers i‘i\f‘:\;\\‘
+sell them to customer. The company has five regional offices. Sales persons contact dealers and :ké\}g\
+explain about products, incentives offered, panting programs for wholesalers and demonstration for {%\5/{:’3\
+- customer etc, Dealers place orders with the sales persons attached with the regional office of their %‘?@E}
+location. After receiving goods they make payments, which may be in installments. Company would l‘*‘)iztj&
+, like to develop a system to monitor sale of different products, performance of salespersons and \\\%\\&\;\\
+; order from wholesalers. Do the following: 23 ‘éﬁ?}
+' ) Identify entities, attributes and relationship. | %\f‘}’
+ii) Draw an E-R diagram. tg‘\&*\
+ii) Convert this to relational tables. SRR
+. . x AAAAAA
+Sec Topic: ENTITY-RELA TIONSHIP MODEL, Long Answer Type Question No. 5. 13\\:
+10. a) Explain the purpose of the checkpoint mechanism. How often should checkpoints be \‘:\‘ _-
+b) How does ‘strict two-phase’ and ‘consecutive two-phase’ locking protocol differ.
+2::::%.“# a B+ tree for the following set of key valu::‘s:1 - f,?;;:f:if;;'liii:rgj ;o al:ts;":': ::]a; ™
+s ‘e s initially empty. values are addec?i in ascenal 9‘ e at D) ot 41,(40 deiotn 79, 2
+18 3, Also perform the following operations of B+ tree: (i) inse A0S
+DBMSCS-147 R4S

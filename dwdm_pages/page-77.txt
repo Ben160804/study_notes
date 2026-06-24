@@ -1,0 +1,60 @@
+DATA WAREHOQUSING AND DATA MINING
+‘ 3. Why Class Imbalance is a problem? , [MODEL QUESTION]
+ARG - . .
+Most machine learning algorithms and works best when the number of instances of each
+classes are roughly equa.l, When the number of instances of one class far exceeds the
+j other, problems arise. This is best illustrated below with an example. ‘
+Given a dataset pf transaction data, we would like to find out which are fraudulent and
+which are genuine ones. Now, it is highly cost to the e-commerce company if a
+fraudulent transaction goes through as this impacts our customers trust in us, and costs us
+
+: money. SO we want to catch as many fraudulent transactions as possible.
+
+' If there is a dataset consisting of 10000 genuine and 10 fraudulent transactions, the
+classifier will tend to classify fraudulent transactions as genuine transactions. The reason
+
+i can be easily explained by the numbers. Suppose the machine learning algorithm has two
+
+? possibly outputs as follows:
+
+' 1. Model 1 classified 7 out of 10 fraudulent transactions as genuine transactions and
+
+10 out of 10000 genuine transactions as fraudulent transactions.
+2. Model 2 classified 2 out of 10 fraudulent transactions as genuine transactions and
+100 out of 10000 genuine transactions as fraudulent transactions.
+If the classifier’s performance is determined by the number of mistakes, then clearly
+Model 1 is better as it makes only a total of 17 mistakes while Model 2 made 102
+mistakes. However, as we want to minimize the number of fraudulent transactions
+happening, we should pick Model 2 instead which only made 2 mistakes classifying the
+fraudulent transactions. Of course, this could come at the expense of more genuine
+transactions being classified as fraudulent transactions, but will be a cost we can bear for
+now. Anyhow, a general machine learning algorithm will just pick Model 1 than Model
+2, which is a problem. In practice, this means we will let a lot of fraudulent transactions
+
+_ go through although we could have stopped them by using Model 2. This translates to
+unhappy customers and money lost for the company.
+
+4. What do you understand by the term ‘Graph Mining’? [MODEL QUESTION]
+
+- Answer: J ‘
+
+' Graphs become increasingly important in modeling complicated structures, such as
+circuits, images, chemical compounds, protein structures, biological networks, social
+networks, the Web, workflows, and XML documents. Many graph search algorithms
+
+' have been developed in chemical informatics, computer vision, video indexing, and text
+
+' retrieval. With the increasing demand on the analysis of large amounts of structured data,
+
+. graph mining has become an active and important theme in data mining. Among the
+
+. vario-us kinds of graph patterns, frequent substructures are the very basic patterns that can
+
+: be discovered in a collection of graphs. They are useful for characterizing graph sets,
+dlscrm_linating different groups of graphs, classifying and clustering graphs, building
+
+, i%:/ph Indices, and facilitating similarity search in graph databases. Recent studies have
+
+cloped several graph mining methods and applied them to the discovery of interesting
+| Patterns in varigys applications. |
+DWM-77

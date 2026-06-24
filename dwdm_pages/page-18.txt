@@ -1,0 +1,44 @@
+POPULAR PUBLICATIONS ‘ “
+i
+transform historical files into time series, multi-valued attributes mto.seu of bin "
+attributes, tables into bitmaps, etc.). d 2 .
+2. Nearest neighbor search: Neighbor sear;::l :gil:i:ren a1lr1]1:(<:;r)§;reted as a generalizat)
+i ification of records by means OI i . . O
+k4 :{i(:bllie:éﬁnc algorithms: This is a class of algorithms th‘? _need tf)blacccss ata
+several times during execution. It is not yet.clear whether ;1 1S Pf’sglde to
+the database performance of thhese algorithms, although enriche
+ions may prove to be of help here. _ -
+4. fi};‘(fltl:or;ian yalpgorithms: This is a group of algc_mthms lth{‘t 31150 a;::s a
+repeatedly, but in this case it is clear that an adaptation of relational tec
+‘ improve the speed of execution dramatically- These.algor}thms zoom into inte
+, sub-parts of the database during their execution. This baSlC?.lly mvolj/es the -peated
+execution of SQL statements that access similar or oveflappmg selections of re ords.
+This short overview clearly indicates that it is already possible to draw a rough outlir e of
+an enriched relational model. A number of details still have to be wque.d out, however,
+both from a formal perspective (neighborhood topologies, tabular p.rOJectlons, zoom scan
+queries, etc.) and from an implementational view (that is, how to implement this model
+on a parallel database server capable of handling billions of records). Data mining and
+data warehousing represent radical technological advances which will necessarily alter
+our fundamental approach to database technology. -
+' 7. Explain scalable methods for mining sequential patterns. -
+‘ [MODEL QUESTION}
+Answer: S
+Sequential pattern mining is computationally challenging because such mining may
+generate and/or test a combinatorically explosive number of intermediate subsequences '
+; mining?,‘,‘How can we develop efficient and scalable methods for sequential pattern
+Recent developments have made progress in two directions: (1) efficient methods
+~ mining the ful set of sequential patterns, and (2) efficient methods for mining only the set
+of closed sequential patterns, where a sequential pattern s is closed if there exists ne
+sequential pattern s “where s “where s “is a proper super-sequence of s, and s “has the sam
+(frequency) support as s. because all of the subsequences of a frequent sequenoé
+frequent, mining the set of closed sequential patterns may avoid the ge aration
+;ﬁﬁ;z;s?z :ub§eguences and thus lead ?o more compact results as well as more € ;‘;;7
+s studml}:gl:vg tthhe full set. We will first examine methods for mining the ful :
+di Cy ow they can be extended for mining the closed set. In addition, '
+Iscuss modifications for mining multilevel, multidimensional E al pattetne
+\v?\;th multiple levels of granularity). i THO SR M'“
+€ can give )
+by the alggoﬁte}f;l:iég ;f tshl:‘ie [;Ed; :gp;oatc_:hes for sequential pattern mining, repre e
+- generate-and-test appro’ach using’ horizg:,e uchpan,frespecnvely. GSP adopts a cand
+as <sequence ID : ge e 2 gal data format (where the. data are repress
+SPADE adopts a candidate i emsels>, as usual, where each itemset is an €

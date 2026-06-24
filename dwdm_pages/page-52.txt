@@ -1,0 +1,42 @@
+POPULAR PUBLICATIONS --"-f.:_l.l :
+1. In data warehouse technology explain ROLAP, MOLAP and HOLAP techniqye,
+of implementing a multidimensional view(r).R WBUT 2
+Compare between HOLAP, ROLAP and MOLAP. [WBUT 2013
+ﬁ:ls::ieornal OLAP (ROLAP) servers: These are the intermediate servers that """
+between a relational back-end server and client front-end tools. They use a relm or
+extended-relational DBMS to store and manage wareho-USﬁf da.ta, and OLAP midd Cware
+to support missing pieces. ROLAP servers include optimization for each DBMS
+end, implementation of aggregation navigation logic, and additional tools and ser
+ROLAP technology tends to have greater scalability than MOLAP technolog.y.. B
+Multidimensional OLAP (MOLAP) servers: These servers support _multldlm sional
+views of data through array-based multidimensional storage engines. They map
+multidimensional views directly to data cube array structures. For example,
+Arbor is a MOLAP server. The advantage of using a data cube is that it allows
+indexing to precomputed summarized data. Notice that with multidimensional data
+stores, the storage utilization may be low if the data set is sparse. In such cases, sparse
+matrix compression techniques should be explored. Many OLAP servers adopt a
+level storage representation to handle sparse and dense data sets: the dense subcubes are
+identified and stored as array structures, while the sparse subcubes employ compressior
+technology for efficient storage utilization. b
+Hybrid OLAP (HOLAP) servers: The hybrid OLAP approach combines ROLAP an
+MOLAP technology, benefiting from the greater scalability of ROLAP and the faster
+| computation of MOLAP. For example, a HOLAP server may allow large volumes of
+detail data to be stored in a relational database, while aggregations are kept in a separate
+MOLAP store. The Microsoft SQL Server 7.0 OLAP Services supports a hybrid G "‘KY,‘
+. server. < ol
+2. a) Why do we need to have separate Data Warehouse for OLAP applications?
+b) Start.mg with_ the base cuboid [day, item, branch] what specific OLAP operations
+(e.g. slice fon: time = ‘year’) should be performed in order to list the total sales ©
+each branch in the year 20087 , [WBUT 2010]
+Answer: : ol
+- 4) A major reason for using a data warehouse in OLAP is 1o help promote the high
+perfoml‘ance of both systems. An operational database is designed and tuned from know
+tasks and workloads, such as indexing and hashi i i ~arching fi
+particular records, and optimizing o lINg using primary keys, searching I
+oo e lp imizing “canned" queries. On the other hand, data warehous
+are often complex. They involve the computation of large groups of da
+summarized levels, and may require the use of special dat izati cess,
+implementation methods based on multidi i i A, OTgARLZACININES M,' e
+operational databases would i Ao six Riasies Processing OLAR ques
+uld substantially degrade the performance of oper ational task
+‘ DWM-52 e

@@ -1,0 +1,42 @@
+DATABASE MANAGEMENT SYSTEMS
+c) Consider the following proposed rule for functional dependencies:
+if A—>BandC —> B, then 4> C . Prove that this rule is not sound by showing a
+; relation r that satisfies A—>Band(C - B » but does not satisfies 4 (. .
+i [WBUT 2010]
+l Answer:
+’ a) Steps to find irredgc;ible set
+‘ 1. Using decomposition rule to rewrite the FDs such that each has a singleton right-hand
+side:
+R
+AB>C D=2E CF->D
+C9A D2F "CE=2A
+BC>D BE —2>C CE-F
+ACD->B CF-B
+2. Foreach FD fin R, if deleting f from R has no effect on the closure R* , we delete
+from R.
+AB->C {AB}'={AB} C ¢{a,b} .
+COA {C}={C} A ¢{C}
+BC->D {BC} ={BCA) D ¢ {BCA}
+ACD>B  {ACD}'={ABCDEG} B c{ABCDEG}
+delete ACD—->B ,
+C>A {C}'={C} A ¢{C}
+D->E {D}'={DG} E ¢ {DG)
+D->G {D}'={DE} Gg {DE}
+BE->C {BE} '={BE} Ce{BE}
+' CG->B {CG}'={CGDA} B¢ {CGDA}
+CE2>A {CE}'={CEGABD)} A € {CEGABD} delete CE>A
+CG->D {CG}'={CGBADE} De{CGBADE} delete CG=>D
+CE->G {CE}'={CEA} Ge {CEA}
+R=
+i AB>C D->G ,
+C2>A BE-C
+BC>D CG-B
+D2E CE->¢G - .
+3. For each FD fin S, we examine each attribute A in the left-hand side of f; if deleting
+A from the left-hand side of f has no effect on the closure R', we delete A from the
+left-hand side of f.
+R1is a irreducible sets of dependencies.
+If we compute step three before the step two, then: |
+ACDSB  (CD}'={CDAEGB} B e{CDAEGB}
+ACDSB cp-B
+DBMSCS-73

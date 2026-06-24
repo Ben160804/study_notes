@@ -1,0 +1,50 @@
+POPULAR PUBLICATIONS ‘
+: . : orm step applies a set of rules l
+2. Transforming the transac;nonal datat ’l;ll:: ttr:llrngsef; ol gnclzdes phowdss q .
+the data from the source 1O . 4 : ) H
+tran.sform dimension (i.e. conformed dimension) using the same
+measured data to the same . ten also requicRaa
+. lafer be joined. The transformation Step quires joining -
+units so that they can later b€ J : o SO og
+ting aggregates, generating > g Ys, sorting,
+data from several sources, genera . , idation Al L8
+Vi d values, and applying advanced validati les.
+deriving new calculated values; . D the | k-
+3. Loading the transformed data into a dimensional database - During the load step,
+' it is necessary to ensure that the load is performed correctly andlw1th as litle
+resources as possible. The target of the Load process is often a datapase. In Order o
+: efficient, it is helpful to disable any constraints and indexes
+make the load process etticient, it letes. The o8 ot
+before the load and enable them back only after the loa C:omp . emm :
+integrity needs to be maintained by ETL tool to ensure consistency. o E :
+b) An Outline of the Steps of the KDD Process , E
+Interpretation/ Knowledge e
+Evaluation ' :
+< Patterns i _ i b
+i Transformed ; e .
+3 + Preprocessed | : ! A
+a i Data | : : s '
+b °, Target ' i ; ; i3
+Data ' Data i : i E
+Th ]l h.—_—---_-----.'-—-—--‘-—-------“--_----___---_’.‘------'---—'* -!. '_'
+e overall process of finding and interpreting patterns from data i e re 44
+e 2 : a involves the re g
+application of the following steps: pmted
+1. Developing an understanding of : it
+o the application domain ; :
+o therelevant prior knowledge . ' -
+. o tl}e goals of the end-user , | ~ d
+. Crgatmg a target data set: selecting a data set, or focusine on-a sﬁbsetf‘
+' variables, or data samples, on which di S & o
+3. D ; ) ch discovery is to be performed L
+: - Data cleaning and preprocessing. a -
+o gemoval of noise or outliers. . 23
+o Collecting necessary i i s o
+. y information to mo ! -
+~ o itrategles for handling missing data ﬁelccli:l o S
+© Accounting for time se - S, ; i
+A quence informa : : i
+4. Data; feccilt.lctnon and projection. ; tion and anW,n changes. o
+© Finding useful featyr ) o
+P ek €S to represent the data depending on the goal of t
+‘ bt G o e S ST (i RSN O

@@ -1,0 +1,41 @@
+DATA WAREHOUSING AND DATA MINING
+warehouses vary in' e all design, majority of them are subject oriented, meaning that
+the stored information 1s connected to Objf!CtS or events that occur in reality. The data
+provided by the data warehouse for analysis provides information on a specific subject,
+rather than the functions of the company and is collected from varying sources into one
+‘ unit having tlme-v.arlant.. : ‘ : : .
+A data warehouse has mgmﬁcant]y different features from other enterprise-wide systems,
+particularly in how data 1s sto.rec_i, managed and manipulated.
+v There are four key characteristics which separate the data warehouse from other major
+l Operational systems: : :
+‘ 1. Subject Orientation: Data organized by subject '
+R 2. Integration: Consistency of defining parameters }
+3. Non-volatility: Stable data storage medium - ;
+4. Time-variance: Timeliness of data and access terms '
+2. a) What are the different tiers in a typical 3-tier data warehousing architecture?
+b) What do you mean by warehousing schema? Explain. ‘ [WBUT 2009] .
+Answer: ' | :
+a) The bottom tier is a warehouse database server which is almost always a relational
+database system. '
+The middle tier is an OLAP server which is typically implemented using either (1) a
+Relational. OLAP (ROLAP) model, i.e., an extended relational DBMS that maps
+operations on multidimensional data to standard relational operations; or (2) a
+Multidimensional OLAP (MOLAP) model, i.e., a special purpose server that directly - :
+implements multidimensional data and operations. : :
+The top tier is a client, which contains query and reporting tools, analysis tools, and/or
+data mining tools (e.g., trend analysis, prediction, and so on).
+b) The entity-relationship data model is commonly used in the design of relational
+databases, where a database schema consists of a set of entities. or objects, and the
+relationships between them. Such a data model is appropriate for online transaction
+processing. Data warehouses, however, require a concise, subject-oriented schema which
+_ facilitates on-line data analysis. - _ :
+3.3) Introduce the concept of data mining and cite two application areas. : |
+b) What : o [WBUT 2010, 2012]
+&5 at are the different steps_ of a datg mining task? : [W.BUT 20-10, 201_2]
+oy I::ose tha.t the dat_a mining task is to cluster the following eight points (with
+| ’ Presenting location) into 3 clusters.
+o A(200),4,(25),4,(8,4),B,(5.8).8,(7.5). B, (6.4).C,(12),C,(49)
+c::td'shnce function is Euclidian distance. Initially we assign 4, B, and C, as the .
+ré of each cluster. Use k-means algorithm to determine the three clusters. '
+. Part: Regey I st A
+i 0 of Question No. 2(1** Part) of Short Ama{ pe Que

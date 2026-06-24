@@ -1,0 +1,40 @@
+POPULAR PUBLICATIONS %
+ol
+1. Define Data Marts. wBuUT 23%91: gg;g’ gg: ;’ gg:: f’ mq '
+Define the types of Data Marts. _ w ' d » 4018 £
+Answer: !
+" t: -’ . ol
+}\ ;::; mart is a group of subjects that are organized in a way that allows them to assist |
+: : : fc le. the advertising department wij]
+departments in making specific decisions. For example, o haves detsanu 4
+; SEE .
+have its own data mart, while the finance department ‘Vlvll - a b oft 18 ]
+separate from it. In addition to this, each department Wil ave ? p the ' 3!']
+software, hardware, and other components that make up their data mart. i
+2" Part: . 5
+There are two types of Data Marts: -‘
+. Independe)l,llz data marts — sources from data.i capturf?d form OLTP system, extm
+providers or from data generated locally within a particular department or geographic
+area. . i
+e Dependent data mart — sources directly form enterprise data warehouses. *
+2. Define data mining. What is the advantages data mining over traditional j
+approaches? ' . [WBUT 2009] %
+Answer: i!
+1* Part: | ; 3
+Data mining, which is also known as knowledge discovery, is one of the most popular 4
+topics in information technology. It concerns the process of automatically extracting 4
+useful information and has the promise of discovering hidden relationships that existin
+large databases. These relationships represent valuable knowledge that is crucial for =
+many applications. Data mining is not confined to the analysis of data stored in data ]
+warchouses. It may analyze data existing at more detailed granularities than the
+| sutiarized data provided in a data warehouse. It may also analyze transactional, textual, i
+s'patial, and multimedia data which are difficult to model with current multidimensional
+dataha ¢ (echnology. i
+2* Part: g
+| l\7:’;ch t_f:?-hélcpb(l)ll:; :data rtnini?g, }cl)rganiz.ations are in a better position to predict the future ;;
+traditional approaéhes Svil ] ‘ ztmb t T) type of customers that could be approached. The g
+AP Ao O mar'm g able to generate §Uf:h accurate resp!ts as they U; 4
+BPDIOACHAS By abi (v 1rs ot {io-f-'guvam'aﬁi of data mining over a traditional statistical E
+The advartages of data mining helps the businecses oot cs o
+and help in a lot of other areas like gata oo grow heip (gl S bﬁwﬂ i
+management. e

@@ -1,0 +1,37 @@
+POPULAR PUBLICATIONS
+(i) insert 10
+(1] [ |
+| nla £ JFTE
+j 33 port| |
+HENIR R ] |
+(i1) insert 11
+(o) 1 |
+2L 1
+i el
+ENEN LN s U PP oeF ] |
+(iii) Delete 29
+ik Sl
+:
+47 L
+ENENIR “ /I I S S
+6. Consider the file with » = 3000 records (fixed length) of size R = 100 bytes stored
+on a disk with block size B = 1024 bytes. Suppose each index entry in index file
+takes 15 bytes (9 bytes for index value, 5 bytes for pointer). What is the number of
+accessing blocks for clustering index? [WBUT 2015]
+Answer: .
+Block Factor bfr = (B/R) =(1024/100) = 10 records per block
+The number of blocks needed for the file
+b = (r/bfr) = (30,000/10)= 3000 blocks
+A binary search on the data file would need approximately
+log; b =1log, 3000) = 12 block accesses
+L\Iow if the ordering key field of the.index file is V=9 bytes, and a block pointer is P =6
+ytes
+The size of each index entry is Ri = (94 6) = 15 bytes
+The blocking factor for index is bfri = (B/Ri) = (1024/15) = 68 entries
+T_he nL'lmber of blocks needed for index is
+bi = (ri/bfri) = (3000/68 ) = 45
+To perform a binary search on the index file would need
+(log, bi) = (log, 45) = 6 block accesses
+Eear_Chmg a record using the index, one additional data block access needed. Thus total 6
+I =7 block accesses are needed.
+DBMSCS-98

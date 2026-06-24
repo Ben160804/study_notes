@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS DISLRULLD ﬁ/ "U‘
+A
+Answer:
+) N e | 8 in th foat molDDll
+T n the featu h
+l i rm:rm ‘ iﬁm 1, What [s Distributed Database system? Expla (MODEL QUESTION)
+Answert
+T 1" Part ¢ multinle interconnected databases, which are
+concepiual A Distributed Database Is a collection of mult D‘c l e m;” o)
+i spread physically across varfous locations lhnl' communicate via o : Pnd hecrri u
+' Distributed databases utilize multiple nodes, They scale horizontally a |"
+disributed system. More nodes in the system provide more computing power, ofler
+W greater avallability, and resolve the single point of failure issue.
+2" Part:
+Some general features of Distributed databases are:
+i o Location independency - Data is physically stored at multiple sites and managed by
+S an independent DDBMS. ) :
+; 5 we s o Distributed query processing - Distributed databases answer queries in a distributed
+- boal Local environment that manages data at multiple sites. High-level queries are transformed
+m mapping into a query execution plan for simpler management.
+schema schema o Distributed transaction management - It provides a consistent distributed database
+through commit protocols, distributed - concurrency control techniques, and
+Lo Local Local ; distributed recovery methods in case of many transactions and failures.
+conceptual « Scamless integration - Databases in a collection usually represent a single logical
+s i database, and they are interconnected.
+« Network linking - All databases in a collection are linked by a network and
+. Local Local Local communicate with each other.
++ Transaction processing - Distributed databases incorporate transaction processing, :
+phoi which is a program including a collection of one or more database operations.
+Transaction processing is an atomic process that is cither entirely executed or not at
+i i — all.
+DB = 2. a) What is transparency? Discuss network transparency and replication
+transparency with example. [MODEL QUESTION]
+Top-down design-The system begins with the analysis of requirements that defines the Auswer:
+system environment. And the last step is physical design. This approach is used for a) I" Part:
+Designing systems from scratch and for Homogeneous systems. DBMS Transparency:
+Bottom-up approach is used when the databases already exist at a number of sites or The term DBMS transparency refers to the ability of DDBMS to hide the implementation
+whc.n the databases should be-connected to solve common tasks. The process consists in details from the user. Thus the fact that a distributed database is split into several
+the integration of local schemes in the global conceptual schema. fragments that can be stored on different computers and perhaps replicated is hidden from
+. the user. The objective of the transparency is to make the distributed system appear like a
+centralized system.
+DDMS-10 DDMS-11
+- ]

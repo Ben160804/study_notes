@@ -1,0 +1,48 @@
+R
+T : =
+R PUBLICATION \
+: nE BUT 2015, 2019]
+9. The strategy for processing a query is ""P'g)"ggc%‘:np -+ . :
+a) query evaluation
+c) query optimization d) none of these
+Answer: (¢) ,
+S [(WBUT 2016]
+10. Relational calculus is a b) procedural language
+a) Query language | d) None of these
+c) Non-procedural language
+Answer: (a)
+- BUT 2016
+11. A row from a table is selected by b) projection operator W 1
+a) seiection operator d) none of these
+c¢) union operator
+Answer: (a)
+12. According to the levels of abstractions the schema at the '"te'meg"vaét’ ‘ll'e;g|1 '85‘]'
+called >
+-a) logical schema g) phy:’c:é::r:eama
+¢) subschema ysup
+Answer: (a) ,
+13. The operation which is not considered as basic operation in relatioF\:’IB a&g%_egc;:a]
+a) join b) selections c) union d) cross product
+Answer: (a)
+: Short Answer Type Questions
+1. Why we need query optimization? [WBUT 2008]
+Answer:
+Having long-running queries not only consumes system resources that makes the server
+and application run slowly, but also may lead to table locking and data corruption issues.
+So, query optimization (QO) becomes an important task. As there are many equivalent
+transformations of same high-level query, aim of QO is to choose one that minimizes
+resource usage. In general it also reduces total execution time of query. Since the problem
+is computationally intractable with large number of relations. so strategy adopted is
+reduced to finding near optimum solution. ™
+2. Discuss the entity integrit ial i : :
+considered importan¥? Expgair)ll ;irt‘g sr:ift(;rtflr::)i lntelgnty . W
+Answer: ample.  [WBUT 2008, 2010, 2012]
+Entity Integrity: In a relational d ity i
+: atabase, entit s ority T
+records are duplicated and that no attributes thzlln“fm) 'S a property that ensures thatno
+one‘ot the properties necessary (o ensure the c ma ¢ \UP It‘lc primary key are NULL. It is ‘;
+Entity Integrity ensures that here e <. o Tvnsnstemy of the database. |
+field that ident: fiec o icate records withi " ;
+field that identifies each record it tabP])e 5 Jnlitr)‘lgbdwnhm the mrblc and that the
+que and never null. The existence of
+DBMSCS-26 3

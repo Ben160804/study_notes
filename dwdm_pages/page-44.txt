@@ -1,0 +1,50 @@
+POPULAR PUBLICATIONS
+Mining partial, categorical, and asynchronous _peflOdlC pattEs PlosteS
+problems in regards to the development of efﬁc;ent data mining 5‘; utions. 1his is be, al
+most statistical methods or those relying on time-to-frequency domain transformag,
+
+‘ are either inapplicable or expensive at handlir}g such problerr.lsl. & o .
+Take mining partial periodicity as an example;. Because partia Pe: ICIty miXes perigg,
+events and non-periodic events together the same period, @ tlme-to-f '€qQuenc,
+transformation method, such as FFT, becomes lpc?ffectlve l?ecause it treats the time serjg
+as an inseparable flow of values. Certain period}CIty detection metl.mc_is can _
+partial periodic patterns, but only if the period, length, and timing of the' Segment
+(subsequence of interest) in the partial patterns have certain behqvnors and are ¢ it
+specified. For the newspaper reading example, we need to explicitly specify det.a[b'
+as “Find the regular activities of Sandy during the half-hour -after 7:.00.for a period of 24
+hours.” A naive adaptation of such methods to the partlal .pel:lodl(.} pattern u».glr_,;
+problem would be prohibitively expensive, requiring t.helr application Fo a l_mge : 1..]‘
+of possible combinations of the three parameters of period, length, and timing. k.
+Most of the studies on mining partial periodic patterns apply the Apriori property
+heuristic and adopt some variations of Apriori-like mining methods. Constraints can also
+be pushed deep into the mining process. Studies have also been performed on the
+efficient mining of partially periodic events patterns or asynchronous periodic ;n.r:"
+with unknown or with approximate periods. .. :
+Mining partial periodicity may lead to the discovery of cyclic or periodic association
+rules, which are rules that associate a set of events that occur periodically. An examp e of
+a periodic association rule is “Based on day-to-day transactions, if afternoon tea is well
+received between 3:00 to 5:00 p.m., dinner will sell well between 7:00 to 9:00 p.m.
+weekends.” =
+Due to the diversity of applications of time-related sequence data, further developnmf
+(eiﬂif:ie(rilt algorithms for mining various kinds of periodic patterns in sequence data bases is
+
+esired. ‘
+i. What are applications of data mining? ' [MODEL QUESTIC
+nswer: , e
+Dflté} mining is wic.iely used in diverse areas. There are a number of commercial dat
+e
+i i rend of data mining. : "y
+Data Mining Applications: o
+Here is the list of areas where data mining is widely used — ":-
+* Financial Data Analysis | i
+* Retail Industry g
+
+* Telecommunication Industry | L
+
+* Biological Data Analysis 8
+
+*  Other Scientific Applications
+
+e Intrusion Dete(?tion _ E .
+
+- DWM-44 . A

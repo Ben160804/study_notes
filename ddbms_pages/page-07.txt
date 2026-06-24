@@ -1,0 +1,47 @@
+DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+We can identify four mai ' .
+. Distﬁbn:i?m r main types of transparency ina DDBMS: Most modern commercial DBMS are based on this system. The ANSI-SPARC model
+ransparency
+- powever never became a formal standard.
+a) Fragmentation transparency ANSSPARC
+b) Location transparency ' E Archiecture for
+» Transaction transparency Duabases
+a) Performance transparency / I \
+b) DBMS transparency externl level
+(View)
+2" Part:
+Network transparency: i ml:d
+According (o this property, a distributed database must be network transparent. Network
+transparency means that a user must be unaware about the operational details of the v e Satte
+network. thwork transparency is basically one of the properties of distributed database. -
+Actually in dlsu'}btned databases when a user wants o access data and if that particular
+data does not exist on user computer then it i the responsibility of DBMS o provide the — -
+data from any othcr corpputcr where it exists. User does not know about this thing as g (Physical level)
+froq\ where data is coming, Network transparency also means roaming transparency and ~
+it gives the freedom of entering query from any workstation to a user. So a user does not
+know hm where the results of query are coming as results may be coming from user A standard three level approach to database design has been agreed upon:
+workstation or any other workstation. Here the term roaming means that if a user moves o External level
+from one place to other then all other users does not know about this. + Conceptual level
+: + Internal level (includes physical data storage)
+Replication transparency:
+A copy ofcach'fr.agmcnl can be maintained at several sites. Data replication is the design The Three Level Architecture has the aim of enabling users to access the same data but
+_ process of deciding which fragments will be replicated. A DISTRIBUTED SYSTEM with a personalised view of it. The distancing of the intemal level from the extemal level
+often employs DATA REPLICATION to ensure a fast response from databases and to means that users do not need to know how the data is physically stored in the database.
+enable the system o be resilient to hardware errors. Replication transparency is the term This level separation also allows the Database Administrator (DBA) to change the
+used to describe the fact that the user should be unaware that data is replicated. database storage structures without affecting the users' views.
+« External Level (User Views): A user's view of the database describes a part of the
+3. a) Draw the ANSI/SPARC reference architecture of Distributed Database System database that is relevant to a particular user. It excludes irelevant data as well as data
+and discuss about the site independent schemas. which the user is not authorized to access.
+b) Show with the help ol e tagranthat replicated copy of R; of fragment R, is o Conceptual Level: The conceptual level is a way of describing what data is stored
+allocated into different sites as Ry and R; ithin the whole database and how the data is inter-related. Th ol Jeed
+¢) When Bottom-up approach of distributed database design preferable over Top- R e o 0 - e
+down approach? does ot specify how the data is physically stored.
+d) Explain the advantage of Remote access via an auxiliary program in case of Some important facts about this level are:
+heterogeneous distributed database system with the help of a diagram. 1. DBA works at this level.
+[MODEL QUESTION] 2. Describes the structure of all users.
+a) 1" Part: 4. Global view of database.
+The ANSI-SPARC Architecture, where ANSI-SPARC stands for American National 5. Independent of hardware and software.
+Standards [nstitute, Standards Planning And Requirements Committee, is an abstract o Internal Level: The intemal level involves how the database is physically
+design standard for a Database Management System (DBMS), first proposed in 1975. represented on the computer system. It describes how the data is actually stored in the
+database and on the computer hardware.
+DDMS-12 DDMS-13

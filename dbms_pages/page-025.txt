@@ -1,0 +1,39 @@
+r’
+l
+F DATABASE MANAGEMENT SYSTEMS
+; e —————————————————————————
+E Multiple Choice Type Questions
+\
+| 1. Relational algebra is a [WBUT 2007, 2019]
+'; a) procedural language b) non-procedural language
+i c) query language d) normalization technique
+| Answer: (a)
+; 2. Relational calculus is a [WBUT 2013]
+g a) procedural language b) non-procedural language
+[ c) data definition language d) high level language
+’ Answer: (b)
+‘. 3. Cartesian product in relational algebra is [WBUT 2013, 2019]
+’ a) a unary operator b) a binary operator
+; c) a ternary operator i d) not defined
+Answer: (a)
+4. In a relational model, relations are termed as WBUT 2013]
+a) tuples b) attributes c) tables d) rows »
+Answer: (¢) , '
+5. In case of entity integrity, the primary key may be [WBUT 2013]
+a) not Null b) Null c) both Null & not Null d) any value
+Answer: (a)
+6. In an E-R diagram an entity set is represented by a [WBUT 2013]
+a) rectangle b) ellipse c) diamond box d) circle
+Answer: (a)
+7. Using relational algebra the query that finds customers, who have a balance of
+over 1000 is [WBUT 2013)
+. a) Customer_name(o balance > 1000 (Deposit)) -
+b) oCustomer_name(balance > 1000 (Deposit))
+c¢) Customer_name(o balance > 1000 (Borrow))
+d) oCustomer_name(balance > 1000 (Borrow))
+Answer: (a)
+8. Which of the following operations is used if we are interested in only certain
+columns of a table? [WBUT 2013, 2019]
+a) PROJECTION b) SELECTION c) UNION d) JOIN
+Answer: (a)
+DBMSCS-25

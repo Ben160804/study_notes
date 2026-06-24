@@ -1,0 +1,50 @@
+POPULAR PUBLICATIONS k.-
+begin : i B
+If S is empty, return a single node with e
+value Failure; i &
+ If S consists of records all with the same . k.
+value for the target attribute, i
+: return a single leaf node with that value; ) 7{#
+If R is empty, then return a single node B
+with the value of the most frequent of the i?ﬁ
+values of the target attribute that are B
+found in records of §; [in that case . | =
+. there may be be errors, examples . fﬁi
+that will be improperly classified]; o
+Let A be the attribute with largest N
+Gain(A,S8) among attributes in R; _fgf
+L Let {aj| j=1,2, .., m} be the values -of . ?HT
+attribute A; 9
+Let {Sj| j=1,2, .., m)} be the subsets of ks
+S consisting respectively of records o
+s with value aj for A;  j}
+Return a tree with root labeled A and arcs o
+labeled al, a2, .., am going respectively .
+to the trees (ID3(R-{A}, C, S1), ID3(R-{A}, Cy N ‘
+’ erv i EDI(R=(AS .0 Bm)y , :
+Recursively apply ID3 to subsets {Sj| j=1,2, .., m} o
+: until they are empty o _i'}'
+end .
+d) Classification is the process of dividing a dataset into mutually exclusive groups such
+that the members of each group are as "close" as possible to one another, and different
+groups are as "far" as possible from one another, where distance is measured with respect
+to specific variable(s) one is trying to predict. For example, a typical classification
+problem is to divide a database of companies into groups that are as homogeneous as
+possible with respect to a creditworthiness variable with values "Good" and "Bad." " "
+With supervised classification, we identify examples of the Information classes (i.e., land |
+cover type) of interest in an image(say). These are called "training sites". The image
+processing software system is then used to develop a statistical characterization of the
+reflectance for each information class. This stage is often called "signature analysis" ant
+| may involve developing a characterization as simple as the mean or the rage of
+reflectance on each bands, or as complex as detailed analyses of the mean, variances and
+covariance over all bands. Once a statistical characterization has been achieved for each
+information class, the image is then classified by examining the reflectance for each pixel
+and making a dec:si_on about which of the signatures it resembles most. -
+
+. [{nsupeW1seg! classification is a method which examines a large number of unknown
+pixels and divides into a number of classed based o natural groupings present in the
+image values. unlike Supervised classification, unsupervised classification does not
+require analyst-specified training data. The basic premise is that values within a givel
+
+: s
+' o o LR

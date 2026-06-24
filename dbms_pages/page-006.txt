@@ -1,0 +1,44 @@
+POPULAR PUBLICATIONS
+Recovery and Concurrency:
+" o COMMIT
+. ROLLBACK
+Security:
+‘ GRANT
+B REVOKE
+Integrity Constraints: .
+
+. : cify that
+Integrity constraints are enforced by the system. For exa!'np.lcv:, ?F‘lficandsii ag - ;ﬂ
+attribute of a relation will not accept null values. Detail syntaxes an p €
+
+- discussed later. _
+6. Indicate the advantage of DBMS over conventional file system. [WBUT 2013]
+Answer: ; .
+* Reduced data redundancy and Reduced updating errors and increased
+consistency
+* Greater data integrity and independence from applications programs
+* Improved data access to users through use of host and query languages
+® Improved data security
+7. Could a modern university be supported if a file processing system was used to
+Manage enterprise information? List four major difficulties that are likely to arise if
+no database system was available to the university. Discuss the difficulties.
+[WBUT 2014)
+Answer:
+A modern university have to manage its large enterprise information because it can have
+many departments, each with its own information system and data files. Three potential
+problems exist in a file processing environment. The first problem is data redundancy,
+which means that data common to two or more information Systems is stored in several
+places. Data redundancy requires more Storage space and maintaining and updating data
+in severa.l loqations IS expensive, S.econd, data integrity problems can occur if updates are
+not apphed In every file, Changing the data in only one of the Systems will cause
+Inconsistent data} and result in incorrect ir}formation in the second System. The third
+problem is th? .rlgld data structure of a typical file processing environment. Businesses
+;"USt takei Qef:ns;)on§ based On company-wide data and managers often require information
+rom mu tiple u§11;ess units and dgpartments. In a file processing environment, that
+ir:llegs'retn;vmr%hlp (()jrmabtlon from independent, file-based Systems, which is slow and
+da:a li(t:len . O‘:j ; ‘St atad asel System needs less storage. Theoretically, aj) occurrences of
+‘ Systeme?:vre“le;per: asngrfia t:l;l y 0(;166_, therebg eliminating the Storage of redundant data.
+ase designers often yse ¢ izati inimi
+redundancy, | ata normalization to minimize data
+' DBMS(CS-¢ |
+M

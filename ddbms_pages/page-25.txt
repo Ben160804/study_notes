@@ -1,0 +1,47 @@
+. DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Eraph is:
+[ query optimization. Query decomposition and data localization correspond to query
+, rewriting. The first three layers are performed by a central control site and use schema
+i information stored in the global directory. The fourth layer performs distributed query
+AN execution by executing the plan and retums the answer to the query. It is done by the
+\ local stes andthe conrol st
+v Query Decomposition: The first layer decomposes the distributed calculus query into an
+/ algebraic query on global relations. The information needed for this transformation is
+0 ) found in the global conceptual schema describing the global relations.
+s Tpgoy: O ;
+I e Data Localization: The input to the second layer is an algebraic query on distributed
+[ I relations. The main role of the second layer is to localize the query's data using data
+0 ASG ASG distribution information, This layer determines which fragments are involved in the query
+and transforms the distributed query into a fragmented query.
+b)
+‘m.i".:’: Global Query Optimization: The input to the third layer is a fragment query, that is, an
+| algebraic query on fragments. The goal of query optimization is (o find an execution
+Quey strategy for the query, which s close to optimal. An execution strategy for a distributed
+query can be described with reltional algebra operations and communication primitives
+(send / receive operations) for transferring data between sites.
+Algely
+(.M:I‘Rmm Local Query Optimization: The last layer performed by all the sites having fragments
+\ involved in query. Each sub-query executing at one site, called a local query, is then
+Control Data optimized using the local schema of the site. At this time, the algorithms to perform the
+™ Deconpesiion relational operations may be chosen. Local optimization uses the algorithms of
+centralized systems.
+Alpebraic Query on
+'"'r“" 3, Consider the join R/N S Assume that R and S are at different sites; and
+Global disregarded the cost of collection the result of the join. Let C, = 0and C| =1.
+The following profiles are given:
+slze (R) = 50; card (R) = 100; val(A[R]) = 50; Size (A) =3
+Distributed Query on size (S) = 5; card (S) = 50; val(B[S]) = 50; Size (B) =3
+. ‘“"‘i“ e RSJ,,S has seloctively p =02
+Tooks e S8, R has seloctively p=08
+Sites I'xecution Glve the transmission cost of:
+) 1) performing the join at the site of R using semi-join reduction
+Fig: The Different Layers / Steps of Query Processing Ii) performing the join at the site of S using semi-join reduction
+- i) performing the join at the site of R without semi-join reduction
+I the above Figure a generic layering scheme for o 1v) performing the join at the site of S without semi-join reduction
+! query processing is shown where each
+layer solves a well-defined sub-probl om. F R AR b Which Is the best solution? [MODEL QUESTION]
+query processing, problem. Four main layers are involved in distributed
+The first three layers map the input imized distri
+b query into an optimized distributed query execution
+plan. They perform the functions of uery decomposition, data localization, and global
+DDMS-48 ‘ DDMS-49

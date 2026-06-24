@@ -1,0 +1,50 @@
+\‘ /AR PUBLICATIONS :
++ Explain the cold starts and warm starts, DISTRIBUTED DAT.
+nswer: [MODEL QUES lizod database systom
+g .mmmmmanmmmwmaumz
+Cold reMES e fnlght {ike to mov to a distributed database environment. Outline the advantages
+\fler a fatal failure of the system, the actual consis and disadvantages of sucha decision. [MODEL QUESTION]
+archived older consistent state i state of the DBMS i wer:
+g is to be recovered. As a D) is lost. An Ans .
+' state, a site cannot change their state i . fm: DBMS has global consist The two systems are shown in the diagram below. —
+ke cold st el e aer s st ke Se]
+Local failure - global recovery cold restart,
+>
+Consistent global state: ¢ o) Computer
+For each transaction T, the state contai = [sict ]
+3 ’ contains
+T at any site (T is contained i tl.'e“"""_‘Q‘!’elfﬂll“ed")'lllsubtransletions Ex
+in the global state), or it does § of Q
+it does not contain any of them. ﬁ = ﬁ
+o Seiszahycopt =) =
+:It;lheTwmt?anminedin(hegloMmmmmﬂM : g o s
+mvedpmeded T in the serialization order, are also contained in the g';so::lm“ﬁ which Centrlized Dotabase System  Distributed Database System
+wili blelTol;?I:h: 'tl;c utcf[&mm cannotbe guarantid as the ffec Ofwmt:amacti A Changes in the corporate environment toward decentralized opcrauonslhave (pﬁmple:
+i ) G Bt e ¢ ne
+g failure. But all of the transaction before a given point of time organizations fo move toward distributed database systems that complemen
+The consistency requirements are met as recovery replies the earli (;Cocd:"“f:l'll‘:’db;@;“;i}’;: may have many local-area networks (LANs) joined with 2
+;nmacliomf, - S e onsa WANy af well as additional data servers and applications on the LANs. Clienl:
+ecovery of the participant s performed by the warm restart lcations at the sites need o access data locally through the LAN of remotely throug
+record wnlt'lecn‘in the log: i ket :hpep WAN. For example, a client in Tokyo n:rihdt loc(.;:cll);l acaf r: dl:blc stored on the
+o when it's an action or abort, actions are undone; when it’s it, acti | Tokyo data server or remotely access a table stored on ew York data server.
+redone; either way, the failure has occurred before starting ‘;:::)n:nl:i’t “r‘(":’:;;" In a distributed database environment, mainframe computers may be peeded at corporate
+o when it's ready, failure has occurred during 2PC; participant is in do;:abt abo'ut or regional headquarters (0 maintain sensitive corporate data, whnl}: clients at remote sites
+the result of the transaction. ’ use minicomputers and server-class workstations for Jocal processing.
+o During a warm restart, the identifiers of the transactions in d ; :
+the ready set. For each of them the final tmnsac(iono:{;ézmgurz:::eb?"ecgg Both centralized and distributed database systems must deal with the problems associated
+from the TM. i with remote access: i
+o This can happen as a result of a direct (remot + Network response slows when WAN traffic is heavy. For example, a mission-
+as a repetition of the second phase oftl(e p,o‘;c’(;wmy) S SRR critical transaction-processing application may be adversely affected when 4
+' | decision-support application requests a [arge number of rows.
+5. What is local autonomy? [MODEL QUESTIO + A centralized data server can become a bottleneck as a large user community
+Answer: N contends for data server access.
+Local autonomy means that all the data in the distributed network : « Datais unavailable when a failure occurs on the network.
+locally. For example, a site in one location might have a rem:,:c dag;;::ﬁ:‘dag:?aﬂ Distributed databases can be defined as collection of multiple, logically interrelated
+in a national distributed system. While functioning as a part of the distribut cz e “l: o databases distributed over a computer network. All the database must be logically related
+the local database continues to process local operations independently from the ovemli that are managed by DDBMS (distributed database management system).
+distributed system, and does not rely on the distributed system to E et While a centralized database has all its data on one place. As itis otally different from
+i distributed database which has data on different places. In centralized database as all the
+data reside on one place s problem of bottle-neck can occur, and data availability is not
+efficient as in distributed database.
+DDMS-72 DDMS-73
+I

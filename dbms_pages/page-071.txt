@@ -1,0 +1,37 @@
+I \
+DATABASE MANAGEMENT SYSTEMS
+psitivity :
+g:;pose that r satisfies XY and Y->Z, then for any two tuples t; and t, of r, if t;[x] =
+/i gain y-Z, requiers t[Z] * -tz[Z]. Hence r satisfies X>Z
+Reflexivity rule leads to tfmal dependencies. Trivial dependencies does not depend on
+the given set of dependencies.
+The use of augmentation and the transitivity depends on the given set of dependencies
+f and these rules can be repeatedly used to infer new non-trivial dependencies.
+' Decomposition Rule
+if @ = By then a— fanda—>y
+Let a—>pfr Sl
+Now, r<hr JBry  ———(B) |
+(From Reflexivity Rule) a5
+from (A) and (B) through Transitivity Rule
+a->y
+In manner in can be shown a —
+Since, B Br - :
+8. Given a database schema named PLANE_INFO (flight_no, date, plane, airline, :
+from, to, miles), the functional dependency diagram is given below:
+-
+[
+from
+E \-E
+Decompose it up to Boyce-Codd Normal Form (BCNF). [WBUT 2009, 2010]
+Answer:
+Flight_no,date->Plane (1) '
+Flight No->airline,from,to,miles  (2) ' i
+Fl'<>m3to-9miles (3) th
+IS{elatlon (?) holds a transitive dependencies
+F?‘ the revised FD’d may be represented as:
+Fl;gl}"lt_m,datc?-? Plane (1)
+E gnt_No->airline, from,to (4) -
+From,to—)miles (3) : :
+Fm,m (1), (3) and (4) it is apparent that all the determinants are candidate keys. Hence the
+D’s are in BCNF. : _
+, DBMSCS-71

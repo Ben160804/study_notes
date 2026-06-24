@@ -1,0 +1,40 @@
+DATABASE MANAGEMENT SYSTEMS
+STORAGE STRATEGIES
+Multiple Choice Type Questions
+1. One of the sh'ortcomings of file system is
+a) data availability b) fixed ,eco,[xBUT PSP
+c¢) sequential records d) lack of security
+Answer: (d)
+2. An inc{ex on_the search key is called a [WBUT 2012]
+3 a) primary index b) secondary index
+c) multi-level index d) all of these
+Answer: (a)
+3. Which'one of the following is not an indexing technique? [WBUT 2019]
+a) Prlm.ary mgiex b) Secondary index
+:_ c) Multilevel index d) Sequential index
+‘ Answer: (d)
+Short Answer Type Questions
+. 1. What are the four main differences between a file-processing system and a
+DBMS? [WBUT 2006] '
+OR,
+Write down the differences between DBMS and Traditional File Processing System.
+. y ! [WBUT 2009]
+OR, :
+Distinguish between file management system and database management system.
+[WBUT 2017]
+OR, _
+. What are the advantages of database over traditional file system? [WBUT 2018]
+Answer: - .
+. In file system approach. each user defines and implements the nce'd.ed files for a Sp?cxﬁc
+application to run. For example in sales department of an enterprise, One user will be
+. maintaining the details of how many sales personnel are there in the salc§ department and
+their grades, these details will be stored and maintained in a separate file. Another user
+: will be mai;utaining the salesperson salary details working in the concern, the detailed
+salary report will be stored and maintained in a separate .ﬁle. Althqugh bth of thc users
+are interested in the data's of the salespersons they‘wﬂl be having their detils jp.&
+: separate files and they need different programs to manipulate t.helr files. This will leafi to
+; wastage of space and redundancy or replication of data’s. whigh oAy et g Conﬂﬁ:on'
+) ” : ible. data inconsistency may occur. [hese
+sharing of data among various users is not possioie, ' !
+files v%ill not be havging any inter-relationship among the data's stored in these files. i
+DBMSCS-89

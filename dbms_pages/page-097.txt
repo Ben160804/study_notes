@@ -1,0 +1,37 @@
+DATABASE MANAGEMENT SYSTEMS
+b) Creatgrgert;e; for the following key: [WBUT 2012]
+Key:8,5,1,7,3,12, 9, 6.
+Answer: .
+A B -tree ofordg‘r m is a m-way search tree with the following characteristics.
+i) the tree is either empty or is of height greater than or equal to 1, ‘
+ii) the root node index block has at least 2 children,
+iii) all data block nodes (leaf nodes) must be at the same level.,
+iv) all index block nodes, other than the root node and the data block nodes, have at
+least [m/2] children,
+' v) all index blocks have the same capacity. All data blocks have also the same
+capacity, which may differ from the capacity of index blocks.
+Inserting a New Node into a B'-tree
+In order to insert a new node, we proceed as follows,
+1. Locate the appropriate data block
+2. If there is room in the data block, the new record will be inserted in sequence by
+moving subsequent records if necessary,
+3. Splitting a block: If there is no room, a new data block has to be acquired first.
+- Some of the records from the old block are moved into the newly acquired block so
+that after insertion of the new record the old and the new data block contain nearly
+an equal number of records.
+A new entry in the new data block is inserted into the appropriate index block. If the
+index block is already full then a new index block is obtained and some of the entries
+from the old index block are to be moved to the new index block so that they contain
+nearly an equal number of entries. Similarly, the index block which is at a level
+immediately above this index block is updated and so on.
+5. Construct a B+ tree for the following set of key values- (3,4,6,8,12,17,19,23,29,31)
+assume that the tree is initially empty, values are added in ascending order and the
+number of pointer in one node is 3. Also perform the following operations of B+
+| tree: (i) insert 10 (ii) insert 11 (iii) delete 29. [WBUT 2015]
+- Answer:
+‘ The B+ tree is generated in ascending order. A node (which is not a root) is never
+, allowed to have fewer than [n/2] values/pointers.
+[T |
+|
+| I O e 1t e I ST
+', DBMSCS-97

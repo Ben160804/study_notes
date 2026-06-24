@@ -1,0 +1,50 @@
+PUBLICATIONS
+DISTRBUTED DALABASE MANAGEMENT SY5TEM
+9. Which of the following ls
+u) romote data mo:d iy | [MODEL QU 16, Which of the following fallures doss not occur In & distributed system?
+b) derived 'mmnull:: ,..:‘ distributed database Is samo RTON (MODEL QUESTION]
+¢) 3 phase commit Is an ”mll;::d uindanoy i o) Disk fallures ) Link fallures ¢) Mossago Loss  d) None of these
+A d) blal;; 2 phase locking protocol mmmgmm.mm mﬂ Answer: (¢)
+nswer; 0 k
+16, Which of the following refers o the operation multiple physical %b(;;]o
+10. Which of the following is Incorrect? pelonging to a distributed system? [MODEL QUESTI
+) redundancy is allowed in distributed database to | [MODEL QUESTION] 9 B'lckup b) Recovery ¢) Replication d) All of these
+b: cold restart is required aftor catastrophic fallre ncroase rollability Answer: (c)
+o)m | rotocol ‘
+d) pﬂ.‘n‘m e?p';"::.:w ,.,,:' ot ensuro seriallzabilty 17. In basle TO algorithm [MODEL QUESTION]
+Answer: (¢) ces rellabllity of distributed database 4) younger transaction are executed first
+b) older transaction are restarted
+)'old transaction are executed first
+11, A transaction manager is which . s
+a) maintains a log og mn..cuo,: e Soxavingt [MODEL QUESTION] . d) both older and younger transaction are restarted
+b | Answer: (c)
+)) m:mllm before and after database images !
+¢) maintains a
+d) all of these S i ] Short Answer Type Questions
+Answer: (d)
+' 1, Explain unilateral abort capability in the context of 2-phase commit pvotoc:;io
+! ODEL QUE!
+12. Which of the following is true concerning a global transaction? i o M N]
+DEL QUESTION] ‘ il  partci he outcome of the transaction, any participant can decide o
+a) the required data (Mol Until a participant votes on the outco , any participan
+Mu'::h as nms::r.y Bt one-loos! eke anCISSRRIINS] DBNS rovies i unilaterally stop the transaction by issuing an Abort request (o its transaction manager.
+b) the required data are located 1 This ability is known as a Unilateral Abort.
+distributed DBMS routes roq'u”th:. :::::::,;m JRRIRocH sl and the ! After a transaction manager receives an Abort request from one of its participants, it
+c) the required data are at one local site and the distributed DBMS passes the g immediately transitions the transaction o the Aborting state, which guaranices an Abort
+request to only the local DBMS ! outcome. All other participants will be notified of the Abort outcome, although it is
+d) the required data are located in at least one nonlocal site and the , possible that the root application does not discover the Abort outcome until it attempts to
+distributed DBMS passes the request to only the local DBMS l complete the transaction or perform some other operation involving the transaction
+Answer: (b) { manager or another participant.
+l' After a specified transaction manager enfers the Aborting state, it does not issue any
+13. The name of the agent at the site of origin of a transaction is . further Phase Zero notifications or Phase One requests to vote. For a transaction that
+_ [MODEL QUESTION] spans two Or more transaction managers due to propagation, it is possible for the Abort
+:; m:m _a?ent ¢ b) root agent outcome decision to race with other Phase Zero or Phase One activity as it is
+principle agen d) none of these communicated between the transaction managers.
+Answer: (b)
+14. Whicl:h of the following techﬁiques is used when the information on stable |
+storage is lost? [MODEL QUESTION] 1
+a) Shadow paging b) Check point |
+¢) Cold restart d) None of these
+Answer: (c)
+|
+DDMS-68 L B

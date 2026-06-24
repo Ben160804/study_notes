@@ -1,0 +1,41 @@
+POPULAR PUBLICATIONS
+aining sites continue to function. The greater accessibility enhances the reliability of
+rem
+the system. o
+3. Efficiency aﬂdffg{'::zléged databases is that data is physically stored close to the
+AII. a.dv?ndtagginti ofluse Hence if usage patterns changes then data can be dynamically
+| anticipate : ol
+moved or replicated to where it is most needed.
+4. Sharing distributed databases is that users at a given site are able to access daty
+‘A;n agﬁn;?f:r Zifteslsz::d at the same time retain control over the data at their own site
+store '
+tation: . by ol
+23;;-): tali:;aiin;edl;stribution unit that is a subset of a relation (or object in a more genera|
+sehsefnthat can be obtained by an expression on the data rpodel la.ngu.age. Common
+expressions used for fragmentation of relations include: selections, projections and semi-
+joins. _ S
+Jln addition to reduce network transfer cost, fragmentation also maximizes concurrency by
+allowing concurrent transactions that access disjoint sets of a relation to proceed
+independently one of the other. In addition, a single query can also benefit from
+fragmentation by accessing in parallel different fragments
+Data Replication: _ A _ i
+Database replication is the creation and maintenance of multiple copies of the same
+database.
+Advantages of Replication:
+* Availability: failure of site containing relation  does not result in unavailability of 7
+' is replicas exist. ,
+* Parallelism: queries on » may be processed by several nodes in parallel. ’
+* Reduced data transfer: relation r is available locally at each site containing a replica
+of r. :
+: Data Allocation:‘ Data alloca.tion is the process of defining the location a fragment
+ls)hoglld be placed in. The location transparency property defines that applications should
+other about. where a fragment has been placed. An extension of the location
+transparency includes fragment replication policy :
+5. lllustra : :
+ety tt:g::'se:::ts‘fres of object oriented database. What are the advantages and
+using object oriented database management system?
+Answer: ' [MODEL QUESTION
+1* part:
+13 mandatory features of an ORDBMS are, :
+I.- Complex objects must be supported. ‘ |
+DBMSCS-138

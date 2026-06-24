@@ -1,0 +1,43 @@
+T T ———
+DATA WAREHOUSING AND DATA MINING
+5. Write short notes on the following: ,
+o) Sivatagic IrFIIEISREE o [WBUT 2014, 2016]
+poataMart _ 2 [WBUT 2017]
+b) 'sil:ens,i:?:gc allenges in data mining [WBUT 2009]
+c) o515 vis.a-vis Data Mining o i T
+Answer: PR
+) Strategic inforl_nati‘on: :
+' Strategic information is needed for the day to day operations, meeting of government
+' requirements as well long and short range planning. Strategic information systems are
+‘ used by organizations to achieve a competitive advantage for the organization.
+A Strategic Information System (SIS) is a system that helps companies change or
+. otherwise alter their business strategy and/or structure. It is typically utilized to
+streamline and quicken the reaction time to environmental changes and aid it in achieving
+i a competitive advantage. Strategic information systems relies on data gathered at all
+- organizational levels and from all information systems whether it was transaction
+{ processing systems, management information systems, decision support systems or i
+i executive information systems. :
+i Key features of the Strategic Information Systems are the following:
+i- i) Decision support systems that enable to develop a strategic approach to align
+! Information Systems (IS) or Information Technologies (IT) with an organization's
+business strategies ‘
+;n iij) Primarily Enterprise resource planning solutions that integrate/link the business
+3 processes to meet the enterprise objectives for the optimization of the enterprise resources ;
+iii) Database systems with the "data mining" capabilities to make the best use of available -
+1 corporate information for marketing, production, promotion and innovation. The SIS
+systems also facilitate identification of the data collection strategies to help optimize '
+database marketing opportunities. | 3
+iv) The real-time information Systems that intend to maintain a rapid-response and the T
+f quality indicators. :
+| <
+: b) Data Mart: Refer to Question No. 1 of Short Answer Type Questions.
+! ¢) Issues and challenges in data mining:
+, One of the key issues raised by data mining technology is not a business or technological
+one, but a social one. It is the issue of individual privacy. Data mining makes it possible _
+P analyze routine business transactions and glean a significant amount of information
+about md'ividuals buying habits and preferences. o
+dA;;Zt:\;r Issue is that of data integr.ity. Clearly, .data analysis can only t.)e as goqd as the
+redundzt Is being analy-zed. A key implementation challenge is integrating conﬂu;tmg or
+. P nt data from q:t"ferent sources. For example, a bank may maintain credit gards ; ,
+UIS on several different databases. The addresses (or even the names) of a single
+' DWM-15 . .

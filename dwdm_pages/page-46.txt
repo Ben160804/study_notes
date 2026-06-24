@@ -1,0 +1,55 @@
+POPULAR PUBLICATIONS
+Biological Data Analysis ' ; , - T b
+In recent times, we have seen a tremendous grov»fth in 'thT ﬁf;‘; r‘:{‘ bll?.oilo(;% :auleh lp—: \
+genomics, proteomics, functional Genomics anfi biomedica r:rc o .aspects ~ Q
+mining is a very important part of Bioinformatics. Following m
+data mining contributes for biological data analysis = \ N
+e Semantic integration of heterogeneous, distributed genomic and proteom; f
+databases. ' : y . .
+e Alignment, indexing, similarity search and. comparative analysis multiple v
+nucleotide sequences. _ . .
+e« Discovery of structural patterns and analysis of genetic _networks and protein
+pathways. =" g : _ 3
+e Association and path analys'ls. .
+
+e Visualization tools in genetic data analysis. E
+Other Scientific Applications : -~ O
+The applications discussed above tend to handle relatively small and homogeneous dg‘
+sets for which the statistical techniques are appropriate. Huge amount of data’have been .
+collected from scientific domains such as geosciences, astron(?my, e.tc. A'large ._amount of»_;_;:
+data sets is being generated because of the fast numerical 51mulatlons_ in various fields
+such as climate and ecosystem modeling, chemical engineering, fluid c'lynamlcs, ete.
+Following are the applications of data mining in the field of Scientific Applications —
+
+e Data Warehouses and data preprocessing. ' A
+
+e Graph-based mining. : i
+
+' o Visualization and domain specific knowledge. 38
+Intrusion Detection i
+Intr}lsiqn refers to any kind of action that threatens integrity, confidentiality, or
+availability of qetvyork resources. In this world of connectivity, security has become the
+major issue. With mc.reased usage of internet and availability of the tools and tricks for
+
+- intruding and attacking network prompted intrusion detection to become a
+component of .network.admlmstration. Here is the list of areas in which data mining £
+technology may be applied for intrusion detection —
+' ° gevel9pment oz data mining algorithm for intrusion detection il
+
+* Association and correlation analysis, a : ; | :
+
+discriminating attributes, dme iy .to help select and
+
+e Analysis of Stream data. : _'5]
+
+* Distributed data mining, b
+
+* Visualization and query tools. 5
+’ll?]?gel\’{ai:l;ng SYSte(tin Products : .
+
+. many data minj I
+applications. The new data lrr;lginisglstem products and domain specific data mining
+previous systems. Also, efforts are bgeii)g:relms ;tmd applications are being added t0
+
+? a e (8} s e . » ‘L
+tandardize data mining languages. i

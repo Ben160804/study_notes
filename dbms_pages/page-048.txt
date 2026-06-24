@@ -1,0 +1,43 @@
+POPULAR PUBLICATIONS 1
+BEGIN acter table
+/* Retrieving records from the Sdlesman.Md,é;; -ab ﬁ
+and Assigning them to Memory variables for 2 :
+Salesman No entered by the User. */ |
+SELECT Salesman_No, Commission, Ytd_Sales ?
+INTO Sman_No, Comm_Rate, Sales_Amt :
+FROM Salesman_Master 1
+WHERE Salesman_No = '&Salesman No'; .
+/* Calculating the commission amount payablg ‘
+and inserting into the Commission payable table. */ :
+INSERT INTO Commission_Payable ; d-
+VALUES (Sman_No, sysdate, Sales_Amt * Comm Rate / 100); j
+EXCEPTION i
+/* Using the Oracle engine's named Exception |
+handler to handle the error condition that may occur |
+if the user enters a Salesman No that is not present ;
+in the Salesman Master Table */ J
+WHEN no_data_found THEN j
+DBMS_OUTPUT.PUT_LINE('Sa]esman NoE [[ Sman_No !
+| ' is not present in the Salesman Master table P ¥ :
+END; ‘
+¢) Consider the following relational schema: ‘
+An employee can work in more than one department; the pct_time field of the :
+works relation shows the percentage of time that a given employee works in a )
+given department: | . ,"
+Emp (eid, ename, age, salary) :
+Works (eid, did, pct_time) ‘
+Dept (did, budget, managerid) 1
+Write a Trigger to ensure each of the following requirements, considered l
+independently. I1
+i) Employees must take a minimum salary $ 1000. _ ‘
+i) Every manager must also be an employee.
+iii) The total percentage of all appointments for an employee must be under 100%. |
+'v) A manager must always have a higher salary than any ¢mployee that he or she
+TeRRpby | [WBUT 2010]
+Answer: |
+i) ALTER TABLE Emp ADD CONSTRAINT MinSal
+CHECK (salary »>= 1000)
+ii) ALTER TABLE Dept ADD CONSTRATNT ManIsEmp j
+FOREIGN KEY (managerid) REFERENCES Emp (eid) i
+=l
+DBMSCS-48 i

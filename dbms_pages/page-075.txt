@@ -1,0 +1,43 @@
+. DATABASE MANAGEMENT SYSTEMS
+Answer:
+() ndidate keys: B
+) Candidate Keys:
+I candidate keys: BD
+10 Candidate keys: ABC, BCD
+v) candidate keys: A
+V) Candidate keys: AB, BC, CD, AD
+g?{ is in 2NF but not 3NF
+MRis in INF but is not 2NF
+(1) Ris in 3NF but not BCNF.
+' [V) R is in 2NF but not 3NF (because of the FD: BC — D).
+g V) R is in 3NF but not BCNF (because of C — A).
+(iii)
+[) both C — D and C — A violate BCNF. One way to obtain a lossless-join
+decomposition is to decompose R into AC, BC, and CD.
+II) Both B — C and D — A are BCNF violations. The decomposition: AD, BC and BD
+(obtained by first decomposing to AD, BCD) is BCNF, lossless, dependency preserving.
+[1I) ABCD is not in BCNF because of D — A since D is not a key. However if we split
+up R as AD, BCD we cannot preserve the dependency ABC — D. So there
+is no BCNF decomposition that preserves the dependencies.
+IV) BC — D violates BCNF as BC is not a (super)key (does not contain a key). We split
+R into BCD and ABC.
+V) C — A and D — B both cause violations. So decompose into: AC and BCD but this
+does not preserve the FDs AB — C and AB — D. Moreover, BCD is still not BCNF
+hecause D — B. So we need to decompose further into: AC, BD, CD. Now, we could
+attempt to revive the lost functional dependencies by adding the relations ABC and ABD.
+But we can see that these relations are not in BCNF form. Therefore, there is no BCNF _
+decomposition.
+12. a) Consider the relation R = {A, B, C,D, E, F, G, H, |, J}and the set of functional
+dependencies: ,
+F= {AB—C, A»DE, BF, F5>GH, D-lJ}
+. Decompose R into 3NF. [WBUT 2011]
+Answer:
+3NF
+::;::z)zzsed Result using
+Rl ABC AB>C »
+R2 ADE A->DE |
+R3 BF BF
+| R4 FGH F>GH
+RS DIJ D1
+ii DBMSCS-75
+i .

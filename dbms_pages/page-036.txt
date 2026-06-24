@@ -1,0 +1,36 @@
+POPULAR PUBLICATIONS
+base models: e ‘fferent database models hz
+ll;)e:))eantc:iling on data abstract levels and ac.:tu.al appllcauons,hdlflf;:gstec:jz :badbl’ot v databc:;:
+
+. their advantages and disadvantages. Tt 18 t-he o y te to state that one database
+models, conceptual ones and logical ones. It is not aPPrf’Pr ldc(i"ls are generally used for
+model is always better than the others. Conceptual data mo fe (Hrmcvcr paite.
+engineering information modeling at a high Ieve! of abStrst:Ol]. dp\] s a’l uyglcv:l b
+information systems are constructed based on logfcal databaslcwnlu()j | t,'.b.a;c e
+data manipulation, that is, a low level of abslract;on, the lOi%l(.d (‘j“lls érc ot‘tén e
+for engineering information modeling. H'erc, loglcz%l datat’)as‘e mg_‘lu‘ o s
+through mapping conceptual data models into logwa: c-iata’bdsc mode z’ e
+called conceptual design of databases. The relauQnshlPS amo{ng C‘;’”V:lfm‘ P
+logical database models and engineering information systcmds);ireB s 1;6 differne g %
+In this figure, Logical DB Model (4) and Logical DB M(/dré {) )'e . s i
+systems. That means that they may have different loglca! g aijatab'lﬁc — say
+
+: database and object-oriented database or they may l?e d1fferent~ ce 1 IE el
+Oracle™ and DB2, although they have the same logical database mo:, ea gt
+- from the figure that a developed conceptual data model can bel crinifase =
+logical database models. Besides, it can also bg seen that-a loglca “?; p Jatabase reverse
+mapped into a conceptual data model. This f:onversmn-ls ca evcﬁc e c-an -
+engineering. It is clear that it is possible that dlfﬂ‘arent'loglcal database m
+converted one another through database reverse engineering.
+-——'l i DR 3
+A g . : : Conceptual
+e . é Logical DB Model (B)
+ek -
+Fig: Relationships among conceptual data model, logical
+database model and engineering information systems
+¢) Inner join: ke
+' {“}ﬂ inner join of 1 and 2 gives the result of | intersect 2. ' |
+i.e. the inner part of a Venn diagram intersection. v | ':
+i
+1 ) i
+DBMSCS-36 j

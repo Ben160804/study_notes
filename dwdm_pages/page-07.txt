@@ -1,0 +1,41 @@
+pata Mart - a subset of corporate-wide data that is of value to specific groups of users.
+lts scope is confined to specific, selected groups, such as marketing data mart.
+virtual warehouse - A set of views over operational databases. Only some of the
+| possible summary views may be materialized. X
+| 8. How is data warehouse different from a database? ~ [WBUT 2013, 2016, 2018]
+Answer: ; . )
+A database is used to store data while a data warechouse is mostly used to facilitate
+reporting and analysis. Basically, database is just where the data is stored; in order to
+access this data or analyze it a database management system is required. However, a data
+warehouse does not necessarilyl require a DBMS. The purpose of a data warehouse is for _
+‘ easy access to the data for a user. The data warehouse may also be used to analyze the '
+data; however the actual process of analysis is called data mining.
+Some differences between a database and a data warehouse: : :
+- o A database is used for Online Transactional Processing (OLTP) but can be used
+for other purposes such as Data Warehousing. ' :
+e A data warehouse is used for Online Analytical Processing (OLAP). This reads
+the historical data for the Users for business decisions.
+o In a database the tables and joins are complex since they are normalized for
+RDMS. This reduces redundant data and saves storage space.
+o In data warehouse, the tables and joins are simple since they are de-normalized.-
+‘ This is done to reduce the response time for analytical queries.
+¢ Relational modeling techniques are used for RDMS database design, whereas ;
+modeling techniques are used for the Data Warehouse design. .
+o A database is optimized for write operation, while a data warehouse is optimized =
+for read operations. ‘ RR
+e In a database, the performance is low for analysis queries, while in a data
+' warehouse, there is high performance for analytical queries.
+. o A data warehouse is a step ahead of a database. It includes a database in its
+structure. ok :
+9. What are the issues relating to the diversity of database types? [WBUT 2016]
+‘ Answer: '
+‘ * Handling of relational and complex types of data — The database may contain :
+’ complex data objects, multimedia data objects, spatial data, temporal data ete. It is |
+» not possible for one system to mine all these kind of data. : ,
+* Mining information from heterogeneous databases and global information
+Systems — The data is available at different data sources which may be structured, -
+‘. semi structured or unstructured. Therefore mining the knowledge from them adds
+challenges to data mining. . s o
+::'K'::wlet:’ce the idea of Data Mining with example(s). What are the steps in e s
+ge discovery in Database (KDD) proces ;xful-,' e
+. DWMET. e

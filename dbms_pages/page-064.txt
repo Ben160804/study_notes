@@ -1,0 +1,43 @@
+™ part: ionships. The right hand side (RHS)
+i : -to-many relationships. |
+Inclusion dependencies represent one : i iable, not necessarily
+5 : of the specified relation variaole, | . y #
+of a relation indicates any cand1§late key ; RF;{S of a dependency relationship are not |
+its primary key. The left hand side (LHS) an 8 hicie merely required tor T
+required to be a foreign key and a candidate key, rCSPeC“Vel_y - T o l ty hi
+write a correct inclusion dependency expression of a referential integrity relationship.
+€8 supplier parts
+parts LS o 3
+| 55 FK _
+sart num | part name | color | weight | cit supp_num quantit
+Using the notation R.A, where R is the name oi'q relati'on variabldc and'A is the name of
+one of its attributes, you can write the following inclusion dependency:
+
+supplier_parts.part_num — paris.part_num L : p
+This inclusion dependency states that the set of values appearing in theI attribute i
+part_num of relation variable supplier_parts must be a subset of the values appearing in
+the attribute part_num of relation variable parts.
+
+3 i ial functional dependency? Explain BCNF with a suitable example. ‘
+14. What is partial function P y P [WBUT 2018]
+Answer: | 3 |
+1* part: Refer to Question No. 10(b) of Long Answer Type Questions. ;
+
+|
+
+2" part: Refer to Question No. 13(c) of Long Answer Type Questions. ‘
+15. Explain Armstrong axiom in brief. [WBUT 2018] 5
+Answer: |
+Refer to Question No. 24(a) of Long Answer Type Questions.
+1. Discuss the “insertion anomalies” b j P i Bl
+anomalies” with respect to normal forn;s wi,:ga;'l?i?abimoma"es and ‘o E
+- method to overcome them. ¢ example and suggest a X
+An anomaly is a variation wi 4
+update, insert, delete operations a?c t tofa datab‘_‘sc. maintenance. In databases when =
+should be in a minimum tim pertormed, it is desirable that these operations =
+H ¢, cost effective predictabl 3 \
+owever, there are some aspect of the re] t: able and efficient.
+to change the value of e attribute of ik may be difficult to maintain. In ordef
+tuple to be updated, Wi, . i entity, ideally that cha ire only one
+anomalies, - When the relations are not full Cange require GREy
+Y normalized they exhibit updat® =

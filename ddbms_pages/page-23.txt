@@ -1,0 +1,45 @@
+" DISTRIBUTED DATABASE MANAGEMENT SYSTEM
+Explain the different between the terms “deadlock prevention” and “deadlock 2 .
+m::co"- [MODEL QUESTION) ::vmlaln distributed query optimization. [MODEL QUESTION]
+: er:
+Deadlock Prevention: / Distributed query optimization refers to the process of producing a ca|]>lla: for the
+*  Preventing deadlocks by constraining how requests for . processing of a query (o a distributed database system. The ?Im is called .a query
+the system and how they are h.'mdledg(systerl;le(c]iesign)0r el Es execution plan. In a distributed database system, schema and queries refer Ito !ofllcal .umtsr
+. &isa. ry conditi ional distributed relation database system, for instance, logical units o0
+; ;’: nge::alr lI:otl:;.ensurc e emion e e conditions for deadlock ::t:a :e l:l:!;:rst.l ?ll'lhﬂclsunits ma;ebe fragmented aty the underlying physical level. The
+Deadlock Avoidance: fragments, which can be redundant and replicated, are allocated to different database
+* The system dynamically considers every request and decides whether it s safe to SNl Sy,
+grant it at this point, .
+. o . g rpe Que!
+. Theh system re?ulres additional information regarding the overall potential use of
+each resource for each process.
+o Allows more concumn[:y 1.3) What is Serializability in a distributed database? -
+) b) Give a brief introduction to 2PL as a distributed concurrency cosnzmg er{n::'l‘od -
+; ’ s ects, y be stored at site S1, z, w be stored at site S2. ine for
+15. Write down the query optimization algorithm of INTEGERS, w&ml’ml executions, whether the execution is Serializable or not.
+PE [MODEL QUESTION] If yes, determine all possible total order of transactions.
+ﬂ\ If no, then prove that there is no total order possible.
+Algorithm: Dynamic*-QOA Execution 1:
+Input: MRQ: multirelation query §1: R (x) R (x) W; (x) Wi (x)
+Output: result of the last multirelation query Ex::ﬁ R ;\.') R; (2) W, (w) Wi (w)
+begin Execution 2:
+fﬂ' each detachable ORQ, in MRQ do {ORQ is monorelation query} :; ; :‘v((:))R’ (x) W )W, 1)
+o Exocuti.on I3:
+| MRQ'_list «REDUCE(MRQ) {MRQ repl. By n irreducible queries} S1:R, (X R, (x) W, ()W (y)
+hile n#0 do {n is the number of irreducible queries} : S2:R(2) R, (2) W, (2) Wi (W)
+{choose next irreducible query involving the smallest fragments} .EL%"%%;.) R 00 W ()
+2 : )
+MRO' 1.—SELECT_QUERY (MRQ' _list); $2: W, (2) R (W) R; (w) W, (w) [MODEL QUESTION]
+{determine fragments to transferand processing site for MRQ'} Answer:
+Fragment-site-list «- SELECT STRATEGY (MRQ'); a) Serializability in a Distributed Database:
+{move the selected fragments to the selected sites) In a distributed database, each transaction performs operations at several sites. The
+for each pair (F, S) in Fragment-site-list do y sequence of operation performed by transactions at a site is a local schedule. An
+f_ move fragment F to site S ‘ execution of  distributed transactions T, T,,.......,T, at m sites is modeled by a set of
+execute MRQ'; local schedules S1, §2, ........, Sm.
+nen-l If we apply at each node a local concurrency control mechanism, we can ensure that all
+) {output is the result of the last MRQ'} i local schedules are serializable. However, the serializability of local schedules is not
+sufficient to ensure the correctness of the execution of a set of distributed transactions.
+end
+T e e ———— Consider, for example, the following two schedules.
+Si(site 1):R (x)W, (x) R, (x)# (x)
+S2(site 2):R, ()W, (y)R (y)¥.(»)

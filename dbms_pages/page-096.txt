@@ -1,0 +1,29 @@
+POPULAR PUBLICATIONS
+On arrival of key value 7 the leaf node status gets changed
+{3 1
+HE O | R KR
+On arrival of key value as 17 ‘
+!I‘.L-!
+=0 H AMH A BHeHo s
+On arrival of key value as 31
+it
+B+ Tree
+For six and eight similar process is required to be followed The median selection will be
+done by the formula:( n+1)/2.
+ii) B+ tree with 6 pointers: _
+A o Y PR ET
+iii) B+ tree with 8 pointers:
+] 29 das [2safar
+All the key values will be available at the leaf.
+4. a) What are dense and sparse indexing? Explain with an example. [WBUT 2012]
+Answer:
+Dense index — I[ndex record appears for every search-key value in the file (in this
+example we have clustering index).
+Spal.'se Index Files contains index records for only some search-key values. It is
+apphce}ble_when records are sequentially ordered on search-key (i.c., only applicable to
+cl.uste.rmg indexes). To locate a record with search-key value K we:
+Fmd_ index record with largest search-key value <= K. Then search file sequentially
+starting at the record to which the index record points. It involves less space and less
+maintenance overhead for insertions and deletions. But generally slower than dense index
+for locating records. '
+DBMSCS-96

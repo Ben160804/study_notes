@@ -1,0 +1,41 @@
+' DATABASE MANAGEMENT SYSTEMS
+Thus. in order t0 specify fully how to evaluate a query, the system is responsible for
+constructing a query execution plan which made up of the relational algebra expression
+| and the detailed algorithms to evaluate each operation in that expression. Moreover, the
+[ selected plan should minimize the cost of query evaluation. The process of choosing a
+suitable query execution plan is known as query optimization this process is perform by
+Query Optimizer.
+One aspect of optimization occurs at relational algebra level. The system attempt 1o find
+an expression that is equivalent to the given expression but that is more efficient to
+execute. The other aspect involves the selection of a detail strategy for processing the
+query, this relates to choosing the processing aigorithm, choosing the indices to use and
+so on. ; :
+Once the query plan is chosen, the Query Execution Engine lastly take the plan, executes
+that plan and return the answer of the query.
+2. Consider the relational database as given below and write down expressions in |
+relational algebra for the following queries.
+Material_Master (item_id, item name, reorder level) :
+Material_Dts (item_id, Supplier_id, Pharchase_date, Qty, Utcost) |
+i) Select the quantities of each purchased material alphabetically.
+ii) Select the names of materials which have the highest total quantity.
+iii) Replace the material name ‘power supply’ with ‘UPS’. [WBUT 2010]
+Answer: '
+1) r item_name(nltemJ]an‘ne, QtyCitem_id=item_id (Material._MaSter >4 Material_Dts).
+ii) Select m.item_name, Max(sum(d.qty)) from Material-Master m, Material-Dts d
+where m. item-id=d. item-id group by d. item-id :
+tem-id X, sQty)item_name (Citem_id=item_id(Material_Master >< Material_Dts)) ,
+lll) T item_id, reorder leve!, itern_name <« ‘UPS’ (Giein _name="power supply’ (material_rnaSter)) ¢
+3. Write short notes on the following: -
+a) Theta (0) join [WBUT 2009] ,
+b) Database models [WBUT 2016]
+c) Inner join and Quter join [WBUT 2016]
+d) Tuple Relational Calculus [MODEL QUESTION]
+e) Degree of relationship ‘ [MODEL QUESTION]
+Answer: : :
+a) Theta (0) join: ‘ ~
+The theta join operation is an extension to the natural-join operation that allows us to
+combine selection and a Cartesian product into a single operation. Consider relations r(R)
+- and 5(S), and let be a predicate on attributes in the schema R E S. The theta join
+operation r >« g5 is defined as follows:
+' Fea0s = 00(rxs) 2
+} - DBMSCS-35

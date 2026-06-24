@@ -1,0 +1,41 @@
+DATABASE MANAGEMENT SYSTEMS
+Answer:
+Three Schema Architecture of DBMS
+! Mapping supplied by.
+CONCEPTUAL LEVEL DBMS
+Designer View
+INTERNAL LEVEL
+DBMS View
+The three levels of the architecture
+" T!:e internal level is t.he one closest to physical storage — i.e., it is the one concerned
+with the way the data is physically stored. '
+e The copceptual level is a "level of indirection” between the other two. (Gives
+abstraction on to the upper level of the lower level)
+ The external level is the one closest to the users i.e., it is the one concerned with the
+way the data is viewed by individual users. |
+If the external level is concerned with individual user views, then the conceptual level is
+concerned with a community user view. In other words, there will be many distinct
+external views, each consisting of a more or less abstract representation of some portion
+of the total database, and there will be precisely one conceptual view, consisting of a
+similarly abstract representation of the database in its entirely. There will be precisely one
+internal view, representing the total database as physically stored. ‘
+2. What are the main functions of a database manager? List five major functions of
+Data Base Administrator. [WBUT 2006]
+OR,
+Explain the roles of a database administrator (DBA). [WBUT 20089]
+OR,
+Discuss the role of DBA. | [WBUT 2017]
+OR,
+Explain the role of database administrator? [WBUT 2018]
+Answer: . .
+The functions of the DBA include the following: : - 4
+(1) Schema definition: The DBA creates the original database schema by writing set of
+definitions that is translated by the DDL compiler to a set of tables that is stored
+~ Ppermanently in the data dictionary. ik }
+(2) Storage structure and access-method definition: The DBA creates appropriate
+storage structures and access methods by writing a set of definitions, which is translated
+by the data-storage and data-definition-language compiler. s
+(3) Schema and physical-organization modification: Programmers accomplis Yo
+relatively rare modifications either to the database schema or to the description thzr gl
+physical storage organization by writing a set of deﬁmtlons which is used by ei
+DBMSCS-3

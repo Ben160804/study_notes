@@ -1,0 +1,17 @@
+DATA WAREHOUSING AND
+*NG :
+Introduction to Data Warehousing o
+~ (lassification and Prediction of Data Warehousing 20
+Mining Time Series Data 35
+~ Mining Data Streams | 48
+. Web Mining 66
+Recent Trends in Distributed Warehousing 72
+NOTE:
+MAKAUT course structure-and syllabus of 6" semester has been changed from 2021.
+Previously DATA WAREHOUSING AND DATA MINING was in 7" semester. This
+‘ | subject has been redesigned and shifted in 6" semester as per present curriculum.
+Subject organization has been changed slightly. Taking special care of this matter we
+| are providing the relevant MAKAUT university solutions and some model questions &
+answers for newly introduced topics, so that students can get an idea about university
+' Questions patterns. : " :
+R A TR

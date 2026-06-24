@@ -1,0 +1,42 @@
+access to the relevant reports without affecting performa;c;. ilﬁ:z:::vg, a distributeq
+warehouse is said to be the core of all enterprise data xlv Ic phedberi mation van
+to individual data marts. Bu doing so, users can €astly ac e ©quire
+billing, sales analysis and other reporting funes .
+order management, customer OIINg, SAE3 DS o types, which e s S |
+Distributed data warehouses can be categorized into three types, ws:
+« In this type, there is a local data warehq ‘
+= Local and global data warehouse: ’ , ite and. otk
+which represents the data unique to the local .ogeratmg site and, zlobal g
+' a rt of data which s integrated across the busine
+warehouse which represents that part 0 , o catly thi
+= Technologically distributed data warehouse: In this type, 10gi€ h'yh reIs a sin
+data warehouse but physically there are many data warehouses which are all
+and distributed over multiple processors. . S
+» Independently evolving distributed data ware!louse: In this ty;?e, data archoy
+: environment builds in an uncoordinated envnronment..That |s,.ﬁrst one g
+warehouse appears, then second and so on. Therefo.re, it results in polm ‘
+organizational differences due to the lack of coordination among different d;
+| warehouses. | b
+W . l;
+The advantages of using distributed data warehouse are as follows: '
+« It is faster to achieve as each local site can control over its design and resources.
+» There is no limit for placing the data into each local or global -data we
+' However, additional processors can be added if the volume of data exceeds the
+of distributed processors. . o
+» The entry cost is much less than with centralized structure. The requirement ¢
+1 hardware and software is much less when loaded initially on distributed technology.
+The distributed data warehouse has some disadvantages also. These are as follows:
+= [ssues like metadata, data transfer makes the environment complex and results
+more overhead , R
+* Managing multiple development efforts on local sites is an unmanageable task |
+data warehouse architect. ¥
+- ® Inadistributed environment, the roles and responsibilities are not clearly defined.
+" Major technological problems could arise by transfer of data and multiple tab
+queries. . ; i
+" When the warehouse is distributed over multiple servers, excessive network trafl
+_ gartsdt.o flow from source to destination. i
+* Coordinatin vk o] L
+| iy g development across the distributed locations becomes complex
+* Interconnectivity between the diffe ' : o
+| AL rent local sites of distributed d house ¢
+' be problematic in case of traffic congestion. A | a.t ity = :'%_‘

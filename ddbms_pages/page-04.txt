@@ -1,0 +1,43 @@
+l”“‘d""‘““l‘,‘ data processing; 3. Whatisthe difference between parallel database and aumu[::g g;t:m;m\
+N a decentralize i chi '
+varied needs of e:;fst:: B conlr'ol o RO o et Answer: : |
+A d“‘“g:“”d system is useful when: ' [n a multi-database system, a transaction s initially cm;led a;d;]e sa\;;d It:uuus‘:c?ph?s i
+* Datis primarily accessed at a 5 i iscase it : ( finally committed in the master database later when the ion
+il o wlZem o us:(li .a single location. In this case, i is most efficient to s:ot:ab:acl egulhcre :ls part of the database synchronization process. The tentatively
+* The update rate is high. In this case, distribution of the data across differen s; commilted transaction can exist in the system for an unlimited period of time. In other
+;::uld thsit more eficient update operations, S words, the life cycle of the transaction is entirely different.
+* Security has been established as a |oca| ibili
+* Data s used in highly specializeq ways ;?pem:g.':y ' A parallel database system is one that seeks to improve performance through parallel
+i implementation of various operations such as loading data, building indexes, and
+2. Write down the advantages and disadvantages of Distributed Database System? ;V‘J’“‘m"g i
+ures
+Answer: ot ) : o Machines are physically close to each other, .g., same server room
+The advantages of Distributed Database Systems are: o Machines connects with dedicated high-speed LANs and switches
+* Modular Developmeat: Modular development of a distibuted database implies that * Communication cost s assumed to be small
+asystem can be expanded to new locations o units by adding new servers and data to o Can shared-memory, shared-disk, or shared-nothing architecture
+the. €xisting setup and connecting them to the distributed system without interruption,
+This type of expansion causes no interruptions in the functioning of distributed ina distributed database system, data is physically stored across several sites, and each
+databascs 3 site is typically managed by a DBMS that is capable of running independently of the
+* Reliability: Distributed databases offer greater reliability in contrast to centralized other sites.
+databases. In case of a database failure in a centralized database, the system comes to Features
+a complete stop. In a distributed database, the system functions even when failures o Machines can far from each other, e.g., in different continent
+oceur, only delivering reduced performance until the issue is resolved. »  Can be connected using public-purpose network, e.g., Internet
+¢ Lower C{)mmnie!ﬁon' C9st: Locally storing data'reduces communication costs for »  Communication cost and problems cannot be ignored
+. mﬁmdpﬁm ;n distributed databases. Local data slorage is not possible in » o Usually shared-nothing architecture
+¢ Better Response: Efficient data distribution in 4 distributed database system 4. What is distribution transparency? Explain different levels of distributed
+provides a faster response when user requests are met locally. In centralized transparency. [MODEL QUESTION]
+databases, user requests pass through the central machine, which processes all Answer:
+requests. The result is an increase in response time, especially with a lot of queries. Distribution transparency provides high-level abstractions which hide rietwork location
+behind an impenetrable wall. In such a system, a process can't know where it is
+The Disadvantages of Distributed Database Systems are; executing, even when it wants and needs to know.
+- Costly Software: Ensuring data transparency and coordination across multiple sites Distribution Transparency for Read-Only Applications are:
+‘often requires using expensive software in a distributed database system. Fragmentation transparency - reference to global relation as if the DB is not distributed
+Large Overhead: Many operations on multiple sites require numerous calculations Location transparency - user accesses fragments ignoring where they are
+and constant synchronization when database replication is used, causing a lot of Local Mapping transparency - refers to objects using names independent from local
+cessing overhead. systems but has to specify sites of the objects, mapping of application into functions used
+Integrity: A possible issue when using database replication is data integity, by the local DBMS
+compromised by updating data at multiple sites. Naming transparency - items in a database must have a unique name, but users don't
+¥ Data Distribution: Responsiveness to user requests largely depends on need to worry about it.
+distribution. That means responsiveness can be reduced if data is ot
+ibuted across multiple sites.
+) DDMS-6 DDMS-7

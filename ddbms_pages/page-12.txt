@@ -1,0 +1,56 @@
+& §
+§ it
+POPULAR PUBLICATIONS RE
+a copies al multiple sites
+b) One of the ways in which  remote database can be accessed by an application is via Data ropllation refes to (thcoﬂi(::? ,;;not;iaslmdpm several s':lu (o0 serve
+an auxiliary program, This program is written by an application programmer which computer network. Fragment cop
+returns the result to (he requesting application, i information requirements.
+5. What aro corroctness rulos of fragmentation? Explain each ryle, 7, a) What aro the factors affocting allocation? [MODEL QUESTION)
+[MODEL QUESTION) b) Whiatls miotetm prodicate?
+Answer: ' Answer:
+
+Correctness Rules of Fragmentation are oy follows: ) The factors affecting allocation are:
+
+1) Completeness- Decomposition of relation R into fragments RI, R, .. Rn is ' ¢ response time constraints
+
+complete ff each data item in R can also be found in some Rj, : * availability constrains
+
++ network topology
+
+b) Reconstruction- | relation R s decomposed into fragments R1, R2, , . . Rn, then o security resrictions
+
+there should exist some relationa] operator V' that reconstructs R from its fragments, i¢,, -
+
+R=RY... VRn b) Minterm predicate y for a set of P of simple predicates refers to conjunction of all
+* - Union o combine horizonal ragmens predicates appearing in P cithr taken in natural form or negated provided that the
+*Join to combine vertcal fragments. expression is not a contradiction. Simple and negated simple predicates.
+
+¢) Disjointness- If relation R is decomposed into fragments R1, R2,..., Rnand data Examples:
+
+item di appears in fragment Rj, then di should not appear in any other fragment Rk, k < PNAME = “Maintenance” AND BUDGET < 200000
+
+ (exception: primary key attribute for vertica| fragmentation) NOT(PNAME = “Maintenance”) AND BUDGET < 200000
+¢ For horizontal fragmentation, data item is a tuple
+* For vertical fragmentation, data item is an ann'%u(c 8.a) What is vertical clustering? [MODEL QUESTION]
+‘ b) What is partial union?
+6. What is the d co a Answer:
+roplication? Moronce among data fragmentation, data [::ggtloguaensdndoﬁ; 8) In Vertical clustering an attribute may be contained in more than onc.ﬁ'agmct_ils. The
+Answer; vertical clustering causes replication of some data elements. The replication is more
+Data fragmentation allows one to break a single object into two or more segments or advantageous for the read-only applications than for the reac.l-wrile application. In the
+[ragmens. The object might be a user's database, o system database, or a table, Fach latter case, the same update operation is performed on several sites.
+fragment can be stored af any site over a computer network. Information about data
+(ragmentation s stored in the distributed data catalog (DDC), from which it is accessed h) Let R and § be two union-compatible relations. Then their union RUS s a relation
+by the TP o process user requests, Which contains tuples from both relations: R()§ = {xxeR orxes).
+" Union is a-partial operation on relations: it is only defined for some (compatible)
+Thereae lhme types o dun ff"'“‘""“m RiNap: relations, nolI:‘or all of them. i
+¢ Horizontal fragmentation
+* Vertical fragmentation, 9. What is Mixed and Horizontal Fragmentation? Explain with an examplo.
+* Mixed fragmentation [MODEL QUESTION]
+Answer;
+Allocation describes the process of deciding where 10 locate data. Data allocation Mixed Fragmentation: The fragments that are obained by the above fragmentation
+re as follows: Operations are relations themselves, so that it is possible to apply the fragmentation
+ntralized dat allocation, the entire database is stored at one e, operations recursively, provided that the correctness conditions are satisfied each time.
+tioned data allocat on, the database s divided into two or more The reconstruction can be obiained by applying the reconstruction rules in reverse order.
+1ents) and stored at two or more sites, Example: Consider the same global refation
+n, copies of one or more database fragments are EMP (EMPNUM, NAME, $L, TAX. MGRNUM, DEPTNUM)
+' ’ DDMS-23

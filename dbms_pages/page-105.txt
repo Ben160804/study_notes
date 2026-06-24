@@ -1,0 +1,37 @@
+DATABASE MANAGEMENT SYSTEMS
+Example ' ‘
+, Consider the following transaction TRAN |
+Transaction TRANI
+r -
+write(10.B)
+Using deferred update, the process is: '
+e
+5 [wite(10B) [B=10__] |
+| [ w00 [C-20 ]
+5 [COMMIT__|COMMIT_|
+~ ‘
+W
+A=|C= A (GO=
+; v R P e e -
+I
+[ If the DMBS fails and is restarted:
+| e The disks are physically or logically damaged then recovery from the log is
+‘ impossible and instead a restore from a dump is needed.
+| e If the disks are OK then the database consistency must be maintained. Writes to
+the disk which was in progress at the time of the failure may have only been
+‘ partially done. . :
+| e Parse the log file, and where a transaction has been ended with "COMMIT" apply
+‘ the data part of the log to the database.
+o If a log entry for a transaction ends with anything other than COMMIT, do
+| nothing for that transaction. |
+r e flush the data to the disk, and then truncate the log to zero.
+§ ¢ the process or reapplying transaction from the log is sometimes referred to as
+| ‘rollforward’. ' :
+‘ 4. Explain ate technique for recovery with its advantages and ,
+‘ disad\?antagg:.f ST : [WBUT 2011]
+Answer:
+Recovery Techniques Use the Fi ollowing Operations ‘
+UNDO => similar to ROLLBACK but-on a single operation.
+REDO - > 3 single operation is redon:
+DBMSCS—IOS | ‘
+e ——

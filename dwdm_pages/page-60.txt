@@ -1,0 +1,46 @@
+POPULAR PUBLICATIONS
+h) Backpropagation algontpm . [WBUT 201
+i) Supervised vs. unsupervised learning i
+Answer: : k-
+_a) GSP algorithm: _ 1 od below: B
+The GSP algorithm consists of two phases and 1s described 3
+Phase 1: . i n i i
+« Scan over the database to identify all the frequent items, 1.€-, 1-element sequm{l;_{
+hase 2: ;
+i ? aIterertively scan over the database to discover all frequent sequences. Each ite
+' discovers all the sequences with the same length. -‘ 3 ;ﬂ;
++ In the iteration to generate all k-sequences T P
+_ Generate the set of all candidate k-sequences, Ck, by joining two (k-1)-sequen ces
+~ if only their first and last items are different : . s
+_ Prune the candidate sequence if any of its k-1 contiguous subsequence is
+frequent . A 4 o
+_ Scan over the database to determine the support of the remaining cand
+sequences | ;
+' « Terminate when no more frequent sequences can be found -
+e
+- b) ROCK vs. CACTUS: | _ .
+The ROCK (Robust Clustering using links) algorithm is based on the principle o
+hierarchical clustering. First, a random sample of objects is chosen. These objects are
+clustering to the desired number of clusters, and then the remaining objects are assigned
+to the created clusters. The method uses a graph concept, whose main terms are neighbors
+and links. A neighbor of a certain object is such an object to which similarity with the
+investigated object is equal to or greater than a predefined threshold. A link between tw
+objects is the number of common neighbors of these objects. The principle of the ROCI
+4 methods lie§ in maximizatif)n of the function which takes into account both maximizatio
+of sums of links for the objects from the same cluster, and minimization of sums of li s
+for the objects from different clusters. e
+Algorithm CACTUS (Categorical Clustering Using Summaries) is based on the idea ¢
+the common occurrences of certain categories of different variables. If the differenc |
+the number of occurrences for the categories vkt and vlu of the k-th and 1-th variable. an
+the expected frequency (on the i : A o
+5 . y ne assumption of uniform distribution in the frame of #
+certain categories of the remaining variables, and the assumption of the independenc o
+greater than a user-defined threshol : i
+o i an P °t<_i, thei categories are strongly connected. ]
+) : marization, ¢ : e T
+ the candidates for clusters are chosen from w;:'St;nEg and verification. During luster
+verification phase. , ich the final clusters are determ ai | r
+¢) GSP vs. SPADE: | |
+GSP (Generalized Sequential P i 2t ’
+Initially, every item in DB is a candicza:tsezlfpl:r:;tghaigoﬂthm which is outlined below
+. e for each level (i.e., sequences of length-k) do , : H ,‘ ‘
