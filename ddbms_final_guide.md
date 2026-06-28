@@ -850,4 +850,377 @@ EXAM STRATEGY
   4. Transparency hierarchy (easy 5-marker)
 - Avoid: memorizing algorithms verbatim (3PC, SDD-1) — know flow, not exact pseudocode
 - If stuck on numerical: write formula + state assumption → partial marks
-- For Unit 5–6: prepare 2-line dictionary definitions for every term; questions tend to be short notes
+- ══════════════════════════════════════════════
+2021 PAST PAPER — TOPIC-WISE INTEGRATION
+══════════════════════════════════════════════
+Source: User-provided image, 2021 MAKAUT B.Tech CSE DDBMS (PEC-IT601B)
+Note: Only Questions 9–16 visible in provided images; Part A (Q1–10) partial.
+
+--------------------------------------
+UNIT 3 — QUERY PROCESSING / SQL
+--------------------------------------
+Q10. (15 marks, Group C)
+Given: Employee(empID, firstName, lastName, address, DOB, sex, position, deptNo)
+       Department(deptNo, deptName)
+       Project(projNo, projName, deptNo)
+       WorkOn(empID, projNo, hours_worked)
+Write SQL for:
+  i) Names + addresses of all employees in IT department.
+  ii) Total hours by each employee, ordered by dept name alphabetically, then by first name.
+  iii) Total employees per department — only departments with >10 employees.
+  iv) Project number, project name, number of employees working on that project.
+  v) All employees who have worked >20 hours.
+
+Exam pattern insight: Heavy SQL/aggregation focus. Subqueries, GROUP BY, HAVING, JOIN all appear together.
+
+--------------------------------------
+UNIT 4 — TRANSACTIONS, CONCURRENCY, RECOVERY
+--------------------------------------
+Q9. (a) State 2-phase commit protocol and discuss implications of failure on:
+       i) Coordinator  ii) Participant, during each phase. [5]
+   (b) Briefly explain requirements of Cascadeless Schedule. [5]
+   (c) Discuss: "Transaction cannot be nested inside one another." [5]
+
+Q11. (a) Explain purpose of checkpoint mechanism. [5]
+    (b) What are the roles of Analysis, Redo and Undo phases in ARIES recovery algorithm? [5]
+    (c) Explain the requirement of query optimization. [5]
+
+Pattern insight: Transaction + recovery dominated this paper. 2PC, ARIES, cascadeless schedules, nested transactions all tested.
+
+--------------------------------------
+UNIT 4 — DEADLOCK
+--------------------------------------
+Q9. (b) Describe wait-die and wound-wait protocols for deadlock prevention. [5]
+
+Pattern insight: Deadlock prevention tested as short note — expect protocol names + one-line rule.
+
+--------------------------------------
+UNIT 4 — SERIALIZABILITY
+--------------------------------------
+Q9. (c) Schedule analysis: T1, T2, T3 on A, B, C.
+     S1: R2(C), R2(B), W2(B), R3(B), R3(C), R1(A), W1(A), W3(B), W3(C), R2(A), R1(B), W1(B), W2(A).
+     Is the schedule serializable? [5]
+
+Pattern insight: Conflict-serializability via precedence graph. Same pattern as DBMS paper today.
+
+--------------------------------------
+UNIT 1 — INTRO / ARCHITECTURE
+--------------------------------------
+(Part A, Q7 from user transcription) What do you mean by local checkpoints? [2]
+(Part A, Q8) What is the drawback of a checkpoint based rollback recovery approach? [2]
+
+Pattern insight: 2-mark definition questions from Unit 4 recovery section.
+
+══════════════════════════════════════════════
+2021 PAPER — MARK DISTRIBUTION BY UNIT
+══════════════════════════════════════════════
+| Unit | Marks | Questions |
+|-------|-------|-----------|
+| Unit 3 (SQL/Query) | 15 | Q10 full long |
+| Unit 4 (Transactions/CC/Recovery) | ~25 | Q9(a,b,c), Q11(a,b) |
+| Unit 4 (Deadlock) | 5 | Q9(b) |
+| Unit 4 (Serializability) | 5 | Q9(c) |
+| Unit 1 (Checkpoints) | 4 | Q7, Q8 in Part A |
+| Unit 3/6 (Query optimization) | 5 | Q11(c) |
+
+Bottom line: 2021 DDBMS emphasized Units 3 and 4, similar to today's DBMS pattern.
+Bottom line: 2021 DDBMS emphasized Units 3 and 4, similar to today's DBMS pattern.
+No fragmentation/design long question found in visible portion — may be in Part A short questions or missing pages.
+
+══════════════════════════════════════════════
+2023 PAST PAPER — TOPIC-WISE INTEGRATION
+══════════════════════════════════════════════
+Source: /home/bigfoot/Downloads/btech-pec-it-6-sem-distributed-systems-pec-it-601b-2023.pdf
+Code: PEC-IT601B, 70 Marks, 3 Hours
+
+--------------------------------------
+UNIT 1 — INTRO / BASIC CONCEPTS
+--------------------------------------
+Group A Q1 (1 mark each):
+- What is data replication?
+- What is minterm predicate?
+- Define homogeneous distributed database.
+- What is the maximum no of functional dependencies (trivial and non-trivial) of a relation R of degree n?
+- Write the full form of OLAP.
+- What is data dictionary?
+- What do you mean by granularity?
+- What is the disadvantage of replication?
+- Who is responsible for ensuring correct execution of a transaction in the presence of failures?
+- Provide a technique for recovery management.
+- Edit of a data item in a transaction is done in which mode?
+- What are the attribute usage values?
+
+Pattern insight: 12 short-answer options. Granularity, minterm predicate, attribute usage — all organizer topics.
+
+--------------------------------------
+UNIT 1 — DDBMS FEATURES / COMPONENTS
+--------------------------------------
+Group B Q2 (5 marks):
+- What are the advantages and disadvantages of replication? What is auxiliary program?
+Group B Q6 (5 marks):
+- What is DDBMS? What are the features of DDBMS?
+Group B Q3 (5 marks):
+- Which components are necessary for building a distributed database?
+
+Pattern insight: DDBMS definition + features + components tested together as 5-mark question.
+
+--------------------------------------
+UNIT 3 — QUERY OPTIMIZATION
+--------------------------------------
+Group B Q3 (5 marks):
+- Write down the Dynamic query optimization methods with example.
+Group C Q7 (15 marks):
+- Explain query optimization issues in DDBs. [8]
+- World Wide Web Architecture and Protocols. [4]
+- Data warehousing architectures. [3]
+
+Group C Q11 (15 marks):
+- Discuss different types of search strategies. [6]
+- What is search space in distributed query optimization? [4]
+- Simplify the following SQL using idempotency rules:
+  SELECT ENO FROM ASG WHERE RESP = "Analyst"
+  AND NOT(PNO="P2" OR DUR=12) AND PNO != "P2" AND DUR=12 [5]
+
+Pattern insight: Query optimization heavily tested. Search strategies + search space + SQL simplification in one 15-marker.
+
+--------------------------------------
+UNIT 3 — DISTRIBUTED COST MODEL
+--------------------------------------
+Group B Q5 (5 marks):
+- Explain distributed cost model with example.
+
+Pattern insight: Cost model = I/O + CPU + communication. Need formula + example.
+
+--------------------------------------
+UNIT 4 — TRANSACTIONS + RECOVERY
+--------------------------------------
+Group C Q8 (15 marks):
+- What is flat transaction and nested transaction? [4+6]
+- Discuss dirty-read, fuzzy read and phantom. [5]
+- What is ACID in DDBMS? [3]
+
+Group C Q9 (15 marks):
+- Briefly describe various implementations of process pairs concept.
+- Comment on how process pairs may be useful in implementing fault tolerant distributed DBMS.
+
+Group C Q10 (15 marks):
+- Write BTO-SC (Basic Timestamp Ordering Scheduler) Algorithm. [8]
+- Write DP (Data Processor) Algorithm. [7]
+
+Group A Q7 (1 mark):
+- Provide a technique for recovery management.
+
+Pattern insight: ACID properties, recovery anomalies, process pairs for fault tolerance, and timestamp algorithms all tested.
+
+--------------------------------------
+UNIT 4 — CONCURRENCY CONTROL
+--------------------------------------
+Group A Q8 (1 mark):
+- Edit of a data item in a transaction is done in which mode? (immediate vs deferred)
+
+Pattern insight: Deferred vs immediate update modes tested as 1-mark definition.
+
+--------------------------------------
+MARK DISTRIBUTION
+--------------------------------------
+| Unit | Marks |
+|-------|-------|
+| Unit 3 (Query Optimization) | ~25 |
+| Unit 4 (Transactions/Recovery) | ~25 |
+| Unit 1 (Basic Concepts) | ~15 |
+| Unit 2 (Fragmentation) | ~0 |
+| Unit 5 (Parallel) | ~0 |
+| Unit 6 (Advanced) | ~5 |
+
+2023 pattern: Extremely heavy on algorithms (BTO-SC, DP algorithms written out). SQL simplification appears as 5-mark sub-question.
+
+══════════════════════════════════════════════
+2024 PAST PAPER — TOPIC-WISE INTEGRATION
+══════════════════════════════════════════════
+Source: /home/bigfoot/Downloads/btech-cse-it-6-sem-distributed-systems-pec-it601b-2024.pdf
+Code: PEC-IT601B, 70 Marks, 3 Hours
+
+--------------------------------------
+UNIT 1 — INTRO / BASIC CONCEPTS
+--------------------------------------
+Group A Q1 (1 mark each):
+- What is information?
+- Give two important features of distributed database.
+- Define heterogeneous distributed database.
+- Why two-phase commit protocol is used?
+- What is the purpose of using timestamp mechanism?
+- What is logical data independence in DDBMS?
+- Mention names of two aggregate functions.
+- What is atomicity of a transaction?
+- What is horizontal partitioning?
+- What do you mean by affinity of attributes?
+- What is serializable scheduling?
+- What is the deadlock prevention method in DDBMS?
+
+Pattern insight: 12 short-answer options. Horizontal partitioning, affinity, serializable scheduling — all organizer topics.
+
+--------------------------------------
+UNIT 2 — FRAGMENTATION + ALLOCATION
+--------------------------------------
+Group B Q3 (5 marks):
+- What is allocation? What are the factors affecting allocation? What is minterm predicate?
+Group C Q7 (15 marks):
+- What is horizontal fragmentation? Give example. [5]
+- Write Horizontal Algorithm and explain with proper example. [10]
+
+Pattern insight: Horizontal fragmentation + algorithm = classic 15-mark question. Allocation + minterm predicate bundled as 5-mark.
+
+--------------------------------------
+UNIT 3 — QUERY OPTIMIZATION
+--------------------------------------
+Group B Q2 (5 marks):
+- What is Static query optimization? Write down the Static query optimization Algorithm.
+Group B Q5 (5 marks):
+- Write down the Dynamic query optimization methods with example.
+Group C Q11 (15 marks):
+- Compare Linear Join Tree and Bushy Join Tree. [6]
+- Discuss different issues in Multidatabase Query Processing. [4]
+- Explain hybrid query optimization. [5]
+
+Pattern insight: Static + dynamic optimization both as separate 5-mark questions. Join tree comparison + hybrid optimization = 15 marks.
+
+--------------------------------------
+UNIT 4 — TRANSACTIONS + CC + DEADLOCK
+--------------------------------------
+Group B Q2 (5 marks):
+- What is concurrency control? What is lock-based protocol?
+Group C Q8 (15 marks):
+- What is shared and exclusive lock? [4]
+- Discuss timestamp protocol with DDBMS. [4+5]
+- Explain significance of semi-join in DDBMS. [5]
+Group C Q9 (15 marks):
+- Discuss centralized, hierarchical and distributed deadlock detection. [6+6+3+?]
+- What is wait-die and wound-wait rule for deadlock avoidance? [4]
+- Draw Communication Structure of Distributed 2PL. [2]
+
+Group C Q10 (15 marks):
+- Discuss communicational structure for distributed transactions. [8+7]
+- Discuss communication structure for commit protocols. [7]
+
+Pattern insight: Lock, timestamp, 2PL structure, deadlock taxonomy + 2PC communication — all 2024 heavy hitters.
+
+--------------------------------------
+UNIT 6 — P2P / MDBS
+--------------------------------------
+Group B Q4 (5 marks):
+- Describe peer-to-peer architecture with diagram.
+Group C Q11 (part):
+- Discuss multidatabase architecture.
+
+Pattern insight: P2P = 5-mark diagram. MDBS = short note.
+
+--------------------------------------
+MARK DISTRIBUTION
+--------------------------------------
+| Unit | Marks |
+|-------|-------|
+| Unit 3 (Query Optimization) | ~25 |
+| Unit 4 (Transactions/CC/Deadlock) | ~30 |
+| Unit 2 (Fragmentation) | 15 |
+| Unit 6 (P2P/MDBS) | ~10 |
+| Unit 1 (Basic) | ~5 |
+
+2024 pattern: Most balanced. Deadlock taxonomy + fragmentation algorithm both 15-markers.
+
+══════════════════════════════════════════════
+2025 PAST PAPER — TOPIC-WISE INTEGRATION
+══════════════════════════════════════════════
+Source: /home/bigfoot/Downloads/btech-cse-it-6-sem-distributed-systems-pec-it601b-2025.pdf
+Code: PEC-IT601B, 70 Marks, 3 Hours
+
+--------------------------------------
+UNIT 1 — INTRO / BASIC CONCEPTS
+--------------------------------------
+Group A Q1 (1 mark each):
+- The node where the distributed transaction originates is called the .......
+- What is the advantage of a DDBMS?
+- What is view management in distributed database design?
+- What are the factors that govern query optimization?
+- What are distributed concurrency control algorithms?
+- What is shared-memory architecture?
+- What is the purpose of mobile database replication?
+- ......... protocol is used to perform multiple transactions that execute on different database. (answer: 2PC)
+- What is fragmentation in distributed database design?
+- What are the goals of transaction management?
+- What are the parallel architectures used in parallel database systems?
+- What is distributed object management?
+
+Pattern insight: Fill-in-the-blank mixed with definitions. Coordinator site, 2PC, fragmentation all named.
+
+--------------------------------------
+UNIT 2 — FRAGMENTATION / VIEW / ALLOCATION
+--------------------------------------
+Group C Q7 (15 marks):
+- (a) Discuss various transaction models [5]
+  (b) What is flat and nested transaction? Explain with example. [5]
+  (c) What is serializability in distributed database? [5]
+
+Group C Q11 (15 marks):
+- (a) Discuss multidatabase architecture. [5]
+- (b) What is mobile database? [5]
+- (c) Discuss in brief concurrency control mechanism in distributed DBMS. [5]
+
+Pattern insight: View management tested as 1-mark. MDBS + mobile DB = 15-marker combo.
+
+--------------------------------------
+UNIT 4 — TRANSACTIONS + CC + 2PC
+--------------------------------------
+Group C Q8 (15 marks, equal 5 each):
+- Why is it necessary to have a commit protocol?
+- Explain how does 2PC respond to failure of a participating site.
+- What are the disadvantages of 2PC protocol?
+
+Group C Q10 (15 marks, equal 5 each):
+- What is serializability in distributed database?
+- Write down the algorithms both Coordinator and Participants of 2PC protocol in distributed environment.
+- Explain with diagram communication structure for different 2PC protocol.
+
+Group B Q2 (5 marks):
+- What is concurrency control? What is lock-based protocol?
+
+Pattern insight: 2PC = 2 full 15-mark questions (35 marks combined with serializability). Coordinator/participant algorithms written out.
+
+--------------------------------------
+UNIT 5 — PARALLEL ARCHITECTURES
+--------------------------------------
+Group C Q9 (15 marks):
+- Explain different parallel database architecture. [7]
+- What is the goal of using parallel database architecture. [4]
+- Difference between parallel database and distributed database. [4]
+
+Group A Q11 (1 mark):
+- What are the parallel architectures used in parallel database systems?
+
+Pattern insight: Full 15-marker on parallel only. Goal + comparison with distributed = easy 15 marks.
+
+--------------------------------------
+UNIT 6 — MOBILE DB + DSM + TRANSPARENCY
+--------------------------------------
+Group B Q3 (5 marks):
+- What is distributed transparency? Explain different levels (level 1, 2, 3) with diagram.
+Group B Q4 (5 marks):
+- Write short note on mobile database.
+Group C Q11:
+- What is mobile database?
+
+Pattern insight: Transparency levels 1/2/3 = draw and explain. Mobile DB tested multiple times.
+
+--------------------------------------
+MARK DISTRIBUTION
+--------------------------------------
+| Unit | Marks |
+|-------|-------|
+| Unit 4 (Transactions + CC + 2PC) | ~35 |
+| Unit 2 / 6 (MDBS / Mobile) | ~15 |
+| Unit 5 (Parallel) | 15 |
+| Unit 1 (Basic) | ~5 |
+| Unit 3 (Query Optimization) | 0 in visible |
+
+2025 pattern: Most transaction-heavy. Serializability + 2PC = 2 full 15-mark questions. Parallel DB = only 15-marker. Query optimization completely absent.
+
+══════════════════════════════════════════════
